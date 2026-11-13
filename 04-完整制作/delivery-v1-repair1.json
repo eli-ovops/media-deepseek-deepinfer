@@ -1,0 +1,41 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1-repair1",
+  "status": "PENDING_PMO_05_LOCAL_REVIEW",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+  "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "bytes": 35312974,
+  "duration": 94.233333,
+  "frames": 5654,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 60,
+  "baseline_delivery": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/delivery-v1.json",
+  "unchanged_edl": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/edl-v1.json",
+    "sha256": "dd37db14966e34d012aba4e3001eb79a2436103bcd6d42cece7042958411eacc"
+  },
+  "unchanged_srt": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-v1.srt",
+    "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357"
+  },
+  "modified_source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/index-repair1.html",
+  "verification": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/verification.json",
+  "report": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/返修记录-Q1.md",
+  "key_frames": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-34.000000.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-37.400000.png"
+  ],
+  "playback": {
+    "url": "http://127.0.0.1:63613/watch-repair1.html",
+    "pid": 70781,
+    "binding": "127.0.0.1",
+    "ephemeral": true,
+    "video": "output/deepinfer-full-v1-repair1.mp4"
+  },
+  "direct_listening": false,
+  "continuous_visual_review": false,
+  "publishing_authorized": false
+}

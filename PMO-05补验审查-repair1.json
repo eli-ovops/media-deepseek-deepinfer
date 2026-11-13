@@ -1,0 +1,51 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1-repair1",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "SCOPED_PASS_READY_FOR_USER_REVIEW_WITH_AUDIO_GAPS",
+  "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "at": "2026-10-21T12:49:42.541784+08:00",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/补验报告-Q1-repair1.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/补验判定-Q1-repair1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/repair1/sample-index.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/repair1/frame-06.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/repair1/frame-13.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/repair1/frame-17.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-34.000000.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-37.400000.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/verification.json"
+  ],
+  "Q1": "CLOSED_IN_REVIEWED_SAMPLES",
+  "new_must_fix": [],
+  "accepted_scope": [
+    "完整交付文件和SHA",
+    "字幕字面/版面及统一时钟",
+    "实际转场/改区帧采样",
+    "Q1遮挡局部修复及相邻边界"
+  ],
+  "not_verified": [
+    "直接听音/口误清除",
+    "逐词字幕同步",
+    "整片正常速度连续声画",
+    "手机实机",
+    "用户终审"
+  ],
+  "pending_short_words": [
+    "S3今天/截至到今天",
+    "S5同行/同样",
+    "N12少等待短语",
+    "N11持续/继续创新及助词"
+  ],
+  "user_final_review": "PENDING",
+  "publication_authorized": false,
+  "browser_receipt": {
+    "tab_id": "1",
+    "url": "http://127.0.0.1:63613/watch-repair1.html",
+    "visible": true,
+    "media_duration": 94.233333,
+    "media_error": null,
+    "ready_state": 4,
+    "paused_at_start": true
+  }
+}

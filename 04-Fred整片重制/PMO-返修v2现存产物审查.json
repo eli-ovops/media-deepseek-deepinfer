@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-21T22:52:06.697480+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v2",
+  "status": "04_CURRENT_V2_ARTIFACT_AND_HANDOFF_REVIEWED_05_RECHECK_RELEASED",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+  "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+  "sha_independently_verified": true,
+  "bytes": 50031414,
+  "actual_picture_review": {
+    "sheets_viewed": 6,
+    "samples_in_sheets": 96,
+    "source": "evidence/v2/sample-index.json",
+    "fps": "10fps camera paths,60fps seam",
+    "native_frames_viewed": [
+      432,
+      540,
+      810,
+      930,
+      945,
+      946
+    ],
+    "result": "ROI now visible during sampled push/return; F945/F946 show same screenshot geometry/opacity, no prior white frame",
+    "not_continuous_audiovisual": true
+  },
+  "evidence_reviewed": [
+    "decode.json",
+    "audio-packet-identity.json",
+    "handoff-still-pixels.json",
+    "source-scope.json",
+    "change-scope.json",
+    "preserved-input-identities.json",
+    "unchanged-sample-comparison.json",
+    "T22a-PostCard.diff",
+    "T04e-PackOpen.diff",
+    "index.diff"
+  ],
+  "source_hashes_match_change_scope": true,
+  "audio": "All AAC packet content/timing hashes identical; retain original no-hearing limitation",
+  "old_v1_other_scenes_review": "Retained, only new Q1/Q2 and affected code handoff require independent recheck",
+  "04_delivery_wrapper": "Resumed originalOwner; artifact exists but formal report/metadata/browser binding not yet accepted",
+  "05_release_scope": "FixedSHA media and current source read only; independent report only in05dir. May run alongside04metadata completion, no same writing.",
+  "publication_authorized": false,
+  "user_approval": "PENDING",
+  "formal_all_layers_pass": false,
+  "owner04_report_received": true,
+  "owner04_delivery_wrapper": "RECEIVED_AND_REVIEWED",
+  "manifest_verified_sha256": "9952de9157f98d60bd4fcb87c7f406ec3df2557291504e567c2e08d93f5d4a88",
+  "manifest_alias_identical": true,
+  "self_review": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-返修自检-v2.json",
+  "compare_ui": "PMO reloaded IABtab4; v2 label and both exact SHA visibly match; final user-facing opening pending05"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "gate": "planning",
+  "manifestPath": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest.json",
+  "manifestSha256": "f682223e6ab6dfb35edc8948743aa6e82c96678f9027af5ef0debe04f314e557",
+  "durationInFrames": 5654,
+  "timelineFps": 60,
+  "previousReceipt": null,
+  "previousReceiptSha256": null,
+  "requiredRepresentativeScenes": [
+    "repo",
+    "stars",
+    "code",
+    "request",
+    "roles",
+    "pipeline",
+    "open",
+    "layers",
+    "progress",
+    "shared",
+    "summary",
+    "talk-open",
+    "talk-end",
+    "talk-view"
+  ],
+  "status": "PASS",
+  "errors": [],
+  "warnings": []
+}

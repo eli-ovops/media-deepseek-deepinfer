@@ -1,0 +1,291 @@
+{
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/SHA256SUMS-repair1.txt",
+      "bytes": 356,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/delivery-v1-repair1.json",
+      "bytes": 1835,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/index-repair1.html",
+      "bytes": 15979,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+      "bytes": 35312974,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/repair1-queue-silent.mp4",
+      "bytes": 1565745,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/playback-repair1.json",
+      "bytes": 170,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/render-repair1.cjs",
+      "bytes": 3280,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/PMO汇报回执.json",
+      "bytes": 378,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/baseline-sha.json",
+      "bytes": 820,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/complete-stream-copy-command.json",
+      "bytes": 340,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/complete-stream-copy.log",
+      "bytes": 2268,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/concat.ffconcat",
+      "bytes": 159,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/file-inventory.json",
+      "bytes": 12142,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-27.850000.png",
+      "bytes": 295218,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-27.866667.png",
+      "bytes": 264558,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-29.683333.png",
+      "bytes": 253082,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-29.700000.png",
+      "bytes": 249044,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-30.000000.png",
+      "bytes": 255443,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-30.500000.png",
+      "bytes": 287530,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-31.300000.png",
+      "bytes": 289910,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-32.000000.png",
+      "bytes": 289603,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-34.000000.png",
+      "bytes": 246287,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-37.400000.png",
+      "bytes": 291398,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-38.300000.png",
+      "bytes": 332536,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-38.883333.png",
+      "bytes": 275358,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-38.900000.png",
+      "bytes": 286704,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-39.000000.png",
+      "bytes": 308865,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-40.350000.png",
+      "bytes": 316076,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-40.366667.png",
+      "bytes": 280658,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-40.383333.png",
+      "bytes": 280771,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-41.700000.png",
+      "bytes": 297624,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-probe.json",
+      "bytes": 3941,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/local-contact.jpg",
+      "bytes": 584053,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/local-decode.log",
+      "bytes": 0,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/local-wrapper-command.json",
+      "bytes": 663,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/local-wrapper.log",
+      "bytes": 6329,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/patch-source.json",
+      "bytes": 740,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/render-runtime.json",
+      "bytes": 153,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/repaired-gop-wrapper.mp4",
+      "bytes": 2178234,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/reuse-000.mp4",
+      "bytes": 6894664,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/reuse-001.mp4",
+      "bytes": 2249378,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/reuse-002.mp4",
+      "bytes": 24107801,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/scene-29.7.png",
+      "bytes": 143443,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/scene-30.5.png",
+      "bytes": 150809,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/scene-34.png",
+      "bytes": 144337,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/scene-37.4.png",
+      "bytes": 179023,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/scene-38.3.png",
+      "bytes": 182725,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/scene-38.9.png",
+      "bytes": 164135,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/split-existing-video-command.json",
+      "bytes": 334,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/split-existing-video.log",
+      "bytes": 1835,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/still-runtime.json",
+      "bytes": 153,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/verification.json",
+      "bytes": 5922,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/返修记录-Q1.md",
+      "bytes": 3264,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1_assemble.py",
+      "bytes": 2993,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1_prepare.py",
+      "bytes": 2559,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1_qc.py",
+      "bytes": 3431,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/watch-repair1.html",
+      "bytes": 561,
+      "purpose": "Q1 source, render, evidence or delivery; retained"
+    }
+  ],
+  "total_bytes": 79028591,
+  "cleanup": false
+}

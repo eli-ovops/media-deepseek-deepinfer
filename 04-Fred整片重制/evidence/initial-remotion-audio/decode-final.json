@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "exitCode": 0,
+  "stderr": "",
+  "file": {
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/deepinfer-fred-full-v1.mp4",
+    "sha256": "c07f499268af295d29a46b0e5752467c92a4d70fdb0e2e4e3d6f06199760c5af",
+    "bytes": 51589316
+  }
+}

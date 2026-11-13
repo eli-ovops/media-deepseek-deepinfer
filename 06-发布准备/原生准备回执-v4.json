@@ -1,0 +1,332 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+  "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "publication_authorized": false,
+  "publish_actions": 0,
+  "platforms": [
+    {
+      "platform": "bilibili",
+      "account": "Eli-AI nativecoverpreview; expected432834855 history",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "fields": {
+        "title": "DeepSeek把省钱引擎开源了，AI成本战会怎么变？",
+        "body_html": "<p>模型会回答，只是开始。大量用户一起用，怎么让显卡少干等、同样算力接更多任务？</p><p><br></p><p>DeepSeek开源核心引擎DeepInfer，这条从一个调度例子讲它为什么关系到AI服务成本，也说说哪些线上配套和适配还没省掉。</p><p><br></p><p>开源工程积累，会怎样改变后来者的起点？</p>",
+        "tags": "*\n\n标签\n\nAI\n\nDeepSeek\n\n人工智能\n\n开源\n\n科技\n\n还可以添加5个标签"
+      },
+      "cover": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-4x3-1440x1080-v3.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-16x9-1920x1080-v3.png"
+      ],
+      "cover_evidence": "截图/bilibili-covers-v3.png",
+      "support_topic": "B站AI无限竞技场 native candidate exists; not joined/no signup",
+      "publication": false,
+      "state": "PRIVATE_DRAFT_SAVED_REOPENED",
+      "draft_id": "4013771",
+      "url": "https://member.bilibili.com/platform/upload/video/frame?type=draft&draftId=4013771",
+      "tabId": "11",
+      "cover_state": "V3_SAVED_REOPENED",
+      "current_ready": true,
+      "final_evidence": "截图/bilibili-ready-v3.png",
+      "reopened_at": "2026-10-21T06:01:18.656Z"
+    },
+    {
+      "platform": "weibo",
+      "account": "Eli-AI / 7720929036 live ownprofile via 我的主页 and header",
+      "tabId": "12",
+      "url": "https://weibo.com/upload/channel",
+      "state": "RESTORED_UPLOADED_CURRENT_EDITOR_ONLY",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "title": "DeepSeek把省钱引擎开源了",
+      "body": "AI能不能更便宜，答案不只在模型里。\n\nDeepSeek把核心引擎DeepInfer开源：显卡少干等，同样的算力就有机会接更多任务。这次开放了工程积累，完整线上配套、模型和硬件适配还要继续做。\n\n从一支团队的经验，到更多团队能用的起点，这件事值得看。\n\n#人工智能# #AI#",
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "tags": [
+        "人工智能",
+        "AI"
+      ],
+      "tag_evidence": "人工智能 native history candidate clicked; AI exact native suggestion clicked; final textarea delimiters normalized to #人工智能# #AI#; post-public clickable topic status not claimed",
+      "ai_disclosure": "含AI生成内容",
+      "media": "上传完成33.68MB/33.68MB",
+      "screenshot": "截图/weibo-restored-ready-v4.png",
+      "cover_state": "V3_APPLIED_EDIT_PAGE",
+      "current_ready": true,
+      "note": "Old unsaved page loss remains history; current tab12 freshly restored in v5, no publish/review-submit.",
+      "video_uploaded": true,
+      "cover_uploaded": true,
+      "persisted": false,
+      "duplicate_check": "Own profile latest7posts latest AI认知漏斗2026-10-20 21:22; no current DeepInfer published item seen. Prior tab12 empty upload entry; no recoverable current draft shown. V5 authorized one restoration reupload.",
+      "restore_upload_count": 1,
+      "save": "Native editor has 发布 only; no save-draft control observed. Current page markedHandoff; cloud persistence UNKNOWN, not promised.",
+      "cover_evidence": "截图/weibo-restored-cover-v4.png"
+    },
+    {
+      "platform": "youtube",
+      "account": "Eli-AI / UCqJaVQRO3FrxD5spt1GG7Iw",
+      "tabId": "13",
+      "url": "https://studio.youtube.com/video/30L92PtpTdQ/edit",
+      "state": "PRIVATE_CLOUD_DRAFT_REOPENED_READ_ONLY",
+      "video_uploaded": true,
+      "cover_uploaded": true,
+      "duplicate_check": "no DeepInfer/savingengine title in11items; old2funnel drafts untouched",
+      "draft_video_id": "30L92PtpTdQ",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "fields": {
+        "id": "youtube",
+        "name": "YouTube",
+        "title": "DeepSeek把省錢引擎開源了｜DeepInfer為何影響AI成本？",
+        "body": "AI能不能更便宜，不只取決於模型會回答什麼。\n\nDeepSeek開源核心引擎DeepInfer：讓顯卡少等待，同樣的算力就有機會接更多任務。用一個簡單的調度例子，看懂它與服務成本的關係，以及仍要補上的線上配套與適配。\n\n你最希望AI改善的是價格、速度，還是好用程度？",
+        "tags": [
+          "DeepSeek",
+          "AI",
+          "人工智慧",
+          "開源",
+          "Shorts"
+        ],
+        "backend_tags": [
+          "DeepSeek",
+          "DeepInfer",
+          "AI",
+          "人工智慧",
+          "開源",
+          "AI推理",
+          "梁文鋒"
+        ],
+        "cover": "9x16"
+      },
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-9x16-1080x1920-v3.png",
+      "check": "版权检查完毕，未发现任何问题",
+      "save": "Exact ID opened in separate native Studio tab: 此视频处于草稿状态; disabled 保存/撤消更改 before opening editor. Native edit draft reopens same title, full body/5 hashtags, v3 thumbnail, 7 backend chips, AI yes, nonchildren, uploaded+HD complete, checks no issues. Header 已保存为私享视频. Original tab3 close warnings retained as separate historical pending-exit issue, not evidence of lost upload. No new save/visibility mutation.",
+      "publication": false,
+      "backend_tags": [
+        "DeepSeek",
+        "DeepInfer",
+        "AI",
+        "人工智慧",
+        "開源",
+        "AI推理",
+        "梁文鋒"
+      ],
+      "body_hashtags": [
+        "DeepSeek",
+        "AI",
+        "人工智慧",
+        "開源",
+        "Shorts"
+      ],
+      "backend_tag_state": "7 native chips live verified; body hashtags present but public clickable state NOT verified",
+      "ai_label": "是，使用了 AI",
+      "native_duration": "0:00 / 1:35",
+      "evidence": [
+        "截图/youtube-persisted-details-v4.png",
+        "截图/youtube-persisted-private-draft-v4.png"
+      ],
+      "persisted": true,
+      "current_ready": true,
+      "original_tabId": "3 retained without discard/retry",
+      "visibility_evidence": "Native draft + 已保存为私享视频. Final visibility radios all0; no final Save/publish selected or clicked.",
+      "missing_required_persisted_fields": [],
+      "persisted_fields": {
+        "title": "DeepSeek把省錢引擎開源了｜DeepInfer為何影響AI成本？",
+        "body": "AI能不能更便宜，不只取決於模型會回答什麼。\n\nDeepSeek開源核心引擎DeepInfer：讓顯卡少等待，同樣的算力就有機會接更多任務。用一個簡單的調度例子，看懂它與服務成本的關係，以及仍要補上的線上配套與適配。\n\n你最希望AI改善的是價格、速度，還是好用程度？\n\n#DeepSeek #AI #人工智慧 #開源 #Shorts",
+        "backend_tags": [
+          "DeepSeek",
+          "DeepInfer",
+          "AI",
+          "人工智慧",
+          "開源",
+          "AI推理",
+          "梁文鋒"
+        ],
+        "thumbnail": "v3 blue lowercase deepseek + whale + blue suit observed in independently reopened exact-ID page",
+        "video": "deepinfer-full-v1-repair1.mp4 1:35, SD/HD processed",
+        "ai_disclosure": "是，使用了 AI",
+        "audience": "不，内容不是面向儿童的"
+      }
+    },
+    {
+      "platform": "linkedin",
+      "account": "ELi Chao / in/eli-chao-548a7a43b live sidebar confirmed",
+      "tabId": "6",
+      "url": "https://www.linkedin.com/sharing/compose",
+      "state": "BLOCKED_UNRELATED_OLD_DRAFT_PRESERVED",
+      "video_uploaded": false,
+      "cover_uploaded": false,
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-9x16-1080x1920-v3.png",
+      "body_local": "AI的成本戰，不只發生在模型裡。\n\nDeepSeek開源核心引擎DeepInfer，讓其他團隊能研究、改造自己的工程成果。對企業來說，顯卡少等待、同樣算力服務更多任務，才會影響長期使用成本。\n\n完整線上配套、模型與硬體適配仍要做。這次值得關注的，是後來者可以從更高的工程起點繼續優化。\n\n你在團隊導入AI時，最難控制的是成本，還是等待時間？",
+      "tags_local": [
+        "DeepSeek",
+        "人工智慧",
+        "開源",
+        "AI",
+        "企業效率"
+      ],
+      "native_tags": "NOT_VERIFIED",
+      "blocker": "Compose restores unrelated已发唱反调 olddraft; no independent newslot observed, task forbids deleting olddraft; left untouched",
+      "screenshot": "截图/linkedin-existing-draft.png",
+      "non_destructive_check": "Dismiss -> Save as draft -> Draft successfully saved. Start a post restores same unrelated唱反调body+video. No independent new draft observed; old draft retained unchanged.",
+      "publication": false
+    },
+    {
+      "platform": "x",
+      "account": "Eli-AI/@cczij1112 verified",
+      "tabId": "5",
+      "url": "https://x.com/compose/post",
+      "state": "DRAFT_SAVED_REOPENED_NO_CUSTOM_COVER",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "body": "DeepSeek把省錢引擎DeepInfer開源了。\n\n\n模型會回答只是開始，讓昂貴的顯卡少等待，才關係到AI服務能不能更便宜。\n\n\n完整線上配套與適配還要做，但別的團隊已多了一個能接著優化的起點。\n\n\n#DeepSeek #AI #OpenSource",
+      "media": [
+        {
+          "duration": 94.293333,
+          "muted": true,
+          "readyState": 4
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "OpenSource"
+      ],
+      "tag_evidence": "native highlighted spans; public clickable check unavailable before posting",
+      "cover": "UNSUPPORTED_IN_CURRENT_NATIVE_EDITOR; only subtitle/content warning controls",
+      "screenshot": "截图/x-draft-v3.png",
+      "current_ready": true,
+      "final_evidence": "截图/x-ready-v3.png"
+    },
+    {
+      "platform": "tiktok",
+      "account": "Eli-AI / @elimakesapps (content links verified earlier)",
+      "state": "CLOUD_DRAFT_SAVED_REOPENED",
+      "draft_id": "177015753988",
+      "url": "https://www.tiktok.com/tiktokstudio/upload?from=creator_center&draft_id=177015753988&open_editor=0",
+      "tabId": "8",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "video_native": "35.31MB 1080P 01:34",
+      "title": "DeepSeek把省錢引擎開源了",
+      "body": "DeepSeek把省錢引擎開源了。\n\nAI更便宜，不只靠模型。讓顯卡少干等，同樣算力才有機會接更多任務。這次DeepInfer開放了什麼，又有哪些配套還要做？",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "人工智慧",
+        "開源"
+      ],
+      "tag_evidence": "All four clicked native suggested hashtag entries; reopened body retains tag spans.",
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "cover_evidence": "截图/tiktok-cover-v3.png",
+      "ai_label": "创作者已标记为由 AI 生成",
+      "music_check": "未发现问题",
+      "content_check": "Final one-time read in v5 still 正在检查; music 未发现问题; not polled/refreshed.",
+      "publication": false
+    },
+    {
+      "platform": "xiaohongshu",
+      "account": "Eli AI FDE; numeric ID not freshly verified",
+      "state": "EDIT_PAGE_READY_SAVE_BLOCKED_CLOSED_SHADOW_ROOT",
+      "url": "https://creator.xiaohongshu.com/publish/publish?from=menu&target=video",
+      "tabId": "9",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "title": "DeepSeek把省钱引擎开源了",
+      "body": "AI降价，靠的不只是换个更小的模型。\n\nDeepSeek把正在用的核心引擎DeepInfer开放出来，让其他团队研究、改造。显卡少干等，昂贵的算力才更有机会用在真正的任务上。\n\n完整线上配套、模型和硬件适配还得做。这次值得关注的，是别人可以从更高的起点继续优化。\n\n你用AI最想解决的是贵、慢，还是不够好用？",
+      "tags": [
+        {
+          "text": "#DeepSeek[话题]#",
+          "topic": "{\"id\":\"6639645c000000001b02e1fd\",\"link\":\"xhsdiscover://topic/v2/6639645c4f5001000135fc0f\",\"name\":\"DeepSeek\"}"
+        },
+        {
+          "text": "#人工智能[话题]#",
+          "topic": "{\"id\":\"620cd421000000000100130c\",\"link\":\"xhsdiscover://topic/v2/620cd4214ce6550001a0fd2c\",\"name\":\"人工智能\"}"
+        },
+        {
+          "text": "#AI工具[话题]#",
+          "topic": "{\"id\":\"635679cb000000000100505c\",\"link\":\"xhsdiscover://topic/v2/635679cbe14d4b0001165870\",\"name\":\"AI工具\"}"
+        },
+        {
+          "text": "#开源[话题]#",
+          "topic": "{\"id\":\"5cb2cbf6000000000f015f75\",\"link\":\"xhsdiscover://topic/v2/5cb2cbf6e0bde500010094ac\",\"name\":\"开源\"}"
+        },
+        {
+          "text": "#科技[话题]#",
+          "topic": "{\"id\":\"5c9b9c05000000000f03ec1e\",\"link\":\"xhsdiscover://topic/v2/5c9b9c055410d000011edc2c\",\"name\":\"科技\"}"
+        }
+      ],
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "cover_evidence": "截图/xiaohongshu-cover-v3.png",
+      "ai_label": "笔记含AI合成内容",
+      "save": "UNKNOWN: Playwright no_matches then native visible 暂存离开 returns Cannot click content inside a closed shadow root. Current editor preserved.",
+      "publication": false
+    },
+    {
+      "platform": "douyin",
+      "state": "UNPUBLISHED_DRAFT_SAVED_REOPENED",
+      "account": "Eli-Ai native preview; numeric25296649142 not freshly shown",
+      "url": "https://creator.douyin.com/creator-micro/content/post/video?enter_from=draft",
+      "tabId": "10",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "title": "DeepSeek把省钱引擎开源了",
+      "body": "AI以后能不能更便宜，光看模型会答什么还不够。\n\nDeepSeek把自己用来省钱提速的核心引擎DeepInfer开源了。让昂贵的显卡少干等，同样的算力就有机会接更多任务。\n\n这次开放了什么，离完整线上服务还有多远？这条讲清楚。你更在意AI回答得好，还是用起来便宜？",
+      "tags": [
+        "DeepSeek",
+        "人工智能",
+        "AI",
+        "开源",
+        "AI新星计划"
+      ],
+      "tag_evidence": "Five native contenteditable=false/data-mention=# nodes; exact candidates clicked",
+      "cover": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-4x3-1440x1080-v3.png"
+      ],
+      "cover_evidence": [
+        "截图/douyin-cover-3x4-v3.png",
+        "截图/douyin-cover-4x3-v3.png"
+      ],
+      "ai_label": "内容由AI生成",
+      "save": "暂存离开 -> 你还有上次未发布的视频 -> 继续编辑; fields/double covers retained. Cloud vs browser-local not stated by platform.",
+      "publication": false
+    },
+    {
+      "platform": "weixin_channels",
+      "account": "Eli-FDE historical; current login UNKNOWN",
+      "state": "MANUAL_PACKAGE_ONLY_B002_SITE_SAFETY",
+      "url": "https://channels.weixin.qq.com/platform",
+      "tabId": "4 user existing login tab, NOT acquired/observed in v4",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "fields": {
+        "id": "weixin_channels",
+        "name": "视频号",
+        "title": "DeepSeek把省钱引擎开源了",
+        "short_title": "DeepSeek开源省钱引擎",
+        "body": "AI要更便宜，背后还有一场工程成本战。\n\nDeepSeek把核心引擎DeepInfer开源了：让机器少等待，同样的算力才有机会服务更多任务。\n\n这次开放了什么，还有哪些配套要补？用一个简单例子说清楚。",
+        "tags": [
+          "DeepSeek",
+          "人工智能",
+          "AI应用",
+          "开源",
+          "科技"
+        ],
+        "cover": "3x4"
+      },
+      "tag_state": "LOCAL_CANDIDATES_ONLY_NOT_NATIVE_VERIFIED",
+      "publication": false
+    }
+  ],
+  "known_av_gaps": [
+    "direct hearing NOT_PERFORMED",
+    "word-level sync and continuous audiovisual not verified"
+  ],
+  "browser": "Codex IAB2",
+  "status": "PREPARATION_HANDOFF_READY_WITH_PLATFORM_LIMITS",
+  "resume_reason": "V5: restore Weibo once after account/duplicate check; independently verify exact YouTube cloud draft; no repeat failed save.",
+  "not_started": [],
+  "blocked_video_channel": "B002; not accessed",
+  "updated_at": "2026-10-21T06:11:28.039Z",
+  "version": 4,
+  "checked_at_shanghai": "2026-10-21 14:11:28",
+  "current_counts": {
+    "saved_and_reopened": 5,
+    "current_editor_only": 2,
+    "manual_package_or_blocked": 2,
+    "publish_actions": 0
+  },
+  "task_boundaries": "No publish/submit-review/schedule/comment/DM/deletion. Video号 not accessed during v4; prior site safety refusal preserved."
+}

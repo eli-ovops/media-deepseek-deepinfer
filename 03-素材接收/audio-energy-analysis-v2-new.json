@@ -1,0 +1,398 @@
+[
+  {
+    "source_id": "N01",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        1.11787
+      ],
+      [
+        3.26887,
+        3.53756
+      ],
+      [
+        4.24413,
+        4.628
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N02",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.710938
+      ],
+      [
+        5.61506,
+        6.548
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N03",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.946063
+      ],
+      [
+        3.84788,
+        4.31712
+      ],
+      [
+        5.708,
+        5.96094
+      ],
+      [
+        7.09888,
+        7.39219
+      ],
+      [
+        9.74994,
+        10.2426
+      ],
+      [
+        10.5991,
+        10.753
+      ],
+      [
+        11.2703,
+        11.668
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N04",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        1.85469
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N05",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.441937
+      ],
+      [
+        0.443125,
+        0.7355
+      ],
+      [
+        2.97412,
+        3.116
+      ],
+      [
+        3.40806,
+        3.60462
+      ],
+      [
+        4.12706,
+        4.5
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N06",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.747625
+      ],
+      [
+        7.25744,
+        7.40069
+      ],
+      [
+        7.65825,
+        7.95294
+      ],
+      [
+        8.39837,
+        8.54725
+      ],
+      [
+        8.71344,
+        9.02825
+      ],
+      [
+        9.62769,
+        9.92688
+      ],
+      [
+        10.3661,
+        10.6867
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N07",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.824813
+      ],
+      [
+        3.63738,
+        3.80406
+      ],
+      [
+        5.19413,
+        5.47231
+      ],
+      [
+        6.59419,
+        6.73525
+      ],
+      [
+        7.55944,
+        7.93619
+      ],
+      [
+        8.88888,
+        9.04288
+      ],
+      [
+        10.4369,
+        11.1859
+      ],
+      [
+        11.7642,
+        12.1805
+      ],
+      [
+        12.3969,
+        13.0547
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N08",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        1.38531
+      ],
+      [
+        2.51206,
+        2.79469
+      ],
+      [
+        4.31813,
+        4.50075
+      ],
+      [
+        5.59863,
+        5.95069
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N09",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        1.22469
+      ],
+      [
+        2.18456,
+        2.55181
+      ],
+      [
+        4.17419,
+        4.9555
+      ],
+      [
+        5.47531,
+        5.66481
+      ],
+      [
+        6.89125,
+        7.61469
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N10",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.977875
+      ],
+      [
+        3.87194,
+        4.14419
+      ],
+      [
+        5.58488,
+        6.036
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N11",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0853125,
+        0.69175
+      ],
+      [
+        4.85394,
+        5.01363
+      ],
+      [
+        5.50038,
+        6.20069
+      ],
+      [
+        7.65856,
+        8.25425
+      ],
+      [
+        11.191,
+        11.7698
+      ],
+      [
+        13.0643,
+        13.4812
+      ],
+      [
+        14.9471,
+        15.4859
+      ],
+      [
+        16.4379,
+        17.2574
+      ],
+      [
+        19.6871,
+        21.2159
+      ],
+      [
+        22.8119,
+        23.1286
+      ],
+      [
+        26.1036,
+        26.9765
+      ],
+      [
+        28.8708,
+        29.3153
+      ],
+      [
+        31.1981,
+        31.4062
+      ],
+      [
+        33.63,
+        34.3634
+      ],
+      [
+        35.3346,
+        35.5885
+      ],
+      [
+        37.9237,
+        38.0656
+      ],
+      [
+        38.6998,
+        39.4013
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  },
+  {
+    "source_id": "N12",
+    "wav": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/audio.wav",
+    "silences_minus35db_120ms": [
+      [
+        0.0,
+        0.36875
+      ],
+      [
+        0.369312,
+        0.883375
+      ],
+      [
+        1.66069,
+        1.80956
+      ],
+      [
+        2.77331,
+        2.97863
+      ],
+      [
+        4.46969,
+        4.89888
+      ],
+      [
+        6.81963,
+        7.395
+      ],
+      [
+        11.0847,
+        11.4498
+      ],
+      [
+        13.3803,
+        13.5838
+      ],
+      [
+        14.391,
+        14.9403
+      ],
+      [
+        15.899,
+        16.0529
+      ],
+      [
+        16.8886,
+        17.2331
+      ],
+      [
+        19.1923,
+        19.5877
+      ],
+      [
+        20.462,
+        20.6994
+      ],
+      [
+        21.6698,
+        23.1457
+      ],
+      [
+        26.408,
+        27.5187
+      ]
+    ],
+    "limits": "Low energy is not direct listening or proof of absent speech."
+  }
+]

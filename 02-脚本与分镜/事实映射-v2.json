@@ -1,0 +1,178 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v2",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "gate": {
+    "allowed": true,
+    "stage": "02"
+  },
+  "status": "OWNER_SELF_CHECKED_PENDING_PMO_AND_USER",
+  "sources": {
+    "S1": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方发布时间原件.json",
+      "locator": "[0].times[0].datetime; [0].text",
+      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+      "scope": "2026-10-20T09:30:19.000Z; 北京时间10月20日17:30:19，原帖截断，不称全文已读"
+    },
+    "S2": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "README L226-256、L275-299",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "scope": "核心引擎/离线推理，完整线上配套不包含在本次发布；支持V4.1-Flash"
+    },
+    "S3": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "Q&A L192-216",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "线上分离部署、前缀命中复用、服务目标，官方自述而非本地复现"
+    },
+    "S4": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方QA后半原件.json",
+      "locator": "Q&A L282-330",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "缓存存储与命中机制，配套未全开源"
+    }
+  },
+  "mapping": [
+    {
+      "paragraph": 1,
+      "kind": "personal_evaluation_plus_fact",
+      "claim": "梁文锋这次够狠；DeepSeek把线上正在用的核心推理引擎开放给同行",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "Q&A L202-205；README L252-256、L296",
+      "limits": "够狠为Eli评论；发布主体/工程成果为DeepSeek团队，不称个人编写或虚构动机；开放给同行指公开许可下可复用，不证实具体同行采用"
+    },
+    {
+      "paragraph": 2,
+      "kind": "analogy",
+      "claim": "营业餐厅开放高峰出餐关键设备图纸",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "limits": "餐厅与图纸均类比；只对应核心软件，非完整线上服务和全部秘密；图纸副本不冒充真实硬件设计"
+    },
+    {
+      "paragraph": 3,
+      "kind": "fact",
+      "claim": "10月20日开源DeepInfer核心引擎；完整线上配套未全开放；已用于自己线上服务",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "locator": "S1 [0].times[0]；README L252-256；Q&A L202-205",
+      "limits": "2026年；官方文档与自述，未本地部署；不是新聊天模型发布"
+    },
+    {
+      "paragraph": 4,
+      "kind": "analogy",
+      "claim": "模型像大厨，单次能力与大量并发服务不同",
+      "sources": [
+        "S3"
+      ],
+      "limits": "没有人数/灶台/性能的定量对应，不是压测"
+    },
+    {
+      "paragraph": 5,
+      "kind": "fact_plus_analogy",
+      "claim": "读材料和写答案分配算力",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "locator": "Q&A L199、L215-216、L335",
+      "limits": "线上系统的分离部署，不称完整配套本次全开源；备菜炒菜阶段有先后依赖"
+    },
+    {
+      "paragraph": 6,
+      "kind": "fact_plus_analogy",
+      "claim": "同一开头缓存命中后复用计算",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "locator": "Q&A L200、L216、L302-303、L320-330",
+      "limits": "必须相同前缀且命中，不是相似文本、复制完整答案、永久记忆或剩菜复卖"
+    },
+    {
+      "paragraph": 7,
+      "kind": "mechanistic_inference",
+      "claim": "少做重复计算，算力可接其他任务",
+      "sources": [
+        "S3"
+      ],
+      "limits": "无实测节省幅度、收益或价格结论"
+    },
+    {
+      "paragraph": 8,
+      "kind": "personal_evaluation_plus_fact",
+      "claim": "佩服梁文锋和DeepSeek将模型做成大规模服务并开放其中核心引擎",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "Q&A L192-205",
+      "limits": "我服为Eli评价；团队工程成果，不添加梁的现任职务、个人发明、言论、动机；服务规模仅定性"
+    },
+    {
+      "paragraph": 9,
+      "kind": "conditional_inference_and_opinion",
+      "claim": "AI服务开发者可研究改造已开放工程作为起点",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L296；Q&A L204-206",
+      "limits": "复用机会而非已发生第三方部署/商业成功，不保证免工程适配、免完整配套、盈利或全平台可用"
+    }
+  ],
+  "omitted_claims": [
+    "38美元/GPU小时收入与利润换算",
+    "155万亿token日吞吐",
+    "近半计算、4%—7%",
+    "月近20万",
+    "梁文锋访谈、动机、个人技术发明",
+    "同行恐慌、全面胜出、国产卡普适、Eli亲测"
+  ],
+  "verification": {
+    "input": "读取冻结原件与PMO选题验收，未重做研究",
+    "audio": "无录音；未TTS；未实际听音或出声朗读验收",
+    "visual": "仅声画方案；未下载媒体/选定组件/import/渲染",
+    "reference_video": "本02未观看；01记录74次画面采样，完整音轨/连续声画未验；不作为本稿事实唯一来源",
+    "humanizer": "嵌入式文本复核，保留具体意见与有信息的类比；未声称实际朗读",
+    "memory": "定向搜索DeepInfer/deepinfer无命中，未使用记忆事实"
+  },
+  "rules": [
+    "PERMISSIONS-2026-10-14-v1",
+    "ROUTING-2026-10-13-v4",
+    "HANDOFF-2026-10-10-v2",
+    "CODEX-MEDIA-20261020-v1",
+    "ELI-PRODUCTION-20261017-v2",
+    "ELI-REWORK-20261019-v1",
+    "humanizer 3.0.0"
+  ],
+  "routing": {
+    "target_model": "gpt-6-astra",
+    "target_effort": "medium",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "usage": "PMO派单周76%/5h UNKNOWN；非本轮实测",
+    "subagents": false
+  },
+  "scope": "只写本期02；未启动04、发布、配音、付费、清理；文件全部保留",
+  "revision_input": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/PMO-v1审稿与v2定向修改.md",
+  "internal_review": {
+    "person_seconds": "0-2",
+    "concrete_contrast_seconds": "0-7",
+    "industry_value_seconds": "60-87",
+    "metaphor": "运营中的餐厅→关键模块图纸副本→外部研究改造",
+    "unchanged_mechanisms": "v1分工、缓存、释放算力保留",
+    "number_choice": "不使用38美元：本稿聚焦现役工程开放，避免挤掉机制与情绪停顿",
+    "boundary": "第3段融入完整线上配套未全开放，不另作免责段"
+  }
+}

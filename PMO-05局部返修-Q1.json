@@ -1,0 +1,34 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "04",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "RETURN_LOCAL_Q1",
+  "reason": "05原尺寸帧已证实任务轨道米色间隙遮挡任务块和文字，PMO读实际图确认。",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/独立质检-v1.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/独立判定-v1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-035.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-036.jpg"
+  ],
+  "defect": "Q1",
+  "times": [
+    34,
+    37.4
+  ],
+  "source_times_N12": [
+    10.85,
+    14.25
+  ],
+  "preserved_scope": [
+    "六段keep及原声",
+    "49条字幕",
+    "94.233333秒总长",
+    "CPU/GPU交叠",
+    "其他场景/封面"
+  ],
+  "required_work": [
+    "只修约29.7至38.3秒队列任务与间隙几何",
+    "交新同规格完整MP4及SHA/少量改区证据",
+    "05只补验受影响区间及相邻交接"
+  ]
+}

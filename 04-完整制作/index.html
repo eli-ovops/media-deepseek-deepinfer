@@ -1,0 +1,105 @@
+<!doctype html><meta charset="utf-8"><title>DeepInfer · Eli</title>
+<link rel="stylesheet" href="fonts.css"><script src="lib/core.js"></script>
+<style>
+/* Adapted sy16-pagecam: panel geometry, physical Z separation, focus rack and spring clip arrivals. */
+html,body{width:1080px;height:1920px;overflow:hidden;margin:0;background:#111214}
+#stage{perspective:2400px;perspective-origin:50% 47%;color:#ededf0;overflow:hidden}
+.scene{position:absolute;inset:0;overflow:hidden}
+#repo{background:radial-gradient(1100px 1000px at 50% 42%,#232a3f,#0b0d14)}
+#repoWorld{position:absolute;inset:0;transform-style:preserve-3d;transform-origin:540px 900px}
+#repoImage{position:absolute;left:55px;top:680px;width:970px;height:465px;overflow:hidden;border-radius:18px;box-shadow:0 40px 90px #0009,inset 0 1px #ffffff0d;transform-origin:85% 0%}
+#repoImage img{position:absolute;width:970px;left:0;top:-77px}
+#repoTitle{position:absolute;left:68px;top:280px;font:600 111px EliSans;letter-spacing:-4px}
+#repoSub{position:absolute;left:72px;top:432px;font:500 38px EliSans;color:#aab0c0}
+#starOutline{position:absolute;left:830px;top:12px;width:102px;height:22px;border:3px solid #bdb3ff;border-radius:8px;opacity:0}
+#stars{position:absolute;left:70px;top:1270px;font:400 114px EliTitle;color:#a59bff}
+#stars small{display:block;margin-top:20px;font:500 31px EliSans;color:#aab0c0;letter-spacing:3px}
+#codeDrop{position:absolute;left:420px;top:1320px;width:240px;height:190px;border-radius:20px;background:linear-gradient(145deg,#363c51,#181c2a);box-shadow:0 30px 70px #0008;color:#cabdff;text-align:center;line-height:190px;font-size:90px;opacity:0}
+#engine{background:radial-gradient(1000px 1000px at 50% 45%,#232a3f,#0b0d14)}
+#engineTitle{position:absolute;left:70px;top:230px;font:400 88px EliTitle;line-height:1.3}
+#engineTitle small{display:block;font:500 30px EliSans;color:#aab0c0;margin-top:30px;letter-spacing:3px}
+#assembly{position:absolute;left:240px;top:670px;width:600px;height:500px;transform-style:preserve-3d;transform-origin:50% 50%}
+.pn{position:absolute;border-radius:18px;background:#161820;box-shadow:0 40px 90px #0009,inset 0 1px 0 #ffffff15;overflow:hidden;color:#e7e9f0}
+.hd{height:64px;display:flex;align-items:center;padding:0 24px;gap:10px;font:600 26px EliSans;color:#aab0c0;border-bottom:1px solid #ffffff10}
+.lights{position:absolute;left:30px;bottom:32px;display:flex;gap:16px}.lights i{width:14px;height:14px;border-radius:50%;background:#7fdcb0;box-shadow:0 0 15px #7fdcb060}
+.code{font:600 27px monospace;color:#a59bff;line-height:1.8;padding:30px}
+.coreText{font:600 62px EliSans;color:#ededf0;letter-spacing:-1px;margin:36px 24px 0}
+#replica{position:absolute;left:240px;top:670px;width:600px;height:365px;transform-style:preserve-3d;opacity:0}
+#external{position:absolute;left:185px;top:1500px;font:500 35px EliSans;color:#aab0c0}
+#paper{background:#24232a}canvas{display:block}
+#sharing{background:radial-gradient(1000px 1000px at 50% 45%,#232a3f,#0b0d14)}
+#shareTitle{position:absolute;left:70px;top:210px;font:400 84px EliTitle;line-height:1.3}
+#workbench{position:absolute;left:70px;top:510px;width:940px;height:950px;transform-style:preserve-3d;transform-origin:50% 45%}
+.work{position:absolute;width:430px;height:530px;border-radius:18px;background:#161820;box-shadow:0 40px 90px #0009,inset 0 1px #ffffff15;overflow:hidden}
+.module{position:absolute;left:36px;top:105px;width:358px;height:190px;border-radius:14px;background:linear-gradient(145deg,#38364c,#1c1d25);box-shadow:0 15px 28px #0008;color:#bcb3ff;display:flex;align-items:center;justify-content:center;font:400 43px EliTitle}
+.slots{position:absolute;left:35px;top:325px;display:flex;gap:18px}.slot{width:166px;height:95px;border:2px dashed #67718b;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#aab0c0;font-size:27px}
+.added{border:0;background:#615dff;color:#fff;box-shadow:0 15px 25px #0006}
+#shareFoot{position:absolute;left:75px;top:1455px;font:500 35px EliSans;color:#aab0c0}
+#subtitlePreview{position:absolute;left:40px;right:40px;bottom:235px;text-align:center;font:400 58px EliTitle;color:white;line-height:1.25;text-shadow:0 3px 4px #111,3px 0 #111,-3px 0 #111,0 -3px #111;display:none;z-index:90}
+</style><div id="stage"></div>
+<script>
+// Exact sources: source/16-pagecam.html panel(), Z/layer assembly, rack focus,
+// spring CLIPS; source/17-editorial.html buildPage(), highlighter(), camAt() log zoom.
+// sy20 blueprint compared but not selected: microphone-specific geometry conflicts with this software process.
+const {E,clamp,inv,lerp,spring}=Reel,stage=Reel.makeStage('#111214');
+stage.innerHTML=`<section id="repo" class="scene"><div id="repoWorld"><div id="repoTitle">DeepInfer</div><div id="repoSub">DeepSeek 开放核心推理引擎</div><div id="repoImage"><img src="assets/github-original.png"><div id="starOutline"></div></div><div id="stars">一万多颗星<small>GitHub 累计关注 · 10月21日</small></div><div id="codeDrop">&lt;/&gt;</div></div></section>
+<section id="engine" class="scene"><div id="engineTitle">原系统，继续运转<small>同一份核心实现 · 向外开放</small></div><div id="assembly"></div><div id="replica" class="pn"><div class="hd">源码副本 / 可研究、修改</div><div class="code">&lt;DeepInfer /&gt;<br>scheduler → compute<br>model → runtime</div></div><div id="external">交给外部团队 → 继续研发</div></section>
+<section id="paper" class="scene"><canvas id="pageCanvas" width="1080" height="1920"></canvas></section>
+<section id="sharing" class="scene"><div id="shareTitle">开放已有工程<br>继续向前研发</div><div id="workbench"></div><div id="shareFoot">相同核心起点 · 各自继续优化</div></section><div id="subtitlePreview"></div>`;
+const $=s=>document.getElementById(s),cue=(t,a,d=.8)=>E.inOutCubic(inv(a,a+d,t));
+function panel(id,y,z,label){let d=document.createElement('div');d.id=id;d.className='pn';d.style.cssText=`left:0;top:${y}px;width:600px;height:365px`;d.innerHTML=`<div class="hd">${label}</div><div class="coreText">DeepInfer</div><div class="lights">${Array.from({length:8},()=>'<i></i>').join('')}</div>`;$('assembly').append(d);return {d,z}}
+const parts=[panel('runtime',90,-90,'运行中的服务'),panel('scheduler',45,0,'调度 / 执行'),panel('source',0,100,'开放的核心代码')];
+$('source').querySelector('.coreText').innerHTML='&lt;/&gt;';
+const works=[];for(let i=0;i<2;i++){let d=document.createElement('div');d.className='work';d.style.cssText=`left:${i*500}px;top:${i*290}px`;d.innerHTML=`<div class="hd">${i?'外部研发团队':'原团队'}</div><div class="module">&lt;/&gt; DeepInfer</div><div class="slots"><div class="slot">配套</div><div class="slot">适配</div></div>`;$('workbench').append(d);works.push(d)}
+const cv=$('pageCanvas'),g=cv.getContext('2d');
+const PW=1100,PH=2600,PS=1.5,PAPER='#f3f0e8',INK='#171720',PUR='#615dce';
+const pg=document.createElement('canvas');pg.width=PW*PS;pg.height=PH*PS;const p=pg.getContext('2d');
+function tx(c,s,x,y,size=36,color=INK,font='EliSans',weight=600){c.fillStyle=color;c.font=`${font==='EliTitle'?400:weight} ${size}px ${font}`;c.textAlign='left';c.textBaseline='alphabetic';c.fillText(s,x,y)}
+function buildPage(){p.setTransform(PS,0,0,PS,0,0);p.fillStyle=PAPER;p.fillRect(0,0,PW,PH);let rand=Reel.rng(171021);for(let i=0;i<7000;i++){p.fillStyle=`rgba(60,45,30,${rand()*.04})`;p.fillRect(rand()*PW,rand()*PH,rand()*2+1,1)}
+tx(p,'DEEPINFER / ENGINEERING',70,100,27);tx(p,'ELI',920,100,27,PUR);p.fillStyle=INK;p.fillRect(70,135,960,2);
+tx(p,'会回答，只是开始',65,295,93,INK,'EliSerif');tx(p,'大量用户，如何一起服务？',70,395,42,PUR);
+tx(p,'请求进入',70,545,34);tx(p,'GPU · 计算',70,925,38);tx(p,'等待空隙',70,1130,34,'#7b756b');
+tx(p,'少等待 → 服务成本',70,1450,64,INK,'EliSerif');p.fillStyle='#b9b3a8';p.fillRect(70,1530,960,2);
+tx(p,'这一轮算着',70,1675,72,INK,'EliSerif');tx(p,'下一轮，提前安排',70,1775,64,PUR,'EliSerif');
+tx(p,'GPU',70,1940,35);tx(p,'CPU',70,2160,35);tx(p,'计算这一轮',285,1875,34);tx(p,'安排下一轮',285,2095,34);
+tx(p,'空出的时段 → 其他任务',70,2460,54,INK,'EliTitle');
+}
+function highlighter(c,t,x,y,w,start,h){let a=E.inOutSine(inv(start,start+.65,t));c.save();c.globalCompositeOperation='multiply';c.fillStyle='#c9c3fa';c.beginPath();c.moveTo(x,y);c.lineTo(x+w*a,y-3);c.lineTo(x+w*a+5,y+h);c.lineTo(x-2,y+h+3);c.fill();c.restore()}
+function camAt(t){const keys=[{t:0,x:550,y:650,z:1.04},{t:4,x:550,y:650,z:1.04},{t:6.5,x:550,y:950,z:1.08},{t:10,x:550,y:950,z:1.08},{t:12,x:550,y:1250,z:1.04},{t:13.7,x:550,y:1250,z:1.04},{t:15.2,x:550,y:1980,z:1},{t:22,x:550,y:1980,z:1},{t:26.3,x:550,y:2040,z:.92}];let i=0;while(i<keys.length-2&&t>keys[i+1].t)i++;let a=keys[i],b=keys[i+1],u=cue(t,a.t,b.t-a.t);return{x:lerp(a.x,b.x,u),y:lerp(a.y,b.y,u),z:Math.exp(lerp(Math.log(a.z),Math.log(b.z),u))}}
+function rounded(c,x,y,w,h,r,fill){c.fillStyle=fill;c.beginPath();c.roundRect(x,y,w,h,r);c.fill()}
+function task(c,x,y,w,h,col,label){c.save();c.shadowColor='#0002';c.shadowBlur=15;c.shadowOffsetY=8;rounded(c,x,y,w,h,9,col);c.shadowColor='transparent';if(label)tx(c,label,x+20,y+h*.65,26,'#fff');c.restore()}
+function editorial(t){g.setTransform(1,0,0,1,0,0);g.fillStyle='#24232a';g.fillRect(0,0,1080,1920);let cam=camAt(t);g.setTransform(cam.z,0,0,cam.z,540-cam.x*cam.z,870-cam.y*cam.z);g.shadowColor='#0008';g.shadowBlur=45;g.shadowOffsetY=20;g.drawImage(pg,0,0,PW,PH);g.shadowColor='transparent';
+highlighter(g,t,60,230,880,.3,80);
+// Queue members arrive with the source16 spring, then enter its persistent timeline tracks.
+for(let i=0;i<5;i++){let a=clamp(spring(t-3-i*.24,{k:180,c:14}));let move=cue(t,6+i*.35,1.1);let x=lerp(80+i*190,260+i*153,move),y=lerp(610,960,move);g.globalAlpha=a;task(g,x+(1-a)*100,y-(1-a)*150,150,78,['#615dce','#8984e5','#615dce','#8984e5','#615dce'][i],'任务');}g.globalAlpha=1;
+g.strokeStyle='#b8b1a6';g.lineWidth=2;g.strokeRect(250,940,780,120);for(let i=0;i<4;i++){g.fillStyle='#ddd7cb';g.fillRect(250+i*195+130,940,55,120)}
+if(t>7){let u=inv(7,13,t);g.fillStyle=PUR;g.fillRect(250+780*u,930,3,140)}
+highlighter(g,t,60,1385,880,10.7,78);
+// Two aligned tracks: the next scheduling block moves under the current computation,
+// leaving an explicit small gap. No duration numbers, speed ratio or measured benchmark.
+for(let y of [1900,2120]){rounded(g,250,y,780,105,10,'#ddd7cb')}
+let overlap=cue(t,17.4,2.2);let nextX=lerp(665,410,overlap);task(g,260,1910,390,85,PUR,'本轮计算');task(g,nextX,2130,245,85,'#7e7b97','下轮调度');
+let next=cue(t,20.7,1.2);g.globalAlpha=next;task(g,680,1910,330,85,PUR,'下轮计算');g.globalAlpha=1;
+g.strokeStyle='#918b80';g.setLineDash([8,7]);g.beginPath();g.moveTo(nextX+245,2120);g.lineTo(nextX+245,2010);g.stroke();g.setLineDash([]);
+if(t>22){let a=clamp(spring(t-23,{k:150,c:18}));task(g,lerp(900,710,a),lerp(2350,2255,a),290,90,'#3d876e','其他任务');highlighter(g,t,60,2395,940,24,70)}
+if(t<13.7){g.fillStyle=PAPER;g.fillRect(0,1532,1100,1068)}if(t<10.5){g.fillStyle=PAPER;g.fillRect(0,1355,1100,175)}if(t>14.6){g.fillStyle=PAPER;g.fillRect(0,1080,1100,90)}g.setTransform(1,0,0,1,0,0);g.fillStyle='#24232a';g.fillRect(0,1580,1080,340)}
+function repository(t){let a=cue(t,2.7,1.1),focus=cue(t,9.4,1.4),release=cue(t,14.8,.95);$('repoWorld').style.transform=`translateY(${lerp(80,0,a)}px)`;$('repoTitle').style.opacity=1-release;
+$('repoImage').style.transform=`translate(${lerp(0,-230,focus)}px,${lerp(0,100,focus)}px) rotateY(${lerp(-12,0,a)*(1-focus)}deg) rotateX(${5*(1-focus)}deg) scale(${lerp(.94,1.9,focus)})`;
+$('starOutline').style.opacity=focus*(1-release);$('stars').style.opacity=cue(t,11.5,.7)*(1-release);$('stars').style.transform=`translateY(${(1-cue(t,11.5,.7))*40}px)`;$('repoImage').style.height=lerp(465,150,focus)+'px';$('repoImage').style.opacity=1-release;$('repoSub').style.opacity=1-release;$('codeDrop').style.opacity=release;$('codeDrop').style.transform=`translateY(${-380*release}px) scale(${lerp(.5,1.5,release)})`;}
+function engine(t){let local=t-15.7666667,sep=cue(local,.2,1.2)*(1-cue(local,6.2,1));$('assembly').style.transform=`translateY(${lerp(140,-40,cue(local,0,1.2))}px) scale(${lerp(.6,1.2,cue(local,0,1.2))}) rotateX(${8*sep}deg) rotateY(${-19*sep}deg)`;parts.forEach(({d,z})=>{d.style.transform=`translateZ(${z*sep*2.2}px) translateY(${-z*sep*.22}px)`;d.style.filter=`blur(${Math.abs(z-100)*.006*sep}px)`});
+let a=cue(local,3.5,1.5);$('replica').style.opacity=a;$('replica').style.transform=`translate(${-70*a}px,${490*a}px) scale(${lerp(1,.76,a)}) rotateY(${-8*a}deg)`;$('external').style.opacity=cue(local,5.2,.8);parts.forEach(({d},i)=>d.querySelectorAll('.lights i').forEach((l,j)=>l.style.opacity=.45+.55*(.5+.5*Math.sin(t*3-j*.7-i))));}
+function sharing(t){let l=t-59;let sep=cue(l,.2,1.2)*(1-cue(l,17,1.5));$('workbench').style.transform=`rotateX(${6*sep}deg) rotateY(${-11*sep}deg) scale(${lerp(.9,1,1-sep)})`;works[0].style.transform=`translateZ(${55*sep}px)`;let a=clamp(spring(l-.4,{k:120,c:16}));works[1].style.transform=`translate(${(1-a)*-430}px,${(1-a)*-200}px) translateZ(${110*sep}px)`;works[1].style.opacity=a;
+let fit=cue(t,66.5,1);$('shareTitle').innerHTML=t<66.5?'开放已有工程<br>继续向前研发':t<76?'核心之外<br>仍要补齐配套':'共同起点<br>各自继续优化';
+works.forEach((w,i)=>{w.querySelectorAll('.slot').forEach((s,j)=>{let arrive=clamp(spring(t-(69.2+i*.65+j*1.1),{k:180,c:14}));s.className='slot'+(arrive>.9?' added':'');s.textContent=j?'适配':'配套';s.style.transform=`translateY(${(1-arrive)*70}px)`;s.style.opacity=.35+.65*arrive});w.querySelector('.module').style.transform=`translateY(${-25*fit}px)`});
+let growth=cue(t,76.8,1.2);$('shareFoot').style.opacity=growth;works[1].querySelectorAll('.slot')[1].textContent=t>76.8?'新优化':'适配';
+}
+function closing(t){editorial(26);let u=cue(t,83.5833,1);g.fillStyle='#111214';g.fillRect(0,0,1080,1920);tx(g,'同样算力',70,330,104,'#ededf0','EliTitle');tx(g,'让空出的时段接住任务',75,445,39,'#aab0c0');
+rounded(g,75,700,930,540,18,'#1c1d25');tx(g,'执行轨道',110,780,31,'#aab0c0');for(let j=0;j<2;j++){let y=870+j*180;rounded(g,115,y,850,100,9,'#292b38');for(let i=0;i<3;i++){let x=135+i*275;task(g,x,y+12,180,76,['#615dff','#8984e5'][j],'任务');if(j===1){let a=clamp(spring(t-84.5-i*.45,{k:180,c:14}));g.globalAlpha=a;task(g,x+188,y+12,62*a,76,'#3d876e','');g.globalAlpha=1}}}tx(g,'更多任务，少一些等待',75,1430,66,'#bcb3ff','EliTitle');}
+let captions=[];fetch('captions-v1.json').then(r=>r.json()).then(r=>captions=r.cues);
+window.isReal=t=>t<2.7||(t>=50&&t<59)||t>=89;
+Reel.scene({duration:94.2333333333,fps:60,fonts:['600 62px EliSans','600 93px EliSerif','400 104px EliTitle'],async setup(){buildPage();await Promise.all([...document.images].map(im=>im.decode()))},render(t){
+for(let id of ['repo','engine','paper','sharing'])$(id).style.display='none';
+if(t<15.7666667){$('repo').style.display='block';repository(t)}else if(t<23.7){$('engine').style.display='block';engine(t)}else if(t<50){$('paper').style.display='block';editorial(t-23.7)}else if(t<83.583333){$('sharing').style.display='block';sharing(Math.max(59,t))}else{$('paper').style.display='block';closing(t)}
+if(new URLSearchParams(location.search).has('subs')){$('subtitlePreview').style.display='block';$('subtitlePreview').textContent=captions.find(c=>t>=c.start&&t<c.end)?.text||''}
+}});
+</script>

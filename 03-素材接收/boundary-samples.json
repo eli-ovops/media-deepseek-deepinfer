@@ -1,0 +1,74 @@
+[
+  {
+    "source": "S3",
+    "requested_seconds": 16.8,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-boundary-16p8.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S3",
+    "requested_seconds": 17.28,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-boundary-17p28.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S3",
+    "requested_seconds": 17.65,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-boundary-17p65.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S5",
+    "requested_seconds": 0.45,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S5-boundary-0p45.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S2",
+    "requested_seconds": 32.3,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-boundary-32p3.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S2",
+    "requested_seconds": 32.82,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-boundary-32p82.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S2",
+    "requested_seconds": 33.3,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-boundary-33p3.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S1",
+    "requested_seconds": 0.6,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S1-boundary-0p6.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S4",
+    "requested_seconds": 11.9,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S4-boundary-11p9.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S4",
+    "requested_seconds": 12.97,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S4-boundary-12p97.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S5",
+    "requested_seconds": 7.85,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S5-boundary-7p85.jpg",
+    "limits": "sample only; source nominal time"
+  },
+  {
+    "source": "S1",
+    "requested_seconds": 11.25,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S1-boundary-11p25.jpg",
+    "limits": "sample only; source nominal time"
+  }
+]

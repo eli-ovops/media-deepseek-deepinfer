@@ -1,0 +1,170 @@
+[
+  {
+    "id": "N01",
+    "source_path": "/Users/USER/Downloads/8003092ac780bbb7a1b4869b1e9aea2e_raw.mp4",
+    "source_sha256": "d931dd904a251726b8c90da49f18ecf3aaa03fc743cc97203d846fa345cdaa13",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/transcript.srt",
+      "duration_seconds": 4.628,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N02",
+    "source_path": "/Users/USER/Downloads/32aee4f74c5a5cfdf46a5dc37fba9b90_raw.mp4",
+    "source_sha256": "832aaa56392144c85eed5197b1aa52a2fd7d0c87b871084d210ab634ac5bb400",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/transcript.srt",
+      "duration_seconds": 6.548,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N03",
+    "source_path": "/Users/USER/Downloads/b700a4bdd5864641ba7ce8a41b470fe9_raw.mp4",
+    "source_sha256": "0ba69f6109a8bdcd1fdf92c6014ded2e56d1d90b9fc9c66fea63dc0010c54b8e",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/transcript.srt",
+      "duration_seconds": 11.668,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N04",
+    "source_path": "/Users/USER/Downloads/98f1f2940850c0d24b8f3ad6f75eb2dd_raw.mp4",
+    "source_sha256": "71e1070231828d16532896ab72b9828342d931d2767f2feb74a4bb8c306a6b8a",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/transcript.srt",
+      "duration_seconds": 1.8546875,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N05",
+    "source_path": "/Users/USER/Downloads/f68feab3caf450a0c1512f514b9cff2c_raw.mp4",
+    "source_sha256": "41b871c77df8b019728fe8dcb345125bdacef05d48932be93b96d41603a7acfc",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/transcript.srt",
+      "duration_seconds": 4.5,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "source_sha256": "c28d9170ecaa415b24d95c97c8b4e7fe28c0b822b81028df31e68c68d79056b6",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.srt",
+      "duration_seconds": 10.6866875,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N07",
+    "source_path": "/Users/USER/Downloads/f904156097ecee2a29425225e25a3de8_raw.mp4",
+    "source_sha256": "91ce94a3b556d41f3baa2f1ed3d7b132c84d870a84e362752ff5a5fe21491248",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/transcript.srt",
+      "duration_seconds": 13.0546875,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N08",
+    "source_path": "/Users/USER/Downloads/39f70991e3c63123698c515fd7e59d3f_raw.mp4",
+    "source_sha256": "6c2affbae631e334499227045d9ba2517057d8b9d514b824345c15ff310b4251",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/transcript.srt",
+      "duration_seconds": 5.9506875,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N09",
+    "source_path": "/Users/USER/Downloads/6ad98b31c7b79f421806a0fc76825ed8_raw.mp4",
+    "source_sha256": "ac0979c66ada98ba77fcab6235f2ea81002c8a4864bb4efb280974094144c4db",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/transcript.srt",
+      "duration_seconds": 7.6146875,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N10",
+    "source_path": "/Users/USER/Downloads/66ef842957db4a42726ac5f6e28852c6_raw.mp4",
+    "source_sha256": "2ddbcfe519e48ab7bf49bd7ccafb313e2d24f83c2d12f430438ad5af707a686b",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/transcript.srt",
+      "duration_seconds": 6.036,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "source_sha256": "c28810a96d76f37883c42b98fa9710381bd2ff3049a5270c7161605b4341a279",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.srt",
+      "duration_seconds": 39.4013125,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  },
+  {
+    "id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "source_sha256": "b7578f8341aada9d9d4f8faf491d76c88ce176b0aae0b9e8c5cc844270ec854b",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.srt",
+      "duration_seconds": 27.5186875,
+      "notice": "机器转录可能错词，字幕时间需核对；不判断语气/情绪。"
+    }
+  }
+]

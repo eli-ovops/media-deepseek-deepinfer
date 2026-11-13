@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "projectVersion": "ELI-MEDIA-AGENTS-20261021-v2",
+  "method": "ELI-PRODUCTION-20261021-v3",
+  "rework": "ELI-REWORK-20261019-v1",
+  "actualModel": "UNKNOWN",
+  "actualEffort": "UNKNOWN",
+  "available": [
+    "exact-source-and-kit-review",
+    "native-resolution-stills",
+    "timestamped-frame-sampling",
+    "PCM-identity-and-clock",
+    "decode"
+  ],
+  "directHearing": "UNKNOWN",
+  "continuousAV": "UNKNOWN",
+  "independent05": "pending PMO release",
+  "writes": "this task directory only"
+}

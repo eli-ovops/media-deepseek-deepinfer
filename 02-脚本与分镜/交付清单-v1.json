@@ -1,0 +1,51 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1",
+  "created_at": "2026-10-21T10:06:06.044892+08:00",
+  "status": "PENDING_PMO_AND_USER_REVIEW",
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/口播稿-v1.md",
+      "bytes": 1820,
+      "sha256": "8d26ae77e50b4ee585ddee14a82c2316cce86f2ef9402000abcce96943b90458"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/声画节奏-v1.md",
+      "bytes": 4949,
+      "sha256": "4aa620be8ff8ac2daf8b82d484302ee800de2cf52214849a198903c7e64b00de"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/事实映射-v1.json",
+      "bytes": 6271,
+      "sha256": "fbdf91298e2e8c509ab84536a12f224800d0db0afd7bb58f31f5b0b0ba7ad5d7"
+    }
+  ],
+  "spoken_body": {
+    "han_characters": 354,
+    "english_occurrences": 4,
+    "paragraphs": 10,
+    "estimated_seconds": [
+      78,
+      89
+    ],
+    "visual_plan_seconds": 84,
+    "recording_measured": false
+  },
+  "self_checks": {
+    "stage02_gate_allowed": true,
+    "fact_analogy_opinion_separated": true,
+    "source_scope_present": true,
+    "one_complete_script": true,
+    "paragraphs_mapped": 10,
+    "json_parse": true,
+    "files_preserved": true
+  },
+  "pending": [
+    "PMO review",
+    "User script approval",
+    "Real recording timing",
+    "Later production and audiovisual QA"
+  ],
+  "report_receipt": "PMO回报回执.json",
+  "manifest_self_hash": "Not included to avoid recursive self hash"
+}

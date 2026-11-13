@@ -1,0 +1,22 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "recorded_at": "2026-10-21T13:07:14.875476+08:00",
+  "source": "Current user message in PMO thread 01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "user_text": "就这样吧。准备发送。这次我希望封面的人物主体用梁文峰的照片这个图的形象。",
+  "accepted_video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+  "accepted_video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "accepted_scope": "Accept the currently shown full video as-is and move to publication preparation",
+  "cover_change": "Use user-supplied Liang Wenfeng blue-suit, glasses, finger-to-lips photo in the current Eli white/black/purple cover design; four ratios",
+  "authorized_actions": [
+    "Cover replacement and necessary four-ratio preparation",
+    "Per-platform title/body/tags and nonpublic preparation for current active accounts"
+  ],
+  "publish_submission_authorized": false,
+  "preserved_technical_gaps": [
+    "Direct listening",
+    "Unresolved short speech phrases",
+    "Word-level sync",
+    "Normal-speed continuous audiovisual review"
+  ],
+  "scope_note": "Acceptance of current video does not turn unperformed technical checks into PASS. New covers require PMO actual image review; public posting remains a separate explicit decision."
+}

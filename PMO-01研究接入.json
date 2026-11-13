@@ -1,0 +1,44 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS_BASELINE_ONLY",
+  "content_id": "deepseek-deepinfer-20261021",
+  "target_stage": "02",
+  "at": "2026-10-21T10:00:07.186020+08:00",
+  "human_change_source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/制作总单.md",
+  "preserved_scope": "已审DeepInfer近期事实和原片采样研究，用户选定主题并要求02先交60—90秒有冲击力口播及声画规划；此刻接入既有研究，不伪造历史整段视听PASS。",
+  "known_defects": [
+    "原片整轨ASR/连续视觉/直接听音未取得；本期原创官源解读稿不依赖逐句复刻",
+    "梁文锋个人采访/动机尚未单列核验，02只用已核团队举措作明确评论；具体原话需定向补核",
+    "没有本人录音、用户审稿或制作授权"
+  ],
+  "prior_stage_evidence": {
+    "01": [
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/视频与官源核验.md",
+        "sha256": "7d6be99a9cc9d289a1e672ca8bddaaf5804d9de86be5e2abdba268c6d4a99677"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/选题建议.md",
+        "sha256": "608cb7531eed1f37efd3fe79f85d17e24008d97a419e936403520fa450b8eb95"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/PMO-选题验收.json",
+        "sha256": "9d3ecdf8e85c03d562d782028afcc7bc201fe78546dd392156e71d3653516f1c"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+        "sha256": "3f077225a5025b66a699da6ed4e6b6b76e1c896f87f09f702ac1266c02e35bb8"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方QA后半原件.json",
+        "sha256": "e88378640dd1620afbb020b2c9da3c117ca340aed612da6dbf2713a285b4a86f"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方发布时间原件.json",
+        "sha256": "6195cda349ff5ef191f46da7b7522ba338ce6ff03805750ea4e6301feb2284e5"
+      }
+    ]
+  },
+  "original_pmo_review": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/PMO-选题验收.json",
+  "production_or_publication_authorized": false
+}

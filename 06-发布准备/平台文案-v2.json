@@ -1,0 +1,147 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+  "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "cover_manifest": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/manifest-v3.json",
+  "publish_authorized": false,
+  "platforms": [
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "title": "DeepSeek把省钱引擎开源了",
+      "body": "AI以后能不能更便宜，光看模型会答什么还不够。\n\nDeepSeek把自己用来省钱提速的核心引擎DeepInfer开源了。让昂贵的显卡少干等，同样的算力就有机会接更多任务。\n\n这次开放了什么，离完整线上服务还有多远？这条讲清楚。你更在意AI回答得好，还是用起来便宜？",
+      "tags": [
+        "DeepSeek",
+        "人工智能",
+        "AI",
+        "开源",
+        "AI新星计划"
+      ],
+      "cover": "9x16"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "title": "DeepSeek把省钱引擎开源了",
+      "body": "AI降价，靠的不只是换个更小的模型。\n\nDeepSeek把正在用的核心引擎DeepInfer开放出来，让其他团队研究、改造。显卡少干等，昂贵的算力才更有机会用在真正的任务上。\n\n完整线上配套、模型和硬件适配还得做。这次值得关注的，是别人可以从更高的起点继续优化。\n\n你用AI最想解决的是贵、慢，还是不够好用？",
+      "tags": [
+        "DeepSeek",
+        "人工智能",
+        "AI工具",
+        "开源",
+        "科技"
+      ],
+      "cover": "3x4"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "title": "DeepSeek把省钱引擎开源了，AI成本战会怎么变？",
+      "body": "模型会回答，只是开始。大量用户一起用，怎么让显卡少干等、同样算力接更多任务？\n\nDeepSeek开源核心引擎DeepInfer，这条从一个调度例子讲它为什么关系到AI服务成本，也说说哪些线上配套和适配还没省掉。\n\n开源工程积累，会怎样改变后来者的起点？",
+      "tags": [
+        "DeepSeek",
+        "人工智能",
+        "开源",
+        "AI",
+        "科技",
+        "知识分享"
+      ],
+      "cover": "16x9"
+    },
+    {
+      "id": "weixin_channels",
+      "name": "视频号",
+      "title": "DeepSeek把省钱引擎开源了",
+      "short_title": "DeepSeek开源省钱引擎",
+      "body": "AI要更便宜，背后还有一场工程成本战。\n\nDeepSeek把核心引擎DeepInfer开源了：让机器少等待，同样的算力才有机会服务更多任务。\n\n这次开放了什么，还有哪些配套要补？用一个简单例子说清楚。",
+      "tags": [
+        "DeepSeek",
+        "人工智能",
+        "AI应用",
+        "开源",
+        "科技"
+      ],
+      "cover": "3x4"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "title": "DeepSeek把省钱引擎开源了",
+      "body": "AI能不能更便宜，答案不只在模型里。\n\nDeepSeek把核心引擎DeepInfer开源：显卡少干等，同样的算力就有机会接更多任务。这次开放了工程积累，完整线上配套、模型和硬件适配还要继续做。\n\n从一支团队的经验，到更多团队能用的起点，这件事值得看。",
+      "tags": [
+        "DeepSeek",
+        "人工智能",
+        "开源",
+        "AI"
+      ],
+      "cover": "3x4"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "title": "DeepSeek把省錢引擎開源了｜DeepInfer為何影響AI成本？",
+      "body": "AI能不能更便宜，不只取決於模型會回答什麼。\n\nDeepSeek開源核心引擎DeepInfer：讓顯卡少等待，同樣的算力就有機會接更多任務。用一個簡單的調度例子，看懂它與服務成本的關係，以及仍要補上的線上配套與適配。\n\n你最希望AI改善的是價格、速度，還是好用程度？",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "人工智慧",
+        "開源",
+        "Shorts"
+      ],
+      "backend_tags": [
+        "DeepSeek",
+        "DeepInfer",
+        "AI",
+        "人工智慧",
+        "開源",
+        "AI推理",
+        "梁文鋒"
+      ],
+      "cover": "9x16"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "title": "DeepSeek把省錢引擎開源了",
+      "body": "AI的成本戰，不只發生在模型裡。\n\nDeepSeek開源核心引擎DeepInfer，讓其他團隊能研究、改造自己的工程成果。對企業來說，顯卡少等待、同樣算力服務更多任務，才會影響長期使用成本。\n\n完整線上配套、模型與硬體適配仍要做。這次值得關注的，是後來者可以從更高的工程起點繼續優化。\n\n你在團隊導入AI時，最難控制的是成本，還是等待時間？",
+      "tags": [
+        "DeepSeek",
+        "人工智慧",
+        "開源",
+        "AI",
+        "企業效率"
+      ],
+      "cover": "9x16"
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "title": "DeepSeek把省錢引擎開源了",
+      "body": "DeepSeek把省錢引擎DeepInfer開源了。\n\n模型會回答只是開始，讓昂貴的顯卡少等待，才關係到AI服務能不能更便宜。\n\n完整線上配套與適配還要做，但別的團隊已多了一個能接著優化的起點。",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "OpenSource"
+      ],
+      "cover": "16x9"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "title": "DeepSeek把省錢引擎開源了",
+      "body": "DeepSeek把省錢引擎開源了。\n\nAI更便宜，不只靠模型。讓顯卡少干等，同樣算力才有機會接更多任務。這次DeepInfer開放了什麼，又有哪些配套還要做？",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "人工智慧",
+        "開源"
+      ],
+      "cover": "3x4"
+    }
+  ],
+  "alternatives": [
+    "AI的成本战，背后还有这台引擎",
+    "模型会回答之后，谁来让AI更便宜？"
+  ],
+  "facts": "沿本期事实映射v3.2；不写24h净增/实测倍数/自动更准"
+}

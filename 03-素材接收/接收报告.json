@@ -1,0 +1,98 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "03",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "status": "PENDING_PMO_EDL_REVIEW",
+  "completed": {
+    "five_sources_metadata_and_sha": true,
+    "five_full_audio_tracks_transcribed": true,
+    "read_all_original_asr_cues": true,
+    "visual_samples_actually_viewed": 32,
+    "contact_sheets": [
+      "contact-overview.jpg",
+      "contact-boundaries.jpg"
+    ],
+    "all_five_files_examined": true,
+    "edl_and_subtitle_remapping_basis": true
+  },
+  "order": [
+    "S3",
+    "S5",
+    "S2",
+    "S1"
+  ],
+  "alternate_not_selected": "S4",
+  "estimated_edited_seconds": 67.1,
+  "visual_review": {
+    "viewed_contact_sheets": [
+      "contact-overview.jpg",
+      "contact-boundaries.jpg"
+    ],
+    "sample_count": 32,
+    "scope": "每个原片4张全时段分布样本＋12张边界样本，实际已查看；不是连续视觉读取",
+    "findings": [
+      "五段均为同一位本人室内竖屏近景、黑衣眼镜、书架背景；脸部可见，未见字幕烧录",
+      "S2最后采样与S4尾段出现机位明显移动/模糊，拟保留范围均避开尾部大移动",
+      "S1与S2/S3取景头部大小和位置有变化，接缝可能有跳切，不能静帧证明自然流畅"
+    ],
+    "continuous_video": false,
+    "direct_audio": false
+  },
+  "not_verified": [
+    "Direct audio listening/prosody/exact pronunciation",
+    "Short-word stutter and exact phoneme boundaries",
+    "Continuous video and natural joins",
+    "Full v3.2 script coverage; recording cards not in local evidence",
+    "Any rendered rough cut or final subtitles"
+  ],
+  "can_continue": "PMO can review this proposed EDL and resolve recording-card coverage. 04 can execute only after PMO release; short-word cuts remain disabled.",
+  "missing_script_blocks": [
+    {
+      "reference": "口播稿-v3.2第3段",
+      "text": "模型会回答，只是开始。大量用户同时涌进来……服务成本",
+      "state": "未在本轮五段ASR检出对应完整段落",
+      "action": "PMO核三段录制卡是否有意省略；02未见录制卡本地原件，不能直接认定用户漏录"
+    },
+    {
+      "reference": "口播稿-v3.2第4段",
+      "text": "显卡本轮计算、CPU安排下轮、少等待与腾出算力",
+      "state": "未在本轮五段ASR检出",
+      "action": "若仍需完整解释版，最小补录：比如，显卡计算这一轮，处理器提前安排下一轮，让机器少干等。省下来的算力还能接别的任务。先由PMO核口径，不直接要求用户重拍"
+    }
+  ],
+  "parameters": {
+    "speed": 1,
+    "gain_db": 0,
+    "denoise": false,
+    "bgm": false,
+    "source_overwritten": false,
+    "private_upload": false,
+    "new_model_or_dependencies": false,
+    "rendered_mp4": false
+  },
+  "read_rule_versions": [
+    "PERMISSIONS-2026-10-14-v1",
+    "ROUTING-2026-10-13-v4",
+    "HANDOFF-2026-10-10-v2",
+    "ELI-REWORK-20261019-v1"
+  ],
+  "routing": {
+    "target_model": "gpt-6.1-sol",
+    "target_effort": "medium",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "weekly_usage_from_dispatch": "83%",
+    "five_hour_usage": "UNKNOWN",
+    "subagents": false
+  },
+  "tools": {
+    "whisper": "existing whisper.cpp base, one full run per source",
+    "ffmpeg": "/Users/USER/.local/bin/ffmpeg",
+    "ffprobe": "existing compositor arm64 with child-only DYLD_LIBRARY_PATH"
+  },
+  "tool_issue": "Initial inspect script had a mistyped Unicode path character; fixed to task-specified exact compositor path after checking LOCAL_BLOCKERS. No tool installation/config change.",
+  "audio_review_owner": "PMO must allocate direct listening before final sound acceptance; 02 has no direct audio input. Existing known omitted-audio/calibration failure not retried.",
+  "cleanup": "No deletion; source assets and all task evidence retained.",
+  "report_receipt": "PMO回报回执.json"
+}

@@ -1,0 +1,21 @@
+[
+  "/Users/USER/.local/bin/ffmpeg",
+  "-n",
+  "-hide_banner",
+  "-i",
+  "output/deepinfer-full-v1.mp4",
+  "-map",
+  "0:v:0",
+  "-an",
+  "-c:v",
+  "copy",
+  "-f",
+  "segment",
+  "-segment_times",
+  "27.866666666667,40.366666666667",
+  "-segment_time_delta",
+  "0.008333333",
+  "-reset_timestamps",
+  "1",
+  "repair1/reuse-%03d.mp4"
+]

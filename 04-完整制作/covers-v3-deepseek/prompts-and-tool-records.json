@@ -1,0 +1,64 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": false,
+  "records": [
+    {
+      "id": "brand34",
+      "prompt": "Edit reference1 ONLY for a portrait3:4 cover, ideally1080x1440. Preserve its person, blue suit/glasses/finger-to-lips pose, white background and exact giant title '省钱引擎' BLACK / '开源了' PURPLE, keeping all text clear. Reference2 is original user photo to prevent identity/gesture drift; do not replace or beautify the person. TWO precise branding changes: (1) Replace ordinary bold black DeepSeek header with the EXACT official custom lowercase deepseek WORDMARK ARTWORK from reference3 in original solid blue #4D6BFE. Copy its custom outline faithfully as artwork, do not typeset a generic font, no uppercase D/S, no font substitution. Header must be prominent and fully visible. (2) Remove violet chip and replace that lower-left area with ONE large independent flat official DeepSeek WHALE from reference4, same exact silhouette/inner negative spaces, eye, fin, tail up to the RIGHT, no mirroring or invented whale details. Original brand blue #4D6BFE, enough white gap around it, clear at phone thumbnail size; not a tiny icon attached to wordmark. No chip/laptop or extra text. Do not redesign the title/person, do not overlap hair, finger or headline. Use reference3 and4 literal brand designs, no 3D or gradients on logos.",
+      "refs": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-3x4-v2.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale.png"
+      ],
+      "hint": "Generated images are saved to /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7 as /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-822b4fc5-a56b-4ca4-9256-a2d11f7f4762.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "selected": true
+    },
+    {
+      "id": "brand916",
+      "prompt": "Edit reference1 as ONE9:16 portrait cover, ideally1080x1920, only correcting official branding. Keep established white background, large exact BLACK '省钱引擎', PURPLE '开源了', and existing photographed man placement/blue suit/glasses/one finger touching lips. Reference2 is original user photo, retain that identity and pose without beautification or redesign. Replace black ordinary DeepSeek at top with EXACT official lowercase deepseek custom WORDMARK artwork from reference3, original blue #4D6BFE. Copy its vector-like custom letter outlines, not generic typed text, no uppercase letters, preserve exact glyph geometry/spacing. Remove chip and put ONE large independent official flat WHALE from reference4 in lower-left beside man, entirely unobscured, enough whitespace, clearly recognizable at thumbnail size. Whale must match reference4 exact silhouette, eye/negative spaces, fin and tail rising to RIGHT, never mirrored, never 3D/gradient/cartoon. Keep true blue #4D6BFE distinct from purple title. No new text or disclaimers, all hair, glasses, raised fingertip and title strokes fully visible. Do not recompose other areas beyond making the two official brand artworks fit cleanly.",
+      "refs": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-9x16-v2.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale.png"
+      ],
+      "hint": "Generated images are saved to /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7 as /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-26b013c0-b8c2-4acd-9d8f-52fb4ab1c31d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "selected": true
+    },
+    {
+      "id": "brand169",
+      "prompt": "Make a precise brand correction edit of reference1, ONE landscape16:9 cover ideally1920x1080. Preserve photographed man on right exactly, blue suit/glasses/single finger touching lips, and white background; reference2 is original source identity/pose. Keep title exactly '省钱引擎' BLACK and '开源了' PURPLE, same legible layout. Replace top black ordinary DeepSeek by the EXACT lowercase custom deepseek wordmark outline in reference3, not a typed font. Replace chip lower left by ONE LARGE INDEPENDENT official whale from reference4. Both supplied brand artworks are FLAT SOLID BLUE RGB(77,107,254), hex #4D6BFE: reproduce this exact solid fill, NO gradient, shading, light source, glow, texture, color grading or altered hue. Keep outline and spacing of all custom wordmark letters, including d/e/p/s/e/e/k shapes, and whale tail-up-to-RIGHT orientation/negative spaces/eye/fin; never mirror or draw a generic whale. Brand illustrations should look pasted as crisp flat official vector artwork, rather than newly stylized graphics. Preserve all hair and fingertip and every Chinese title stroke; whale/title/person separated by white space. No extra text, no chip/laptop, no new layout.",
+      "refs": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-16x9-v2.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark-white.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale-white.png"
+      ],
+      "hint": "Generated images are saved to /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7 as /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-1bf85789-4b4c-4622-a013-bc3c56cce891.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "selected": false
+    },
+    {
+      "id": "brand43",
+      "prompt": "Edit reference1, one landscape4:3 cover ideally1440x1080, precise official branding correction only. Keep its photographed man on right/BLUE suit/rectangular glasses/ONE finger on lips and all Chinese headline unchanged: BLACK '省钱引擎', PURPLE '开源了', white background. Reference2 original photo prevents person/gesture drift. Replace ordinary black DeepSeek header with reference3 EXACT custom lowercase deepseek wordmark ARTWORK (not a generic font); preserve its exact vector outlines and letter spacing. Remove chip and put one large standalone official DeepSeek whale reference4 in lower left, clearly independent and readable, whale tail raised toward RIGHT, exact silhouette/eye/mouth-negative-space/fin, never mirror or stylize. Brand wordmark and whale MUST use flat original RGB77,107,254 / #4D6BFE, NO gradients/shadows/glow/texture/color grading/hue change on the brand graphics. Treat them as supplied flat vector artwork placed onto white, not a drawing to reinterpret. All title characters, hair, glasses and fingertip fully visible, white gaps between elements, no additional words/chip/laptop or other design changes.",
+      "refs": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-4x3-v2.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark-white.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale-white.png"
+      ],
+      "hint": "Generated images are saved to /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7 as /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-c1c8f5c8-b610-43c2-a226-c1d47f57141d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "selected": true
+    },
+    {
+      "id": "brand169fix",
+      "prompt": "Make ONLY a local brand-area correction to reference1 16:9 cover. Preserve entire person/head/finger/blue suit, Chinese BLACK省钱引擎/PURPLE开源了 and standalone whale placement exactly. FIX top deepseek wordmark: its final k approaches/overlaps hair. Reduce official wordmark width about12%, keep left margin unchanged, keep original aspect ratio, leave at least60px white gap between final k and the hair. All seven lowercase glyphs must be fully visible. Use reference2 exact official custom lowercase vector wordmark outline, no generic font. Keep flat original solid blue RGB77,107,254 (#4D6BFE), no gradient or added lighting; adjust only wordmark header region, no changes to portrait, headline or lower whale. Result landscape16:9 ideally1920x1080.",
+      "refs": [
+        "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-1bf85789-4b4c-4622-a013-bc3c56cce891.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark-white.png"
+      ],
+      "hint": "Generated images are saved to /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7 as /Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-714918a2-999f-490d-910c-2c630bce1c5b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "selected": true
+    }
+  ]
+}

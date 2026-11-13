@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-21T21:00:14.842050+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v1",
+  "owner": "01a11a79-f636-7823-9350-3c5f7526e6c7",
+  "status": "CHANGES_REQUIRED_SCOPED_VISUAL_REVIEW",
+  "final_sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+  "old_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "coverage": {
+    "scenes": 14,
+    "boundaries": 13,
+    "provided_samples_viewed": 189,
+    "independent_samples_viewed": 220,
+    "independent_native_frames_viewed": [
+      432,
+      540,
+      810,
+      930,
+      1200,
+      2838,
+      945,
+      946,
+      3600,
+      4194,
+      4578,
+      4938
+    ],
+    "sampling": "0–94秒每0.5秒全片总览；16运动窗口0.05–0.2秒加密与13边界前后帧，详sample-index.json；重叠不计独立覆盖时长",
+    "continuous_audiovisual": "UNKNOWN",
+    "direct_hearing": "UNKNOWN",
+    "subtitle_word_for_word_audio_alignment": "NOT_RECHECKED"
+  },
+  "components": [
+    "T22a",
+    "T04e",
+    "T13d",
+    "T04b",
+    "T02g",
+    "T04f",
+    "T13a",
+    "T03d",
+    "T04d"
+  ],
+  "must_fix": [
+    {
+      "id": "Q1",
+      "severity": "必须修改",
+      "range_seconds": [
+        7,
+        15.766667
+      ],
+      "frames": [
+        432,
+        540,
+        810,
+        930
+      ],
+      "evidence": [
+        "frame-009.jpg",
+        "frame-027.jpg",
+        "frame-038.jpg",
+        "frame-058.jpg"
+      ],
+      "finding": "T22a放大和返回过程中，DeepInfer标题或Star阅读目标被带出画面边界；不是翻译文字的正常擦入。",
+      "minimal_fix": "仅调整T22a镜头插值与焦点路径，保证正在强调的ROI在推近和归位全程留在画内；不要求重做材质或原截图。"
+    },
+    {
+      "id": "Q2",
+      "severity": "必须修改",
+      "range_seconds": [
+        15.75,
+        16.066667
+      ],
+      "frames": [
+        945,
+        946,
+        947,
+        964
+      ],
+      "evidence": [
+        "frame-061.jpg",
+        "frame-062.jpg",
+        "frame-063.jpg",
+        "browser-comparison.png"
+      ],
+      "finding": "15.766667秒F946整帧白底；同一仓库截图在T22a到T04e交接消失后重新淡入并改变位置。",
+      "minimal_fix": "T04e继承前场同一截图的末态几何和可见度，再拆出内容；补验15.7–16.4秒。"
+    }
+  ],
+  "implementation_gate": {
+    "original": "FAIL",
+    "independent": "FALSE_POSITIVE",
+    "evidence": "clock-independent.json"
+  },
+  "audio": {
+    "source_unchanged": true,
+    "best_lag_samples": 0,
+    "correlation": 0.99998487557,
+    "basis": "04原始数值回执；非直接听音"
+  },
+  "technical": "复用同SHA完整解码/规格/重封装视频包一致回执；不重跑",
+  "browser": "browser-verification.json",
+  "pmo_acceptance": "UNKNOWN",
+  "user_acceptance": "UNKNOWN",
+  "model_actual": "UNKNOWN"
+}

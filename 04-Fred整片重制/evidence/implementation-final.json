@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "gate": "implementation",
+  "manifestPath": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest.json",
+  "manifestSha256": "d70fda1b191ba12d8e88123792e84a4991b1602c9cf7a57e1cc9ef7572fd25ff",
+  "durationInFrames": 5654,
+  "timelineFps": 60,
+  "previousReceipt": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/planning-final.json",
+  "previousReceiptSha256": "477b61b90e18258c6493b1f0e769a4fc9f580d88ca14c37ca67e5be8a1dfc36d",
+  "sourceDir": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src",
+  "sourceTreeSha256": "37b9cd1c023eb611db7c07133b7ec32a2ed40e782a7f42486af7bcd3f56a8cca",
+  "requiredRepresentativeScenes": [
+    "repo",
+    "stars",
+    "code",
+    "request",
+    "roles",
+    "pipeline",
+    "open",
+    "layers",
+    "progress",
+    "shared",
+    "summary",
+    "talk-open",
+    "talk-end",
+    "talk-view"
+  ],
+  "status": "FAIL",
+  "errors": [
+    "src/index.tsx:36: Sequence from={0} is not allowed in a multi-scene composition"
+  ],
+  "warnings": []
+}

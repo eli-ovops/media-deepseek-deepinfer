@@ -1,0 +1,147 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v1",
+  "status": "04_COMPLETE_PREVIEW_DELIVERED_PENDING_PMO_REVIEW",
+  "timestamp": "2026-10-21T20:46:42.670434+08:00",
+  "owner": "04 / 01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "finalVideo": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+    "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+    "bytes": 49905954
+  },
+  "manifest": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest.json",
+    "sha256": "d70fda1b191ba12d8e88123792e84a4991b1602c9cf7a57e1cc9ef7572fd25ff",
+    "bytes": 151302
+  },
+  "subtitle": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-v1.srt",
+    "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357",
+    "bytes": 2809
+  },
+  "compareUrl": "http://127.0.0.1:55291/",
+  "passed": {
+    "videoSpec": "1080×1920，60/1，5654帧，94.233333s；H.264 yuv420p；AAC48k",
+    "fullDecode": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/decode-final.json",
+      "sha256": "b2f0b124452d407ec773a98c08887c28a90dc5cb88c122130c29c7a9df0963f1",
+      "bytes": 319
+    },
+    "originalPCM": "源WAV完全相同SHA；全轨原速；没有新配音/BGM/SFX",
+    "audioNumerical": {
+      "bestLagSamples48k": 0,
+      "zeroLagCorrelation": 0.9999848755711084,
+      "snrDb": 45.11349854012372,
+      "evidence": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/audio-preservation.json",
+        "sha256": "29490084a60fe641cac21df116c5a23b09e68818980f67292cb84c82c46b4fd3",
+        "bytes": 962
+      }
+    },
+    "sourceReuse": "9个完整准确Fred源码派生，11图形场景，3真人段；实际调用AST门通过",
+    "librarySuggestion": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/gate-suggestion-final.json",
+      "sha256": "9c60602c78e6b6ef8eb44874d0abd771b791dcb730caf557bbe8e8ecc89e5a58",
+      "bytes": 151
+    },
+    "libraryKeyframes": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/gate-keyframes-final.json",
+      "sha256": "9d7d7d9b5978b8a6e3d4a85a9e3cce409a98db75c6f9c970d5e17dcf01c91b86",
+      "bytes": 150
+    },
+    "planning": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/planning-final.json",
+      "sha256": "477b61b90e18258c6493b1f0e769a4fc9f580d88ca14c37ca67e5be8a1dfc36d",
+      "bytes": 648
+    },
+    "visualSampleCoverage": {
+      "overview": "0–94.0秒，步长0.5秒，189帧；最后0.233秒另有末帧",
+      "nativeInspected": [
+        480,
+        840,
+        1320,
+        2265,
+        2822,
+        3870,
+        4210,
+        4970
+      ],
+      "representative": "37.75–49.983秒导出样片4fps图49帧；另有先前原尺寸中间帧",
+      "notPerformed": [
+        "全片正常速度连续视听",
+        "直接听音",
+        "05独立质检",
+        "用户终审"
+      ],
+      "gateLimit": "implementation静态regex误报仍FAIL；representative/formal未通过，不作为已批准发布版。"
+    },
+    "browser": {
+      "evidence": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/compare-browser.json",
+        "sha256": "9c138c5b1bb82e201ae35c263c7f09140e128b06f5af0d3c72af549d9da7e0a6",
+        "bytes": 1527
+      },
+      "halfSpeedDriftMs": 1.031000000004667,
+      "normalSpeedDriftMs": 2.531000000004724,
+      "pausedSameFrame": true,
+      "singleAudibleVideo": true,
+      "pauseStatusFix": "源代码已改，reload后逐帧/跳转正常，UI截图evidence/compare-page-final.png"
+    }
+  },
+  "notPassed": {
+    "implementationGate": {
+      "status": "FAIL",
+      "reason": "静态regex跨Sequence标签误匹配子Talk from={0}，真实首场Sequence没有from属性；保留失败，不修改门禁",
+      "evidence": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/implementation-final.json",
+        "sha256": "c9f7bd0f09580dcee9790a2b0dff11d17bc3219a240018234f7d6116adc286d6",
+        "bytes": 1089
+      },
+      "analysis": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/clock-lint-analysis.json",
+        "sha256": "737ec2a4a404c71685e6af44dc70abe44d999cc99e0d8171b37037be354bb681",
+        "bytes": 644
+      }
+    },
+    "representativeGate": "NOT_PASSED：没有正常速度连续视听证据，不虚填normalSpeed=true",
+    "formalGate": "NOT_PASSED：前序未全通过；技术规格/解码各自通过，不合并正式验收"
+  },
+  "unknown": [
+    "本片完整正常速度连续视听",
+    "直接听音/主观自然度",
+    "05独立质检（待PMO释放）",
+    "PMO验收",
+    "用户对新整片认可"
+  ],
+  "repairs": [
+    {
+      "issue": "初次Remotion容器音轨晚约42.6ms",
+      "action": "原图像码流copy+原WAV独立AAC封装",
+      "result": "零偏移相关0.999985；图像包SHA不变",
+      "evidence": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/video-remux-identity.json",
+        "sha256": "c6f22decc3ca20fca16634024fa45b9a0c9c72a780ae7d29f068a131178d49c7",
+        "bytes": 668
+      }
+    },
+    {
+      "issue": "T02g切焦旧状态硬复位",
+      "action": "沿原q曲线混合淡出/抬升/完成勾",
+      "result": "代表片段4fps及当前全片2fps/中间原尺寸检查无该硬复位"
+    }
+  ],
+  "limits": [
+    "真实仓库截图放大受原1265×712像素限制；没有重画官方UI",
+    "仅服务器→职责胶囊是几何连续交接，其他明确硬切处如43.35秒不称无缝形变",
+    "原13d请求段有已认可样片的阅读停留，未宣称全片每秒持续运动",
+    "本机本地依赖通过包链接复用；工程不是可直接跨机器运行的全打包依赖"
+  ],
+  "handoff": {
+    "artifactGenerated": true,
+    "toolMessageSent": "SUCCESS",
+    "pmoReceived": "UNKNOWN",
+    "pmoAccepted": "PENDING",
+    "next": "PMO审真实原件后释放原05；问题回原04定向修复；无发布、无清理",
+    "toolReceipt": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/pmo-send-receipt.json"
+  }
+}

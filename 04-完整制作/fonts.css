@@ -1,0 +1,5 @@
+@font-face{font-family:EliSans;src:url('fonts/Sans0.ttf');font-weight:300 500}
+@font-face{font-family:EliSans;src:url('fonts/Sans2.ttf');font-weight:600 900}
+@font-face{font-family:EliTitle;src:url('fonts/SmileySans.ttf');font-weight:400}
+@font-face{font-family:EliSerif;src:url('fonts/Serif1.ttf');font-weight:400 900}
+html,body{margin:0;background:#111214;font-family:EliSans,sans-serif;font-synthesis:none}

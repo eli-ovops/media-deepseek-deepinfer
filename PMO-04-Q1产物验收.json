@@ -1,0 +1,25 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "04",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "scope": "Q1修复完整产物交独立补验；不升级听音和用户终审",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/delivery-v1-repair1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/verification.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/返修记录-Q1.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-34.000000.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/final-37.400000.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/repair1/local-contact.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4"
+  ],
+  "remaining_required_work": [],
+  "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "pmo_observed": "实际新片SHA匹配，34/37.4秒原尺寸五任务块和字完整；18图联系表未见新遮挡，原音轨包和未变视频压缩包复用证据已审。",
+  "not_verified": [
+    "直接听音/口误",
+    "逐词同步",
+    "连续声画",
+    "用户终审"
+  ]
+}

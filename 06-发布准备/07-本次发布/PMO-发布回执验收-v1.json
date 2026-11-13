@@ -1,0 +1,48 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "07",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "at": "2026-10-21T14:50:35.453851+08:00",
+  "owner_proactive_report_received": true,
+  "decision": "SIX_SINGLE_SUBMISSIONS_ACCEPTED_FOUR_PUBLIC_TWO_PLATFORM_PENDING",
+  "evidence_read": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/发布回执-v1.json",
+      "sha256": "586c9b8074030c26f8f347797857f8b8278f36f3c4648476551981f85f86c967"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/发布结果-v1.md",
+      "sha256": "648388f765ec78399599313834133e5213089b1684711402d69d7cf854c423f5"
+    }
+  ],
+  "actual_screenshots_reviewed": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/截图/youtube-published.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/截图/bilibili-published.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/截图/x-published.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/截图/tiktok-published-everyone.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/截图/douyin-under-review.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/截图/weibo-publishing.png"
+  ],
+  "checks": [
+    "Exact six platforms match current user authority, other three excluded",
+    "Each platform records one submission, same repair1 input SHA and coverv3",
+    "Current account identities/native receipts read",
+    "Youtube uses existing exact ID, not duplicate upload",
+    "TikTok native everyone status confirmed separately from initial review/onlyme",
+    "Douyin underreview and Weibo processing preserved, no fake public URLs",
+    "No comments/DM/deletion/cleanup authorized or reported"
+  ],
+  "remaining_public_verification": [
+    "douyin",
+    "weibo"
+  ],
+  "manual_user_platforms": [
+    "xiaohongshu",
+    "weixin_channels"
+  ],
+  "held": [
+    "linkedin"
+  ],
+  "all_target_publication_complete": false,
+  "next_action": "Only read-only native status confirmation of these same submitted items on a permitted trigger; never repeat publish. No background monitor/polling created."
+}

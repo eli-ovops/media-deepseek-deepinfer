@@ -1,0 +1,70 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "at": "2026-10-21T14:35:03.622743+08:00",
+  "human_source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/用户发布授权-20261021.json",
+  "human_quote": "✅准备好的平台先发布吧，小红书和视频号我自己来，领英先不动。",
+  "platforms": [
+    "抖音",
+    "B站",
+    "YouTube",
+    "TikTok",
+    "X",
+    "微博"
+  ],
+  "accounts": {
+    "抖音": {
+      "name": "Eli-Ai",
+      "history_uid": "25296649142",
+      "fresh_native_account_check_required": true
+    },
+    "B站": {
+      "name": "Eli-AI",
+      "history_uid": "432834855",
+      "fresh_native_account_check_required": true
+    },
+    "YouTube": {
+      "name": "Eli-AI",
+      "channel_id": "UCqJaVQRO3FrxD5spt1GG7Iw",
+      "video_id": "30L92PtpTdQ"
+    },
+    "TikTok": {
+      "name": "Eli-AI",
+      "handle": "@elimakesapps",
+      "draft_id": "177015753988"
+    },
+    "X": {
+      "name": "Eli-AI",
+      "handle": "@cczij1112"
+    },
+    "微博": {
+      "name": "Eli-AI",
+      "uid": "7720929036"
+    }
+  },
+  "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "video_version": "v1-repair1",
+  "cover_manifest": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/manifest-v3.json",
+  "copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/平台文案-v2.md",
+  "prepared_native_fields": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/原生准备回执-v4.json",
+  "actions": [
+    "single_public_publish_per_selected_platform",
+    "submit_for_native_review_if_required"
+  ],
+  "visibility": "public/everyone, not scheduled",
+  "time": "Immediately sequentially after current account/version/duplicate checks",
+  "excluded": {
+    "小红书": "user manual only",
+    "视频号": "user manual only; B002 site-safety",
+    "LinkedIn": "user said do not touch"
+  },
+  "not_authorized": [
+    "comments",
+    "pinnedcomments",
+    "DMs",
+    "follow",
+    "payments",
+    "draft/media deletion",
+    "account/security changes"
+  ],
+  "cleanup": "All cleanup remains paused; no target-completion claim while manual platforms pending"
+}

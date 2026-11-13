@@ -1,0 +1,15 @@
+{
+  "reported_at": "2026-10-21T06:12:51.137Z",
+  "target_thread": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "tool": "mcp__codex_app__send_message_to_thread",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "TOOL_SEND_SUCCESS; PMO receipt/acceptance not inferred"
+}

@@ -1,0 +1,1408 @@
+{
+  "video_sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+  "old_video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "windows": [
+    [
+      7,
+      9.4,
+      0.1
+    ],
+    [
+      13.4,
+      15.9,
+      0.1
+    ],
+    [
+      19.7,
+      21.1,
+      0.1
+    ],
+    [
+      36.8,
+      37.9,
+      0.1
+    ],
+    [
+      43.2,
+      43.7,
+      0.05
+    ],
+    [
+      45.2,
+      45.95,
+      0.15
+    ],
+    [
+      46.85,
+      47.6,
+      0.15
+    ],
+    [
+      48.25,
+      49,
+      0.15
+    ],
+    [
+      59,
+      60.1,
+      0.2
+    ],
+    [
+      67,
+      68,
+      0.2
+    ],
+    [
+      69.4,
+      70.2,
+      0.1
+    ],
+    [
+      74,
+      74.8,
+      0.2
+    ],
+    [
+      76.1,
+      76.9,
+      0.2
+    ],
+    [
+      81.9,
+      82.7,
+      0.2
+    ],
+    [
+      85,
+      85.8,
+      0.15
+    ],
+    [
+      86.95,
+      87.7,
+      0.15
+    ]
+  ],
+  "samples": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-001.jpg",
+      "sha256": "b65d434facfc9d3f08d21103652d27bf0a54ec71f566a4160783ad967e4ebffa"
+    },
+    {
+      "frame": 161,
+      "time": 2.683333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-002.jpg",
+      "sha256": "828d944dd70c10b907148a738b5d28f557d211c20bbe67b67ef9843e65893b5d"
+    },
+    {
+      "frame": 162,
+      "time": 2.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-003.jpg",
+      "sha256": "0fc23008b4791a5cbc19123283a48ab1476de08f7c5135e31f1058c0fd600947"
+    },
+    {
+      "frame": 163,
+      "time": 2.716666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-004.jpg",
+      "sha256": "8826024201b8e0d2b47b09d91429b7ec7e674874a2b8fb4757cac3667a3456ca"
+    },
+    {
+      "frame": 168,
+      "time": 2.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-005.jpg",
+      "sha256": "7558b04dffcd24d5bab0418441579bcf8ad099806fd7a5aadc5124e23375912f"
+    },
+    {
+      "frame": 180,
+      "time": 3.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-006.jpg",
+      "sha256": "b6aba4d9a38f3177bf1291f4270ae57421659245a9e31b50d929892eb80d4547"
+    },
+    {
+      "frame": 420,
+      "time": 7.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-007.jpg",
+      "sha256": "7a6994f95f7e005fc3094d4651b055824ee823ef0021ca17c00b7dd2dffa6686"
+    },
+    {
+      "frame": 426,
+      "time": 7.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-008.jpg",
+      "sha256": "6aa14b913261b925999b0404a8d8faee94033cd0aea2c671ab06a0c70634d4bd"
+    },
+    {
+      "frame": 432,
+      "time": 7.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-009.jpg",
+      "sha256": "3a1c8149673d9b2d784be25c5fa97ea1c987cc2a9a69514d511c4ff7767be0da"
+    },
+    {
+      "frame": 438,
+      "time": 7.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-010.jpg",
+      "sha256": "a64987910badf496810ea2066b844b1d80bd55441aea78f5848c5639068c7156"
+    },
+    {
+      "frame": 444,
+      "time": 7.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-011.jpg",
+      "sha256": "1e06c7026316eff54942a4d84fcff0be6fcae75766c7b6dd955d4a028c6b07c0"
+    },
+    {
+      "frame": 450,
+      "time": 7.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-012.jpg",
+      "sha256": "1fa08823de85fe1052540f1fd7f23153408ed67c65236f44762925bb3ff5aa2c"
+    },
+    {
+      "frame": 456,
+      "time": 7.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-013.jpg",
+      "sha256": "0e966e022e3f6e5f470e12672218f9fc0d11e8450dd3c77a1c95e126a110e02f"
+    },
+    {
+      "frame": 462,
+      "time": 7.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-014.jpg",
+      "sha256": "b01665a46aa4497b5e8fc1cc434ed5c61f2f68e75ada497b4dda8390337cd78a"
+    },
+    {
+      "frame": 468,
+      "time": 7.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-015.jpg",
+      "sha256": "f471218ea9e1c4d630a41f16931a6477f7e2e44e91d26e2753352364ac00a711"
+    },
+    {
+      "frame": 474,
+      "time": 7.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-016.jpg",
+      "sha256": "12c22c082a15408b0c346b77c6fa3ef8c5c739ae5db0d8e4f53b50c5f1ac3e76"
+    },
+    {
+      "frame": 480,
+      "time": 8.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-017.jpg",
+      "sha256": "1bdd9cc6a213737a29b2464b54981bd22c8a4adb31cf79d7f2d4e9d52d7f9067"
+    },
+    {
+      "frame": 486,
+      "time": 8.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-018.jpg",
+      "sha256": "8c3a5e6a6a2d4797a3294db88a309892c7862ab0c4c06a9238849e9909fd53b6"
+    },
+    {
+      "frame": 492,
+      "time": 8.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-019.jpg",
+      "sha256": "a6b73b9584967c94ff6cd60b4051e57c2e5683106a860cc2f163bbf6b7f9d692"
+    },
+    {
+      "frame": 498,
+      "time": 8.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-020.jpg",
+      "sha256": "a908b90ac7d40f37395c35b29c582d7adee6623bfb400e7cc70671661777fe19"
+    },
+    {
+      "frame": 504,
+      "time": 8.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-021.jpg",
+      "sha256": "635d74be9459e04fd68734c43e5985a533f14f7fe2c976e54317687b3c22b5ac"
+    },
+    {
+      "frame": 510,
+      "time": 8.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-022.jpg",
+      "sha256": "aa204d2f7acf3a91cc10bf4ccc982e09899ac4ee61b085d8280e0df7eba82555"
+    },
+    {
+      "frame": 516,
+      "time": 8.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-023.jpg",
+      "sha256": "762ff123ed4a29d1d846352a55706a648fc62a42eb712ed42f2bdf103be09702"
+    },
+    {
+      "frame": 522,
+      "time": 8.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-024.jpg",
+      "sha256": "dbedbad31b173951acaa35f74aad59d345b1cff2e7d98babfed45d696110ccee"
+    },
+    {
+      "frame": 528,
+      "time": 8.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-025.jpg",
+      "sha256": "8801ad67af891df35c35038a669b585e3d0c9c051c88051c99b6d2ee7c699ac0"
+    },
+    {
+      "frame": 534,
+      "time": 8.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-026.jpg",
+      "sha256": "1a51e8d9ee504f84e10d188e2d6f608eb11abad311ac9fdef8cd06837e87443f"
+    },
+    {
+      "frame": 540,
+      "time": 9.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-027.jpg",
+      "sha256": "d90a8c131dca4bd6876fe5c2149f1ce7aa8c22991fedb5e48b1aed7761628e24"
+    },
+    {
+      "frame": 546,
+      "time": 9.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-028.jpg",
+      "sha256": "378701c39ab46aaa6eb1573bc9711392055f04113538e68dc88181944a0ee5ec"
+    },
+    {
+      "frame": 552,
+      "time": 9.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-029.jpg",
+      "sha256": "5ba6cf71b976add3137768cfaafc964fbaf2071c39e47d0fa5ad16df256816e9"
+    },
+    {
+      "frame": 558,
+      "time": 9.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-030.jpg",
+      "sha256": "07899229dcf52435609c59e4462bb93b4829d92b6a710c489e56b4e22f01d5b6"
+    },
+    {
+      "frame": 559,
+      "time": 9.316666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-031.jpg",
+      "sha256": "2522619a605b1f740645557fa929c0e70284fd4d3ac25439e7054187ba01471b"
+    },
+    {
+      "frame": 560,
+      "time": 9.333333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-032.jpg",
+      "sha256": "8a4bf174515d16961118c5d7c51d7abf92dbcbb7a273c762f1c73092fd262571"
+    },
+    {
+      "frame": 561,
+      "time": 9.35,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-033.jpg",
+      "sha256": "88cb915a7063885b7c9d8740c2e937c6bd755fa42e9bcd9bb1863103febdb629"
+    },
+    {
+      "frame": 564,
+      "time": 9.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-034.jpg",
+      "sha256": "c6237c9c8ade2fa68cbfb1fbf22e15e768f761d669150db5ca3ea9d08ed47c22"
+    },
+    {
+      "frame": 566,
+      "time": 9.433333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-035.jpg",
+      "sha256": "deb6dcb17054b5a6e304a71f8f45a272b3005d58b514e319a0395337cbdf0948"
+    },
+    {
+      "frame": 578,
+      "time": 9.633333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-036.jpg",
+      "sha256": "ee6a464582a3d60d1dd6965a5470ac4072f4a2c8fe336681df39c4df9f6fa4a3"
+    },
+    {
+      "frame": 804,
+      "time": 13.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-037.jpg",
+      "sha256": "8b57c813edc02b9c3cdecf65a3862c6ef76f20a51bf6634cb0689cedcbd09025"
+    },
+    {
+      "frame": 810,
+      "time": 13.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-038.jpg",
+      "sha256": "72ce60d87e39cb3105ad6f6acb077e61ced9d918a0054ca1fb35f1d5b44b1620"
+    },
+    {
+      "frame": 816,
+      "time": 13.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-039.jpg",
+      "sha256": "95a09c101cd3a61cca8cda89e8d2d61b8c5fcc64c0733068e445de6f46d5b817"
+    },
+    {
+      "frame": 822,
+      "time": 13.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-040.jpg",
+      "sha256": "6e5e149062e2a13d075768875738a5479137341fac9a009658a92fd2fa08ad0f"
+    },
+    {
+      "frame": 828,
+      "time": 13.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-041.jpg",
+      "sha256": "bb4dbe81b34b101c6fd04dc02a0f9450e723b6e06917530e0d58254e61ab0b86"
+    },
+    {
+      "frame": 834,
+      "time": 13.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-042.jpg",
+      "sha256": "c622d1b1a248390757011e490be1ff3f1da5f4113e3380fe8e897fd3e617c359"
+    },
+    {
+      "frame": 840,
+      "time": 14.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-043.jpg",
+      "sha256": "4be8cb41c1bdc0ebac8eb8cf4815ca2891dd2dabb1959828f6b6cde34b91ec77"
+    },
+    {
+      "frame": 846,
+      "time": 14.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-044.jpg",
+      "sha256": "42e11df65d120590bb4d1a0213f10b2eba801e430f2b1e7c044348f822195953"
+    },
+    {
+      "frame": 852,
+      "time": 14.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-045.jpg",
+      "sha256": "f3f77dc3dbfa7d5c90e5ec81cc3ea2abca14046dc97c2b4b8a022441c82b7865"
+    },
+    {
+      "frame": 858,
+      "time": 14.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-046.jpg",
+      "sha256": "68f91fd8c318e5ef0dc0293324cdde7132e573d31463b8fe2f85e5be4c9f3f29"
+    },
+    {
+      "frame": 864,
+      "time": 14.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-047.jpg",
+      "sha256": "c741a51e2ae39064548770962f01049df35f12554f16904f50a39e5579792207"
+    },
+    {
+      "frame": 870,
+      "time": 14.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-048.jpg",
+      "sha256": "2535899e5ba2fe7f64b839e81e460ed5abab1417bc665680b914af1b65449538"
+    },
+    {
+      "frame": 876,
+      "time": 14.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-049.jpg",
+      "sha256": "02a75cdf09ebcfe3c6865929a8ced7d530b183a2d917f19067c2f7c9dff799e2"
+    },
+    {
+      "frame": 882,
+      "time": 14.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-050.jpg",
+      "sha256": "87e5df76c5956682603d2a915b8bdb0d263bf422217ea2ecbcbfebec6b77447f"
+    },
+    {
+      "frame": 888,
+      "time": 14.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-051.jpg",
+      "sha256": "355ec70d3759a907867fabf0163301b5e452de7bd63eb1fd29ebee7bcf49d581"
+    },
+    {
+      "frame": 894,
+      "time": 14.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-052.jpg",
+      "sha256": "2382e40e2da88d7bcd16e02b49c4d77d5ca18ba19b925f53a8f5e4e752322262"
+    },
+    {
+      "frame": 900,
+      "time": 15.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-053.jpg",
+      "sha256": "0be3985a99b6c5cda11a62e5e96cd2fb4a3ce42a0a8488f32dad6b96085e50d8"
+    },
+    {
+      "frame": 906,
+      "time": 15.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-054.jpg",
+      "sha256": "b5eaa5a4d12f88be5021d026dc750fe9da4ee5b54693503cbf892fd34b8514c3"
+    },
+    {
+      "frame": 912,
+      "time": 15.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-055.jpg",
+      "sha256": "441d6cb968db803111850dd8dc199eace72dc9d3f6fe02f9d6e0b777cd26ee44"
+    },
+    {
+      "frame": 918,
+      "time": 15.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-056.jpg",
+      "sha256": "4964ffe859ae0aaccf324b81533c9ef732aba31fadb85ac27c86166ac2eba83b"
+    },
+    {
+      "frame": 924,
+      "time": 15.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-057.jpg",
+      "sha256": "6bc4b0d964fdf5641fad6c8ccf3d3221ba9193ae8b971626d9c975e744bd03d5"
+    },
+    {
+      "frame": 930,
+      "time": 15.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-058.jpg",
+      "sha256": "81d2f479110519b5abeb1fc021e8f31edca1f660c3b8d049ebf4b74f3ceb0b16"
+    },
+    {
+      "frame": 936,
+      "time": 15.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-059.jpg",
+      "sha256": "5253bf27088ccf5667fb77e83b3d45702d448505a69e2783d802b51e320d8403"
+    },
+    {
+      "frame": 942,
+      "time": 15.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-060.jpg",
+      "sha256": "7813f1223681bf26dd7a28be6604ea142dc929e460c9692f8c650ae5597378c1"
+    },
+    {
+      "frame": 945,
+      "time": 15.75,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-061.jpg",
+      "sha256": "da3576be639c4a425a369d7b3e0ba22e9b29dfda080437664e14c5a3c2967114"
+    },
+    {
+      "frame": 946,
+      "time": 15.766666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-062.jpg",
+      "sha256": "e344e138252d97ccf7d19bd0618d66a360c3e4ac3517f2f2e0836644e74de498"
+    },
+    {
+      "frame": 947,
+      "time": 15.783333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-063.jpg",
+      "sha256": "1ccc51fca5837046a45664d3035b50897f62373be607521b9817214887f9f9f6"
+    },
+    {
+      "frame": 948,
+      "time": 15.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-064.jpg",
+      "sha256": "9713ee5afbbbee1d38c912338347838ad15672d1fe812846494887200c716fe7"
+    },
+    {
+      "frame": 952,
+      "time": 15.866666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-065.jpg",
+      "sha256": "8eff44c0d2437b002b04a7a5fbf0b9084e9f8d6f373cc6764ccf9a25438a8e11"
+    },
+    {
+      "frame": 954,
+      "time": 15.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-066.jpg",
+      "sha256": "2225c7f82ad7bcbcf935ceb1069298d522c56655f4e345e2aaf71c5b39ec6b95"
+    },
+    {
+      "frame": 964,
+      "time": 16.066666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-067.jpg",
+      "sha256": "76141267b25ba315b97221ca8e9987827100142de1b5e2ef100b436298e3b55e"
+    },
+    {
+      "frame": 1182,
+      "time": 19.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-068.jpg",
+      "sha256": "a24b32494a2af84fef875c7b37ebe3b17bcb80c9b47801a01a924550b6df0169"
+    },
+    {
+      "frame": 1188,
+      "time": 19.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-069.jpg",
+      "sha256": "d53f02e3e7c43fdf4d82b78097d71e3ae7096c278f31d91215fd11fea553dc1e"
+    },
+    {
+      "frame": 1194,
+      "time": 19.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-070.jpg",
+      "sha256": "e6acafbe39650a345da83e56dffb36edd29b92070448d504d1ed7a6b072283c5"
+    },
+    {
+      "frame": 1200,
+      "time": 20.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-071.jpg",
+      "sha256": "d52b46d44edddfa4ea62f916e58a96a2d9cb0db481abda4d7b3b97afd0e218dc"
+    },
+    {
+      "frame": 1206,
+      "time": 20.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-072.jpg",
+      "sha256": "92e917b47e73f35b9ef725e2b247871e6305b39f042a0b5ebec2579a25a1fec4"
+    },
+    {
+      "frame": 1212,
+      "time": 20.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-073.jpg",
+      "sha256": "bdd21ee6514136b46b5f550cce06bd5b1414944cb9531289589f033a095ba953"
+    },
+    {
+      "frame": 1218,
+      "time": 20.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-074.jpg",
+      "sha256": "c2dc864d8f5263b6a642e796ae5aea818173f7d47e7b83e605bd144fd3ac1e13"
+    },
+    {
+      "frame": 1224,
+      "time": 20.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-075.jpg",
+      "sha256": "946b4137bb2402e9ad078d831540c6f882b703a811b0407b01841203ef1c904d"
+    },
+    {
+      "frame": 1230,
+      "time": 20.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-076.jpg",
+      "sha256": "9c78a99cc7e8d71bef432f5edbc6c7cc61188dc1853fbb74e567a89eea295932"
+    },
+    {
+      "frame": 1236,
+      "time": 20.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-077.jpg",
+      "sha256": "4a47fcb63391da74499df950168b0069e4d2f6885bd21db98a562a5a6fab605c"
+    },
+    {
+      "frame": 1242,
+      "time": 20.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-078.jpg",
+      "sha256": "9f66013f9545c09c5d149f25264bfdfadda7aeabfd3a1d057a36fcd180cd95ab"
+    },
+    {
+      "frame": 1248,
+      "time": 20.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-079.jpg",
+      "sha256": "05af8725575e53d333fa6391197b4c83300797db90872f6bedeeb3fd73ba4c3e"
+    },
+    {
+      "frame": 1254,
+      "time": 20.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-080.jpg",
+      "sha256": "3bd2184072f407b85dc0881f93225ccc44a820325a462ab5c9dda437ad6c3140"
+    },
+    {
+      "frame": 1260,
+      "time": 21.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-081.jpg",
+      "sha256": "672f33c367d4f223f2220348e7f657923938e7d43fa35cd209c06a8ef90d5d67"
+    },
+    {
+      "frame": 1266,
+      "time": 21.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-082.jpg",
+      "sha256": "2315c2c9b18d3c328f033bd59063e6595070704be6a6e41ab5322dd93975179e"
+    },
+    {
+      "frame": 1421,
+      "time": 23.683333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-083.jpg",
+      "sha256": "ed80245c2a724096e8408cda9185a28bd5ccb30d36eefb3f1746344efb1f24ca"
+    },
+    {
+      "frame": 1422,
+      "time": 23.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-084.jpg",
+      "sha256": "9ff26b9e13a601a78b42f37587f82d9c8b9e564f6036f85d81316d2fe9c546f6"
+    },
+    {
+      "frame": 1423,
+      "time": 23.716666666666665,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-085.jpg",
+      "sha256": "c3ce1b8f5cfb8822141f13b256e697a4458434716815476d149e895080e10227"
+    },
+    {
+      "frame": 1428,
+      "time": 23.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-086.jpg",
+      "sha256": "da1617a269eb05460ab0e8fb8bbbe5dc82c600f6aef171817411cd7a5ae034dc"
+    },
+    {
+      "frame": 1440,
+      "time": 24.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-087.jpg",
+      "sha256": "92da4068d9b34cc0a4ee10ccd15a5af18b95493c0e8e6b12214bc7c6498609cf"
+    },
+    {
+      "frame": 2208,
+      "time": 36.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-088.jpg",
+      "sha256": "fa6ee0e4e73e7b83dce673f89e3f7ef89fefe35d6f41eec0e6c3c3a5327c1d07"
+    },
+    {
+      "frame": 2214,
+      "time": 36.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-089.jpg",
+      "sha256": "bce780c7241a52feb42570250f71334698a0481da1e0339f1e3ec84e5012612b"
+    },
+    {
+      "frame": 2220,
+      "time": 37.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-090.jpg",
+      "sha256": "71c17873fc006c589cb7a3ec682f44aee7a2144f77c3bd9087d5a73bd2a3f529"
+    },
+    {
+      "frame": 2226,
+      "time": 37.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-091.jpg",
+      "sha256": "206f9d26110aa0ffb6a2fde1a9741bfa6fb5941ac416e3ce4d0c9e761c9267ed"
+    },
+    {
+      "frame": 2232,
+      "time": 37.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-092.jpg",
+      "sha256": "ee75ae7e0d99b84ff33d2fc86811c7238644dd125e59f7c9bb57a83b16bffc31"
+    },
+    {
+      "frame": 2238,
+      "time": 37.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-093.jpg",
+      "sha256": "87cd2cc7ffd55996fe779a12fcec093b0f5f1125c22c1aa2158e8a6f6bf90109"
+    },
+    {
+      "frame": 2244,
+      "time": 37.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-094.jpg",
+      "sha256": "6b0b061d07ff8fcbefb67bfb7fcaff95571c8b7fadc7c0138bccc5efe8627bd9"
+    },
+    {
+      "frame": 2250,
+      "time": 37.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-095.jpg",
+      "sha256": "fb75b9f6156cd572075bd65e90395e70e823441e463f52d93e0ae7601f71807c"
+    },
+    {
+      "frame": 2256,
+      "time": 37.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-096.jpg",
+      "sha256": "a6a0cf1970960329d20fcb252de528ed1043aed4b1fb01e28bc5f68749396aa6"
+    },
+    {
+      "frame": 2262,
+      "time": 37.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-097.jpg",
+      "sha256": "d2af9009f5aa030759d824cb54d65d547e91fca814f627c729e701512255f6fb"
+    },
+    {
+      "frame": 2264,
+      "time": 37.733333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-098.jpg",
+      "sha256": "b410ce85387cc5733ead9ce29eb2c0b803690c555ab51ac0e064bd7cf9f7441e"
+    },
+    {
+      "frame": 2265,
+      "time": 37.75,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-099.jpg",
+      "sha256": "bbaa7ce53c410ec0d61d0f175c8b1a67ba74bc7e3b21594660ac8331750db414"
+    },
+    {
+      "frame": 2266,
+      "time": 37.766666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-100.jpg",
+      "sha256": "f1caaa829a45ae74fb26614d404fdcd3f24ec0a6566d6b62543dd925357b2515"
+    },
+    {
+      "frame": 2268,
+      "time": 37.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-101.jpg",
+      "sha256": "77d44a4b8888b1787b23790902c32413ca92b35417fca52d08c7465b16d5fd03"
+    },
+    {
+      "frame": 2271,
+      "time": 37.85,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-102.jpg",
+      "sha256": "0aa82e0042a6351295a8714f88f12c4ec3e18afde95bff8ea8aa399b9b92a9d0"
+    },
+    {
+      "frame": 2274,
+      "time": 37.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-103.jpg",
+      "sha256": "534ac52d380412b1f220ced0453d3b124a06dcc6ad929b4f9f358bca4e824fc3"
+    },
+    {
+      "frame": 2283,
+      "time": 38.05,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-104.jpg",
+      "sha256": "b8c30de8a7b07a7ce21b453b1f9730105afa8b7167532f25fa32905d9032301d"
+    },
+    {
+      "frame": 2592,
+      "time": 43.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-105.jpg",
+      "sha256": "cac738cb2015dac030e6a920c13b7652c2c9cd6950a1ece87db1d2d9053a8688"
+    },
+    {
+      "frame": 2595,
+      "time": 43.25,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-106.jpg",
+      "sha256": "e2ec5950860756ab480a7bca44b6b842157573c3e8bcdb1bea4699cfbf78282a"
+    },
+    {
+      "frame": 2598,
+      "time": 43.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-107.jpg",
+      "sha256": "b6906e33a0641804b8c95ad267f54e44d1c4d10f772494adc7b0b7b598c30460"
+    },
+    {
+      "frame": 2600,
+      "time": 43.333333333333336,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-108.jpg",
+      "sha256": "8db3a725861ff21e82b5eb57903b39e67afe15beee5d5e068417822036d526f8"
+    },
+    {
+      "frame": 2601,
+      "time": 43.35,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-109.jpg",
+      "sha256": "ca754df4f6ee7892e94f28a767db17a2988a0e8dfd2f58c0f91b0bd092a50425"
+    },
+    {
+      "frame": 2602,
+      "time": 43.36666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-110.jpg",
+      "sha256": "59f5b7f9c3c99bfc678c6f13749769d9693edb5809eee6f6378631bd15b90f04"
+    },
+    {
+      "frame": 2604,
+      "time": 43.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-111.jpg",
+      "sha256": "b99e9c8d546388d49824216e74888c5a7d589aa2382430ff375297e2a1505213"
+    },
+    {
+      "frame": 2607,
+      "time": 43.45,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-112.jpg",
+      "sha256": "01a5f323dd299dff400ae36c6d6365c2dd4546943ab90c564a0cc259cf489aa3"
+    },
+    {
+      "frame": 2610,
+      "time": 43.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-113.jpg",
+      "sha256": "75455c439cb7d1b462deddc247b83fea8813ee44e0a7eb2beb1f26f4a8958fc2"
+    },
+    {
+      "frame": 2613,
+      "time": 43.55,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-114.jpg",
+      "sha256": "d1acfe939ba3a49c26425a9323c14f1a5c70aabd6bedef18e615ebb2942e44fb"
+    },
+    {
+      "frame": 2616,
+      "time": 43.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-115.jpg",
+      "sha256": "9b7462569689365d65f662f7a67804f2fece0279a65ba89b8d301df89d05d6f1"
+    },
+    {
+      "frame": 2619,
+      "time": 43.65,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-116.jpg",
+      "sha256": "4fd3996135d4b7e4cf9dd53831f060beabea2623140db1f12ff5e4eef79071c8"
+    },
+    {
+      "frame": 2622,
+      "time": 43.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-117.jpg",
+      "sha256": "afef50bb70135cdc556c004789806e2f60348760370397a3a51b7babaa15e6c6"
+    },
+    {
+      "frame": 2712,
+      "time": 45.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-118.jpg",
+      "sha256": "9046a74192851d1acb29ad95d9bafa415ea66909fbf8adf7663406c10c4e8afb"
+    },
+    {
+      "frame": 2721,
+      "time": 45.35,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-119.jpg",
+      "sha256": "ff10c043d12cd7c346d2d258cdda74aec9c74dd91f3c8831bb3b0018ea9f140c"
+    },
+    {
+      "frame": 2730,
+      "time": 45.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-120.jpg",
+      "sha256": "6a68080f7e24d43b58ed6b09c34aca0bfff141df8af535aee110a1a599c67a01"
+    },
+    {
+      "frame": 2739,
+      "time": 45.65,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-121.jpg",
+      "sha256": "910677b699a5f618a7a93b9294a4e1dfd2d50edf2b27f1d0262dc4e0e6bc0755"
+    },
+    {
+      "frame": 2748,
+      "time": 45.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-122.jpg",
+      "sha256": "3bd2a79b5caf88adb680619e2bb0096e8fd9eeea62c36a8cbe83390ce0cbb0b0"
+    },
+    {
+      "frame": 2757,
+      "time": 45.95,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-123.jpg",
+      "sha256": "f4be347103b4c1e7bc191accb763b2784988bf830bd2c803a0d1886e9cb55ac5"
+    },
+    {
+      "frame": 2811,
+      "time": 46.85,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-124.jpg",
+      "sha256": "62a172916452242d6c44673d91f72a69a592b8e2a087de006ad39eaf72cc86c3"
+    },
+    {
+      "frame": 2820,
+      "time": 47.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-125.jpg",
+      "sha256": "a2677a4b76d1f58893c216694d0d67449728cbc28547927407f417c677649bcd"
+    },
+    {
+      "frame": 2829,
+      "time": 47.15,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-126.jpg",
+      "sha256": "a1b752efd204dc79e6458cdd59917cac919ee0268231835f4d5e1fe22f254815"
+    },
+    {
+      "frame": 2838,
+      "time": 47.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-127.jpg",
+      "sha256": "0ee6e1c162403e250f80631b19ad4d0079e81afaa9ced8dfdccae3c72bea03a1"
+    },
+    {
+      "frame": 2847,
+      "time": 47.45,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-128.jpg",
+      "sha256": "dd0ca68b3e1dc5e9d2a6569f9e98e4894202d1438bfa1c37db2a306b5eb4706c"
+    },
+    {
+      "frame": 2856,
+      "time": 47.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-129.jpg",
+      "sha256": "29a8133832c80e47a8661eccc55639ad3198a3aa664afde4674266098f2a6bb4"
+    },
+    {
+      "frame": 2895,
+      "time": 48.25,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-130.jpg",
+      "sha256": "b65537312cc755ab4a883ab433d48e8196acc14d9b05bcf66b987bbbe91cd10c"
+    },
+    {
+      "frame": 2904,
+      "time": 48.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-131.jpg",
+      "sha256": "4b4c9b58a3491ed554702b9c829e7d5675f43d5f9dc333bb0487794d1ec1c7a8"
+    },
+    {
+      "frame": 2913,
+      "time": 48.55,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-132.jpg",
+      "sha256": "4c8d9f2d70d330ee8f9f9684700f3ef76270067df40d91a83f08430b4ac8f29c"
+    },
+    {
+      "frame": 2922,
+      "time": 48.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-133.jpg",
+      "sha256": "7f49d6b86fb4813ac4b2bb9b577695d5b1f221abafd2df1ad9697085ea85b38d"
+    },
+    {
+      "frame": 2931,
+      "time": 48.85,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-134.jpg",
+      "sha256": "a1de7e02dffc5a1eb0e7f1bd9af09e39aa54a4cf66a55ff2966491a6cbe88080"
+    },
+    {
+      "frame": 2940,
+      "time": 49.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-135.jpg",
+      "sha256": "3329fabde5c829a0be74e01b6b362e7a2f58f160249ca3272ab495112999d2b6"
+    },
+    {
+      "frame": 2999,
+      "time": 49.983333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-136.jpg",
+      "sha256": "573672e0a0202c19e91085a2415142055d42ce210f32365fe225f1b9844248ef"
+    },
+    {
+      "frame": 3000,
+      "time": 50.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-137.jpg",
+      "sha256": "7574e7f59a0f8acdd656d31d2e134a17cb45d588f653ee765d2ff7f2e242fac7"
+    },
+    {
+      "frame": 3001,
+      "time": 50.016666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-138.jpg",
+      "sha256": "73b71a5f4ecc18ad68f52ff64e0056ebdfeae90d66effc1c3b787aaa8a613a07"
+    },
+    {
+      "frame": 3006,
+      "time": 50.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-139.jpg",
+      "sha256": "71ab618cbc4f69cd501631c177ae083516b9de2051c6aeb14e0c008184d9fbc8"
+    },
+    {
+      "frame": 3018,
+      "time": 50.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-140.jpg",
+      "sha256": "d7aeb789b6c160017ef53561992487bb30c0aec51de78e9b174d0825ccb33ca5"
+    },
+    {
+      "frame": 3437,
+      "time": 57.28333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-141.jpg",
+      "sha256": "227942cfa3161e885cfeec36dad2a3eda83a93bb59537c45d70f6aac3e17414b"
+    },
+    {
+      "frame": 3438,
+      "time": 57.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-142.jpg",
+      "sha256": "790c01257c9fddcada5fd6d2acbe1ffc343324307d7f3edc623c0696c4e06e3d"
+    },
+    {
+      "frame": 3439,
+      "time": 57.31666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-143.jpg",
+      "sha256": "52de0d2eb93560a9f1588fafe1f8c7e453a5059544f6a30dc52a9dabd1d61ac0"
+    },
+    {
+      "frame": 3444,
+      "time": 57.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-144.jpg",
+      "sha256": "4c0f7e34fa0508eee551e0ca124fd81b3352fff721efb49ffd01f41fa8db663d"
+    },
+    {
+      "frame": 3456,
+      "time": 57.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-145.jpg",
+      "sha256": "55c78d9600609f126c64e28e698672a8457f618d5b43a7c30a4781cb8101b764"
+    },
+    {
+      "frame": 3540,
+      "time": 59.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-146.jpg",
+      "sha256": "6280f701067c99a9317d118967f083fc0095e22e7cbe9487f1d7c0c61d8a8a1f"
+    },
+    {
+      "frame": 3552,
+      "time": 59.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-147.jpg",
+      "sha256": "d0df97297ee6a84578ed80cbee36b93bd3169230b3e9b40cd424290c50bb1e58"
+    },
+    {
+      "frame": 3564,
+      "time": 59.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-148.jpg",
+      "sha256": "493e93729e33041a9638f659993f475e1a4fd81c419e93459bc699f774271366"
+    },
+    {
+      "frame": 3576,
+      "time": 59.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-149.jpg",
+      "sha256": "b3582292e3b1645afb076efef37f1deb0693432cd82885f86492995d6ecbe562"
+    },
+    {
+      "frame": 3588,
+      "time": 59.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-150.jpg",
+      "sha256": "fa6f0bac3368e0b48216e53f370958d9d819dd19e9ac55dc35833b00c5d86807"
+    },
+    {
+      "frame": 3600,
+      "time": 60.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-151.jpg",
+      "sha256": "a339bcc887a2c5869889cc8c841cac9c26205d8ac5d947b6394b1566f542ba76"
+    },
+    {
+      "frame": 3612,
+      "time": 60.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-152.jpg",
+      "sha256": "3dae1298f81409d8b4d8fc1f8a601a98b38126f66bb3e9c3cdc2c4a147ee1f7a"
+    },
+    {
+      "frame": 3989,
+      "time": 66.48333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-153.jpg",
+      "sha256": "0d8a744ff55d00474a1f2464290d06f4a6f52432206a96912e0ab04ef767eb20"
+    },
+    {
+      "frame": 3990,
+      "time": 66.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-154.jpg",
+      "sha256": "244f104a833af124f8bdfe65f438f538225f406239f671ef63840e6c66b7ea8f"
+    },
+    {
+      "frame": 3991,
+      "time": 66.51666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-155.jpg",
+      "sha256": "2930035f867507a79d4dc4e3339c8e7f9a1d6afb32674d4095ef97418d64e6cb"
+    },
+    {
+      "frame": 3996,
+      "time": 66.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-156.jpg",
+      "sha256": "a05d4b8a8a58c591ad50cb4fdfc994ae72cf5ed175202fce41ef7e447edb4709"
+    },
+    {
+      "frame": 4008,
+      "time": 66.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-157.jpg",
+      "sha256": "bbf8f080d56122133b253e66f7efcd08dc31af6b36df4a1541ab619f377e02c7"
+    },
+    {
+      "frame": 4020,
+      "time": 67.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-158.jpg",
+      "sha256": "6b214f970eb7a1a86daa89205626a0d2ab232d98c0682756168d16dfaf0a03ca"
+    },
+    {
+      "frame": 4032,
+      "time": 67.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-159.jpg",
+      "sha256": "3b3d74859791a2da2ae5d036a151dd5492fdb1f0af8ab156b1171fa8831df5ab"
+    },
+    {
+      "frame": 4044,
+      "time": 67.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-160.jpg",
+      "sha256": "a7d63f5e48d31a995c9f4f0b61a6f8cdd69286807b9df55bb23efdab4f6aa694"
+    },
+    {
+      "frame": 4056,
+      "time": 67.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-161.jpg",
+      "sha256": "b0d5ed4f451a2f8d3bcc36ad22f01bc76dcf4aa0bd6567ea8108be9f69851957"
+    },
+    {
+      "frame": 4068,
+      "time": 67.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-162.jpg",
+      "sha256": "48ffbbf50da549a61ea7513660c2087da79278f5be4a07318629bbf4c03fff7a"
+    },
+    {
+      "frame": 4080,
+      "time": 68.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-163.jpg",
+      "sha256": "b1345f8bd9633db7227cb0b89e515cf0ee8d20f71ea175c8c86d64fb7de4f640"
+    },
+    {
+      "frame": 4164,
+      "time": 69.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-164.jpg",
+      "sha256": "293fb54346c2300c160bb27fcc7c5a360996bd266256925acf245d1637c377b1"
+    },
+    {
+      "frame": 4170,
+      "time": 69.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-165.jpg",
+      "sha256": "b4908f7188dc384dfb56fa3afd432f5d33f4d03806c8600434a89ad5a02194fe"
+    },
+    {
+      "frame": 4176,
+      "time": 69.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-166.jpg",
+      "sha256": "07c2f68450a10c1e804f42841d1bdda301a14696a42efc85347b924c4a5a4ff9"
+    },
+    {
+      "frame": 4182,
+      "time": 69.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-167.jpg",
+      "sha256": "a626b4d428b963a10db3098b8a425ae4883229693da7ad515af78d9b1141e324"
+    },
+    {
+      "frame": 4188,
+      "time": 69.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-168.jpg",
+      "sha256": "6eb4376e4da140a2ce36c25bd7886d29acd97b5fb4f5a1fe20288e2b84b05fc8"
+    },
+    {
+      "frame": 4194,
+      "time": 69.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-169.jpg",
+      "sha256": "7fac80131a35a50d3ae89e504ab1388ae400edef9e085d55bd49ac9ca29d3fd0"
+    },
+    {
+      "frame": 4200,
+      "time": 70.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-170.jpg",
+      "sha256": "edcd59dca5a29ca676964b4026350417467eb22b8eec212ae72c400b8db241bc"
+    },
+    {
+      "frame": 4206,
+      "time": 70.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-171.jpg",
+      "sha256": "c3ac214311d1a5e24739c4637af5c8398b748992f01812bcd40ac6a8b41c0eed"
+    },
+    {
+      "frame": 4212,
+      "time": 70.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-172.jpg",
+      "sha256": "b1d2e8031566ff830fcab715c05bf0099ff8a9fedf13aba0d015dabb548237da"
+    },
+    {
+      "frame": 4361,
+      "time": 72.68333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-173.jpg",
+      "sha256": "8c9958579ae06d6c5c272a8d5c4a4bb09fbd7fd5aab1475ee71a9579cb338852"
+    },
+    {
+      "frame": 4362,
+      "time": 72.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-174.jpg",
+      "sha256": "c7f954e60f3547a90e595f295018600c47cc44c2c06c095f968bd5291a3d3a2a"
+    },
+    {
+      "frame": 4363,
+      "time": 72.71666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-175.jpg",
+      "sha256": "0342940ba0213878a211ef5e335aa60b66533d12a430dd893e936aa982a405cc"
+    },
+    {
+      "frame": 4368,
+      "time": 72.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-176.jpg",
+      "sha256": "c175477e7fe0b19e298bae069e6aef9f2e41faf572f530c23a5d2a5212d7ff24"
+    },
+    {
+      "frame": 4380,
+      "time": 73.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-177.jpg",
+      "sha256": "16470b03f8dd09c7f0939255d06bf49580b5dc25b13eab083c586dfb83672df9"
+    },
+    {
+      "frame": 4440,
+      "time": 74.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-178.jpg",
+      "sha256": "29f437eb5d778c9ced9f81f47f0691f222569ea13c1c4a5b7b0372bfd2a1e5c6"
+    },
+    {
+      "frame": 4452,
+      "time": 74.2,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-179.jpg",
+      "sha256": "b5a8e7b6ce7bbba6987fbefefb640865fcc2742ad7566ac9b0b4550d3814aa19"
+    },
+    {
+      "frame": 4464,
+      "time": 74.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-180.jpg",
+      "sha256": "2d4a448cfdf35b9642bf7656501387b576b9fe77e653c2e123e52cfa8ffd0f01"
+    },
+    {
+      "frame": 4476,
+      "time": 74.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-181.jpg",
+      "sha256": "cd855d5068392326e2a8c073700198b9438c5cc11fae8e96a071f374dc29c409"
+    },
+    {
+      "frame": 4488,
+      "time": 74.8,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-182.jpg",
+      "sha256": "6c87341684274b1b3edca077c3e8c620cc2427175971def2243645074a781f4a"
+    },
+    {
+      "frame": 4566,
+      "time": 76.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-183.jpg",
+      "sha256": "4a2b05e52fd2c6fc80d085d070e9e5888b64f67f13eb6a458489582dd543709b"
+    },
+    {
+      "frame": 4578,
+      "time": 76.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-184.jpg",
+      "sha256": "6b5429753a4b0fd3bf69384a3b5244ce21207cb7d166056a0a5e7b59a505a2fe"
+    },
+    {
+      "frame": 4590,
+      "time": 76.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-185.jpg",
+      "sha256": "c7bbb511766d83e9a4a68a0aec353acc2f7baf5dfa6dd67829a03b013156f19d"
+    },
+    {
+      "frame": 4602,
+      "time": 76.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-186.jpg",
+      "sha256": "ec0f8dc29b7274c3ffb1415393c3d2e51a719d0e190df9f6cbacde6a5e639b9a"
+    },
+    {
+      "frame": 4614,
+      "time": 76.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-187.jpg",
+      "sha256": "55755dc16bcb944ff9ac81c77fe5afa68092ed20415d5b0f49f6381c9c57fd11"
+    },
+    {
+      "frame": 4734,
+      "time": 78.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-188.jpg",
+      "sha256": "5945afef265e9097e515c6a1752a96ee9f95a2cd588453795e5cf806e5b0614f"
+    },
+    {
+      "frame": 4735,
+      "time": 78.91666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-189.jpg",
+      "sha256": "4f79952b6ed9e5e847dfea2a0e0adad3118c3546b8f7e962a84c850d1361a399"
+    },
+    {
+      "frame": 4736,
+      "time": 78.93333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-190.jpg",
+      "sha256": "64f5db95ddfa11d0312208883fa63ba82dc4c5036d498329536cab2835ef0f45"
+    },
+    {
+      "frame": 4741,
+      "time": 79.01666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-191.jpg",
+      "sha256": "8993123426f621956028150fdd31a2146325022c8984a4de614abb5944eec7b2"
+    },
+    {
+      "frame": 4753,
+      "time": 79.21666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-192.jpg",
+      "sha256": "56032243f4a06310b01850b10c44d00ac341d20df1c63c9a9d59dea7c7d27ec8"
+    },
+    {
+      "frame": 4914,
+      "time": 81.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-193.jpg",
+      "sha256": "bf98451aedf58fd8c2a29d884091b0f24d26989b1fc186a1a73b65f8c101b91e"
+    },
+    {
+      "frame": 4926,
+      "time": 82.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-194.jpg",
+      "sha256": "544605e5b6130f2faaac52e099cc2b450db3ed2aea1500a61fc9d397c8011307"
+    },
+    {
+      "frame": 4938,
+      "time": 82.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-195.jpg",
+      "sha256": "2dc2b96c23bb2fbb99bda9560c97e8496a1fc83e63e8c4bc3e57fe158bc50682"
+    },
+    {
+      "frame": 4950,
+      "time": 82.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-196.jpg",
+      "sha256": "9dadcaef247846f1f56cd8bd213c8144850bf8305c0adb6cf6ec038fe675ce2f"
+    },
+    {
+      "frame": 4962,
+      "time": 82.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-197.jpg",
+      "sha256": "7cf5ec28ad8e67f89cf1f294ae6341e614bac31c64bfe5a163ecf2b4f1df3583"
+    },
+    {
+      "frame": 5014,
+      "time": 83.56666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-198.jpg",
+      "sha256": "30632aee8627198180da41f6d96e76dc2096a7c7e1cf8ef3f3e5d7390a16785b"
+    },
+    {
+      "frame": 5015,
+      "time": 83.58333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-199.jpg",
+      "sha256": "526134c51c40e19fd9256bebb6101cfa3d32cb7cf26f82fdeb01827bb75c3368"
+    },
+    {
+      "frame": 5016,
+      "time": 83.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-200.jpg",
+      "sha256": "dedf68b5094ac25dd08db25fc89c07e0f07788aa8ecd852fe8fdeb65f95ed5ec"
+    },
+    {
+      "frame": 5021,
+      "time": 83.68333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-201.jpg",
+      "sha256": "e34eae72e97c03bc61e1926f499622ad3cb280c611cb74490775b9b0451673b0"
+    },
+    {
+      "frame": 5033,
+      "time": 83.88333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-202.jpg",
+      "sha256": "189bf55702b362d6d5b7e1c54e4f0ed50a87e4d20e0c75acdc686071193a78e9"
+    },
+    {
+      "frame": 5100,
+      "time": 85.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-203.jpg",
+      "sha256": "557a43d73b61a18e7aa0f06e2ba002779c460f5cc3c765fcab07474be2fea0fb"
+    },
+    {
+      "frame": 5109,
+      "time": 85.15,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-204.jpg",
+      "sha256": "510aefa9903f4155d3c460d4c4753614fb5caa365794eee08880af3bd899e300"
+    },
+    {
+      "frame": 5118,
+      "time": 85.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-205.jpg",
+      "sha256": "55aa76f78b91d7ea8ad2378669fbe9286ec1f1f7fb970b0713279d7c2a2e5805"
+    },
+    {
+      "frame": 5127,
+      "time": 85.45,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-206.jpg",
+      "sha256": "c525eff3a6c8086e811bd2a195457a49789bf73856a1d614bffa9f81c297dabc"
+    },
+    {
+      "frame": 5136,
+      "time": 85.6,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-207.jpg",
+      "sha256": "df2acc74b182b35aa0063cd7e0cdc0f85d7d0dedc5335a998e0a856b5ad3f57f"
+    },
+    {
+      "frame": 5145,
+      "time": 85.75,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-208.jpg",
+      "sha256": "1129f7d7879ce79c8d815d0499cceff1943d55a192db65dbe3ab1b9966c80dcc"
+    },
+    {
+      "frame": 5217,
+      "time": 86.95,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-209.jpg",
+      "sha256": "23ba133a857feb21bb2d5ac70c280b291b2df8da514abb63a2ce3f3ff7686bc7"
+    },
+    {
+      "frame": 5226,
+      "time": 87.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-210.jpg",
+      "sha256": "79cdd19b4227c2ed66b5fa1f7e55d8637bc231b304a772e94bef8beeae5eeefa"
+    },
+    {
+      "frame": 5235,
+      "time": 87.25,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-211.jpg",
+      "sha256": "f90faa11b9d2bfa68c518348f4cc8ed76d509cbcf1e544457fd4ba00aff11557"
+    },
+    {
+      "frame": 5244,
+      "time": 87.4,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-212.jpg",
+      "sha256": "29c7277c8adfc36169c8c42df65bf4e7a60d39e7d89f2bec70f30a30fdeeffb1"
+    },
+    {
+      "frame": 5253,
+      "time": 87.55,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-213.jpg",
+      "sha256": "1435e595798435e609b9df9af4babc63a7ce8fac1db95d634545300c84be2e86"
+    },
+    {
+      "frame": 5262,
+      "time": 87.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-214.jpg",
+      "sha256": "a44e1a752d62a7b1398eb857e96a577175ddcbd54b5103b25a3a680749bf9122"
+    },
+    {
+      "frame": 5339,
+      "time": 88.98333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-215.jpg",
+      "sha256": "e9a40cf315b60f0a38d6c54e2027f98e96c99e545f1c8289129b16bf21fbf540"
+    },
+    {
+      "frame": 5340,
+      "time": 89.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-216.jpg",
+      "sha256": "30c48fa5749501e513a24f7d1b1a9a3395240df9fe3b5e464d408eac6423ffef"
+    },
+    {
+      "frame": 5341,
+      "time": 89.01666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-217.jpg",
+      "sha256": "ce4568c7c3c7850a480daba4c6037b750790a689a8a20ad02d2a7ac41267eb7f"
+    },
+    {
+      "frame": 5346,
+      "time": 89.1,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-218.jpg",
+      "sha256": "564c628f5dd57c3f6e0938b9f33ffec442fff743ba28e806e40c722ecdcc41ab"
+    },
+    {
+      "frame": 5358,
+      "time": 89.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-219.jpg",
+      "sha256": "7225cd2ad46a09176c0c6a9347b7b2dae107d81d6b4e6b4fe0d2019cee5cf8a0"
+    },
+    {
+      "frame": 5653,
+      "time": 94.21666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/frame-220.jpg",
+      "sha256": "fa21137d34045636fb6329bc4e6a7fe31fe44aaadc3ee4e89bcdc90bed93ff2f"
+    }
+  ]
+}

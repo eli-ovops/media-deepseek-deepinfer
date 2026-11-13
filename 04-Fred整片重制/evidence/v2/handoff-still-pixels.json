@@ -1,0 +1,10 @@
+{
+  "frames": [
+    945,
+    946
+  ],
+  "maxChannelDelta": 1,
+  "meanChannelDelta": 6.349665637860082e-05,
+  "nonzeroPixels": 296,
+  "method": "1080x1920 PNG pixel compare; same source screenshot/crop/card bounds/full opacity"
+}

@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-22T10:40:18.990669+08:00",
+  "authority": "Current user message in PMO chat",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "user_quote": "对比看完了，以后严格按照fred v2的思路做视频。",
+  "content_id": "deepseek-deepinfer-20261021",
+  "accepted_variant": "fred-full-remake-v2",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+  "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+  "manifest": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest-v2.json",
+  "duration_seconds": 94.233333,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 60,
+  "status": "USER_VISUAL_COMPARISON_ACCEPTED_FUTURE_METHOD_REQUIRED",
+  "scope": [
+    "User completed comparison and accepted Fred full-v2 visual production direction",
+    "Future Eli02/04/05/PMO must follow the accepted production method"
+  ],
+  "method_version": "ELI-PRODUCTION-20261022-v4",
+  "project_agents_version": "ELI-MEDIA-AGENTS-20261022-v3",
+  "method_reference": "/Users/USER/.codex/skills/fred-remotion-output/references/eli-production-method.md",
+  "not_earlier_26_second_sample": true,
+  "internal_continuous_av": "UNKNOWN",
+  "internal_direct_hearing": "UNKNOWN",
+  "does_not_backfill_qa": true,
+  "publication_authorized": false,
+  "owner_notifications": "READ_NEW_RULES_ON_NEXT_AUTHORIZED_TASK_NO_WAKEUP",
+  "new_production_render_or_cleanup": false
+}

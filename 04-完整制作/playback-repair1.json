@@ -1,0 +1,7 @@
+{
+  "url": "http://127.0.0.1:63613/watch-repair1.html",
+  "pid": 70781,
+  "binding": "127.0.0.1",
+  "ephemeral": true,
+  "video": "output/deepinfer-full-v1-repair1.mp4"
+}

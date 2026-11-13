@@ -1,0 +1,8 @@
+{
+  "status": "FALSE_POSITIVE_IDENTIFIED_NOT_WAIVED",
+  "file": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+  "line": 36,
+  "actual": "<Sequence durationInFrames={162}><Talk from={0}/></Sequence>",
+  "explanation": "ZERO_SEQUENCE regex crosses the closing > of Sequence and matches child Talk source trim prop. There is no Sequence from={0}; default first scene at zero is correct, Talk from=0 means source initial frame. All later Sequence start frames are explicit. Gate source kept unchanged; FAIL remains.",
+  "sourceSha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+}

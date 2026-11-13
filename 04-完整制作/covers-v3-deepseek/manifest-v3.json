@@ -1,0 +1,322 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "cover-v3-deepseek",
+  "status": "PENDING_PMO_BRAND_REVIEW",
+  "outputs": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "ratio": "3x4",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "mime": "image/png",
+      "bytes": 1392532,
+      "sha256": "50c4d796b5f0d5b9ec800e1f5ee742046f4c1e0260b3833bc5d9feff3d67bd67",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-822b4fc5-a56b-4ca4-9256-a2d11f7f4762.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-3x4-v3.png",
+      "generated_dimensions": [
+        1086,
+        1448
+      ],
+      "prompt_id": "brand34",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        0,
+        0
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            59,
+            98,
+            252
+          ],
+          4751
+        ],
+        [
+          [
+            60,
+            99,
+            252
+          ],
+          3100
+        ],
+        [
+          [
+            60,
+            99,
+            253
+          ],
+          2686
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-9x16-1080x1920-v3.png",
+      "ratio": "9x16",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mime": "image/png",
+      "bytes": 1922481,
+      "sha256": "47fa6b79d317ccf7d87f44ad573875c8df9de1413b724d3b0c3c1c7af21c2279",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-26b013c0-b8c2-4acd-9d8f-52fb4ab1c31d.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-9x16-v3.png",
+      "generated_dimensions": [
+        941,
+        1672
+      ],
+      "prompt_id": "brand916",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        0,
+        1
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            65,
+            95,
+            252
+          ],
+          2843
+        ],
+        [
+          [
+            66,
+            96,
+            252
+          ],
+          2576
+        ],
+        [
+          [
+            64,
+            95,
+            252
+          ],
+          2356
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-16x9-1920x1080-v3.png",
+      "ratio": "16x9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "mime": "image/png",
+      "bytes": 1950760,
+      "sha256": "0068bdca498e6196ecd70e638de5a4a980dd98eac9fbabab4526da9b5b27c314",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-714918a2-999f-490d-910c-2c630bce1c5b.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-16x9-v3.png",
+      "generated_dimensions": [
+        1671,
+        941
+      ],
+      "prompt_id": "brand169fix",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        2,
+        0
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            56,
+            93,
+            252
+          ],
+          1918
+        ],
+        [
+          [
+            56,
+            93,
+            253
+          ],
+          1908
+        ],
+        [
+          [
+            57,
+            94,
+            253
+          ],
+          1691
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-4x3-1440x1080-v3.png",
+      "ratio": "4x3",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "mime": "image/png",
+      "bytes": 1489094,
+      "sha256": "07b4f8c0fcbb0d829a35d50b880987db66c7834fdf8d2f29384180fee72c000b",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-c1c8f5c8-b610-43c2-a226-c1d47f57141d.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-4x3-v3.png",
+      "generated_dimensions": [
+        1448,
+        1086
+      ],
+      "prompt_id": "brand43",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        0,
+        0
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            72,
+            104,
+            252
+          ],
+          1519
+        ],
+        [
+          [
+            71,
+            103,
+            252
+          ],
+          1433
+        ],
+        [
+          [
+            71,
+            104,
+            252
+          ],
+          1418
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-lockup.png",
+      "bytes": 48303,
+      "sha256": "543e99108f317254d47c761871b32626fe4d90b7206aafb0bf581b39391bf873"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-logo.svg",
+      "bytes": 10656,
+      "sha256": "ac13bdc805820c46bf0faf053aa5d31f72b051794abfe1dd72a682f09de2966b"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale-white.png",
+      "bytes": 72446,
+      "sha256": "3797ae1fba9e19f2d21af9b3585185fea21e363436fa7116f99d4ceee1172101"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale.png",
+      "bytes": 88797,
+      "sha256": "bf0df07c29679d885ac64c91f4647dd40f2c731db60817d9cbcc5ffd0cd0a8b3"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark-white.png",
+      "bytes": 53223,
+      "sha256": "5277adbba046c814de453ea0103c8228a134066d233c1a0ae8321aa8b4bbeab4"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark.png",
+      "bytes": 62372,
+      "sha256": "8bd35928c79e59c8f17cb1e871285021004755498b94c2f74761eedd9381052c"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-whale-crop.svg",
+      "bytes": 10651,
+      "sha256": "dea4e7f59f4da7ab106b1e400c0c6706a540d0910e92d0c7405aa4fc2bc64846"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-wordmark-crop.svg",
+      "bytes": 10681,
+      "sha256": "2beaa39d59a7164302f44b9a8413d96576a40ef88894718956969a3fa75fcf9f"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-16x9-v2.png",
+      "bytes": 2061186,
+      "sha256": "3a4937ff8d335467b00950d552271b494e3f1d9ce97571e59361ccd7c9c36438"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-3x4-v2.png",
+      "bytes": 1483878,
+      "sha256": "ae5500fdc57f952432ccf06a846f1be1efcf692ece634154e8514f2428d77204"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-4x3-v2.png",
+      "bytes": 1681962,
+      "sha256": "43f117b0da7345d08ddbd2130b8c7d6f69be2b9435cd3a3450793cab1c7de40f"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-9x16-v2.png",
+      "bytes": 2003304,
+      "sha256": "d348179e519ea38f91697b0442e4fabd0d7b8040c72a05a6f909c9ca429aaad7"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/liang-reference.png",
+      "bytes": 270961,
+      "sha256": "bfc8a1974f0ec598b701526fcf1f7a96ca592c4e0b7acffcc741f6132bb5036f"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/official-source.json",
+      "bytes": 640,
+      "sha256": "903d7cab1bcc067b46409c28e3b78aa0db21257194a9502e3c26149bb13b04ff"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/user-brand-reference.png",
+      "bytes": 2503,
+      "sha256": "30db5989460852f431b7469a02ff45dcb678fb96dc66aa268ccc29c3972fabd1"
+    }
+  ],
+  "official_source": {
+    "api_url": "https://api.github.com/repos/deepseek-ai/DeepSeek-V2/contents/figures/logo.svg",
+    "download_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V2/main/figures/logo.svg",
+    "git_blob_sha": "425494404f7e63f4909667003097511217664579",
+    "last_file_commit": "da42dcd40b41803c68a712ddd210eeb10e71e598",
+    "immutable_url": "https://github.com/deepseek-ai/DeepSeek-V2/blob/da42dcd40b41803c68a712ddd210eeb10e71e598/figures/logo.svg",
+    "sha256": "ac13bdc805820c46bf0faf053aa5d31f72b051794abfe1dd72a682f09de2966b",
+    "readme_logo_lines": [
+      "  <img src=\"figures/logo.svg\" width=\"60%\" alt=\"DeepSeek LLM\" />"
+    ]
+  },
+  "source_photo": "input/liang-reference.png",
+  "user_brand_reference": "input/user-brand-reference.png",
+  "brand_normalization": "Exact official SVG paths retained; viewBox crop for wordmark/whale, rasterized with installed sharp; original fill #4D6BFE unchanged in normalized source assets",
+  "image_processing": "Final imagegen outputs are regenerated brand graphics, not guaranteed original official pixels. Color differences measured and disclosed; no script compositing/recoloring.",
+  "frozen_video": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+    "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a"
+  },
+  "prompts": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/prompts-and-tool-records.json",
+  "phone_thumbnails": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/phone-thumbnails-v3.jpg",
+  "platform_crop": "UNKNOWN",
+  "review_report": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/验图与品牌差异-v3.md",
+  "brand_strict_original_color_check": "NOT_PASSED: imagegen output RGB differs; PMO decision required before strict acceptance",
+  "reviewed": {
+    "full_final_images": 4,
+    "phone_sheet": true,
+    "brand_shapes_orientation_and_clear_space": "visually checked; not exact-path proof",
+    "platform_crop": "UNKNOWN"
+  }
+}

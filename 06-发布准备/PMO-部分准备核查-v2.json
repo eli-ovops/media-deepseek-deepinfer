@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-21T13:54:17.347904+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PARTIAL_NOT_COMPLETE",
+  "source": "User-requested compact06 status plus necessary targeted latest-turn reading and original v2 receipt",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/原生准备回执-v2.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/bilibili-covers-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/x-draft-v3.png"
+  ],
+  "ready_cloud": [
+    "B站 draft4013771",
+    "X saved/reopened per owner original record"
+  ],
+  "current_editor_only": [
+    "微博 video/text/v3cover, unsaved"
+  ],
+  "remaining_required_work": [
+    "YouTube upload and fields",
+    "TikTok upload and fields",
+    "抖音 actual native preparation",
+    "小红书 actual native preparation",
+    "LinkedIn safe new draft or accurate olddraft blocker",
+    "视频号 manual copy package only",
+    "final9platform consolidated receipt and proactive tool report"
+  ],
+  "resume_sent_to_same_owner": true,
+  "resume_tool_returned_thread_id": "01a11a7f-9a85-7481-9e6c-75f11280ba56",
+  "resume_task": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/待发补齐任务-v4.md",
+  "publication_authorized": false
+}

@@ -1,0 +1,172 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "03",
+  "version": "v2",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "status": "PENDING_PMO_RELEASE_WITH_COMPLETE_INFORMATION_INPUT",
+  "input_counts": {
+    "paths": 22,
+    "independent_recordings": 17,
+    "reused_old_recordings": 5,
+    "new_complete_ASR": 12,
+    "all_SHA_accounted_for": true
+  },
+  "full_script_information_coverage": "COMPLETE_BY_READ_ASR_AND_SAMPLED_VIDEO",
+  "missing_information_blocks": [],
+  "additional_recording_required_for_information": false,
+  "coverage": [
+    {
+      "id": "C1",
+      "script": "成本战开头",
+      "source": "N06",
+      "source_range": [
+        0.45,
+        2.8
+      ],
+      "state": "信息齐全；又要为临场同义发挥"
+    },
+    {
+      "id": "C2",
+      "script": "昨日开源/一万多星",
+      "source": "N06+S3",
+      "source_range_refs": [
+        "V2K1",
+        "V2K2"
+      ],
+      "state": "信息齐全；累计星数；今天/截至到今天短词疑点仍保留"
+    },
+    {
+      "id": "C3",
+      "script": "支撑服务代码/同行可改",
+      "source": "S5",
+      "source_range": [
+        0.45,
+        7.95
+      ],
+      "state": "信息齐全；同行/同样为ASR待校短词"
+    },
+    {
+      "id": "C4",
+      "script": "模型会回答/服务成本",
+      "source": "N12",
+      "source_range": [
+        0.55,
+        14.6
+      ],
+      "state": "已补齐，大家要知道等自然发挥保留"
+    },
+    {
+      "id": "C5",
+      "script": "CPU/GPU少等待/其他任务",
+      "source": "N12",
+      "source_range": [
+        14.6,
+        26.85
+      ],
+      "state": "已补齐；别的人物按上下文为任务的识别候选，不剪声音"
+    },
+    {
+      "id": "C6",
+      "script": "梁/持续创新/开放工程",
+      "source": "N11",
+      "source_range": [
+        0.4,
+        16.9
+      ],
+      "state": "信息齐全；人名/服等ASR专名候选校字"
+    },
+    {
+      "id": "C7",
+      "script": "配套适配/后来者新优化",
+      "source": "N11",
+      "source_range": [
+        16.9,
+        29.3153
+      ],
+      "state": "信息齐全，少摸索一部分较旧S2一大部分贴合稿意"
+    },
+    {
+      "id": "C8",
+      "script": "工程积累共享起点",
+      "source": "N11",
+      "source_range": [
+        29.3153,
+        33.983333
+      ],
+      "state": "信息齐全；多余的等语气/轻微语序按原声保留"
+    },
+    {
+      "id": "C9",
+      "script": "同样算力/更快更便宜",
+      "source": "S1",
+      "source_range": [
+        0.6,
+        11.25
+      ],
+      "state": "信息齐全，完整同义发挥"
+    }
+  ],
+  "recommended_order": [
+    "N06",
+    "S3",
+    "S5",
+    "N12",
+    "N11",
+    "S1"
+  ],
+  "estimated_original_speed_seconds": 93.799999,
+  "visual_review": {
+    "sheets": [
+      "contact-v2-1.jpg",
+      "contact-v2-2.jpg",
+      "contact-v2-3.jpg"
+    ],
+    "new_samples_actually_viewed": 48,
+    "new_recordings_each_start_middle_end": 12,
+    "old_samples_reused": 32,
+    "direct_audio": false,
+    "continuous_video": false,
+    "findings": [
+      "12条新增均已实看首中尾样本；大部分同机位本人黑衣/眼镜/书架近景",
+      "多条废片末段起身/机位模糊；未选段保留原片",
+      "N06约8.8—9.8秒手在鼻/脸前，S3星数段约12.5秒也有手部动作；完整制作按既定仓库/Star全屏覆盖这些区间，保留声音，非帧缺失",
+      "N12成本/机制主体近景稳定；N11末尾机位移动在本版截止之后；只是采样判断",
+      "六段接合有取景大小/头部位置变化，需04按内容全屏动画/真人切换处理；未验连续自然度"
+    ]
+  },
+  "remaining_limits": [
+    "No direct native audio input; short words/pronunciation/natural joins not heard",
+    "No continuous audiovisual review",
+    "ASR is segment-level and can misrecognize terms; subtitle finalization pending",
+    "No rendering or production performed by intake Owner"
+  ],
+  "recommendation": "Release unique 04 for complete authorized production from EDL-v2 and current source assets, not old partial 67.1s input. Resolve local audio QA during 04/05; do not ask user to approve each sentence.",
+  "rules": [
+    "PERMISSIONS-2026-10-14-v1",
+    "ROUTING-2026-10-13-v4",
+    "HANDOFF-2026-10-10-v2",
+    "ELI-REWORK-20261019-v1"
+  ],
+  "routing": {
+    "target_model": "gpt-6.1-sol",
+    "target_effort": "medium",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "weekly_usage_from_dispatch": "86%",
+    "five_hour_usage": "UNKNOWN",
+    "subagents": false
+  },
+  "parameters": {
+    "speed": 1,
+    "gain_db": 0,
+    "source_modified": false,
+    "new_models": false,
+    "new_dependencies": false,
+    "private_upload": false,
+    "paid_calls": false,
+    "rendered_mp4": false,
+    "cleanup": false
+  },
+  "report_receipt": "PMO回报回执-v2.json"
+}

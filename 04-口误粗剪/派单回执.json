@@ -1,0 +1,14 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "at": "2026-10-21T11:25:54.308877+08:00",
+  "threadId": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "tool": "send_message_to_thread",
+  "tool_accepted": true,
+  "pre_dispatch_cursor": "7dc85aae-1054-42d4-8216-f94151a31a2a:17",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "scope": "Existing-recording full verbal recut MP4; no graphics/cover/publication",
+  "owner_report_received": false
+}

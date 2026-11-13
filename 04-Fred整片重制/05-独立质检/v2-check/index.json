@@ -1,0 +1,44 @@
+[
+  {
+    "frame": 161,
+    "seconds": 2.683333333333333,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-01.png",
+    "sha256": "690b03425b06c7173b1bc75aa780024758b422cec03e8f85346da26ce63ca324"
+  },
+  {
+    "frame": 162,
+    "seconds": 2.7,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-02.png",
+    "sha256": "1f77eef1263f7cac88cc342e71e60599dcc13fde84fbd1dd25d34bc1158c29b0"
+  },
+  {
+    "frame": 559,
+    "seconds": 9.316666666666666,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-03.png",
+    "sha256": "858771a013aa916621b38c98c66ad116ad21aed9628ecae100299dbc98af9092"
+  },
+  {
+    "frame": 560,
+    "seconds": 9.333333333333334,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-04.png",
+    "sha256": "108625c62d4690f7c7b694aebb12376a019f39cf1186bbbe6636cb78fb894b00"
+  },
+  {
+    "frame": 1020,
+    "seconds": 17.0,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-05.png",
+    "sha256": "e0425d33b27680fa2eda6f2df71549a71342ffbc2ac43123dc23419723f92a12"
+  },
+  {
+    "frame": 1200,
+    "seconds": 20.0,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-06.png",
+    "sha256": "a4cda1ebaf35ceb5f2e8e9429ec03bed741871deeadca51ad378036e049b8fb4"
+  },
+  {
+    "frame": 1320,
+    "seconds": 22.0,
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/05-\u72ec\u7acb\u8d28\u68c0/v2-check/sample-07.png",
+    "sha256": "ecc960c304420a59c8c2f336a992ad0a5e609fb636a10e43cd8e5cabb20b18ee"
+  }
+]

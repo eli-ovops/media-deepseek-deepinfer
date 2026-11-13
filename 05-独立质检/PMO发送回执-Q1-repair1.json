@@ -1,0 +1,16 @@
+{
+  "status": "SUCCESS",
+  "target_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "version": "deepseek-deepinfer-20261021/v1-repair1",
+  "report_sha256": "1fa994d6b3dfee1fdc22cffbb80f92e2b09abe0803a5eaa7f41142fc1553c806",
+  "meaning": "工具发送成功；PMO验收未核实",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"
+      }
+    ],
+    "isError": false
+  }
+}

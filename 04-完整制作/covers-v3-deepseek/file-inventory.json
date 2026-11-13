@@ -1,0 +1,162 @@
+{
+  "scope": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek",
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/PMO汇报与决策请求回执-v3.json",
+      "bytes": 490,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/SHA256SUMS-v3.txt",
+      "bytes": 374,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-16x9-1920x1080-v3.png",
+      "bytes": 1950760,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "bytes": 1392532,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-4x3-1440x1080-v3.png",
+      "bytes": 1489094,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-9x16-1080x1920-v3.png",
+      "bytes": 1922481,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/file-inventory.json",
+      "bytes": 7155,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-16x9-v3.png",
+      "bytes": 1663750,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-3x4-v3.png",
+      "bytes": 1525130,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-4x3-v3.png",
+      "bytes": 1559903,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-9x16-v3.png",
+      "bytes": 1675345,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-lockup.png",
+      "bytes": 48303,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-logo.svg",
+      "bytes": 10656,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale-white.png",
+      "bytes": 72446,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-whale.png",
+      "bytes": 88797,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark-white.png",
+      "bytes": 53223,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-wordmark.png",
+      "bytes": 62372,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-whale-crop.svg",
+      "bytes": 10651,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-wordmark-crop.svg",
+      "bytes": 10681,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/first-16x9-brand-candidate.png",
+      "bytes": 1594200,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-16x9-v2.png",
+      "bytes": 2061186,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-3x4-v2.png",
+      "bytes": 1483878,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-4x3-v2.png",
+      "bytes": 1681962,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/layout-9x16-v2.png",
+      "bytes": 2003304,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/liang-reference.png",
+      "bytes": 270961,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/official-source.json",
+      "bytes": 640,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/user-brand-reference.png",
+      "bytes": 2503,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/manifest-v3.json",
+      "bytes": 11705,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/phone-thumbnails-v3.jpg",
+      "bytes": 198098,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/prompts-and-tool-records.json",
+      "bytes": 11243,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/验图与品牌差异-v3.md",
+      "bytes": 3529,
+      "purpose": "v3 cover, source, evidence or receipt; retained"
+    }
+  ],
+  "total_bytes": 22867352,
+  "cleanup": false
+}

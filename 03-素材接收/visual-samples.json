@@ -1,0 +1,142 @@
+[
+  {
+    "source": "S1",
+    "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+    "requested_seconds": 0.4,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S1-0p4.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S1",
+    "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+    "requested_seconds": 3.962,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S1-3p962.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S1",
+    "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+    "requested_seconds": 7.923,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S1-7p923.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S1",
+    "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+    "requested_seconds": 11.485,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S1-11p485.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S2",
+    "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+    "requested_seconds": 0.4,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-0p4.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S2",
+    "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+    "requested_seconds": 13.281,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-13p281.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S2",
+    "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+    "requested_seconds": 26.561,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-26p561.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S2",
+    "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+    "requested_seconds": 39.442,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S2-39p442.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 0.4,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-0p4.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 7.285,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-7p285.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 14.57,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-14p57.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 21.455,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S3-21p455.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S4",
+    "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+    "requested_seconds": 0.4,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S4-0p4.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S4",
+    "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+    "requested_seconds": 4.451,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S4-4p451.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S4",
+    "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+    "requested_seconds": 8.902,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S4-8p902.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S4",
+    "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+    "requested_seconds": 12.953,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S4-12p953.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S5",
+    "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+    "requested_seconds": 0.4,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S5-0p4.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S5",
+    "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+    "requested_seconds": 2.789,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S5-2p789.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S5",
+    "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+    "requested_seconds": 5.579,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S5-5p579.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  },
+  {
+    "source": "S5",
+    "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+    "requested_seconds": 7.968,
+    "image": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/03-\u7d20\u6750\u63a5\u6536/frames/S5-7p968.jpg",
+    "coverage": "sample only; nominal source time, not continuous viewing"
+  }
+]

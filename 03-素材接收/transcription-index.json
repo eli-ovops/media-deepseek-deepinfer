@@ -1,0 +1,72 @@
+[
+  {
+    "id": "S1",
+    "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+    "source_sha256": "671709d8abe1ffaefd58e1198c0b4df149aa4659f5a6abbe506077e36aaad67f",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111224-65bfa8",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111224-65bfa8/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111224-65bfa8/transcript.srt",
+      "duration_seconds": 11.9026875,
+      "notice": "\u673a\u5668\u8f6c\u5f55\u53ef\u80fd\u9519\u8bcd\uff0c\u5b57\u5e55\u65f6\u95f4\u9700\u6838\u5bf9\uff1b\u4e0d\u5224\u65ad\u8bed\u6c14/\u60c5\u7eea\u3002"
+    }
+  },
+  {
+    "id": "S2",
+    "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+    "source_sha256": "37a4fc8412c8c765b6236edd627a0de0372c913c54dd305222d661099bacda36",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111225-584a00",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111225-584a00/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111225-584a00/transcript.srt",
+      "duration_seconds": 39.8493125,
+      "notice": "\u673a\u5668\u8f6c\u5f55\u53ef\u80fd\u9519\u8bcd\uff0c\u5b57\u5e55\u65f6\u95f4\u9700\u6838\u5bf9\uff1b\u4e0d\u5224\u65ad\u8bed\u6c14/\u60c5\u7eea\u3002"
+    }
+  },
+  {
+    "id": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "source_sha256": "06ed800b5540b88aecd586b531892c2f1bc8f180041b54a9bb2bca76555193ae",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111228-b4282d",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111228-b4282d/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111228-b4282d/transcript.srt",
+      "duration_seconds": 21.8653125,
+      "notice": "\u673a\u5668\u8f6c\u5f55\u53ef\u80fd\u9519\u8bcd\uff0c\u5b57\u5e55\u65f6\u95f4\u9700\u6838\u5bf9\uff1b\u4e0d\u5224\u65ad\u8bed\u6c14/\u60c5\u7eea\u3002"
+    }
+  },
+  {
+    "id": "S4",
+    "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+    "source_sha256": "51679d059163f8f1a0b5a263b8bae9ef2c2b9c54887fe3053368bc5c3bf031ab",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111229-f6b226",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111229-f6b226/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111229-f6b226/transcript.srt",
+      "duration_seconds": 13.3533125,
+      "notice": "\u673a\u5668\u8f6c\u5f55\u53ef\u80fd\u9519\u8bcd\uff0c\u5b57\u5e55\u65f6\u95f4\u9700\u6838\u5bf9\uff1b\u4e0d\u5224\u65ad\u8bed\u6c14/\u60c5\u7eea\u3002"
+    }
+  },
+  {
+    "id": "S5",
+    "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+    "source_sha256": "fa6e4be5b3176cc873a1a01016ed32e3972d074b62dbd61a9ad3c749294797fb",
+    "exit_code": 0,
+    "receipt": {
+      "success": true,
+      "output_directory": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111230-976788",
+      "text_file": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111230-976788/transcript.txt",
+      "subtitles": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111230-976788/transcript.srt",
+      "duration_seconds": 8.3826875,
+      "notice": "\u673a\u5668\u8f6c\u5f55\u53ef\u80fd\u9519\u8bcd\uff0c\u5b57\u5e55\u65f6\u95f4\u9700\u6838\u5bf9\uff1b\u4e0d\u5224\u65ad\u8bed\u6c14/\u60c5\u7eea\u3002"
+    }
+  }
+]

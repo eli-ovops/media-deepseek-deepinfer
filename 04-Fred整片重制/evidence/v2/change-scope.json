@@ -1,0 +1,81 @@
+{
+  "changed": [
+    {
+      "path": "src/components/T04e-PackOpen.tsx",
+      "before": "30e45e61f1955627284618a48be21b8d85497a95e34a5354dfbacaee1ea655e3",
+      "after": "a32dd5262147331cf24e1e0849cc2717695dd4d5650844ca663dde8cc2632fe9"
+    },
+    {
+      "path": "src/components/T22a-PostCard.tsx",
+      "before": "6be44443e30cb194817d026b91a04524db86b17963c763167f1083386374b0b9",
+      "after": "f819e18a5186f458ce5803481246797a3e9f1b9ae7199f96d376c61f9147b43e"
+    },
+    {
+      "path": "src/index.tsx",
+      "before": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+      "after": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab"
+    }
+  ],
+  "unchanged": [
+    {
+      "path": "src/captions.json",
+      "before": "adcfbef3395f36beb71ba086670cd993f84ce61bcf93c4e967237e747e8636c7",
+      "after": "adcfbef3395f36beb71ba086670cd993f84ce61bcf93c4e967237e747e8636c7"
+    },
+    {
+      "path": "src/components/T02g-RoleRoadmap.tsx",
+      "before": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+      "after": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831"
+    },
+    {
+      "path": "src/components/T03d-CauseChain.tsx",
+      "before": "5295c8d20624ac51dcd780a532d0524911815d2005605588c0d8d2f72ee9bcae",
+      "after": "5295c8d20624ac51dcd780a532d0524911815d2005605588c0d8d2f72ee9bcae"
+    },
+    {
+      "path": "src/components/T04b-RoleSplit.tsx",
+      "before": "e32ae0c2ec9b7782d6d51045ab79c19f6e38e16211e3a12328a198c9de91cc74",
+      "after": "e32ae0c2ec9b7782d6d51045ab79c19f6e38e16211e3a12328a198c9de91cc74"
+    },
+    {
+      "path": "src/components/T04d-CategoryFocus.tsx",
+      "before": "2a2571b6703b6940671abbecb2cde522509cab4a092dae5ff2389e351cb79382",
+      "after": "2a2571b6703b6940671abbecb2cde522509cab4a092dae5ff2389e351cb79382"
+    },
+    {
+      "path": "src/components/T04f-KeyUnlock.tsx",
+      "before": "7d3c6a2ce3cdf1d9a395bcbfb1eec4c56b8ea077f0b142f8baa572506d8f0525",
+      "after": "7d3c6a2ce3cdf1d9a395bcbfb1eec4c56b8ea077f0b142f8baa572506d8f0525"
+    },
+    {
+      "path": "src/components/T13a-StackLayers.tsx",
+      "before": "52345d2c1d97f9261c28925a2420cfe99e4763c0146dbf4d39592bcaf59c0822",
+      "after": "52345d2c1d97f9261c28925a2420cfe99e4763c0146dbf4d39592bcaf59c0822"
+    },
+    {
+      "path": "src/components/T13d-RequestTrip.tsx",
+      "before": "118f9d2358157851cc0836b24a226a94a3eb2c3f6a09636eeb6e1aff2351657e",
+      "after": "118f9d2358157851cc0836b24a226a94a3eb2c3f6a09636eeb6e1aff2351657e"
+    },
+    {
+      "path": "src/kit/theme.ts",
+      "before": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+      "after": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3"
+    },
+    {
+      "path": "src/kit/ui.tsx",
+      "before": "5cdb64c4be718351c7eb008ed4e72f9e7cfbea0f44e0b6d2daa359854db54b99",
+      "after": "5cdb64c4be718351c7eb008ed4e72f9e7cfbea0f44e0b6d2daa359854db54b99"
+    }
+  ],
+  "allowedScenes": [
+    "repo",
+    "stars",
+    "code"
+  ],
+  "audio": "Final v2 will copy AAC packets from reviewed v1; no new mix/encoding",
+  "subtitles": "src/captions.json unchanged",
+  "modelActual": "UNKNOWN",
+  "effortActual": "UNKNOWN",
+  "ruleVersionsUnchanged": true
+}

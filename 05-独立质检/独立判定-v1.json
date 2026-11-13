@@ -1,0 +1,47 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "video_sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "verdict": "FAIL_LOCAL_REPAIR_REQUIRED",
+  "must_fix_count": 1,
+  "issues": [
+    {
+      "id": "Q1",
+      "kind": "task_label_occlusion",
+      "confirmed_final_times": [
+        34,
+        37.4
+      ],
+      "source_id": "N12",
+      "source_times": [
+        10.85,
+        14.25
+      ],
+      "evidence": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-035.jpg",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-036.jpg"
+      ],
+      "suggested_inspection_range": [
+        29.7,
+        38.3
+      ],
+      "range_basis": "source cue inference; not continuously viewed"
+    }
+  ],
+  "ready_for_formal_user_preview": false,
+  "source_caption_mapping_errors": 0,
+  "direct_listening": "NOT_PERFORMED",
+  "word_level_sync": "NOT_VERIFIED",
+  "continuous_visual_review": "NOT_PERFORMED",
+  "pending_words": [
+    "S3 today phrase",
+    "S5 colleague or same",
+    "N12 waiting phrase",
+    "N11 continued innovation and particles"
+  ],
+  "full_decode": "REUSED_SAME_SHA_RECEIPT",
+  "user_final_review": "PENDING",
+  "pmo_acceptance": "PENDING",
+  "actual_route": "UNKNOWN",
+  "report_sha256": "94a6e9f6517c70cce39acfab37bd70da7e3c90ea8f6f23b34b946589ff43acd7",
+  "report": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/独立质检-v1.md"
+}

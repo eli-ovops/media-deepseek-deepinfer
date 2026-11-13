@@ -1,0 +1,104 @@
+{
+  "at": "2026-10-22T10:41:03.601396+08:00",
+  "authority_quote": "对比看完了，以后严格按照fred v2的思路做视频。",
+  "status": "RULES_AND_ACCEPTANCE_SAVED_VALIDATED",
+  "project_agents_version": "ELI-MEDIA-AGENTS-20261022-v3",
+  "method_version": "ELI-PRODUCTION-20261022-v4",
+  "baseline": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/用户视觉认可-v2-20261022.json",
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/AGENTS.md",
+      "resolved": "/Volumes/EXTERNAL/自媒体/AGENTS.md",
+      "bytes": 15987,
+      "sha256": "9d5cbaff448e77f66bbe3662305874fc09987e450c786a262d538b4f43612d7e"
+    },
+    {
+      "path": "/Users/USER/.codex/skills/fred-remotion-output/references/eli-production-method.md",
+      "resolved": "/Users/USER/.codex/skill-repos/FredTalk/skills/fred-remotion-output/references/eli-production-method.md",
+      "bytes": 11555,
+      "sha256": "d57aba1d6a78a53e706c180d8dc2b6196a994e9fe51cad4368007b182cd5b3a2"
+    },
+    {
+      "path": "/Users/USER/.codex/skills/fred-remotion-output/SKILL.md",
+      "resolved": "/Users/USER/.codex/skill-repos/FredTalk/skills/fred-remotion-output/SKILL.md",
+      "bytes": 24153,
+      "sha256": "83692614f7e0ccbe0f5e0ed2d201058295372106bb72b21239ac9c65e7d51664"
+    },
+    {
+      "path": "/Users/USER/.codex/skill-repos/FredTalk/CODEX-ELI-ADAPTER.md",
+      "resolved": "/Users/USER/.codex/skill-repos/FredTalk/CODEX-ELI-ADAPTER.md",
+      "bytes": 3396,
+      "sha256": "b59c49605d6fe5755bdca3be7969a6676aac6f9bc86a2290b983f2a2ba47e06d"
+    },
+    {
+      "path": "/Users/USER/.codex/skills/eli-media-workflow/SKILL.md",
+      "resolved": "/Volumes/EXTERNAL/自媒体/.agents/skills/eli-media-workflow/SKILL.md",
+      "bytes": 6184,
+      "sha256": "9206cdc78193e5a45e052fb3412bfd8617e0f971f2c4e0a15c040590beb99f7b"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/内容生产流程.md",
+      "resolved": "/Volumes/EXTERNAL/自媒体/内容生产流程.md",
+      "bytes": 22359,
+      "sha256": "33a2f031c2e9cfe9ec9f2c1452961e19e8dc5f3c266a3244605169ee2a159b32"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/视频动效风格与验收规范.md",
+      "resolved": "/Volumes/EXTERNAL/自媒体/视频动效风格与验收规范.md",
+      "bytes": 32178,
+      "sha256": "58fb786484145650dec78a1a8f302381cfe9b2d64fea653747d5caf2df3d7406"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/README.md",
+      "resolved": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/README.md",
+      "bytes": 3018,
+      "sha256": "e1d9c5775fe966c49a6c601af3cb293c229f14f47b97b09f7039339e06ad7922"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/交付索引.md",
+      "resolved": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/交付索引.md",
+      "bytes": 4023,
+      "sha256": "d7af681bebdf2fc194ecb1bcb1c5902ec9350af1c54021906c73474f5a3fcf07"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/用户视觉认可-v2-20261022.json",
+      "resolved": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/用户视觉认可-v2-20261022.json",
+      "bytes": 1512,
+      "sha256": "54f1b147d3f95693dd5df7ac08a4c938431e433152409e0917663384ecb0571a"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json",
+      "resolved": "/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json",
+      "bytes": 658470,
+      "sha256": "3d1eba7be57afd24b94d24a6f418200ffcae467548da04ded1e4176a298c39c5"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json",
+      "resolved": "/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json",
+      "bytes": 47008,
+      "sha256": "7f8a24e8afaeb6504b196dca9bca9e3ee0d0cd6001cbf50719cb5d3c183cf566"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/PMO-重制v2收口验收.json",
+      "resolved": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/PMO-重制v2收口验收.json",
+      "bytes": 4327,
+      "sha256": "11c191c083f52929866acc697750c6a7b4456068f5df29c861f5b2f31603de2d"
+    }
+  ],
+  "checks": {
+    "global_project_fred_same_entity": true,
+    "global_project_workflow_same_entity": true,
+    "current_entry_versions_consistent": true,
+    "entry_under_500_lines": true,
+    "new_current_links_exist": true,
+    "checked_current_link_count": 37,
+    "frozen_video_hash_verified": true,
+    "new_render": false,
+    "owner_wakeup": false,
+    "publication_or_cleanup": false,
+    "qa_unknowns_preserved": true
+  },
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "scope": "Local document/acceptance updates. Existing Manifest, component source and video not modified. Future real production must validate adherence; this check does not claim reduced rework."
+}

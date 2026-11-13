@@ -1,0 +1,31 @@
+{
+  "clock": "0:15.783",
+  "title": "DeepInfer · v2 新旧对比",
+  "versions": "之前发布 · deepinfer-full-v1-repair1.mp4 · SHA256 b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230aFred重制 v2 · deepinfer-fred-full-v2.mp4 · SHA256 f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+  "videos": [
+    {
+      "duration": 94.233333,
+      "error": null,
+      "height": 1920,
+      "id": "old",
+      "muted": true,
+      "paused": true,
+      "readyState": 4,
+      "src": "http://127.0.0.1:55291/asset/b2dffec033eec5fb85192c98",
+      "time": 15.783333,
+      "width": 1080
+    },
+    {
+      "duration": 94.233333,
+      "error": null,
+      "height": 1920,
+      "id": "new",
+      "muted": false,
+      "paused": true,
+      "readyState": 4,
+      "src": "http://127.0.0.1:55291/asset/f4edbd6ae2e6f7a6b6cd7896",
+      "time": 15.783333,
+      "width": 1080
+    }
+  ]
+}

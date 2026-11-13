@@ -1,0 +1,80 @@
+{
+  "tool": "built-in image_gen imagegen; no paid API",
+  "identity_reference": "/Volumes/EXTERNAL/自媒体/人物形象与封面资产-20261009/外部艺术照精选-20261009/入选/01-主形象-图2-棕色西装.png",
+  "layout_reference": "/Volumes/EXTERNAL/自媒体/qianwen-go-case-20261013/flow/06/封面/简体-白底本人-3x4-v3.png",
+  "exact_title": [
+    "DeepSeek",
+    "省钱引擎",
+    "开源了"
+  ],
+  "colors": [
+    "black",
+    "black",
+    "vivid purple"
+  ],
+  "prompt_contract": "White background, huge heavy black-purple exact headline; original reference preserves recognizable Eli face/hair/thin glasses only; change to light gray overshirt/charcoal tee, standing with laptop, violet code chip as visual metaphor; independently re-layout each 3:4/9:16/16:9/4:3, no headline overlap, no extra text/cards, all characters fully visible.",
+  "rework": "3:4移开人头以完整显出尾字；16:9下移电脑以让开了的底钩；原始生成文件保留",
+  "scope": "内置工具生成艺术封面，未声称真实拍照或DeepInfer硬件产品",
+  "finals": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-3x4-1080x1440-v1.png",
+      "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-7f5c2d17-8df5-4a98-8bd4-5b94fa91baab.png",
+      "generated_size": [
+        1086,
+        1448
+      ],
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "0c2d0ae86a026dd161034249994a5716fe059cb05d7121c355eacb8172f745de",
+      "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+      "status": "PENDING_PMO_USER_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-9x16-1080x1920-v1.png",
+      "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-be44c585-2820-411c-b8b7-574b71e943ea.png",
+      "generated_size": [
+        941,
+        1672
+      ],
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "0adf25254e72e398bcc861de4fe5ff27695519bb7bd6ce8b1bc5cc5e04e7d207",
+      "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+      "status": "PENDING_PMO_USER_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-16x9-1920x1080-v1.png",
+      "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-7a533147-054b-4eac-a2ab-558738b81034.png",
+      "generated_size": [
+        1672,
+        941
+      ],
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "007fbaa2f70902cc2b7de4c32e0a57557d9076d4d499a89a6505973ddbdff816",
+      "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+      "status": "PENDING_PMO_USER_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-4x3-1440x1080-v1.png",
+      "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-3266abad-ed78-4ff8-95b9-4b73be45d857.png",
+      "generated_size": [
+        1448,
+        1086
+      ],
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "sha256": "698b1a713d4baef7ad8cf4f5365f17da775fae2fa688350d3a6c102d19b5c0cf",
+      "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+      "status": "PENDING_PMO_USER_REVIEW"
+    }
+  ]
+}

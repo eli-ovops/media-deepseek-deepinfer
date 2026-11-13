@@ -1,0 +1,14 @@
+[
+  {
+    "action": "approve03",
+    "exit_code": 0,
+    "stdout": "{\"saved\": true, \"active_content\": \"deepseek-deepinfer-20261021\"}\n",
+    "stderr": ""
+  },
+  {
+    "action": "release04",
+    "exit_code": 0,
+    "stdout": "{\"saved\": true, \"active_content\": \"deepseek-deepinfer-20261021\"}\n",
+    "stderr": ""
+  }
+]

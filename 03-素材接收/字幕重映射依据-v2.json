@@ -1,0 +1,530 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "edl_version": "v2",
+  "formula": "timeline = keep.timeline_in + source - keep.source_in; original speed",
+  "entries": [
+    {
+      "source_id": "N06",
+      "keep_id": "V2K1",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.json",
+      "source_cue_index": 1,
+      "original_asr_range": [
+        0.0,
+        2.8
+      ],
+      "original_asr_text": "AI的成本站可能又要變天了",
+      "intersection_with_kept_source": [
+        0.45,
+        2.8
+      ],
+      "timeline_range": [
+        0.0,
+        2.35
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N06",
+      "keep_id": "V2K1",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.json",
+      "source_cue_index": 2,
+      "original_asr_range": [
+        2.8,
+        7.3
+      ],
+      "original_asr_text": "就在昨天Depthic把自己用來省錢提速的核心引擎",
+      "intersection_with_kept_source": [
+        2.8,
+        7.3
+      ],
+      "timeline_range": [
+        2.35,
+        6.85
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N06",
+      "keep_id": "V2K1",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.json",
+      "source_cue_index": 3,
+      "original_asr_range": [
+        7.3,
+        10.5
+      ],
+      "original_asr_text": "Depthinfer開緣了 今天",
+      "intersection_with_kept_source": [
+        7.3,
+        9.783333
+      ],
+      "timeline_range": [
+        6.85,
+        9.333333
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE",
+      "retained_text_candidate": "DeepInfer开源了",
+      "note": "ASR cue also contains a following 今天 outside keep. Do not carry whole raw cue into shortened range; exact text/time still need local audition."
+    },
+    {
+      "source_id": "S3",
+      "keep_id": "V2K2",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111228-b4282d/transcript.json",
+      "source_cue_index": 4,
+      "original_asr_range": [
+        10.8,
+        17.2
+      ],
+      "original_asr_text": "今天,接著到今天,給他們已經拿了一萬多顆星了",
+      "intersection_with_kept_source": [
+        10.85,
+        17.2
+      ],
+      "timeline_range": [
+        9.333333,
+        15.683333
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "S3",
+      "keep_id": "V2K2",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111228-b4282d/transcript.json",
+      "source_cue_index": 5,
+      "original_asr_range": [
+        17.2,
+        21.24
+      ],
+      "original_asr_text": "這份正在支持我們自己",
+      "intersection_with_kept_source": [
+        17.2,
+        17.283333
+      ],
+      "timeline_range": [
+        15.683333,
+        15.766666
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "S5",
+      "keep_id": "V2K3",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111230-976788/transcript.json",
+      "source_cue_index": 1,
+      "original_asr_range": [
+        0.0,
+        4.3
+      ],
+      "original_asr_text": "这份正在支撑自家服务的核心代码",
+      "intersection_with_kept_source": [
+        0.45,
+        4.3
+      ],
+      "timeline_range": [
+        15.766666,
+        19.616666
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "S5",
+      "keep_id": "V2K3",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111230-976788/transcript.json",
+      "source_cue_index": 2,
+      "original_asr_range": [
+        4.3,
+        8.0
+      ],
+      "original_asr_text": "现在同样也能直接拿去研究核改造了",
+      "intersection_with_kept_source": [
+        4.3,
+        7.95
+      ],
+      "timeline_range": [
+        19.616666,
+        23.266666
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N12",
+      "keep_id": "V2K4",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.json",
+      "source_cue_index": 1,
+      "original_asr_range": [
+        0.0,
+        7.04
+      ],
+      "original_asr_text": "大家要知道大模型会回答只是开始大量的用户同时用进来",
+      "intersection_with_kept_source": [
+        0.55,
+        7.04
+      ],
+      "timeline_range": [
+        23.266666,
+        29.756666
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N12",
+      "keep_id": "V2K4",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.json",
+      "source_cue_index": 2,
+      "original_asr_range": [
+        7.04,
+        11.2
+      ],
+      "original_asr_text": "怎么样的少量的等待,少浪费昂贵的显卡",
+      "intersection_with_kept_source": [
+        7.04,
+        11.2
+      ],
+      "timeline_range": [
+        29.756666,
+        33.916666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N12",
+      "keep_id": "V2K4",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.json",
+      "source_cue_index": 3,
+      "original_asr_range": [
+        11.2,
+        14.6
+      ],
+      "original_asr_text": "这背后的工程直接关系到服务的成本",
+      "intersection_with_kept_source": [
+        11.2,
+        14.6
+      ],
+      "timeline_range": [
+        33.916666,
+        37.316666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N12",
+      "keep_id": "V2K4",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.json",
+      "source_cue_index": 4,
+      "original_asr_range": [
+        14.6,
+        22.04
+      ],
+      "original_asr_text": "比如一个显卡,计算这一轮,处理器提前安排下一轮,让机器少干等着",
+      "intersection_with_kept_source": [
+        14.6,
+        22.04
+      ],
+      "timeline_range": [
+        37.316666,
+        44.756666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N12",
+      "keep_id": "V2K4",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.json",
+      "source_cue_index": 5,
+      "original_asr_range": [
+        22.04,
+        26.88
+      ],
+      "original_asr_text": "服务每天都要跑,省下来的算力还能接别的人物",
+      "intersection_with_kept_source": [
+        22.04,
+        26.85
+      ],
+      "timeline_range": [
+        44.756666,
+        49.566666
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 1,
+      "original_asr_range": [
+        0.0,
+        5.9
+      ],
+      "original_asr_text": "两万分早就说过,真正的护城和是能持续创新的团队",
+      "intersection_with_kept_source": [
+        0.4,
+        5.9
+      ],
+      "timeline_range": [
+        49.566666,
+        55.066666
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 2,
+      "original_asr_range": [
+        5.9,
+        11.56
+      ],
+      "original_asr_text": "我扶他的地方就在这,把已经用起来的工程成果直接开放",
+      "intersection_with_kept_source": [
+        5.9,
+        11.56
+      ],
+      "timeline_range": [
+        55.066666,
+        60.726666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 3,
+      "original_asr_range": [
+        11.56,
+        16.9
+      ],
+      "original_asr_text": "让别人接着做自己靠继续创新,继续往前走",
+      "intersection_with_kept_source": [
+        11.56,
+        16.9
+      ],
+      "timeline_range": [
+        60.726666,
+        66.066666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 4,
+      "original_asr_range": [
+        16.9,
+        23.1
+      ],
+      "original_asr_text": "完整的线上配套还得继续补,模型和硬件也要适配",
+      "intersection_with_kept_source": [
+        16.9,
+        23.1
+      ],
+      "timeline_range": [
+        66.066666,
+        72.266666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 5,
+      "original_asr_range": [
+        23.1,
+        26.64
+      ],
+      "original_asr_text": "但是后来这已经能够少摸索一部分了",
+      "intersection_with_kept_source": [
+        23.1,
+        26.64
+      ],
+      "timeline_range": [
+        72.266666,
+        75.806666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 6,
+      "original_asr_range": [
+        26.64,
+        31.38
+      ],
+      "original_asr_text": "把经历放在新的优化上,一直团队的工程累积",
+      "intersection_with_kept_source": [
+        26.64,
+        31.38
+      ],
+      "timeline_range": [
+        75.806666,
+        80.546666
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "N11",
+      "keep_id": "V2K5",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "source_cue_index": 7,
+      "original_asr_range": [
+        31.38,
+        34.14
+      ],
+      "original_asr_text": "成了多个团队的能用的起点",
+      "intersection_with_kept_source": [
+        31.38,
+        33.983333
+      ],
+      "timeline_range": [
+        80.546666,
+        83.149999
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE",
+      "retained_text_candidate": "成了多个团队能用的起点",
+      "note": "Retained phrase ends before following failed closing attempt; do not display removed trailing words."
+    },
+    {
+      "source_id": "S1",
+      "keep_id": "V2K6",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111224-65bfa8/transcript.json",
+      "source_cue_index": 1,
+      "original_asr_range": [
+        0.0,
+        9.79
+      ],
+      "original_asr_text": "同样的算例,谁能接更多的任务,能让人更少的等待,这场竞争就有机会把AI服务做得更",
+      "intersection_with_kept_source": [
+        0.6,
+        9.79
+      ],
+      "timeline_range": [
+        83.149999,
+        92.339999
+      ],
+      "cue_clipped": true,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    },
+    {
+      "source_id": "S1",
+      "keep_id": "V2K6",
+      "source_asr_json": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-111224-65bfa8/transcript.json",
+      "source_cue_index": 2,
+      "original_asr_range": [
+        9.79,
+        11.0
+      ],
+      "original_asr_text": "快,更便宜。",
+      "intersection_with_kept_source": [
+        9.79,
+        11.0
+      ],
+      "timeline_range": [
+        92.339999,
+        93.549999
+      ],
+      "cue_clipped": false,
+      "display_text_status": "ASR_EVIDENCE_NOT_FINAL_SUBTITLE"
+    }
+  ],
+  "retained_uncertainties": [
+    {
+      "source_id": "S3",
+      "range": [
+        10.85,
+        14.24
+      ],
+      "issue": "今天/截至到今天可能短起句或ASR误识",
+      "enabled_cut": false
+    },
+    {
+      "source_id": "S5",
+      "range": [
+        4.4,
+        7.6
+      ],
+      "issue": "同行/同样与和字待听核",
+      "enabled_cut": false
+    },
+    {
+      "source_id": "N12",
+      "range": [
+        7.04,
+        11.2
+      ],
+      "issue": "怎么样的少量的等待可能是ASR或实际口语重复",
+      "enabled_cut": false
+    },
+    {
+      "source_id": "N11",
+      "range": [
+        31.38,
+        34.14
+      ],
+      "issue": "多个团队的能用的起点中的助词，保留同义发挥，不逐字硬拼",
+      "enabled_cut": false
+    }
+  ],
+  "term_candidates": {
+    "DeepSeek": [
+      "Depthic",
+      "dpsick",
+      "DeepSec"
+    ],
+    "DeepInfer": [
+      "Depthinfer",
+      "Depthin for"
+    ],
+    "GitHub": [
+      "给他们"
+    ],
+    "梁文锋": [
+      "两万分",
+      "梁文芬"
+    ],
+    "护城河": [
+      "护城和",
+      "护城盒"
+    ],
+    "服": [
+      "扶",
+      "佛"
+    ],
+    "算力": [
+      "算例"
+    ],
+    "任务": [
+      "人物"
+    ],
+    "精力": [
+      "经历"
+    ],
+    "一支团队": [
+      "一直团队"
+    ]
+  },
+  "final_subtitles_ready": false,
+  "policy": "Preserve actual synonymous speech; names corrected from frozen sources do not authorize audio deletion. Split clipped cues manually and avoid claiming word-accurate ASR times."
+}

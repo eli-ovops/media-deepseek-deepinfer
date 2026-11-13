@@ -1,0 +1,95 @@
+{
+  "method": "V1/V2 exact same decoded frame indexes; same source; changed encoder history may cause compression differences",
+  "frames": [
+    {
+      "frame": 0,
+      "exactPixels": true,
+      "meanChannelError": 0.0,
+      "psnrDb": null
+    },
+    {
+      "frame": 120,
+      "exactPixels": true,
+      "meanChannelError": 0.0,
+      "psnrDb": null
+    },
+    {
+      "frame": 1320,
+      "exactPixels": false,
+      "meanChannelError": 0.1316263181584362,
+      "psnrDb": 53.46417558554048
+    },
+    {
+      "frame": 1550,
+      "exactPixels": false,
+      "meanChannelError": 0.07454202031893004,
+      "psnrDb": 54.99847956206277
+    },
+    {
+      "frame": 2250,
+      "exactPixels": false,
+      "meanChannelError": 0.05896395961934156,
+      "psnrDb": 54.92969550707408
+    },
+    {
+      "frame": 2400,
+      "exactPixels": false,
+      "meanChannelError": 0.11321791409465021,
+      "psnrDb": 53.25055920075209
+    },
+    {
+      "frame": 2800,
+      "exactPixels": false,
+      "meanChannelError": 0.12930025077160495,
+      "psnrDb": 53.311236303720655
+    },
+    {
+      "frame": 3100,
+      "exactPixels": true,
+      "meanChannelError": 0.0,
+      "psnrDb": null
+    },
+    {
+      "frame": 3700,
+      "exactPixels": false,
+      "meanChannelError": 0.11967480066872428,
+      "psnrDb": 51.19823450265605
+    },
+    {
+      "frame": 4210,
+      "exactPixels": false,
+      "meanChannelError": 0.15967946244855968,
+      "psnrDb": 51.70119511758989
+    },
+    {
+      "frame": 4650,
+      "exactPixels": false,
+      "meanChannelError": 0.07472800925925926,
+      "psnrDb": 55.50543214762289
+    },
+    {
+      "frame": 4900,
+      "exactPixels": false,
+      "meanChannelError": 0.1012475887345679,
+      "psnrDb": 53.9553824605311
+    },
+    {
+      "frame": 5210,
+      "exactPixels": false,
+      "meanChannelError": 0.11171408822016461,
+      "psnrDb": 54.02196048469169
+    },
+    {
+      "frame": 5500,
+      "exactPixels": true,
+      "meanChannelError": 0.0,
+      "psnrDb": null
+    },
+    {
+      "frame": 5653,
+      "exactPixels": true,
+      "meanChannelError": 0.0,
+      "psnrDb": null
+    }
+  ]
+}

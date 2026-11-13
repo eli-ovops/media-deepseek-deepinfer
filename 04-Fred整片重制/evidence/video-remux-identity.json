@@ -1,0 +1,14 @@
+{
+  "method": "FFmpeg video-only packet hash without decoding; copy mux, exact compressed picture packet identity",
+  "records": [
+    {
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/initial-remotion-audio-v1.mp4",
+      "videoPacketHash": "SHA256=0238711c0f18928e45bf22c3055a07f69587d76fd72c852708485385d87577d5"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/deepinfer-fred-full-v1.mp4",
+      "videoPacketHash": "SHA256=0238711c0f18928e45bf22c3055a07f69587d76fd72c852708485385d87577d5"
+    }
+  ],
+  "same": true
+}

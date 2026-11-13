@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-21T12:31:09.810393+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "thread_id": "01a11a79-f636-7823-9350-3c5f7526e6c7",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "high",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "quota_weekly_used_percent": 92,
+  "quota_5h": "UNKNOWN",
+  "pre_dispatch_cursor": "1f05a2fc-4e13-44da-bb32-dca438d065e8:1",
+  "tool_returned_thread_id": "01a11a79-f636-7823-9350-3c5f7526e6c7",
+  "decision": "MESSAGE_ACCEPTED_NOT_QA_COMPLETE"
+}

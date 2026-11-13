@@ -1,0 +1,19 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1-repair1",
+  "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "verdict": "SCOPED_PASS_READY_FOR_USER_REVIEW",
+  "Q1": "CLOSED_IN_SAMPLED_SCOPE",
+  "new_must_fix": [],
+  "ready_for_user_review": true,
+  "independent_frames": 18,
+  "native_04_key_frames": 2,
+  "native_05_additional_frames": 3,
+  "direct_listening": false,
+  "word_level_sync": false,
+  "continuous_visual_review": false,
+  "user_final_review": "PENDING",
+  "pmo_acceptance": "PENDING",
+  "report_sha256": "1fa994d6b3dfee1fdc22cffbb80f92e2b09abe0803a5eaa7f41142fc1553c806",
+  "actual_route": "UNKNOWN"
+}

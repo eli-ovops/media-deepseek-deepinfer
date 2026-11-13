@@ -1,0 +1,43 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "03",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "at": "2026-10-21T11:25:04.422269+08:00",
+  "scope": "PASS input inventory, full-track ASR coverage and conservative ordered EDL for existing-footage verbal recut only. Not full script coverage or sound-naturalness acceptance.",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/五段素材清单.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全音轨转录汇总.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/口误核对与剪辑建议.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/剪辑EDL-v1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/接收报告.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-overview.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-boundaries.jpg"
+  ],
+  "remaining_required_work": [],
+  "edl_sha256": "86737bf8ee8c908fc55b1b5c6272e5cb4521fb4c769e33f0fc5d8c63945002bb",
+  "source_order": [
+    "S3",
+    "S5",
+    "S2",
+    "S1"
+  ],
+  "unused_duplicate": "S4 retained",
+  "duration_proposal_seconds": 67.1,
+  "pmo_visual_read": "Actually viewed two contact sheets containing32 sample frames; tail movement in S4 and framing changes across sources visible. Not continuous viewing.",
+  "recording_card_check": {
+    "source": "This PMO chat immediately preceding user upload, assistant three-part recording response",
+    "card02_included_missing_paragraphs": true,
+    "missing": "Service-cost and CPU/GPU mechanism paragraphs were in the supplied recording card, not present in these five full-track ASR outputs.",
+    "handling": "Optional user question pending; do not block scoped recut of existing content or fabricate missing narration."
+  },
+  "follow_up_checks_for04": [
+    "Preserve speech onset/tails, especially S5 end; conservative widening if unclear",
+    "Keep D1-D4 short-word cuts disabled without reliable additional evidence",
+    "Render and inspect actual MP4, keep real listening/continuous visual limits",
+    "Do not silently change spoken 一大部分 in subtitles"
+  ],
+  "direct_audio_verified": false,
+  "user_video_approved": false,
+  "raws_modified": false
+}

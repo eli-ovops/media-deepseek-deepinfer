@@ -1,0 +1,956 @@
+{
+  "scope": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作",
+  "total_bytes": 293097282,
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/LICENSE",
+      "bytes": 1073,
+      "mtime": "2026-10-17T16:28:29.984899",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/Manifest.json",
+      "bytes": 11969,
+      "mtime": "2026-10-21T12:28:59.493680",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/PMO汇报回执-v1.json",
+      "bytes": 410,
+      "mtime": "2026-10-21T12:30:14.334894",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/SHA256SUMS.txt",
+      "bytes": 845,
+      "mtime": "2026-10-21T12:29:48.041976",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/assemble.py",
+      "bytes": 1944,
+      "mtime": "2026-10-21T11:56:18.213888",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/assets/github-original.png",
+      "bytes": 76562,
+      "mtime": "2026-10-21T11:45:19.079704",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/audio/voice-original-speed.wav",
+      "bytes": 9046444,
+      "mtime": "2026-10-21T11:46:38.797122",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/captions-v1.ass",
+      "bytes": 4330,
+      "mtime": "2026-10-21T11:49:12.845583",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/captions-v1.json",
+      "bytes": 9228,
+      "mtime": "2026-10-21T11:49:12.844264",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/captions.py",
+      "bytes": 4114,
+      "mtime": "2026-10-21T11:49:12.760389",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-16x9-1920x1080-v1.png",
+      "bytes": 2135407,
+      "mtime": "2026-10-21T12:21:50.121439",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-3x4-1080x1440-v1.png",
+      "bytes": 1707735,
+      "mtime": "2026-10-21T12:21:49.801208",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-3x4-generated-v1.png",
+      "bytes": 1817455,
+      "mtime": "2026-10-21T11:47:39.902049",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-4x3-1440x1080-v1.png",
+      "bytes": 1820996,
+      "mtime": "2026-10-21T12:21:50.243947",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-9x16-1080x1920-v1.png",
+      "bytes": 2109805,
+      "mtime": "2026-10-21T12:21:49.960117",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/generation-record.json",
+      "bytes": 3738,
+      "mtime": "2026-10-21T12:28:59.641079",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/manifest.json",
+      "bytes": 2530,
+      "mtime": "2026-10-21T12:21:50.247358",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/phone-thumbnails.jpg",
+      "bytes": 210138,
+      "mtime": "2026-10-21T12:28:59.640098",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/delivery-v1.json",
+      "bytes": 1939,
+      "mtime": "2026-10-21T12:28:59.652950",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/edl-v1.json",
+      "bytes": 16384,
+      "mtime": "2026-10-21T12:21:08.045423",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/file-inventory.json",
+      "bytes": 38844,
+      "mtime": "2026-10-21T12:28:59.652352",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/fonts/Sans0.ttf",
+      "bytes": 11618324,
+      "mtime": "2026-10-17T16:29:35.468825",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/fonts/Sans2.ttf",
+      "bytes": 12145300,
+      "mtime": "2026-10-17T16:29:35.676734",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/fonts/Serif1.ttf",
+      "bytes": 22591796,
+      "mtime": "2026-10-17T16:29:36.203516",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/fonts/SmileySans.ttf",
+      "bytes": 2629764,
+      "mtime": "2026-10-17T16:28:29.996448",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/fonts.css",
+      "bytes": 410,
+      "mtime": "2026-10-17T16:31:11.992562",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/index.html",
+      "bytes": 15456,
+      "mtime": "2026-10-21T11:55:49.816877",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/lib/core.js",
+      "bytes": 9049,
+      "mtime": "2026-10-17T16:28:29.985080",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1.mp4",
+      "bytes": 35384118,
+      "mtime": "2026-10-21T12:20:04.545815",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-v1.srt",
+      "bytes": 2809,
+      "mtime": "2026-10-21T11:49:12.845321",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/graphic-a.mp4",
+      "bytes": 6039296,
+      "mtime": "2026-10-21T11:58:58.814662",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/graphic-b.mp4",
+      "bytes": 1387440,
+      "mtime": "2026-10-21T11:59:57.007412",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/representative-motion.mp4",
+      "bytes": 99144,
+      "mtime": "2026-10-21T11:55:58.601229",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+      "bytes": 130496366,
+      "mtime": "2026-10-21T12:02:14.969955",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/package_delivery.py",
+      "bytes": 7840,
+      "mtime": "2026-10-21T12:28:59.388404",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/playback-url.json",
+      "bytes": 111,
+      "mtime": "2026-10-21T12:24:24.594441",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/prepare.py",
+      "bytes": 4196,
+      "mtime": "2026-10-21T12:24:24.496728",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/all-caption-crops.jpg",
+      "bytes": 507545,
+      "mtime": "2026-10-21T12:23:25.045707",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/browser-preview.png",
+      "bytes": 42108,
+      "mtime": "2026-10-21T12:25:11.947647",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-01.png",
+      "bytes": 1384580,
+      "mtime": "2026-10-21T12:23:17.251812",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-02.png",
+      "bytes": 1442594,
+      "mtime": "2026-10-21T12:23:17.538663",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-03.png",
+      "bytes": 335460,
+      "mtime": "2026-10-21T12:23:17.646750",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-04.png",
+      "bytes": 374308,
+      "mtime": "2026-10-21T12:23:17.777524",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-05.png",
+      "bytes": 378356,
+      "mtime": "2026-10-21T12:23:17.925907",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-06.png",
+      "bytes": 342898,
+      "mtime": "2026-10-21T12:23:18.045300",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-07.png",
+      "bytes": 320232,
+      "mtime": "2026-10-21T12:23:18.213738",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-08.png",
+      "bytes": 399977,
+      "mtime": "2026-10-21T12:23:18.347854",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-09.png",
+      "bytes": 393436,
+      "mtime": "2026-10-21T12:23:18.505265",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-10.png",
+      "bytes": 304729,
+      "mtime": "2026-10-21T12:23:18.627210",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-11.png",
+      "bytes": 313321,
+      "mtime": "2026-10-21T12:23:18.777161",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-12.png",
+      "bytes": 344698,
+      "mtime": "2026-10-21T12:23:18.892831",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-13.png",
+      "bytes": 359190,
+      "mtime": "2026-10-21T12:23:19.063495",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-14.png",
+      "bytes": 238349,
+      "mtime": "2026-10-21T12:23:19.158107",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-15.png",
+      "bytes": 254362,
+      "mtime": "2026-10-21T12:23:19.273069",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-16.png",
+      "bytes": 278854,
+      "mtime": "2026-10-21T12:23:19.372912",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-17.png",
+      "bytes": 285070,
+      "mtime": "2026-10-21T12:23:19.514016",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-18.png",
+      "bytes": 248178,
+      "mtime": "2026-10-21T12:23:19.612915",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-19.png",
+      "bytes": 186495,
+      "mtime": "2026-10-21T12:23:19.733214",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-20.png",
+      "bytes": 202342,
+      "mtime": "2026-10-21T12:23:19.818669",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-21.png",
+      "bytes": 273350,
+      "mtime": "2026-10-21T12:23:19.937027",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-22.png",
+      "bytes": 317368,
+      "mtime": "2026-10-21T12:23:20.090628",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-23.png",
+      "bytes": 298309,
+      "mtime": "2026-10-21T12:23:20.199619",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-24.png",
+      "bytes": 289937,
+      "mtime": "2026-10-21T12:23:20.332093",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-25.png",
+      "bytes": 321719,
+      "mtime": "2026-10-21T12:23:20.440759",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-26.png",
+      "bytes": 301847,
+      "mtime": "2026-10-21T12:23:20.570819",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-27.png",
+      "bytes": 299969,
+      "mtime": "2026-10-21T12:23:20.663080",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-28.png",
+      "bytes": 1349674,
+      "mtime": "2026-10-21T12:23:20.919546",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-29.png",
+      "bytes": 1508837,
+      "mtime": "2026-10-21T12:23:21.260998",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-30.png",
+      "bytes": 1519063,
+      "mtime": "2026-10-21T12:23:21.503682",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-31.png",
+      "bytes": 1596469,
+      "mtime": "2026-10-21T12:23:21.930296",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-32.png",
+      "bytes": 1599032,
+      "mtime": "2026-10-21T12:23:22.363371",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-33.png",
+      "bytes": 313488,
+      "mtime": "2026-10-21T12:23:22.516528",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-34.png",
+      "bytes": 333886,
+      "mtime": "2026-10-21T12:23:22.694261",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-35.png",
+      "bytes": 334242,
+      "mtime": "2026-10-21T12:23:22.820455",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-36.png",
+      "bytes": 328967,
+      "mtime": "2026-10-21T12:23:22.967118",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-37.png",
+      "bytes": 357820,
+      "mtime": "2026-10-21T12:23:23.102193",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-38.png",
+      "bytes": 348506,
+      "mtime": "2026-10-21T12:23:23.221539",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-39.png",
+      "bytes": 350477,
+      "mtime": "2026-10-21T12:23:23.367988",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-40.png",
+      "bytes": 334635,
+      "mtime": "2026-10-21T12:23:23.485125",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-41.png",
+      "bytes": 391203,
+      "mtime": "2026-10-21T12:23:23.637190",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-42.png",
+      "bytes": 369659,
+      "mtime": "2026-10-21T12:23:23.761903",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-43.png",
+      "bytes": 379246,
+      "mtime": "2026-10-21T12:23:23.911197",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-44.png",
+      "bytes": 160626,
+      "mtime": "2026-10-21T12:23:23.987469",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-45.png",
+      "bytes": 177587,
+      "mtime": "2026-10-21T12:23:24.084816",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-46.png",
+      "bytes": 174426,
+      "mtime": "2026-10-21T12:23:24.156658",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-47.png",
+      "bytes": 1625134,
+      "mtime": "2026-10-21T12:23:24.438643",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-48.png",
+      "bytes": 1577095,
+      "mtime": "2026-10-21T12:23:24.793970",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/caption-49.png",
+      "bytes": 1567167,
+      "mtime": "2026-10-21T12:23:25.038635",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-00.png",
+      "bytes": 1137978,
+      "mtime": "2026-10-21T12:23:12.945291",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-01.png",
+      "bytes": 1405060,
+      "mtime": "2026-10-21T12:23:13.320669",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-02.png",
+      "bytes": 302348,
+      "mtime": "2026-10-21T12:23:13.420689",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-03.png",
+      "bytes": 342674,
+      "mtime": "2026-10-21T12:23:13.536773",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-04.png",
+      "bytes": 344813,
+      "mtime": "2026-10-21T12:23:13.678116",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-05.png",
+      "bytes": 393572,
+      "mtime": "2026-10-21T12:23:13.833785",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-06.png",
+      "bytes": 154181,
+      "mtime": "2026-10-21T12:23:13.942990",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-07.png",
+      "bytes": 154581,
+      "mtime": "2026-10-21T12:23:14.077500",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-08.png",
+      "bytes": 313342,
+      "mtime": "2026-10-21T12:23:14.230379",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-09.png",
+      "bytes": 342307,
+      "mtime": "2026-10-21T12:23:14.393165",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-10.png",
+      "bytes": 231837,
+      "mtime": "2026-10-21T12:23:14.476546",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-11.png",
+      "bytes": 278852,
+      "mtime": "2026-10-21T12:23:14.568554",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-12.png",
+      "bytes": 198731,
+      "mtime": "2026-10-21T12:23:14.705791",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-13.png",
+      "bytes": 297624,
+      "mtime": "2026-10-21T12:23:14.813771",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-14.png",
+      "bytes": 289955,
+      "mtime": "2026-10-21T12:23:14.952514",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-15.png",
+      "bytes": 306761,
+      "mtime": "2026-10-21T12:23:15.071693",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-16.png",
+      "bytes": 1193859,
+      "mtime": "2026-10-21T12:23:15.273759",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-17.png",
+      "bytes": 1483437,
+      "mtime": "2026-10-21T12:23:15.549883",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-18.png",
+      "bytes": 1474160,
+      "mtime": "2026-10-21T12:23:15.812131",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-19.png",
+      "bytes": 270707,
+      "mtime": "2026-10-21T12:23:15.943505",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-20.png",
+      "bytes": 356659,
+      "mtime": "2026-10-21T12:23:16.103498",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-21.png",
+      "bytes": 160462,
+      "mtime": "2026-10-21T12:23:16.173123",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-22.png",
+      "bytes": 176388,
+      "mtime": "2026-10-21T12:23:16.268527",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-23.png",
+      "bytes": 1469139,
+      "mtime": "2026-10-21T12:23:16.488839",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-24.png",
+      "bytes": 1542555,
+      "mtime": "2026-10-21T12:23:16.731210",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-25.png",
+      "bytes": 1579075,
+      "mtime": "2026-10-21T12:23:16.993107",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-overview.jpg",
+      "bytes": 473290,
+      "mtime": "2026-10-21T12:23:17.005304",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-probe.json",
+      "bytes": 3733,
+      "mtime": "2026-10-21T12:23:10.541078",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-render-command.json",
+      "bytes": 872,
+      "mtime": "2026-10-21T12:19:33.982841",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-render.log",
+      "bytes": 12480,
+      "mtime": "2026-10-21T12:20:04.563819",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/full-decode.log",
+      "bytes": 0,
+      "mtime": "2026-10-21T12:23:12.639814",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/input-checks.json",
+      "bytes": 63056,
+      "mtime": "2026-10-21T11:46:38.801144",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/internal-representative-sheet.jpg",
+      "bytes": 244505,
+      "mtime": "2026-10-21T11:53:13.514595",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/render-runtime.json",
+      "bytes": 153,
+      "mtime": "2026-10-21T11:59:57.026910",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/representative-motion-samples.jpg",
+      "bytes": 150568,
+      "mtime": "2026-10-21T11:56:45.851657",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/sample-runtime.json",
+      "bytes": 153,
+      "mtime": "2026-10-21T11:55:58.639177",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-10.9.png",
+      "bytes": 471148,
+      "mtime": "2026-10-21T11:54:03.545975",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-13.7.png",
+      "bytes": 508916,
+      "mtime": "2026-10-21T11:54:03.696505",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-15.5.png",
+      "bytes": 530949,
+      "mtime": "2026-10-21T11:52:55.813657",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-17.8.png",
+      "bytes": 455403,
+      "mtime": "2026-10-21T11:54:03.878978",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-21.5.png",
+      "bytes": 505808,
+      "mtime": "2026-10-21T11:54:04.065090",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-27.2.png",
+      "bytes": 152168,
+      "mtime": "2026-10-21T11:54:04.128193",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-3.3.png",
+      "bytes": 484173,
+      "mtime": "2026-10-21T11:52:55.006323",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-32.3.png",
+      "bytes": 139934,
+      "mtime": "2026-10-21T11:54:04.169974",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-37.6.png",
+      "bytes": 175469,
+      "mtime": "2026-10-21T11:54:04.225461",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-41.7.png",
+      "bytes": 182038,
+      "mtime": "2026-10-21T11:54:04.287945",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-45.8.png",
+      "bytes": 181778,
+      "mtime": "2026-10-21T11:52:56.450049",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-48.3.png",
+      "bytes": 173664,
+      "mtime": "2026-10-21T11:52:56.507681",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-61.png",
+      "bytes": 504108,
+      "mtime": "2026-10-21T11:52:56.675087",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-69.png",
+      "bytes": 517368,
+      "mtime": "2026-10-21T11:52:57.029250",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-7.png",
+      "bytes": 478534,
+      "mtime": "2026-10-21T11:52:55.240612",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-74.png",
+      "bytes": 510434,
+      "mtime": "2026-10-21T11:52:57.437164",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-78.7.png",
+      "bytes": 526718,
+      "mtime": "2026-10-21T11:52:58.383823",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-84.png",
+      "bytes": 73557,
+      "mtime": "2026-10-21T11:52:58.504797",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/scene-87.3.png",
+      "bytes": 81900,
+      "mtime": "2026-10-21T11:52:58.696774",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/source-render-command.json",
+      "bytes": 1752,
+      "mtime": "2026-10-21T12:01:09.224038",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/source-render.log",
+      "bytes": 25555,
+      "mtime": "2026-10-21T12:02:14.976993",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/still-runtime.json",
+      "bytes": 153,
+      "mtime": "2026-10-21T11:54:04.291090",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/technical-checks.json",
+      "bytes": 4558,
+      "mtime": "2026-10-21T12:23:25.062854",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc_final.py",
+      "bytes": 4609,
+      "mtime": "2026-10-21T12:22:56.287304",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/render.cjs",
+      "bytes": 3272,
+      "mtime": "2026-10-21T11:52:50.862865",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/serve.cjs",
+      "bytes": 1500,
+      "mtime": "2026-10-21T12:24:24.501667",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/source/16-pagecam.html",
+      "bytes": 13997,
+      "mtime": "2026-10-17T16:21:28.475025",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/source/17-editorial.html",
+      "bytes": 13878,
+      "mtime": "2026-10-17T16:21:28.489327",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/source/20-blueprint.html",
+      "bytes": 19259,
+      "mtime": "2026-10-17T16:21:28.490477",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/watch.html",
+      "bytes": 537,
+      "mtime": "2026-10-21T12:24:24.501338",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/制作任务.md",
+      "bytes": 5900,
+      "mtime": "2026-10-21T11:37:17.318893",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/制作自检与交付-v1.md",
+      "bytes": 6693,
+      "mtime": "2026-10-21T12:26:25.027229",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/派单回执.json",
+      "bytes": 1214,
+      "mtime": "2026-10-21T12:18:52.093834",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/阶段接续回执.json",
+      "bytes": 342,
+      "mtime": "2026-10-21T11:44:13.837717",
+      "purpose": "delivery, source, reproducibility, or QC evidence; retained"
+    }
+  ],
+  "cleanup": "PAUSED per task; all retained",
+  "df": "Filesystem   1024-blocks      Used  Available Capacity iused       ifree %iused  Mounted on\n/dev/disk7s1  2000478168 343017380 1657163604    18% 2482479 [REDACTED_PHONE]    0%   /Volumes/EXTERNAL\n"
+}

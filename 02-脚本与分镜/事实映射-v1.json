@@ -1,0 +1,171 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "gate": {
+    "allowed": true,
+    "stage": "02"
+  },
+  "status": "OWNER_SELF_CHECKED_PENDING_PMO_AND_USER",
+  "sources": {
+    "S1": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方发布时间原件.json",
+      "locator": "[0].times[0].datetime; [0].text",
+      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+      "scope": "2026-10-20T09:30:19.000Z; 北京时间10月20日17:30:19，原帖截断，不称全文已读"
+    },
+    "S2": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "README L226-256、L275-299",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "scope": "核心引擎/离线推理，完整线上配套不包含在本次发布；支持V4.1-Flash"
+    },
+    "S3": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "Q&A L192-216",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "线上分离部署、前缀命中复用、服务目标，官方自述而非本地复现"
+    },
+    "S4": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方QA后半原件.json",
+      "locator": "Q&A L282-330",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "缓存存储与命中机制，配套未全开源"
+    }
+  },
+  "mapping": [
+    {
+      "paragraph": 1,
+      "kind": "fact_plus_analogy",
+      "claim": "核心后厨开源",
+      "sources": [
+        "S2"
+      ],
+      "limits": "核心后厨=核心推理引擎，不是全部线上服务；第8段明确范围"
+    },
+    {
+      "paragraph": 2,
+      "kind": "fact",
+      "claim": "10月20日DeepSeek开源DeepInfer推理框架",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "limits": "2026年；不是本次发布新聊天模型；文档事实，未部署"
+    },
+    {
+      "paragraph": 3,
+      "kind": "analogy_plus_inference",
+      "claim": "高峰出餐核心技术供同行研究改造",
+      "sources": [
+        "S2"
+      ],
+      "limits": "餐厅是解释性类比；Apache-2.0允许按许可复用，未证明同行已采用或性能相同"
+    },
+    {
+      "paragraph": 4,
+      "kind": "analogy",
+      "claim": "模型像大厨，单次能力与大量并发服务难度不同",
+      "sources": [
+        "S3"
+      ],
+      "limits": "人数、灶台均无定量对应；不是实际压测"
+    },
+    {
+      "paragraph": 5,
+      "kind": "fact_plus_analogy",
+      "claim": "线上读材料和写答案分开安排算力，按负载分工",
+      "sources": [
+        "S3"
+      ],
+      "locator": "Q&A L199、L215-216；S4 L335",
+      "limits": "描述线上系统，不称完整分离部署代码已发布；备菜炒菜是概念映射，仍有先后依赖"
+    },
+    {
+      "paragraph": 6,
+      "kind": "fact_plus_analogy",
+      "claim": "相同开头缓存命中后复用已算结果",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "locator": "Q&A L200、L216、L302-303、L320-330",
+      "limits": "必须命中；复用计算状态不等于复用完整答案、永久记忆或任意相似文本；食材类比不表达剩菜复卖"
+    },
+    {
+      "paragraph": 7,
+      "kind": "mechanistic_inference",
+      "claim": "少做重复计算可把算力用于其他任务",
+      "sources": [
+        "S3"
+      ],
+      "limits": "机制解释，非本片实测吞吐或账单下降"
+    },
+    {
+      "paragraph": 8,
+      "kind": "fact",
+      "claim": "核心引擎开放，缓存管理等配套未全开放",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L252-256；Q&A L205",
+      "limits": "不能下载即部署完整生产服务"
+    },
+    {
+      "paragraph": 9,
+      "kind": "personal_evaluation",
+      "claim": "梁文锋这次让我服的是团队兼顾服务成本并开放工程成果",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "limits": "用户所选人物话题下的评价；未新增其现任职务、个人技术作者、动机、原话或历史成绩断言。成果归团队；成本优化为官方目标/机制，不声称我们核得降本幅度"
+    },
+    {
+      "paragraph": 10,
+      "kind": "conditional_inference_and_opinion",
+      "claim": "日常重复任务少浪费算力有助长期使用",
+      "sources": [
+        "S3"
+      ],
+      "limits": "不承诺价格必降、免费、盈利或个体必适用；没有ROI数字"
+    }
+  ],
+  "omitted_claims": [
+    "38美元/GPU小时收入与利润换算",
+    "155万亿token日吞吐",
+    "近半计算、4%—7%",
+    "月近20万",
+    "梁文锋访谈、动机、个人技术发明",
+    "同行恐慌、全面胜出、国产卡普适、Eli亲测"
+  ],
+  "verification": {
+    "input": "读取冻结原件与PMO选题验收，未重做研究",
+    "audio": "无录音；未TTS；未实际听音或出声朗读验收",
+    "visual": "仅声画方案；未下载媒体/选定组件/import/渲染",
+    "reference_video": "本02未观看；01记录74次画面采样，完整音轨/连续声画未验；不作为本稿事实唯一来源",
+    "humanizer": "嵌入式文本复核，保留具体意见与有信息的类比；未声称实际朗读",
+    "memory": "定向搜索DeepInfer/deepinfer无命中，未使用记忆事实"
+  },
+  "rules": [
+    "PERMISSIONS-2026-10-14-v1",
+    "ROUTING-2026-10-13-v4",
+    "HANDOFF-2026-10-10-v2",
+    "CODEX-MEDIA-20261020-v1",
+    "ELI-PRODUCTION-20261017-v2",
+    "ELI-REWORK-20261019-v1",
+    "humanizer 3.0.0"
+  ],
+  "routing": {
+    "target_model": "gpt-6-astra",
+    "target_effort": "medium",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "usage": "PMO派单周用量74%；5h UNKNOWN，非本轮实测",
+    "subagents": false
+  },
+  "scope": "只写本期02；未启动04、发布、配音、付费、清理；文件全部保留"
+}

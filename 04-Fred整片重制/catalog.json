@@ -1,0 +1,72 @@
+{
+  "versions": [
+    {
+      "label": "之前发布",
+      "url": "/asset/b2dffec033eec5fb85192c98",
+      "filename": "deepinfer-full-v1-repair1.mp4",
+      "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "bytes": 35312974
+    },
+    {
+      "label": "Fred重制 v2",
+      "url": "/asset/f4edbd6ae2e6f7a6b6cd7896",
+      "filename": "deepinfer-fred-full-v2.mp4",
+      "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+      "bytes": 50031414
+    }
+  ],
+  "chapters": [
+    {
+      "label": "从头",
+      "time": 0
+    },
+    {
+      "label": "标题推近",
+      "time": 7.2
+    },
+    {
+      "label": "Star推近",
+      "time": 13.5
+    },
+    {
+      "label": "代码拆解",
+      "time": 15.766667
+    },
+    {
+      "label": "请求往返",
+      "time": 23.7
+    },
+    {
+      "label": "职责拆分",
+      "time": 37.75
+    },
+    {
+      "label": "提前安排",
+      "time": 43.35
+    },
+    {
+      "label": "工程开放",
+      "time": 57.3
+    },
+    {
+      "label": "配套与适配",
+      "time": 66.5
+    },
+    {
+      "label": "继续创新",
+      "time": 72.7
+    },
+    {
+      "label": "共享起点",
+      "time": 78.916667
+    },
+    {
+      "label": "更多任务",
+      "time": 83.583333
+    },
+    {
+      "label": "真人收尾",
+      "time": 89
+    }
+  ]
+}

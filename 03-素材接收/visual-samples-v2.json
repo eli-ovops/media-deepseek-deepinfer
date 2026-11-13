@@ -1,0 +1,434 @@
+[
+  {
+    "source_id": "N01",
+    "source_path": "/Users/USER/Downloads/8003092ac780bbb7a1b4869b1e9aea2e_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N01-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N01",
+    "source_path": "/Users/USER/Downloads/8003092ac780bbb7a1b4869b1e9aea2e_raw.mp4",
+    "requested_seconds": 2.308,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N01-2p308.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N01",
+    "source_path": "/Users/USER/Downloads/8003092ac780bbb7a1b4869b1e9aea2e_raw.mp4",
+    "requested_seconds": 4.367,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N01-4p367.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N02",
+    "source_path": "/Users/USER/Downloads/32aee4f74c5a5cfdf46a5dc37fba9b90_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N02-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N02",
+    "source_path": "/Users/USER/Downloads/32aee4f74c5a5cfdf46a5dc37fba9b90_raw.mp4",
+    "requested_seconds": 3.268,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N02-3p268.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N02",
+    "source_path": "/Users/USER/Downloads/32aee4f74c5a5cfdf46a5dc37fba9b90_raw.mp4",
+    "requested_seconds": 6.285,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N02-6p285.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N03",
+    "source_path": "/Users/USER/Downloads/b700a4bdd5864641ba7ce8a41b470fe9_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N03-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N03",
+    "source_path": "/Users/USER/Downloads/b700a4bdd5864641ba7ce8a41b470fe9_raw.mp4",
+    "requested_seconds": 5.827,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N03-5p827.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N03",
+    "source_path": "/Users/USER/Downloads/b700a4bdd5864641ba7ce8a41b470fe9_raw.mp4",
+    "requested_seconds": 11.403,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N03-11p403.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N04",
+    "source_path": "/Users/USER/Downloads/98f1f2940850c0d24b8f3ad6f75eb2dd_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N04-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N04",
+    "source_path": "/Users/USER/Downloads/98f1f2940850c0d24b8f3ad6f75eb2dd_raw.mp4",
+    "requested_seconds": 0.925,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N04-0p925.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N04",
+    "source_path": "/Users/USER/Downloads/98f1f2940850c0d24b8f3ad6f75eb2dd_raw.mp4",
+    "requested_seconds": 1.6,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N04-1p6.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N05",
+    "source_path": "/Users/USER/Downloads/f68feab3caf450a0c1512f514b9cff2c_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N05-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N05",
+    "source_path": "/Users/USER/Downloads/f68feab3caf450a0c1512f514b9cff2c_raw.mp4",
+    "requested_seconds": 2.242,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N05-2p242.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N05",
+    "source_path": "/Users/USER/Downloads/f68feab3caf450a0c1512f514b9cff2c_raw.mp4",
+    "requested_seconds": 4.233,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N05-4p233.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-1.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "requested_seconds": 5.334,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-5p334.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "requested_seconds": 10.418,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-10p418.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N07",
+    "source_path": "/Users/USER/Downloads/f904156097ecee2a29425225e25a3de8_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N07-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N07",
+    "source_path": "/Users/USER/Downloads/f904156097ecee2a29425225e25a3de8_raw.mp4",
+    "requested_seconds": 6.518,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N07-6p518.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N07",
+    "source_path": "/Users/USER/Downloads/f904156097ecee2a29425225e25a3de8_raw.mp4",
+    "requested_seconds": 12.785,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N07-12p785.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N08",
+    "source_path": "/Users/USER/Downloads/39f70991e3c63123698c515fd7e59d3f_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N08-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N08",
+    "source_path": "/Users/USER/Downloads/39f70991e3c63123698c515fd7e59d3f_raw.mp4",
+    "requested_seconds": 2.975,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N08-2p975.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N08",
+    "source_path": "/Users/USER/Downloads/39f70991e3c63123698c515fd7e59d3f_raw.mp4",
+    "requested_seconds": 5.7,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N08-5p7.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N09",
+    "source_path": "/Users/USER/Downloads/6ad98b31c7b79f421806a0fc76825ed8_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N09-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N09",
+    "source_path": "/Users/USER/Downloads/6ad98b31c7b79f421806a0fc76825ed8_raw.mp4",
+    "requested_seconds": 3.801,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N09-3p801.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N09",
+    "source_path": "/Users/USER/Downloads/6ad98b31c7b79f421806a0fc76825ed8_raw.mp4",
+    "requested_seconds": 7.352,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N09-7p352.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N10",
+    "source_path": "/Users/USER/Downloads/66ef842957db4a42726ac5f6e28852c6_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N10-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N10",
+    "source_path": "/Users/USER/Downloads/66ef842957db4a42726ac5f6e28852c6_raw.mp4",
+    "requested_seconds": 3.008,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N10-3p008.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N10",
+    "source_path": "/Users/USER/Downloads/66ef842957db4a42726ac5f6e28852c6_raw.mp4",
+    "requested_seconds": 5.767,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N10-5p767.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "requested_seconds": 19.696,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-19p696.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-2.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "requested_seconds": 39.142,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-39p142.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "requested_seconds": 0.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-0p25.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "requested_seconds": 13.753,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-13p753.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "requested_seconds": 27.257,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-27p257.jpg",
+    "kind": "distribution",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "requested_seconds": 8.8,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-8p8.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "requested_seconds": 9.3,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-9p3.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N06",
+    "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "requested_seconds": 9.8,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-9p8.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 11.8,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/S3-11p8.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 12.2,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/S3-12p2.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "S3",
+    "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+    "requested_seconds": 12.5,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/S3-12p5.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "requested_seconds": 33.8,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-33p8.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "requested_seconds": 34.25,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-34p25.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N11",
+    "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "requested_seconds": 34.5,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-34p5.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "requested_seconds": 0.2,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-0p2.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "requested_seconds": 26.7,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-26p7.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  },
+  {
+    "source_id": "N12",
+    "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "requested_seconds": 27.2,
+    "image": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-27p2.jpg",
+    "kind": "boundary",
+    "sheet": "contact-v2-3.jpg",
+    "limits": "nominal source-time sample only"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "api_url": "https://api.github.com/repos/deepseek-ai/DeepSeek-V2/contents/figures/logo.svg",
+  "download_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V2/main/figures/logo.svg",
+  "git_blob_sha": "425494404f7e63f4909667003097511217664579",
+  "last_file_commit": "da42dcd40b41803c68a712ddd210eeb10e71e598",
+  "immutable_url": "https://github.com/deepseek-ai/DeepSeek-V2/blob/da42dcd40b41803c68a712ddd210eeb10e71e598/figures/logo.svg",
+  "sha256": "ac13bdc805820c46bf0faf053aa5d31f72b051794abfe1dd72a682f09de2966b",
+  "readme_logo_lines": [
+    "  <img src=\"figures/logo.svg\" width=\"60%\" alt=\"DeepSeek LLM\" />"
+  ]
+}

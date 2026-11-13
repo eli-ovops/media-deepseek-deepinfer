@@ -1,0 +1,35 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "04",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "scope": "04完整生产产物已核，允许同版本独立质检；不是口误听核、连续声画或用户终审PASS",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/delivery-v1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/制作自检与交付-v1.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/Manifest.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/edl-v1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/captions-v1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/technical-checks.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-overview.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/all-caption-crops.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-13.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/assets/github-original.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1.mp4"
+  ],
+  "remaining_required_work": [],
+  "video_sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "actual_pmo_checks": [
+    "实际文件大小及SHA与报告一致",
+    "查看最终26张联系图、49条烧录字幕中点联系图及41.7秒原尺寸图",
+    "读取真实GitHub截图14.1k和现行源码/字幕/EDL",
+    "审生产原始技术回执，不重跑完整解码"
+  ],
+  "required_05_validation": [
+    "同版本独立字幕/转场及原尺寸观察",
+    "直接听音和逐词同步不能由ASR/相关性补成PASS",
+    "S3/S5/N12/N11四类短词仍未直接听核"
+  ],
+  "human_final_review": "PENDING",
+  "at": "2026-10-21T12:30:44.517624+08:00"
+}

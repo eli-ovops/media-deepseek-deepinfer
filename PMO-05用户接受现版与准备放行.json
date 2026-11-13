@@ -1,0 +1,22 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "05",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "scope": "User accepts current full video as-is; PMO covers-v2 checked for nonpublic preparation. Known technical AV gaps preserved, no public posting authority.",
+  "human_review_source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/用户接受成片与封面变更-20261021.json",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/PMO-05补验审查-repair1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/用户接受成片与封面变更-20261021.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/PMO-封面v2验图.json"
+  ],
+  "remaining_required_work": [],
+  "not_verified": [
+    "Direct listening and unresolved short speech phrases",
+    "Word-level sync",
+    "Full continuous audiovisual review",
+    "Native platform crop",
+    "User final cover selection"
+  ],
+  "publication_authorized": false
+}

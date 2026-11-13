@@ -1,0 +1,14 @@
+{
+  "b2dffec033eec5fb85192c98": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+    "bytes": 35312974,
+    "mtime_ns": 1792557589738243913,
+    "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a"
+  },
+  "0c4db02c6f30f16319fe8090": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+    "bytes": 49905954,
+    "mtime_ns": 1792586442803463862,
+    "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+  }
+}

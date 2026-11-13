@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-21T21:02:46.801053+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v1",
+  "05_report_received": true,
+  "05_report_sha256_verified": "daedd5f42682f917b0ca6cb1d82c2408c8a278e124f7b5570f7582edd4c055c8",
+  "status": "05_FINDINGS_ACCEPTED_RETURN04_Q1_Q2",
+  "pmo_actual_images_viewed": [
+    "frame-009.jpg",
+    "frame-027.jpg",
+    "frame-038.jpg",
+    "frame-058.jpg",
+    "frame-061.jpg",
+    "frame-062.jpg"
+  ],
+  "accepted_must_fix": [
+    "Q1 ROI clipped during both camera moves and return",
+    "Q2 same screenshot vanishes atF946 then fades from new geometry"
+  ],
+  "preserve": [
+    "all other scenes",
+    "voice source and clock",
+    "subtitles",
+    "original source screenshot and frozen facts",
+    "accepted Fred materials and full derived implementations"
+  ],
+  "nonblocking": [
+    "20s arrived card crosses already-read label",
+    "43.35s intentional hard cut",
+    "implementation regex false positive independently confirmed"
+  ],
+  "full_new_film_pass": false,
+  "new_publication_authorized": false,
+  "next_task": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-返修-Q1Q2.md"
+}

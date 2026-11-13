@@ -1,0 +1,17 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "02",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "at": "2026-10-21T11:10:50.458088+08:00",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/口播稿-v3.2.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/声画节奏-v3.2.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/事实映射-v3.2.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/PMO-v3.2审稿.json"
+  ],
+  "remaining_required_work": [],
+  "user_source": "User requested division into recording segments, then delivered five actual recordings and explicitly requested reviewing/cutting verbal mistakes. This authorizes proceeding from script to intake and scoped recut.",
+  "scope": "Script accepted for actual recorded-material intake; no final video, graphics, cover or publication approval inferred.",
+  "actual_audio_or_video_qa_pass": false
+}

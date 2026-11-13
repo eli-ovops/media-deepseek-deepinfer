@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-21T21:03:17.669323+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "input_variant": "fred-full-remake-v1",
+  "output_version": "v2",
+  "task": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-返修-Q1Q2.md",
+  "owner_thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "pre_dispatch_snapshot": {
+    "status": "idle",
+    "cursor": "d33a765f-a410-48d9-ae6c-189fd3559d3e:8"
+  },
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_runtime": "UNKNOWN",
+  "weekly_used_percent": 31,
+  "five_hour": "UNKNOWN",
+  "send_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a6f-49ef-7653-934a-4312979fd4e7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "TOOL_SEND_ACCEPTED_AWAITING_REPAIR_REPORT",
+  "must_fix": [
+    "Q1",
+    "Q2"
+  ],
+  "publication_authorized": false
+}

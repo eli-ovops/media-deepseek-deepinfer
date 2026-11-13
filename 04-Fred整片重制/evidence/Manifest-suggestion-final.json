@@ -1,0 +1,2469 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v1",
+  "version": "v1",
+  "timelineFps": 60,
+  "durationInFrames": 5654,
+  "outputSpec": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "audio": "required"
+  },
+  "workflow": {
+    "profile": "fred-video-v2",
+    "componentMatching": "v1",
+    "authorization": {
+      "mode": "direct-output",
+      "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md：现在按同一质量完成整条94.233333秒，不停在样片或重复等待批准"
+    }
+  },
+  "pages": [
+    {
+      "stableId": "talk-open",
+      "startFrame": 0,
+      "durationInFrames": 162,
+      "oneQuestion": "AI的成本战",
+      "sourceSpans": [
+        {
+          "startChar": 0,
+          "endChar": 6,
+          "text": "AI的成本战"
+        },
+        {
+          "startChar": 7,
+          "endChar": 14,
+          "text": "可能又要变天了"
+        },
+        {
+          "startChar": 15,
+          "endChar": 19,
+          "text": "就在昨天"
+        }
+      ],
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+          "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+          "sourceInSeconds": 0.0,
+          "sourceOutSeconds": 2.7,
+          "id": "talking-source",
+          "role": "原速真人底片",
+          "required": true
+        }
+      ],
+      "sourceBeatIds": [
+        "cue-01",
+        "cue-02",
+        "cue-03"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "AI的成本战",
+        "可能又要变天了",
+        "就在昨天"
+      ],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "用户要求复用现存纯真人底片，图形无需复刻。"
+      },
+      "sceneGuide": {
+        "type": "custom",
+        "customReason": "现存真人直接复用；现有图形场景类型不应改造本人表达。",
+        "signature": "315dd212d9ea651321cac9c7022d4b828d02273880dfc16b84bb68b6ed107e64",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "原真人全屏准确源帧进入；原速人物表情动作与原字幕同步",
+            "check": "按本场景实际导出时序检查本段原句本人讲述；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "真人全屏沿原画幅，白字48px阴影字幕在1710px。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "本人全屏原速讲述，保持原帧动作",
+        "candidates": [],
+        "inspectedReferences": [],
+        "decisionReason": "沿用户明确要求在talk-open复用现存纯真人底片，不将真实本人改成库图形。"
+      },
+      "visualPlan": {
+        "enter": "原真人全屏准确源帧进入",
+        "change": "原速人物表情动作与原字幕同步",
+        "read": "本段原句本人讲述",
+        "exit": "保持原帧序列至边界",
+        "handoff": "依时间线硬切下一图形或到片尾；无额外变速"
+      },
+      "productionRoute": {
+        "selected": "preserved-media",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "repo",
+      "startFrame": 162,
+      "durationInFrames": 398,
+      "oneQuestion": "DeepInfer开源",
+      "sourceSpans": [
+        {
+          "startChar": 15,
+          "endChar": 19,
+          "text": "就在昨天"
+        },
+        {
+          "startChar": 20,
+          "endChar": 33,
+          "text": "DeepSeek把自己用来"
+        },
+        {
+          "startChar": 34,
+          "endChar": 43,
+          "text": "省钱提速的核心引擎"
+        },
+        {
+          "startChar": 44,
+          "endChar": 56,
+          "text": "DeepInfer开源了"
+        },
+        {
+          "startChar": 57,
+          "endChar": 65,
+          "text": "今天，截至到今天"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t22a",
+          "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "原截图CSS裁去顶部100px账户区；原生相机中心540/900；同图标题和Star两次ROI，读完归位；深色材料按原白蒙版退至纯白，保留清晰原像素。",
+          "useScope": "本片2.700000–9.333333秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T22a-PostCard.tsx",
+            "sha256": "510809cce3aee0988c4cf7b591ee506d709eb7c562b2f734cd767b765de6f4f0",
+            "symbol": "PostCard"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx",
+            "sha256": "6be44443e30cb194817d026b91a04524db86b17963c763167f1083386374b0b9",
+            "symbol": "PostCard"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "RepoScene",
+            "callee": "PostCard"
+          },
+          "useMode": "full",
+          "keyAction": "紫刷扫仓库标题，镜头推近原像素，开源释义擦出"
+        }
+      ],
+      "sceneGuide": {
+        "type": "prompt-reading",
+        "signature": "c3c3bea569d79eb37f3d65a2e4086c301a87daf0aa987cc995b13f8f72d0f810",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "完整真实仓库卡从下方升起；紫刷扫仓库标题，镜头推近原像素，开源释义擦出",
+            "check": "按本场景实际导出时序检查标题原像素与DeepInfer开源；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F02",
+            "decision": "本片只要求仓库标题/Star原句，保留截图原像素及必要上下文，不使用假网页。",
+            "check": "核原像素ROI、中文释义与原截图，观察推近和归位中间态。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "真实截图 关键句 荧光 放大",
+        "candidates": [
+          {
+            "id": "interaction-news-brush",
+            "decision": "rejected",
+            "reason": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。"
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "decision": "selected",
+            "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。"
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "decision": "rejected",
+            "reason": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "interaction-news-brush",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT01-1-preview.mp4",
+            "sha256": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+            "observations": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT01.jpg",
+              "sha256": "33eda22336d59e2d8335764de4888216689295605d79fca704185400682dbebf"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T22a-1-preview.mp4",
+            "sha256": "45150cdfa71d881eec1060242f4b427a1ca13fa93600e2a4d912c284763bc925",
+            "observations": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+              "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+            }
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-1-preview.mp4",
+            "sha256": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+            "observations": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT02.jpg",
+              "sha256": "8d4ae14353092f22987f308c8056c6d5cdc3ff0de0bb473473cd66f65b5d7d18"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+          "corePreserved": "原截图CSS裁去顶部100px账户区；原生相机中心540/900；同图标题和Star两次ROI，读完归位；深色材料按原白蒙版退至纯白，保留清晰原像素。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+            "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+          }
+        ],
+        "contextSha256": "8d65a37726cb2912fb94095504ce53df4af0c25e1e1aae5795099454f27766fc"
+      },
+      "sourceBeatIds": [
+        "cue-03",
+        "cue-04",
+        "cue-05",
+        "cue-06",
+        "cue-07"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "DeepInfer 开源",
+        "就在昨天",
+        "DeepSeek把自己用来",
+        "省钱提速的核心引擎",
+        "DeepInfer开源了",
+        "今天，截至到今天"
+      ],
+      "visualPlan": {
+        "enter": "完整真实仓库卡从下方升起",
+        "change": "紫刷扫仓库标题，镜头推近原像素，开源释义擦出",
+        "read": "标题原像素与DeepInfer开源",
+        "exit": "镜头按原quintic退回完整卡",
+        "handoff": "同一张卡同尺寸交给Star"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/github-original.png",
+          "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+          "id": "github-original",
+          "role": "2026-10-21 11:45真实仓库截图；裁去账户顶部100px",
+          "required": true
+        }
+      ]
+    },
+    {
+      "stableId": "stars",
+      "startFrame": 560,
+      "durationInFrames": 386,
+      "oneQuestion": "GitHub一万多颗星",
+      "sourceSpans": [
+        {
+          "startChar": 57,
+          "endChar": 65,
+          "text": "今天，截至到今天"
+        },
+        {
+          "startChar": 66,
+          "endChar": 77,
+          "text": "GitHub上已经拿了"
+        },
+        {
+          "startChar": 78,
+          "endChar": 84,
+          "text": "一万多颗星了"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t22a",
+          "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "原截图CSS裁去顶部100px账户区；原生相机中心540/900；同图标题和Star两次ROI，读完归位；深色材料按原白蒙版退至纯白，保留清晰原像素。",
+          "useScope": "本片9.333333–15.766667秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T22a-PostCard.tsx",
+            "sha256": "510809cce3aee0988c4cf7b591ee506d709eb7c562b2f734cd767b765de6f4f0",
+            "symbol": "PostCard"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx",
+            "sha256": "6be44443e30cb194817d026b91a04524db86b17963c763167f1083386374b0b9",
+            "symbol": "PostCard"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "StarsScene",
+            "callee": "PostCard"
+          },
+          "useMode": "full",
+          "keyAction": "扫Star原像素，镜头推近，一万多颗星擦出"
+        }
+      ],
+      "sceneGuide": {
+        "type": "prompt-reading",
+        "signature": "c3c3bea569d79eb37f3d65a2e4086c301a87daf0aa987cc995b13f8f72d0f810",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "延续已建立的同一仓库卡；扫Star原像素，镜头推近，一万多颗星擦出",
+            "check": "按本场景实际导出时序检查截图14.1k与一万多颗星对应；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F02",
+            "decision": "本片只要求仓库标题/Star原句，保留截图原像素及必要上下文，不使用假网页。",
+            "check": "核原像素ROI、中文释义与原截图，观察推近和归位中间态。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "真实截图 关键句 荧光 放大",
+        "candidates": [
+          {
+            "id": "interaction-news-brush",
+            "decision": "rejected",
+            "reason": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。"
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "decision": "selected",
+            "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。"
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "decision": "rejected",
+            "reason": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "interaction-news-brush",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT01-1-preview.mp4",
+            "sha256": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+            "observations": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT01.jpg",
+              "sha256": "33eda22336d59e2d8335764de4888216689295605d79fca704185400682dbebf"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T22a-1-preview.mp4",
+            "sha256": "45150cdfa71d881eec1060242f4b427a1ca13fa93600e2a4d912c284763bc925",
+            "observations": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+              "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+            }
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-1-preview.mp4",
+            "sha256": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+            "observations": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT02.jpg",
+              "sha256": "8d4ae14353092f22987f308c8056c6d5cdc3ff0de0bb473473cd66f65b5d7d18"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+          "corePreserved": "原截图CSS裁去顶部100px账户区；原生相机中心540/900；同图标题和Star两次ROI，读完归位；深色材料按原白蒙版退至纯白，保留清晰原像素。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+            "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+          }
+        ],
+        "contextSha256": "efc3d4be0a0d73f85a04786bd63607bf323b8f4d5532eb2e93b79e996bdf3988"
+      },
+      "sourceBeatIds": [
+        "cue-07",
+        "cue-08",
+        "cue-09"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "一万多颗星",
+        "今天，截至到今天",
+        "GitHub上已经拿了",
+        "一万多颗星了"
+      ],
+      "visualPlan": {
+        "enter": "延续已建立的同一仓库卡",
+        "change": "扫Star原像素，镜头推近，一万多颗星擦出",
+        "read": "截图14.1k与一万多颗星对应",
+        "exit": "退回完整卡",
+        "handoff": "同图进入代码区域拆解；下一段描框重建"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/github-original.png",
+          "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+          "id": "github-original",
+          "role": "2026-10-21 11:45真实仓库截图；裁去账户顶部100px",
+          "required": true
+        }
+      ]
+    },
+    {
+      "stableId": "code",
+      "startFrame": 946,
+      "durationInFrames": 476,
+      "oneQuestion": "核心代码交给同行研究改造",
+      "sourceSpans": [
+        {
+          "startChar": 85,
+          "endChar": 96,
+          "text": "这份正在支撑自家服务的"
+        },
+        {
+          "startChar": 97,
+          "endChar": 101,
+          "text": "核心代码"
+        },
+        {
+          "startChar": 102,
+          "endChar": 112,
+          "text": "现在同行也能直接拿去"
+        },
+        {
+          "startChar": 113,
+          "endChar": 119,
+          "text": "研究和改造了"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t04e",
+          "reason": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "整页与两块直接通过同源SVG viewBox裁取；横排改为竖向两层，描框、拎出弧线、物理投影、标签和结论保留；只按真实坐标和口播cue适配。",
+          "useScope": "本片15.766667–23.700000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T04e-PackOpen.tsx",
+            "sha256": "7e00355950ac28f47526aff12723cddb2e88f20b8c1605a5384b09f80d32d172",
+            "symbol": "PackOpen"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04e-PackOpen.tsx",
+            "sha256": "30e45e61f1955627284618a48be21b8d85497a95e34a5354dfbacaee1ea655e3",
+            "symbol": "PackOpen"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "CodeScene",
+            "callee": "PackOpen"
+          },
+          "useMode": "full",
+          "keyAction": "两处真实文件区域标框并弧线拎出，标签出现"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "真实仓库卡建立；两处真实文件区域标框并弧线拎出，标签出现",
+            "check": "按本场景实际导出时序检查核心代码、文档与示例及同行研究改造；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "整体 仓库 拆开 几个部分",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t04e",
+            "decision": "selected",
+            "reason": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。"
+          },
+          {
+            "id": "fred-wave2-42-t12d",
+            "decision": "rejected",
+            "reason": "预览是三个阶段词从胶囊分离并退场，没有真实文件区域拆出的对应关系。"
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "decision": "rejected",
+            "reason": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t04e",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04e-1-preview.mp4",
+            "sha256": "e9b458e022ac06fddabc852ac4abe5a8b95b62a9e875db6ccf428cfbe8b62d93",
+            "observations": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04e.jpg",
+              "sha256": "c9f1849b2c189db149067b332c4362afad4db1d827295a7219a228ff22607fed"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t12d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T12d-1-preview.mp4",
+            "sha256": "fc9d61cc69fffb132b0fb2d2ed60cfea0584b7ab21b1d214d0a57c78ce69f97a",
+            "observations": "预览是三个阶段词从胶囊分离并退场，没有真实文件区域拆出的对应关系。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T12d.jpg",
+              "sha256": "50b08e33c0db394653c0e2102acabf7b4ef1e0a90b567fd84917258ae6017f8e"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T05g-1-preview.mp4",
+            "sha256": "6fc2aa9c19362f82ccfa45c832661cb7ee257a22d12ef32e63063c270e39b26d",
+            "observations": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T05g.jpg",
+              "sha256": "22f9c13d21745077a671835d796c4ac806ac04126ff75668232b0c94ee67060b"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。",
+          "corePreserved": "整页与两块直接通过同源SVG viewBox裁取；横排改为竖向两层，描框、拎出弧线、物理投影、标签和结论保留；只按真实坐标和口播cue适配。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04e.jpg",
+            "sha256": "c9f1849b2c189db149067b332c4362afad4db1d827295a7219a228ff22607fed"
+          }
+        ],
+        "contextSha256": "4e65174d4fef665f0d5ef587d46ce8759ce3147938b50c7313a6905aff7d3404"
+      },
+      "sourceBeatIds": [
+        "cue-10",
+        "cue-11",
+        "cue-12",
+        "cue-13"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "核心代码",
+        "文档与示例",
+        "同行接着研究和改造",
+        "这份正在支撑自家服务的",
+        "核心代码",
+        "现在同行也能直接拿去",
+        "研究和改造了"
+      ],
+      "visualPlan": {
+        "enter": "真实仓库卡建立",
+        "change": "两处真实文件区域标框并弧线拎出，标签出现",
+        "read": "核心代码、文档与示例及同行研究改造",
+        "exit": "保留两块区域到段末",
+        "handoff": "硬切请求模型，不伪称几何morph"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/github-original.png",
+          "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+          "id": "github-original",
+          "role": "2026-10-21 11:45真实仓库截图；裁去账户顶部100px",
+          "required": true
+        }
+      ]
+    },
+    {
+      "stableId": "request",
+      "startFrame": 1422,
+      "durationInFrames": 843,
+      "oneQuestion": "用户涌入与服务成本",
+      "sourceSpans": [
+        {
+          "startChar": 120,
+          "endChar": 125,
+          "text": "大家要知道"
+        },
+        {
+          "startChar": 126,
+          "endChar": 136,
+          "text": "大模型会回答只是开始"
+        },
+        {
+          "startChar": 137,
+          "endChar": 147,
+          "text": "大量的用户同时涌进来"
+        },
+        {
+          "startChar": 148,
+          "endChar": 157,
+          "text": "怎么样地少让人等待"
+        },
+        {
+          "startChar": 158,
+          "endChar": 166,
+          "text": "少浪费昂贵的显卡"
+        },
+        {
+          "startChar": 167,
+          "endChar": 173,
+          "text": "这背后的工程"
+        },
+        {
+          "startChar": 174,
+          "endChar": 184,
+          "text": "直接关系到服务的成本"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t13d",
+          "reason": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "直接复用认可样片的竖向双路线和13.2秒服务器→胶囊交接，输入原速整轨不再用样片音频切片。",
+          "useScope": "本片23.700000–37.750000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T13d-RequestTrip.tsx",
+            "sha256": "4cd6cda38eb3879db74f1214053baac465aa6d477a19275d451e9f7514087e48",
+            "symbol": "RequestTrip"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13d-RequestTrip.tsx",
+            "sha256": "118f9d2358157851cc0836b24a226a94a3eb2c3f6a09636eeb6e1aff2351657e",
+            "symbol": "RequestTrip"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "RequestScene",
+            "callee": "RequestTrip"
+          },
+          "useMode": "full",
+          "keyAction": "请求发送、吞入、处理、结果回程停靠，最后服务器收成胶囊"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "用户、服务器和双路线先建立；请求发送、吞入、处理、结果回程停靠，最后服务器收成胶囊",
+            "check": "按本场景实际导出时序检查DeepInfer工程层和返回结果；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "请求 服务器 返回 结果 去程 回程",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t13d",
+            "decision": "selected",
+            "reason": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。"
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "decision": "rejected",
+            "reason": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。"
+          },
+          {
+            "id": "ep107-selected-03",
+            "decision": "rejected",
+            "reason": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t13d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13d-1-preview.mp4",
+            "sha256": "34aa6188226bb43c3d1e0a5597d16fa6d347db48b2f806c224d05b883e1bc1cf",
+            "observations": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13d.jpg",
+              "sha256": "f6541a3fcbf32c632da2fde55810d8a658f459dfd29491eec4af30def4c6d9d2"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T05g-1-preview.mp4",
+            "sha256": "6fc2aa9c19362f82ccfa45c832661cb7ee257a22d12ef32e63063c270e39b26d",
+            "observations": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T05g.jpg",
+              "sha256": "22f9c13d21745077a671835d796c4ac806ac04126ff75668232b0c94ee67060b"
+            }
+          },
+          {
+            "id": "ep107-selected-03",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/107-03-1-preview.mp4",
+            "sha256": "4ab167cf79586db41c8c9ecbd1659869a195b02e9fc7d40f15fcdc46cea057dc",
+            "observations": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/107-03.jpg",
+              "sha256": "a12928b1eb0079f70f25a8a639414def499b55a6c84998b55c2673565de05b3d"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+          "corePreserved": "直接复用认可样片的竖向双路线和13.2秒服务器→胶囊交接，输入原速整轨不再用样片音频切片。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13d.jpg",
+            "sha256": "f6541a3fcbf32c632da2fde55810d8a658f459dfd29491eec4af30def4c6d9d2"
+          }
+        ],
+        "contextSha256": "c5d4abb7b88ac269f80f5611aa47817279149fdcd4971db579e83ed9fae78930"
+      },
+      "sourceBeatIds": [
+        "cue-14",
+        "cue-15",
+        "cue-16",
+        "cue-17",
+        "cue-18",
+        "cue-19",
+        "cue-20"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "用户",
+        "响应用户请求",
+        "推理服务",
+        "计算资源 · 服务成本",
+        "工程层",
+        "DeepInfer",
+        "用户请求",
+        "返回结果",
+        "大家要知道",
+        "大模型会回答只是开始",
+        "大量的用户同时涌进来",
+        "怎么样地少让人等待",
+        "少浪费昂贵的显卡",
+        "这背后的工程",
+        "直接关系到服务的成本"
+      ],
+      "visualPlan": {
+        "enter": "用户、服务器和双路线先建立",
+        "change": "请求发送、吞入、处理、结果回程停靠，最后服务器收成胶囊",
+        "read": "DeepInfer工程层和返回结果",
+        "exit": "服务器收为820×210胶囊",
+        "handoff": "在同坐标同大小交接T04b"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "roles",
+      "startFrame": 2265,
+      "durationInFrames": 336,
+      "oneQuestion": "GPU本轮计算与CPU提前安排",
+      "sourceSpans": [
+        {
+          "startChar": 185,
+          "endChar": 191,
+          "text": "比如一个显卡"
+        },
+        {
+          "startChar": 192,
+          "endChar": 197,
+          "text": "计算这一轮"
+        },
+        {
+          "startChar": 198,
+          "endChar": 208,
+          "text": "处理器提前安排下一轮"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave2-42-t04b",
+          "reason": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "直接复用认可样片两职责竖向拆分；在5.6秒后进入推进泳道，去掉原样片长停留。",
+          "useScope": "本片37.750000–43.350000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T04b-RoleSplit.tsx",
+            "sha256": "d4d168ccaf731926424ce7915b62bb2eccdad69cbcb153071067b9ccd21cf6fb",
+            "symbol": "RoleSplit"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04b-RoleSplit.tsx",
+            "sha256": "e32ae0c2ec9b7782d6d51045ab79c19f6e38e16211e3a12328a198c9de91cc74",
+            "symbol": "RoleSplit"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "RolesScene",
+            "callee": "RoleSplit"
+          },
+          "useMode": "full",
+          "keyAction": "胶囊拆上下两职责，GPU和CPU工具卡分别升起"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "沿同位置协同处理胶囊；胶囊拆上下两职责，GPU和CPU工具卡分别升起",
+            "check": "按本场景实际导出时序检查计算这一轮、提前安排下一轮；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "角色 分工 任务 拆分 环节 计算 安排",
+        "candidates": [
+          {
+            "id": "fred-wave2-42-t04b",
+            "decision": "selected",
+            "reason": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。"
+          },
+          {
+            "id": "library-new10-n008",
+            "decision": "rejected",
+            "reason": "商品旁问题转成多个人员角色，需要本片没有的商品媒体；与GPU/CPU双职责不匹配。"
+          },
+          {
+            "id": "fred-wave2-42-t03c",
+            "decision": "rejected",
+            "reason": "三节点互通循环后聚焦结论，拓扑与本片双职责不同。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave2-42-t04b",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04b-1-preview.mp4",
+            "sha256": "888bcb60e7b15783d4de2a3af7645cd0904cee92040f7b1c3d6ecf12d4390950",
+            "observations": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04b.jpg",
+              "sha256": "de6d3c4da67cd8ea7cb73b2e11947f3e19dc42164f296d125d58abe6671c03ec"
+            }
+          },
+          {
+            "id": "library-new10-n008",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/N008-1-preview.mp4",
+            "sha256": "8aa2f064525127b26d3f9e4e093f1a275d3479af19fe52d31627823d7c092fbd",
+            "observations": "商品旁问题转成多个人员角色，需要本片没有的商品媒体；与GPU/CPU双职责不匹配。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/N008.jpg",
+              "sha256": "334f6f50649baab1765baa94ab4c9aa4b79d7256ec8ed3713e9634f9d88ca80e"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t03c",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T03c-1-preview.mp4",
+            "sha256": "ebac213e177e94206c07e47ab2f3fd25375ab12ad5a619acf6c75a79964e6cc8",
+            "observations": "三节点互通循环后聚焦结论，拓扑与本片双职责不同。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T03c.jpg",
+              "sha256": "f3f507e9f11896f32dfd1d53d98c20110ddc2bc744c4ec70b73e78c5ab7d6d9b"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。",
+          "corePreserved": "直接复用认可样片两职责竖向拆分；在5.6秒后进入推进泳道，去掉原样片长停留。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04b.jpg",
+            "sha256": "de6d3c4da67cd8ea7cb73b2e11947f3e19dc42164f296d125d58abe6671c03ec"
+          }
+        ],
+        "contextSha256": "d9f4187e5039e735104b8b26fe2ccc5bdd7bd08427cbec7234431daf32a993a8"
+      },
+      "sourceBeatIds": [
+        "cue-21",
+        "cue-22",
+        "cue-23"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "协同处理",
+        "计算这一轮",
+        "显卡 GPU",
+        "提前安排下一轮",
+        "处理器 CPU",
+        "比如一个显卡",
+        "计算这一轮",
+        "处理器提前安排下一轮"
+      ],
+      "visualPlan": {
+        "enter": "沿同位置协同处理胶囊",
+        "change": "胶囊拆上下两职责，GPU和CPU工具卡分别升起",
+        "read": "计算这一轮、提前安排下一轮",
+        "exit": "两职责停稳至5.6秒",
+        "handoff": "硬切双列任务图，保持GPU/CPU身份语义；不是无缝形变"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "pipeline",
+      "startFrame": 2601,
+      "durationInFrames": 399,
+      "oneQuestion": "减少等待和接新任务",
+      "sourceSpans": [
+        {
+          "startChar": 209,
+          "endChar": 216,
+          "text": "让机器少干等着"
+        },
+        {
+          "startChar": 217,
+          "endChar": 224,
+          "text": "服务每天都要跑"
+        },
+        {
+          "startChar": 225,
+          "endChar": 231,
+          "text": "省下来的算力"
+        },
+        {
+          "startChar": 232,
+          "endChar": 239,
+          "text": "还能接别的任务"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t02g",
+          "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "useScope": "本片43.350000–50.000000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "4f93cc9418c91ea65f98423375da8d22205893b92984aac373f0eebbbd6a6c66",
+            "symbol": "RoleRoadmap"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+            "symbol": "RoleRoadmap"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "PipelineScene",
+            "callee": "RoleRoadmap"
+          },
+          "useMode": "full",
+          "keyAction": "步骤从角色后抽出，CPU提前安排→GPU下一轮→接新任务焦点依次切换"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "GPU和CPU双列先立角色；步骤从角色后抽出，CPU提前安排→GPU下一轮→接新任务焦点依次切换",
+            "check": "按本场景实际导出时序检查当前反色步骤与前序完成勾；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "两条 身份 泳道 步骤 当前 点亮",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "decision": "selected",
+            "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。"
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "decision": "rejected",
+            "reason": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。"
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "decision": "rejected",
+            "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4",
+            "sha256": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+            "observations": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+              "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T16a-1-preview.mp4",
+            "sha256": "8ad8b3a47a1d9fa28742105ed5ea97d63d802eaa93f704d81c9e4f9dc07f3c02",
+            "observations": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T16a.jpg",
+              "sha256": "31ae7a7a0f7185b4455248245ebd6441973ceab76b49450d721bf8e2613c87a3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4",
+            "sha256": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+            "observations": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+              "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "corePreserved": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+            "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+          }
+        ],
+        "contextSha256": "b925000173e33232dab16b0ee6538165781e076c801a44179971bc965ca48120"
+      },
+      "sourceBeatIds": [
+        "cue-24",
+        "cue-25",
+        "cue-26",
+        "cue-27"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "GPU",
+        "CPU",
+        "01",
+        "02",
+        "03",
+        "本轮计算",
+        "下一轮计算",
+        "接新任务",
+        "提前安排",
+        "下一轮就绪",
+        "继续安排",
+        "让机器少干等着",
+        "服务每天都要跑",
+        "省下来的算力",
+        "还能接别的任务"
+      ],
+      "visualPlan": {
+        "enter": "GPU和CPU双列先立角色",
+        "change": "步骤从角色后抽出，CPU提前安排→GPU下一轮→接新任务焦点依次切换",
+        "read": "当前反色步骤与前序完成勾",
+        "exit": "接新任务保持到真人",
+        "handoff": "切回原片50秒真人"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "talk-view",
+      "startFrame": 3000,
+      "durationInFrames": 438,
+      "oneQuestion": "梁文锋与持续创新",
+      "sourceSpans": [
+        {
+          "startChar": 240,
+          "endChar": 247,
+          "text": "梁文锋早就说过"
+        },
+        {
+          "startChar": 248,
+          "endChar": 254,
+          "text": "真正的护城河"
+        },
+        {
+          "startChar": 255,
+          "endChar": 264,
+          "text": "是能持续创新的团队"
+        },
+        {
+          "startChar": 265,
+          "endChar": 274,
+          "text": "我服他的地方就在这"
+        }
+      ],
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+          "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+          "sourceInSeconds": 50.0,
+          "sourceOutSeconds": 57.3,
+          "id": "talking-source",
+          "role": "原速真人底片",
+          "required": true
+        }
+      ],
+      "sourceBeatIds": [
+        "cue-28",
+        "cue-29",
+        "cue-30",
+        "cue-31"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "梁文锋早就说过",
+        "真正的护城河",
+        "是能持续创新的团队",
+        "我服他的地方就在这"
+      ],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "用户要求复用现存纯真人底片，图形无需复刻。"
+      },
+      "sceneGuide": {
+        "type": "custom",
+        "customReason": "现存真人直接复用；现有图形场景类型不应改造本人表达。",
+        "signature": "315dd212d9ea651321cac9c7022d4b828d02273880dfc16b84bb68b6ed107e64",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "原真人全屏准确源帧进入；原速人物表情动作与原字幕同步",
+            "check": "按本场景实际导出时序检查本段原句本人讲述；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "真人全屏沿原画幅，白字48px阴影字幕在1710px。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "本人全屏原速讲述，保持原帧动作",
+        "candidates": [],
+        "inspectedReferences": [],
+        "decisionReason": "沿用户明确要求在talk-view复用现存纯真人底片，不将真实本人改成库图形。"
+      },
+      "visualPlan": {
+        "enter": "原真人全屏准确源帧进入",
+        "change": "原速人物表情动作与原字幕同步",
+        "read": "本段原句本人讲述",
+        "exit": "保持原帧序列至边界",
+        "handoff": "依时间线硬切下一图形或到片尾；无额外变速"
+      },
+      "productionRoute": {
+        "selected": "preserved-media",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "open",
+      "startFrame": 3438,
+      "durationInFrames": 552,
+      "oneQuestion": "开放工程成果和继续创新",
+      "sourceSpans": [
+        {
+          "startChar": 275,
+          "endChar": 286,
+          "text": "把已经用起来的工程成果"
+        },
+        {
+          "startChar": 287,
+          "endChar": 291,
+          "text": "直接开放"
+        },
+        {
+          "startChar": 292,
+          "endChar": 298,
+          "text": "让别人接着做"
+        },
+        {
+          "startChar": 299,
+          "endChar": 306,
+          "text": "自己靠持续创新"
+        },
+        {
+          "startChar": 307,
+          "endChar": 312,
+          "text": "继续往前走"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t04f",
+          "reason": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "钥匙上方横向插锁，能力卡竖排；连线从锁芯下沿经左干接卡边，所有钥匙、锁梁、卡色和弹性保留。",
+          "useScope": "本片57.300000–66.500000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T04f-KeyUnlock.tsx",
+            "sha256": "1ab4c93cc3bb1c49b6bc08a45f044ba71c91f4fb0992051fce5d9e96de918439",
+            "symbol": "KeyUnlock"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04f-KeyUnlock.tsx",
+            "sha256": "7d3c6a2ce3cdf1d9a395bcbfb1eec4c56b8ea077f0b142f8baa572506d8f0525",
+            "symbol": "KeyUnlock"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "OpenScene",
+            "callee": "KeyUnlock"
+          },
+          "useMode": "full",
+          "keyAction": "钥匙插入转动；读懂、改造、创新三卡依次解锁"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "钥匙和锁芯建立；钥匙插入转动；读懂、改造、创新三卡依次解锁",
+            "check": "按本场景实际导出时序检查已开放工程成果带来的后续动作；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "钥匙 解锁 能力 开放",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t04f",
+            "decision": "selected",
+            "reason": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。"
+          },
+          {
+            "id": "fred-wave3-40-t02h",
+            "decision": "rejected",
+            "reason": "三份文件翻面解释，各文件是独立载体，没有前置成果与多个后续动作的依赖。"
+          },
+          {
+            "id": "fred-wave2-42-t02e",
+            "decision": "rejected",
+            "reason": "多项内容汇聚成一个产品，方向是多到一，和本段开放后的一到多相反。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t04f",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04f-1-preview.mp4",
+            "sha256": "d3a16615177b01f31b522ce59b6dc21ac12996589070c2298be6872671305bf9",
+            "observations": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04f.jpg",
+              "sha256": "b06f0093e3a600061a614086d0f004016fe3985030fae69302f5f3b7c4f421ac"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t02h",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02h-1-preview.mp4",
+            "sha256": "aa99d90800118b426df9ca558b1411d7dc0bb3822e18549f14c162f70714a4d5",
+            "observations": "三份文件翻面解释，各文件是独立载体，没有前置成果与多个后续动作的依赖。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02h.jpg",
+              "sha256": "400889cdfe18dbe87832b70363ab69b727d34169261bc9e7f298a4247f9629f6"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t02e",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02e-1-preview.mp4",
+            "sha256": "5267b30861c2028a0da6a82091031469de97dad9bb066c8816d2a526ecae193a",
+            "observations": "多项内容汇聚成一个产品，方向是多到一，和本段开放后的一到多相反。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02e.jpg",
+              "sha256": "a4cf37372b4bb1874dfd4937db1e2c865d261505daf0da18d747a7ba7537bca4"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。",
+          "corePreserved": "钥匙上方横向插锁，能力卡竖排；连线从锁芯下沿经左干接卡边，所有钥匙、锁梁、卡色和弹性保留。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04f.jpg",
+            "sha256": "b06f0093e3a600061a614086d0f004016fe3985030fae69302f5f3b7c4f421ac"
+          }
+        ],
+        "contextSha256": "82d85a55c37f568c44317d48613bc38318418f3f45f9942e716cd2f13a2ef612"
+      },
+      "sourceBeatIds": [
+        "cue-32",
+        "cue-33",
+        "cue-34",
+        "cue-35",
+        "cue-36"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "工程成果",
+        "读懂代码",
+        "已有实现可研究",
+        "接着改造",
+        "在已有成果上继续做",
+        "继续创新",
+        "投入新的优化",
+        "把已经用起来的工程成果",
+        "直接开放",
+        "让别人接着做",
+        "自己靠持续创新",
+        "继续往前走"
+      ],
+      "visualPlan": {
+        "enter": "钥匙和锁芯建立",
+        "change": "钥匙插入转动；读懂、改造、创新三卡依次解锁",
+        "read": "已开放工程成果带来的后续动作",
+        "exit": "三条能力稳态",
+        "handoff": "切到三层系统结构说明边界"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "layers",
+      "startFrame": 3990,
+      "durationInFrames": 372,
+      "oneQuestion": "线上配套与模型硬件适配",
+      "sourceSpans": [
+        {
+          "startChar": 313,
+          "endChar": 325,
+          "text": "完整的线上配套还得继续补"
+        },
+        {
+          "startChar": 326,
+          "endChar": 335,
+          "text": "模型和硬件也要适配"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t13a",
+          "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "原厚板和顶面改860宽、210高，竖屏中心540/880；层内容说明尚待配套与适配，不声称部署通过。",
+          "useScope": "本片66.500000–72.700000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T13a-StackLayers.tsx",
+            "sha256": "fce4b5cb8a9dfa0ff890e246fffa607e9e5e6d220c57ac55e2407d22cddfdb55",
+            "symbol": "StackLayers"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13a-StackLayers.tsx",
+            "sha256": "52345d2c1d97f9261c28925a2420cfe99e4763c0146dbf4d39592bcaf59c0822",
+            "symbol": "StackLayers"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "LayersScene",
+            "callee": "StackLayers"
+          },
+          "useMode": "full",
+          "keyAction": "层叠、承压，模型硬件层分离聚焦变黑"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "三层厚板依次建立；层叠、承压，模型硬件层分离聚焦变黑",
+            "check": "按本场景实际导出时序检查线上配套仍待补齐，模型硬件还需适配；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "分层 结构 当前 层 点亮",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t13a",
+            "decision": "selected",
+            "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。"
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "decision": "rejected",
+            "reason": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。"
+          },
+          {
+            "id": "fred-wave3-40-t02g",
+            "decision": "rejected",
+            "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t13a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4",
+            "sha256": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+            "observations": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+              "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T17c-1-preview.mp4",
+            "sha256": "255961422fe9c5da3ed61969df6b330699dc447d0b9596432ae67a45ff406f13",
+            "observations": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T17c.jpg",
+              "sha256": "6cde3cbfc519df2daaed7b34f4a667321ef6aa48fc2df781658338d8690d1f84"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t02g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4",
+            "sha256": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+            "observations": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+              "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+          "corePreserved": "原厚板和顶面改860宽、210高，竖屏中心540/880；层内容说明尚待配套与适配，不声称部署通过。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+            "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+          }
+        ],
+        "contextSha256": "a0a1fbcc6af33d1ea8e3111e4503092bf295635e871071a85ea7ca076601c755"
+      },
+      "sourceBeatIds": [
+        "cue-37",
+        "cue-38"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "线上配套",
+        "仍待补齐",
+        "推理框架",
+        "DeepInfer",
+        "模型与硬件",
+        "还需适配",
+        "不同环境，还需完成适配",
+        "完整的线上配套还得继续补",
+        "模型和硬件也要适配"
+      ],
+      "visualPlan": {
+        "enter": "三层厚板依次建立",
+        "change": "层叠、承压，模型硬件层分离聚焦变黑",
+        "read": "线上配套仍待补齐，模型硬件还需适配",
+        "exit": "当前适配层停稳",
+        "handoff": "切因果台阶，继续工程积累价值"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "progress",
+      "startFrame": 4362,
+      "durationInFrames": 373,
+      "oneQuestion": "少些摸索，把精力放在新优化",
+      "sourceSpans": [
+        {
+          "startChar": 336,
+          "endChar": 345,
+          "text": "但是后来者已经能够"
+        },
+        {
+          "startChar": 346,
+          "endChar": 353,
+          "text": "少摸索一部分了"
+        },
+        {
+          "startChar": 354,
+          "endChar": 364,
+          "text": "把精力放在新的优化上"
+        },
+        {
+          "startChar": 365,
+          "endChar": 374,
+          "text": "一支团队的工程积累"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave2-42-t03d",
+          "reason": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "台阶横移改56、竖间距120，整体随新项居中；保留前后遮挡及末项黑胶囊。",
+          "useScope": "本片72.700000–78.916667秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T03d-CauseChain.tsx",
+            "sha256": "b9a8f6d05941a6a47400bfb8a980820324f1dfad90afd5157cbbb4db3c6a17c6",
+            "symbol": "CauseChain"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T03d-CauseChain.tsx",
+            "sha256": "5295c8d20624ac51dcd780a532d0524911815d2005605588c0d8d2f72ee9bcae",
+            "symbol": "CauseChain"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "ProgressScene",
+            "callee": "CauseChain"
+          },
+          "useMode": "full",
+          "keyAction": "少摸索一部分从前卡下推出，再推出黑胶囊投入新优化"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "已有工程积累白卡建立；少摸索一部分从前卡下推出，再推出黑胶囊投入新优化",
+            "check": "按本场景实际导出时序检查积累→少摸索→新优化；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "原因 因果 链 推进 结果",
+        "candidates": [
+          {
+            "id": "fred-wave2-42-t03d",
+            "decision": "selected",
+            "reason": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。"
+          },
+          {
+            "id": "fred-wave3-40-t13d",
+            "decision": "rejected",
+            "reason": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。"
+          },
+          {
+            "id": "ep107-selected-03",
+            "decision": "rejected",
+            "reason": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave2-42-t03d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T03d-1-preview.mp4",
+            "sha256": "d5c65d1e03c4f5bf5f2275af9b0a6ca08643b123f4fa3ac10beb6f75f1906c6d",
+            "observations": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T03d.jpg",
+              "sha256": "34a2ceb9553a63c96a456fbf5f8c367c150cedab30a4f9151b84eb8cb4323112"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t13d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13d-1-preview.mp4",
+            "sha256": "34aa6188226bb43c3d1e0a5597d16fa6d347db48b2f806c224d05b883e1bc1cf",
+            "observations": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13d.jpg",
+              "sha256": "f6541a3fcbf32c632da2fde55810d8a658f459dfd29491eec4af30def4c6d9d2"
+            }
+          },
+          {
+            "id": "ep107-selected-03",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/107-03-1-preview.mp4",
+            "sha256": "4ab167cf79586db41c8c9ecbd1659869a195b02e9fc7d40f15fcdc46cea057dc",
+            "observations": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/107-03.jpg",
+              "sha256": "a12928b1eb0079f70f25a8a639414def499b55a6c84998b55c2673565de05b3d"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。",
+          "corePreserved": "台阶横移改56、竖间距120，整体随新项居中；保留前后遮挡及末项黑胶囊。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T03d.jpg",
+            "sha256": "34a2ceb9553a63c96a456fbf5f8c367c150cedab30a4f9151b84eb8cb4323112"
+          }
+        ],
+        "contextSha256": "971f4bd6340bdd813e35b857060b415500c64e4f9eae7c305d0ad459da9f0f81"
+      },
+      "sourceBeatIds": [
+        "cue-39",
+        "cue-40",
+        "cue-41",
+        "cue-42"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "已有工程积累",
+        "少摸索一部分",
+        "投入新的优化",
+        "但是后来者已经能够",
+        "少摸索一部分了",
+        "把精力放在新的优化上",
+        "一支团队的工程积累"
+      ],
+      "visualPlan": {
+        "enter": "已有工程积累白卡建立",
+        "change": "少摸索一部分从前卡下推出，再推出黑胶囊投入新优化",
+        "read": "积累→少摸索→新优化",
+        "exit": "黑胶囊与上两步停稳",
+        "handoff": "切共享工程根对象"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "shared",
+      "startFrame": 4735,
+      "durationInFrames": 280,
+      "oneQuestion": "一支团队积累成为多个团队起点",
+      "sourceSpans": [
+        {
+          "startChar": 365,
+          "endChar": 374,
+          "text": "一支团队的工程积累"
+        },
+        {
+          "startChar": 375,
+          "endChar": 386,
+          "text": "成了多个团队能用的起点"
+        },
+        {
+          "startChar": 387,
+          "endChar": 392,
+          "text": "同样的算力"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave2-42-t04d",
+          "reason": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "树形原生竖屏重排；根为工程积累，分支为团队A/团队B/更多团队，非已核团队名或数量。",
+          "useScope": "本片78.916667–83.583333秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T04d-CategoryFocus.tsx",
+            "sha256": "095ace784830526bca24b8c75d8224e39c6a11bf20ab01922529839013112895",
+            "symbol": "CategoryFocus"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04d-CategoryFocus.tsx",
+            "sha256": "2a2571b6703b6940671abbecb2cde522509cab4a092dae5ff2389e351cb79382",
+            "symbol": "CategoryFocus"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "SharedScene",
+            "callee": "CategoryFocus"
+          },
+          "useMode": "full",
+          "keyAction": "根移位生分支，团队A/B/更多团队先后展开"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "工程积累根对象建立；根移位生分支，团队A/B/更多团队先后展开",
+            "check": "按本场景实际导出时序检查多团队共用一个工程起点；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "主题 分支 类别 展开",
+        "candidates": [
+          {
+            "id": "fred-wave2-42-t04d",
+            "decision": "selected",
+            "reason": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。"
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "decision": "rejected",
+            "reason": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。"
+          },
+          {
+            "id": "library-legacy81-r005",
+            "decision": "rejected",
+            "reason": "预览数字50从文字中抽出再分解数量，当前没有可核的团队数量，拒绝引入数字。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave2-42-t04d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04d-1-preview.mp4",
+            "sha256": "fe9317c8f849fb261f247a8370446afe9dcc3859e41e135ab645fd70dd6a4e55",
+            "observations": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04d.jpg",
+              "sha256": "4d54f3a911a3807ab8d0ab7c32886392af2aa7c9d7b2f305fd56b5ec3c310b13"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T17c-1-preview.mp4",
+            "sha256": "255961422fe9c5da3ed61969df6b330699dc447d0b9596432ae67a45ff406f13",
+            "observations": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T17c.jpg",
+              "sha256": "6cde3cbfc519df2daaed7b34f4a667321ef6aa48fc2df781658338d8690d1f84"
+            }
+          },
+          {
+            "id": "library-legacy81-r005",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/L81-R005-1-preview.mp4",
+            "sha256": "5cae6c5d1d71b12ea264ddf4f84165384a1676fcceb00257e9069c9b8e96a63f",
+            "observations": "预览数字50从文字中抽出再分解数量，当前没有可核的团队数量，拒绝引入数字。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/L81-R005.jpg",
+              "sha256": "78ad1a18e4b6c9322a80d669cadcb501c22319a0295b1c3e041a12ee0d1088ad"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。",
+          "corePreserved": "树形原生竖屏重排；根为工程积累，分支为团队A/团队B/更多团队，非已核团队名或数量。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04d.jpg",
+            "sha256": "4d54f3a911a3807ab8d0ab7c32886392af2aa7c9d7b2f305fd56b5ec3c310b13"
+          }
+        ],
+        "contextSha256": "f24ee2f4d605109a040a976307513595d89294d96f526b5208cde304dbce4682"
+      },
+      "sourceBeatIds": [
+        "cue-42",
+        "cue-43",
+        "cue-44"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "工程积累",
+        "团队 A",
+        "团队 B",
+        "更多团队",
+        "一支团队的工程积累",
+        "成了多个团队能用的起点",
+        "同样的算力"
+      ],
+      "visualPlan": {
+        "enter": "工程积累根对象建立",
+        "change": "根移位生分支，团队A/B/更多团队先后展开",
+        "read": "多团队共用一个工程起点",
+        "exit": "更多团队聚焦居中，其余后退",
+        "handoff": "切回已建立双列任务图"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "summary",
+      "startFrame": 5015,
+      "durationInFrames": 325,
+      "oneQuestion": "同一套算力接更多任务更少等待",
+      "sourceSpans": [
+        {
+          "startChar": 387,
+          "endChar": 392,
+          "text": "同样的算力"
+        },
+        {
+          "startChar": 393,
+          "endChar": 401,
+          "text": "谁能接更多的任务"
+        },
+        {
+          "startChar": 402,
+          "endChar": 410,
+          "text": "能让人更少地等待"
+        },
+        {
+          "startChar": 411,
+          "endChar": 419,
+          "text": "这场竞争就有机会"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t02g",
+          "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "useScope": "本片83.583333–89.000000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "4f93cc9418c91ea65f98423375da8d22205893b92984aac373f0eebbbd6a6c66",
+            "symbol": "RoleRoadmap"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+            "symbol": "RoleRoadmap"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+            "symbol": "SummaryScene",
+            "callee": "RoleRoadmap"
+          },
+          "useMode": "full",
+          "keyAction": "GPU下一轮焦点转接新任务，然后CPU继续安排"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "完整复现早先任务双列，不重新抽卡；GPU下一轮焦点转接新任务，然后CPU继续安排",
+            "check": "按本场景实际导出时序检查同样算力接更多任务的概念过程，无数字实测宣称；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "两条 身份 泳道 步骤 当前 点亮",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "decision": "selected",
+            "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。"
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "decision": "rejected",
+            "reason": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。"
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "decision": "rejected",
+            "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4",
+            "sha256": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+            "observations": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+              "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T16a-1-preview.mp4",
+            "sha256": "8ad8b3a47a1d9fa28742105ed5ea97d63d802eaa93f704d81c9e4f9dc07f3c02",
+            "observations": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T16a.jpg",
+              "sha256": "31ae7a7a0f7185b4455248245ebd6441973ceab76b49450d721bf8e2613c87a3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4",
+            "sha256": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+            "observations": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+              "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "suggestion",
+        "checks": {
+          "semanticFit": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "corePreserved": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "visualQuality": "已读准确源预览时间序列图并比较Top3；此处只通过选型，不代表新导出或连续声画验收。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+            "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+          }
+        ],
+        "contextSha256": "319727f68e11a3b4c1473533fef45dbb951acccf3c38e609293a614733703d7c"
+      },
+      "sourceBeatIds": [
+        "cue-44",
+        "cue-45",
+        "cue-46",
+        "cue-47"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "GPU",
+        "CPU",
+        "01",
+        "02",
+        "03",
+        "本轮计算",
+        "下一轮计算",
+        "接新任务",
+        "提前安排",
+        "下一轮就绪",
+        "继续安排",
+        "同样的算力",
+        "谁能接更多的任务",
+        "能让人更少地等待",
+        "这场竞争就有机会"
+      ],
+      "visualPlan": {
+        "enter": "完整复现早先任务双列，不重新抽卡",
+        "change": "GPU下一轮焦点转接新任务，然后CPU继续安排",
+        "read": "同样算力接更多任务的概念过程，无数字实测宣称",
+        "exit": "已有任务图停稳",
+        "handoff": "89秒切回原收尾真人"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    },
+    {
+      "stableId": "talk-end",
+      "startFrame": 5340,
+      "durationInFrames": 314,
+      "oneQuestion": "AI服务更快更便宜",
+      "sourceSpans": [
+        {
+          "startChar": 411,
+          "endChar": 419,
+          "text": "这场竞争就有机会"
+        },
+        {
+          "startChar": 420,
+          "endChar": 428,
+          "text": "把AI服务做得更"
+        },
+        {
+          "startChar": 429,
+          "endChar": 434,
+          "text": "快，更便宜"
+        }
+      ],
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+          "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+          "sourceInSeconds": 89.0,
+          "sourceOutSeconds": 94.23333333333333,
+          "id": "talking-source",
+          "role": "原速真人底片",
+          "required": true
+        }
+      ],
+      "sourceBeatIds": [
+        "cue-47",
+        "cue-48",
+        "cue-49"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "这场竞争就有机会",
+        "把AI服务做得更",
+        "快，更便宜"
+      ],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "用户要求复用现存纯真人底片，图形无需复刻。"
+      },
+      "sceneGuide": {
+        "type": "custom",
+        "customReason": "现存真人直接复用；现有图形场景类型不应改造本人表达。",
+        "signature": "315dd212d9ea651321cac9c7022d4b828d02273880dfc16b84bb68b6ed107e64",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "原真人全屏准确源帧进入；原速人物表情动作与原字幕同步",
+            "check": "按本场景实际导出时序检查本段原句本人讲述；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "真人全屏沿原画幅，白字48px阴影字幕在1710px。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "本人全屏原速讲述，保持原帧动作",
+        "candidates": [],
+        "inspectedReferences": [],
+        "decisionReason": "沿用户明确要求在talk-end复用现存纯真人底片，不将真实本人改成库图形。"
+      },
+      "visualPlan": {
+        "enter": "原真人全屏准确源帧进入",
+        "change": "原速人物表情动作与原字幕同步",
+        "read": "本段原句本人讲述",
+        "exit": "保持原帧序列至边界",
+        "handoff": "依时间线硬切下一图形或到片尾；无额外变速"
+      },
+      "productionRoute": {
+        "selected": "preserved-media",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      }
+    }
+  ],
+  "referenceCatalogRevision": "217ebeb42f5bfca098228f5eb8b29d5c3196c0a2a7b57a38eb8e7c8e07720c7e",
+  "audio": {
+    "source": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/voice-original-speed.wav",
+      "sha256": "9688ce7bdc457ba664ba67b3e6816496d61b671a814cb31262d1f1542bd3aa8c"
+    },
+    "policy": "original exact PCM, original speed, no new SFX or BGM"
+  },
+  "subtitles": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-v1.srt",
+    "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357"
+  },
+  "designContract": {
+    "spec": "1080x1920 native60",
+    "reuse": "complete accurate Fred source and kit",
+    "currentModel": "UNKNOWN",
+    "continuousAV": "UNKNOWN",
+    "directHearing": "UNKNOWN",
+    "approval": "full remake authorized; 04 self-check only; PMO and05 pending"
+  },
+  "componentDistributionReview": {
+    "status": "passed",
+    "reviewedBy": "assistant",
+    "contextSha256": "7d50f0b238ed090444fe16c29c27f95c09738ad8527290f4c29307b8ea7d0cf0",
+    "decisions": [
+      {
+        "groupKey": "ae181df5af6314cbeee102ce",
+        "sceneIds": [
+          "repo",
+          "stars"
+        ],
+        "reuseKind": "continuous-object",
+        "reason": "同一真实仓库的两个不同ROI；标题后相机退回原卡再看Star，不重复飞入。",
+        "comparisons": [
+          {
+            "stableId": "repo",
+            "task": "DeepInfer开源",
+            "visibleState": "标题原像素与开源释义",
+            "reusePurpose": "同一真实仓库的两个不同ROI；标题后相机退回原卡再看Star，不重复飞入。"
+          },
+          {
+            "stableId": "stars",
+            "task": "GitHub一万多颗星",
+            "visibleState": "同图Star原像素与一万多颗星",
+            "reusePurpose": "同一真实仓库的两个不同ROI；标题后相机退回原卡再看Star，不重复飞入。"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+            "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+          }
+        ]
+      },
+      {
+        "groupKey": "f20db34693d72464f03e81c6",
+        "sceneIds": [
+          "pipeline",
+          "summary"
+        ],
+        "reuseKind": "intentional-reprise",
+        "reason": "先建立GPU/CPU并行步骤，末段以current模式回现同一图直接接新任务，不重新抽卡。",
+        "comparisons": [
+          {
+            "stableId": "pipeline",
+            "task": "减少等待和接新任务",
+            "visibleState": "GPU/CPU步骤建立后焦点到新任务",
+            "reusePurpose": "先建立GPU/CPU并行步骤，末段以current模式回现同一图直接接新任务，不重新抽卡。"
+          },
+          {
+            "stableId": "summary",
+            "task": "同一套算力接更多任务更少等待",
+            "visibleState": "同图直接回现，焦点接续",
+            "reusePurpose": "先建立GPU/CPU并行步骤，末段以current模式回现同一图直接接新任务，不重新抽卡。"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+            "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+          }
+        ]
+      }
+    ],
+    "stage": "suggestion reference overview; actual output overview pending"
+  },
+  "script": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/source-script.txt",
+    "sha256": "c7437e561e22836d5b4091e448cc005fec4812d8f66455a7ed098f06746b847e",
+    "provenance": "逐字提取已核SRT，不改稿；沿原速音轨，未补造听核"
+  },
+  "timingStatus": "audio-aligned",
+  "timingEvidence": {
+    "subtitle": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-v1.srt",
+      "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357"
+    },
+    "note": "沿已授权现存字幕时钟；不是本轮直接听音确认"
+  },
+  "parts": [
+    {
+      "id": "full",
+      "startFrame": 0,
+      "endFrameExclusive": 5654
+    }
+  ],
+  "clockContract": {
+    "mode": "scene-local",
+    "sourceRule": "Sequence按全片半开帧区间定位，内部useCurrentFrame从零；原声全轨一次，真人startFrom等于全片源帧；Full全局t仅用于字幕和真人字幕颜色。"
+  },
+  "representativeScenes": [
+    "repo",
+    "stars",
+    "code",
+    "request",
+    "roles",
+    "pipeline",
+    "open",
+    "layers",
+    "progress",
+    "shared",
+    "summary"
+  ],
+  "deliveryLimits": {
+    "continuousAV": "UNKNOWN",
+    "directHearing": "UNKNOWN",
+    "independent05": "NOT_RELEASED",
+    "userApproval": "PENDING",
+    "formalGate": "NOT_PASSED; source lint false positive plus missing normal-speed review. Task explicitly requires complete preview with honest scope."
+  },
+  "kit": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/kit/theme.ts",
+      "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/kit/ui.tsx",
+      "sha256": "5cdb64c4be718351c7eb008ed4e72f9e7cfbea0f44e0b6d2daa359854db54b99"
+    }
+  ]
+}

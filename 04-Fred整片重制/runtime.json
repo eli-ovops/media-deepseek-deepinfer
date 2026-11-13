@@ -1,0 +1,8 @@
+{
+  "pid": 57689,
+  "url": "http://127.0.0.1:55291/",
+  "bind": "127.0.0.1",
+  "command": "python3 serve.py",
+  "root": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制",
+  "allowlist_files": 2
+}

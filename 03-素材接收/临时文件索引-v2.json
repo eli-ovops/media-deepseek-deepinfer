@@ -1,0 +1,1023 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v2",
+  "created_at": "2026-10-21T11:41:54.863823+08:00",
+  "reused_v1_index": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/临时文件索引.json",
+  "v1_core_files_unchanged": true,
+  "purpose": "Retain task evidence, local ASR, images, editable handoff. No cleanup performed. PMO task input files are inputs, not disposable outputs.",
+  "new_local": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全文覆盖与口误核对-v2.md",
+      "bytes": 7941,
+      "sha256": "745f2817e208e5a6aa11ef991b40b41df9fc4620244c2ae794d3b31b4f54975f",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N12-silence.log",
+      "bytes": 2804,
+      "sha256": "337538776a94a33b2dcc01691bae4e5501a42ed4ca747dceb1188622775959dc",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/sample_analyze_v2.py",
+      "bytes": 2876,
+      "sha256": "ca146c7ae3c1f6d119f1274839258e45357753fbc4969fe263620e68e177b12d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N07-silence.log",
+      "bytes": 2012,
+      "sha256": "8c65ea4c1d0d6d827cd8b0ae6f246ca7102c7dcee8d685eeb97b418578221277",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/audio-energy-analysis-v2-new.json",
+      "bytes": 6711,
+      "sha256": "e0c76429879bbe4c927b97df1ac1de39f4531dcbe820e3797806db31bca52d77",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N02-silence.log",
+      "bytes": 1086,
+      "sha256": "301588598c7c8017308450a31cb0b26af665a7d01b9bb030ebbb3050ac5e4252",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/visual-samples-v2.json",
+      "bytes": 17613,
+      "sha256": "d3ea028efa040e5f07e79d9f80203ded3ce49470385cd410555fb467ae62ed9a",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/source-metadata-v2-new.json",
+      "bytes": 112502,
+      "sha256": "6b84517bf4064bea57f18cbcb5882d01d3e1356e4786d5fbc02f7235b95a1797",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N08-silence.log",
+      "bytes": 1352,
+      "sha256": "54bda6b6e82b35c886d8af30a1807f70601fe36522c9a07ad28f6bd7750d50c5",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/transcription-index-v2-new.json",
+      "bytes": 8314,
+      "sha256": "60db6af5df9c0f75a8113ae1841a944333ec46114a31b2cdc3617663e3e6169c",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N01-silence.log",
+      "bytes": 1217,
+      "sha256": "d00e34c79b8631497e40fd5ebc56e47240b8cf6445f012aa2da5518287171bf2",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/字幕重映射依据-v2.json",
+      "bytes": 14581,
+      "sha256": "afb7e8aab5604bd7942aa22b7f5a893510accc07eab3a0f79c680d07f4382ecd",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N04-silence.log",
+      "bytes": 951,
+      "sha256": "8516f6439e481f13694e838328aa00f7391616ee75a5aa3d9e4852a88201e718",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N11-silence.log",
+      "bytes": 3081,
+      "sha256": "b934ff04c042c73379db7228ee5341efc39d85ed4c1001ce36307c1ecc40eef6",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全量补交派单回执-v2.json",
+      "bytes": 659,
+      "sha256": "10552bfa923daac1277466983020f68332a531c7180e106800f8a01f51a2de96",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/review-decisions-v2.json",
+      "bytes": 6812,
+      "sha256": "dbfb4e727c7214a2e2c5495b812106132de728ce5ddca5cc18703233ed86ade6",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/PMO-03输入验收.json",
+      "bytes": 2432,
+      "sha256": "3d5158e7205cceae793294dc86d519a045524735823a758c98298e8d0d92abd1",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/补交17段精确清单.json",
+      "bytes": 4774,
+      "sha256": "a573c6487d5719118bcd7b51e02a2f7326a58a3a7a43a54313ec2795eae78b89",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全量补交接收任务-v2.md",
+      "bytes": 3914,
+      "sha256": "15b6402a5b40b12f3ae1aa54a327b2c2ac9cdf8b08b1070e865923d96bc9ae8d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/PMO回报回执-v2.json",
+      "bytes": 593,
+      "sha256": "51caf9316dbeab673250d6056bfd3540a0368ea3e4af1692c39bb26a51c1be4f",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N03-silence.log",
+      "bytes": 1747,
+      "sha256": "9de4df3631e778ac706fb4e01ddf2e163e72baa9132cba60ff38b92f568255c5",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/接收报告-v2.json",
+      "bytes": 4970,
+      "sha256": "49d83eda2b33f9975abd1d62821b55b49a5e5b73ef6bb3ea7cc7833377e66fe1",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N12-whisper-command.log",
+      "bytes": 432,
+      "sha256": "de90b392486e18220caf0037e021062e788c8d4f02afacbc6d59e60f795be4f0",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/剪辑EDL-v2.json",
+      "bytes": 15391,
+      "sha256": "d085a6af98b202661bb6a932153574cae3868dcf99fc28b1afb02adb24c3c89f",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N06-silence.log",
+      "bytes": 1752,
+      "sha256": "11769d09ee3a44436f27e78e1035aa128519ee2d79877f4095c5bb8db4666c5d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N09-whisper-command.log",
+      "bytes": 431,
+      "sha256": "7431e98af0823895fa3706fa55995cf9bb05b8edfbd48eb7b8e30c6dc6529552",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N10-whisper-command.log",
+      "bytes": 427,
+      "sha256": "767c563be53bde58b18d5d428b9cda3da0f494ffe8a71aa771d4671381d182c1",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/新增12条全音轨转录汇总-v2.md",
+      "bytes": 5693,
+      "sha256": "bb270461ba0f8876ec9809e1f9ec4bbeba1032898a77dd859a6f8f5fd78b0b7d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/finalize_index_v2.py",
+      "bytes": 2043,
+      "sha256": "b09e707262a5374cc956c600d755095f70d82b6f9b23281fc6c3e255785e19b8",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N08-whisper-command.log",
+      "bytes": 431,
+      "sha256": "bad93da387e2338dc5bc24eee92652fdd15496f04d45d645f8c969f2424ac0a4",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N11-whisper-command.log",
+      "bytes": 432,
+      "sha256": "35fa22c1da88adbd29662204b81c3f529c3ca8d33f122879b4c9a5f414d838ab",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N05-whisper-command.log",
+      "bytes": 425,
+      "sha256": "7eab3f5a327bf5049a26ee512ede344a0484b94d98d04e519395fa224c4d04d4",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全量补交阶段接续回执-v2.json",
+      "bytes": 351,
+      "sha256": "d7c96b4141eb6bbb2057622e17bba8b5b95165792477361664f826cf0dadf53c",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N04-whisper-command.log",
+      "bytes": 431,
+      "sha256": "5928d0a3449a7991fb9a55f899a8076626d0dd6c8859795716671c33fce8a634",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N10-silence.log",
+      "bytes": 1218,
+      "sha256": "d78f1225b851c413c74f432511e6bd9b4fce8680518de80fd112fd21854938d2",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N05-silence.log",
+      "bytes": 1481,
+      "sha256": "503a5eb1ff0f17f35ab80615ebd2839109c9222b9ba4c99e99fdc006ea412468",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N07-whisper-command.log",
+      "bytes": 432,
+      "sha256": "0557459af08989e2e510078f4dd6ad5eb631089d6286e3647b61920ca06a4c80",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N06-whisper-command.log",
+      "bytes": 432,
+      "sha256": "7d16efdc5f136d5c1769fc09a6e3a2ac76a0f75bece44f961734899f6c22b74b",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/build_intake_v2.py",
+      "bytes": 10153,
+      "sha256": "dba934a4c1bb046ccd0ff9d26c65e3eb4f93ce7db74b34c087b42ea235f46ab8",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/inspect_transcribe_v2.py",
+      "bytes": 2199,
+      "sha256": "7a379f98dd82b9844f440f877ec2d8c02b54c0745a803d17ac60e338727c9216",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-v2-1.jpg",
+      "bytes": 444186,
+      "sha256": "7bc8e9fd69655eee7bd2d3dd733c76dedf543e4fd046af2d014489b9e5f13bfa",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N01-whisper-command.log",
+      "bytes": 427,
+      "sha256": "87840dca207074a290f17530bc015527b897af18f26085438466d68208cde226",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/supplement-paths-verified-v2.json",
+      "bytes": 4384,
+      "sha256": "cd12ab7fa7a22c118ef880696ae948c91d8d3f6a477355c5442be9bf4af3a19f",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-v2-2.jpg",
+      "bytes": 453702,
+      "sha256": "f16b4c7f4b62ada6b941ad666972957fffcd208ca5050301e02ec1602f71e976",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全量素材清单-v2.json",
+      "bytes": 32195,
+      "sha256": "62b4d7a97088f48a680651e605460eb7dc0ad2b8d14bb78050fc2b060408b226",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N02-whisper-command.log",
+      "bytes": 427,
+      "sha256": "9089dd6e1d7ba920df709cfd066bb4577d64be3266899f7cdce2f66ea1b002dd",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N09-silence.log",
+      "bytes": 1481,
+      "sha256": "9b31b5644a1e5be7fcdf82c5f29991f5231b4ffd1deee8428d2261b149305b16",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-v2-3.jpg",
+      "bytes": 474650,
+      "sha256": "46d706e6d3b2ea958dcfdb05da9bf1ca1b9315d39a0ab13521213f9854ea10bc",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/PMO-03全量补交接续.json",
+      "bytes": 1069,
+      "sha256": "46b9bbbbad28465d1ad0b9e75616d11507d6a23248410ced08140f4702458acb",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/N03-whisper-command.log",
+      "bytes": 428,
+      "sha256": "92bfffb57de3156fccd5ee4aff3047e8cc165543a99cf06d9b1ed1a5cb6990bb",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-8p8.jpg",
+      "bytes": 13841,
+      "sha256": "418d42c993585811663a44c09532513012c82069d4a47e8c31911e9172a47d7e",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-26p7.jpg",
+      "bytes": 13841,
+      "sha256": "46ebaa225ded3ae8b85abdb3c3ec3e984f863f11f527bcbdb6f115bd98208a48",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-19p696.jpg",
+      "bytes": 15311,
+      "sha256": "4891275f2f95f29ee3af6e1abe86f5c6dbe706368f27b563d12e5c9a39c8e31d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N04-0p25.jpg",
+      "bytes": 13395,
+      "sha256": "4c8ef95287f3ff9c4d7f9aeed5349ae3259ddb82520c25bf3279fc5c20cc8798",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N05-0p25.jpg",
+      "bytes": 13799,
+      "sha256": "aea5139e7089946bec0f21ec4a41e78be215a989a0d51cc808a939ea392f4bce",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N04-1p6.jpg",
+      "bytes": 12328,
+      "sha256": "7600e1a99be90c2eab0d80ac4a7b3343e4b52d435e09e7217c75eccd8659e849",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-0p25.jpg",
+      "bytes": 14658,
+      "sha256": "4e61579e8a20bd62914a2bf224149fcc3c9332d2d0a5b9d73102569cc7a8ec7d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N04-0p925.jpg",
+      "bytes": 15044,
+      "sha256": "db1930adde61d4347569a1a4bb71b9531a8d15a902ba15bd18e6e118674d7033",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-34p5.jpg",
+      "bytes": 16036,
+      "sha256": "ce1d0e89f36387fa4c3a0602bdb8d0268c456a35fef3e6c415beae68033883ef",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N05-4p233.jpg",
+      "bytes": 11341,
+      "sha256": "ffc869521adae5cc858bf955d6fb2ef27f26e761bdca930817e1002a068d8531",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/S3-11p8.jpg",
+      "bytes": 14594,
+      "sha256": "9ff8a5ce4365337fb96e1202ae4753916e364aeb7638b266540fdda11e74a414",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N09-7p352.jpg",
+      "bytes": 11785,
+      "sha256": "d0446f6e2b9754926563c61874c255fcc88bbfd3894980369f1eb07a83c2ca09",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N03-11p403.jpg",
+      "bytes": 11413,
+      "sha256": "a0cd021dcf3b46e634189be53554110856ad96a98027a8c3b72b88eaeac5dcbf",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N01-2p308.jpg",
+      "bytes": 15136,
+      "sha256": "b5fe52cab2679177a7c9d0fa7c6f6982c5b663106febdfbec8101fa12f8f3ac5",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-9p8.jpg",
+      "bytes": 15721,
+      "sha256": "f37890f6024ae44ba5037c428dd1bd6b2541e4f4014c196cbadd8bb625a193fe",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N01-4p367.jpg",
+      "bytes": 11883,
+      "sha256": "f099fde75b0bf62716e5674df31d70a99da888fa5991fae7c6bf512e84dc9880",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N07-12p785.jpg",
+      "bytes": 14815,
+      "sha256": "8a4edbdcd2553f267c6b46532840aa9373026f38030be195055b0cd0819bdda8",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-27p2.jpg",
+      "bytes": 14875,
+      "sha256": "96d9bcc4a3322ddc3e697e9ab2a87a047b5f1949638d6643f14f4993653ec040",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N02-6p285.jpg",
+      "bytes": 13752,
+      "sha256": "b0eae5ef7a57d337e580faa3d7ccf75af3d3a8d4cc35b267914e76221195d79a",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N03-0p25.jpg",
+      "bytes": 13182,
+      "sha256": "b3477ffe1b5e0ebc63fe8a6c50aeb1fd697579e06d0fc4cd9724524044352f18",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N02-0p25.jpg",
+      "bytes": 14739,
+      "sha256": "4bc4e16d0404fbf45863845145687d73fb889de02b74004f149dac5d0809dc8f",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N09-0p25.jpg",
+      "bytes": 14170,
+      "sha256": "3d419caef351157746cd6ea096c2a6e5f6254f5888809e0bc1b5d788d63c996c",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N08-0p25.jpg",
+      "bytes": 14245,
+      "sha256": "a3632179404c651b43cf6586fbdece11da34c0cd4dd9a6301599b2071424d6c9",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/S3-12p5.jpg",
+      "bytes": 15370,
+      "sha256": "79b46ba75c499b0da7e5ff5913996125c23df58d55a7bd04d7adb650b5e31c0b",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-9p3.jpg",
+      "bytes": 15448,
+      "sha256": "1cc39ded56fccef8df9a1f11438e9f5e983c3abbd16dc702b527c69c45bfb072",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N10-0p25.jpg",
+      "bytes": 15574,
+      "sha256": "3b905844338de4cc46057888e75e4239b3b963cca79185890abc89865ea9f7d1",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-0p25.jpg",
+      "bytes": 15638,
+      "sha256": "d8517cb2d607edeeddfba53bbe58044e22a09bd3233b1fd5dbb827b437076f17",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-33p8.jpg",
+      "bytes": 16185,
+      "sha256": "0053e96bd380edf520ec07b2074fca94586d75cf12b439ef5f48b49cb029ee00",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-10p418.jpg",
+      "bytes": 11587,
+      "sha256": "ceb526dfd9318956e6d0219245e38425e45e54179ad75b3c4760bbe8307de26b",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/S3-12p2.jpg",
+      "bytes": 14164,
+      "sha256": "a3cc11e6c7f33c9e982708039d313f6810daebf633cd977f99ef1234ed9750ce",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-34p25.jpg",
+      "bytes": 15971,
+      "sha256": "ba7c1d9fa43f930935ef3d03ec6e462fb9a48de9e6dce60e1aa20ff5ab891792",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N10-5p767.jpg",
+      "bytes": 13913,
+      "sha256": "3b652660ad857cd2345157017369bbf350038d7c26fd6cd8bf131f35d38f7230",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-5p334.jpg",
+      "bytes": 15146,
+      "sha256": "68202074cee2b0a509fd55b73840be4acd2c355eb76adf08d7ede45996b90cf0",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N02-3p268.jpg",
+      "bytes": 15163,
+      "sha256": "eb4f5165bc4bc402597f2916b1181fe9c41d37998079673db65b628fda042f8e",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N08-2p975.jpg",
+      "bytes": 14632,
+      "sha256": "098eec159f0eab05519ddefd76bc0f9af632c5da5fa1cca9435e3e14f544945f",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N07-6p518.jpg",
+      "bytes": 15252,
+      "sha256": "5de887313256d1634f23ea05c87019ebbdca8405762e34ca63eff1dd84d9d23a",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N07-0p25.jpg",
+      "bytes": 14922,
+      "sha256": "2378765b60fa1de73e9800dc68c6cab47546f88575c925cd57e4ea71c13eb05d",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N06-0p25.jpg",
+      "bytes": 15350,
+      "sha256": "da03d903b31eba72879315b18c72f6cbc8e52b0c229296a43f13c1b2719912e3",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N08-5p7.jpg",
+      "bytes": 12141,
+      "sha256": "26e16eed33bbc94b7cf1cb525bd44fb7da43006fa819fc7de27b78c0d087e464",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N09-3p801.jpg",
+      "bytes": 14554,
+      "sha256": "e6ddaa49709048d6b635861f5fe47518a579d4c738e71a948b51313b540cd528",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-13p753.jpg",
+      "bytes": 14884,
+      "sha256": "8e8172965521d85718a3f0ba06ab2855648e39856617a32ab2e23b4053a1d963",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N11-39p142.jpg",
+      "bytes": 11856,
+      "sha256": "af2d3b31581424b0926f660dc99506d0d97e6bfd001887638d5f38c8a9069f78",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-0p2.jpg",
+      "bytes": 14547,
+      "sha256": "3e89aafb29f9eae01774f8408f01e0536fc707839d16bc4cb984709d239cf2df",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N10-3p008.jpg",
+      "bytes": 14989,
+      "sha256": "7bfa39774acc53d6d70c306c8093ecee50109973d93df7f5b692e54969f1f488",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N01-0p25.jpg",
+      "bytes": 14143,
+      "sha256": "268d01740fde0849112451a2f6c27d04940802cd5171e47915eced69713729c1",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N03-5p827.jpg",
+      "bytes": 14496,
+      "sha256": "1f864c1849d5b8420fbaae748297fc14d5494febcb9f13d0c375b5b7a1418e46",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N12-27p257.jpg",
+      "bytes": 14701,
+      "sha256": "bbccefe8e40a1e928afbfef15fc1db51e29a8f7f740a27b0da94dc3fbe4ac86a",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/frames-v2/N05-2p242.jpg",
+      "bytes": 14167,
+      "sha256": "e4c0a5e5ac7a8c9eb1ba9fd606564f2db0982498002eeabaa0beaca8fb1a3bea",
+      "purpose": "v2 intake evidence / processing / handoff or PMO task input; retain"
+    }
+  ],
+  "new_whisper_external": [
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/transcript.txt",
+      "bytes": 46,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/运行日志.txt",
+      "bytes": 3470,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/transcript.vtt",
+      "bytes": 85,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/文件记录.json",
+      "bytes": 2040,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/transcript.srt",
+      "bytes": 79,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/transcript.json",
+      "bytes": 840,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113452-92bc73/audio.wav",
+      "bytes": 148174,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/transcript.txt",
+      "bytes": 76,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/运行日志.txt",
+      "bytes": 3534,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/transcript.vtt",
+      "bytes": 146,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/文件记录.json",
+      "bytes": 2043,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/transcript.srt",
+      "bytes": 142,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/transcript.json",
+      "bytes": 1025,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-d087cf/audio.wav",
+      "bytes": 209614,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/transcript.txt",
+      "bytes": 133,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/运行日志.txt",
+      "bytes": 3691,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/transcript.vtt",
+      "bytes": 296,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/文件记录.json",
+      "bytes": 2045,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/transcript.srt",
+      "bytes": 298,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/transcript.json",
+      "bytes": 1550,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113453-38b1dd/audio.wav",
+      "bytes": 373454,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/transcript.txt",
+      "bytes": 19,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/运行日志.txt",
+      "bytes": 3443,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/transcript.vtt",
+      "bytes": 58,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/文件记录.json",
+      "bytes": 2043,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/transcript.srt",
+      "bytes": 52,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/transcript.json",
+      "bytes": 813,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113454-702d2b/audio.wav",
+      "bytes": 59428,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/transcript.txt",
+      "bytes": 50,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/运行日志.txt",
+      "bytes": 3474,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/transcript.vtt",
+      "bytes": 89,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/文件记录.json",
+      "bytes": 2038,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/transcript.srt",
+      "bytes": 83,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/transcript.json",
+      "bytes": 844,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-b24e94/audio.wav",
+      "bytes": 144078,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.txt",
+      "bytes": 125,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/运行日志.txt",
+      "bytes": 3617,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.vtt",
+      "bytes": 226,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/文件记录.json",
+      "bytes": 2049,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.srt",
+      "bytes": 224,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/transcript.json",
+      "bytes": 1230,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113457-d5039b/audio.wav",
+      "bytes": 342052,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/transcript.txt",
+      "bytes": 143,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/运行日志.txt",
+      "bytes": 3668,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/transcript.vtt",
+      "bytes": 275,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/文件记录.json",
+      "bytes": 2049,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/transcript.srt",
+      "bytes": 275,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/transcript.json",
+      "bytes": 1405,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113458-f7c5ba/audio.wav",
+      "bytes": 417828,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/transcript.txt",
+      "bytes": 60,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/运行日志.txt",
+      "bytes": 3484,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/transcript.vtt",
+      "bytes": 99,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/文件记录.json",
+      "bytes": 2044,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/transcript.srt",
+      "bytes": 93,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/transcript.json",
+      "bytes": 854,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-9bab72/audio.wav",
+      "bytes": 190500,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/transcript.txt",
+      "bytes": 66,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/运行日志.txt",
+      "bytes": 3491,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/transcript.vtt",
+      "bytes": 105,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/文件记录.json",
+      "bytes": 2045,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/transcript.srt",
+      "bytes": 99,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/transcript.json",
+      "bytes": 860,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113459-030c7a/audio.wav",
+      "bytes": 243748,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/transcript.txt",
+      "bytes": 66,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/运行日志.txt",
+      "bytes": 3490,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/transcript.vtt",
+      "bytes": 105,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/文件记录.json",
+      "bytes": 2041,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/transcript.srt",
+      "bytes": 99,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/transcript.json",
+      "bytes": 860,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113500-6c4610/audio.wav",
+      "bytes": 193230,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.txt",
+      "bytes": 471,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/运行日志.txt",
+      "bytes": 4128,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.vtt",
+      "bytes": 727,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/文件记录.json",
+      "bytes": 2050,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.srt",
+      "bytes": 735,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/transcript.json",
+      "bytes": 2363,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113501-639d8d/audio.wav",
+      "bytes": 1260920,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.txt",
+      "bytes": 328,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/运行日志.txt",
+      "bytes": 3886,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.vtt",
+      "bytes": 491,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/文件记录.json",
+      "bytes": 2049,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.srt",
+      "bytes": 493,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/transcript.json",
+      "bytes": 1749,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/Tools/Whisper/transcripts/20261021-113503-d194d2/audio.wav",
+      "bytes": 880676,
+      "purpose": "12 new full local audio-track ASR outputs; retain"
+    }
+  ],
+  "new_local_bytes": 2350742,
+  "new_whisper_bytes": 4552964,
+  "cleanup": "none"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "同步播放 · 仅新版声音",
+  "videos": [
+    {
+      "id": "old",
+      "muted": true,
+      "paused": false,
+      "time": 23.880326
+    },
+    {
+      "id": "new",
+      "muted": false,
+      "paused": false,
+      "time": 23.8967
+    }
+  ]
+}

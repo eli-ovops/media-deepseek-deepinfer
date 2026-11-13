@@ -1,0 +1,349 @@
+{
+  "video": {
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/deepinfer-fred-full-v1.mp4",
+    "sha256": "c07f499268af295d29a46b0e5752467c92a4d70fdb0e2e4e3d6f06199760c5af",
+    "bytes": 51589316
+  },
+  "method": "actual MP4 sequential decode, exact frame indexes",
+  "frames": [
+    {
+      "frame": 0,
+      "seconds": 0.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0000.png",
+      "sha256": "e819d5dc923e16057df27fe12b9ef00fbacb0936c495c02937a4a3e2039936ab",
+      "bytes": 1786546
+    },
+    {
+      "frame": 161,
+      "seconds": 2.683333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0161.png",
+      "sha256": "8c182b9f30ddb1b975c90abdea6907eed7e39f183802733b5aa8b1434a0a1184",
+      "bytes": 1946028
+    },
+    {
+      "frame": 162,
+      "seconds": 2.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0162.png",
+      "sha256": "1f77eef1263f7cac88cc342e71e60599dcc13fde84fbd1dd25d34bc1158c29b0",
+      "bytes": 23845
+    },
+    {
+      "frame": 480,
+      "seconds": 8.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0480.png",
+      "sha256": "0100ffca4d0dc006f6e0b14cb2d397c9812034cbe9027116cc7a09eecaab952c",
+      "bytes": 195505
+    },
+    {
+      "frame": 559,
+      "seconds": 9.316666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0559.png",
+      "sha256": "efc33a478355c7a3602c583e59b9f68d040385038ca53281007ae1ca6bdfdae2",
+      "bytes": 219932
+    },
+    {
+      "frame": 560,
+      "seconds": 9.333333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0560.png",
+      "sha256": "b3902087664f05e728cbf3593f4e17cc5661e2fe4f49245f2842acc777649089",
+      "bytes": 240287
+    },
+    {
+      "frame": 840,
+      "seconds": 14.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0840.png",
+      "sha256": "77fb529211fb24baab6080f70048106fdffda436f0b2fc60b4b29721ef200243",
+      "bytes": 129204
+    },
+    {
+      "frame": 945,
+      "seconds": 15.75,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0945.png",
+      "sha256": "2a45d617cd6788882f87675b94dfebf06a317df757f176e7d245fdadb6da2ae8",
+      "bytes": 215772
+    },
+    {
+      "frame": 946,
+      "seconds": 15.766666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f0946.png",
+      "sha256": "2eef7644972de26ecfd816b80daee833211bc9119d9e0e30cdc9ce12fcddb545",
+      "bytes": 10382
+    },
+    {
+      "frame": 1090,
+      "seconds": 18.166666666666668,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f1090.png",
+      "sha256": "d95073c44d9047c87c4986f56d3f5f70ec84dcece99c8f3b8b309cebe760e5b5",
+      "bytes": 125297
+    },
+    {
+      "frame": 1320,
+      "seconds": 22.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f1320.png",
+      "sha256": "655475f950ce8b52fedb0737ea8b2a8a9d494a8667f3ada59be4614f5da53502",
+      "bytes": 273957
+    },
+    {
+      "frame": 1421,
+      "seconds": 23.683333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f1421.png",
+      "sha256": "ec48982c840142d6e0176f39cb65e7af2a9c77b8e5c16995a6a07c34c1b2f81b",
+      "bytes": 256662
+    },
+    {
+      "frame": 1422,
+      "seconds": 23.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f1422.png",
+      "sha256": "ac65ebf1b4087d2419e46683548eba686de36d228c07d816c7b2c02b1a34084b",
+      "bytes": 27515
+    },
+    {
+      "frame": 2258,
+      "seconds": 37.63333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2258.png",
+      "sha256": "d4b294ca2b385e8dacf053ef0bc8cf870e0cf453586b8f6e1b1a3243e6b83086",
+      "bytes": 103984
+    },
+    {
+      "frame": 2264,
+      "seconds": 37.733333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2264.png",
+      "sha256": "284f9930f0566050ed00f86e52e5ee68c45df9152ecf4ead29e1c95f34d9d7a7",
+      "bytes": 102347
+    },
+    {
+      "frame": 2265,
+      "seconds": 37.75,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2265.png",
+      "sha256": "b127e225bf32f147c9d6fd6e1b3cafffe4ecdadaf4f507ef46c757eaf8731384",
+      "bytes": 85521
+    },
+    {
+      "frame": 2300,
+      "seconds": 38.333333333333336,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2300.png",
+      "sha256": "2df5efbca709ff26dab24486849b092b17d5a603093f674b4a2bc559f333a26a",
+      "bytes": 85681
+    },
+    {
+      "frame": 2400,
+      "seconds": 40.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2400.png",
+      "sha256": "e2395bdcb2418af75a0a52f24dc5c90694784ca48dfd2514d80f17924da5ff6d",
+      "bytes": 195204
+    },
+    {
+      "frame": 2600,
+      "seconds": 43.333333333333336,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2600.png",
+      "sha256": "f09fbefea34837d81b0272e8d2ce318f710b0929bf755790e14ba3c0c1f1f83c",
+      "bytes": 233659
+    },
+    {
+      "frame": 2601,
+      "seconds": 43.35,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2601.png",
+      "sha256": "0ffae48f414ca70ddc36832d7f1351cbfd31857f81223adfa619e490daff07ef",
+      "bytes": 30948
+    },
+    {
+      "frame": 2700,
+      "seconds": 45.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2700.png",
+      "sha256": "65fd6cd993673f8ed662cbf9109be26a31dbd5bef41c8cf314b09e3690fa6526",
+      "bytes": 250567
+    },
+    {
+      "frame": 2822,
+      "seconds": 47.03333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2822.png",
+      "sha256": "7bac5aed6cc3de68cd1d2ed30c5b7e4d71ef0442a2397fb9f10c154a9b825f6c",
+      "bytes": 241986
+    },
+    {
+      "frame": 2830,
+      "seconds": 47.166666666666664,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2830.png",
+      "sha256": "0aade6760d550417f110241407a41a0835e1a1c324ad5d79040ba853c185adc3",
+      "bytes": 245452
+    },
+    {
+      "frame": 2840,
+      "seconds": 47.333333333333336,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2840.png",
+      "sha256": "acc0fc55677859375a84b06fb50b3702b2be83fee6354ed34892007d7ebe12cf",
+      "bytes": 245363
+    },
+    {
+      "frame": 2940,
+      "seconds": 49.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2940.png",
+      "sha256": "9b5b2f9e2bfbb1c5c6f1db350af9dcdf9e955541bd12592b4611e65db2b6aa15",
+      "bytes": 233095
+    },
+    {
+      "frame": 2999,
+      "seconds": 49.983333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f2999.png",
+      "sha256": "b1e1f68edbecbdceb40091b47fc4bb29093038b36a430d41f7338922094d8ee5",
+      "bytes": 210077
+    },
+    {
+      "frame": 3000,
+      "seconds": 50.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3000.png",
+      "sha256": "7489eb8df7ce863771c0884266afd8324e7ffc167f7953ab730070da866ce194",
+      "bytes": 1747444
+    },
+    {
+      "frame": 3437,
+      "seconds": 57.28333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3437.png",
+      "sha256": "2749bc46604aa1113d64d06925c4adfeff59642a7a24e2a2c8e7ed0e091772ed",
+      "bytes": 1945024
+    },
+    {
+      "frame": 3438,
+      "seconds": 57.3,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3438.png",
+      "sha256": "218ea907532e30dc2acf494e85403f519a3ccfaae2395ac5a6be164c2fc4dd48",
+      "bytes": 41804
+    },
+    {
+      "frame": 3550,
+      "seconds": 59.166666666666664,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3550.png",
+      "sha256": "91559ca43914de25ff3ae7231d30c407294e280709158b5404058e1b4baba6ae",
+      "bytes": 277793
+    },
+    {
+      "frame": 3700,
+      "seconds": 61.666666666666664,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3700.png",
+      "sha256": "1e50a4491e2e399470b1657f4185ea5a0a9c4bb0ed0b1eb8d3ae3a666d1bc349",
+      "bytes": 272986
+    },
+    {
+      "frame": 3870,
+      "seconds": 64.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3870.png",
+      "sha256": "1d98e2e01ed6f10961b21d26099666f4a17d648fb7ad75ce17e408e5c18e4187",
+      "bytes": 287721
+    },
+    {
+      "frame": 3989,
+      "seconds": 66.48333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3989.png",
+      "sha256": "9369f97ee402390478df6179cc9fb9e2e227c1cbbb710c93428de2bf373c95a1",
+      "bytes": 273086
+    },
+    {
+      "frame": 3990,
+      "seconds": 66.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f3990.png",
+      "sha256": "3a88017db4d87d925a87c2ada8450e318a332a0a185b4106c4164e28b1db993b",
+      "bytes": 46755
+    },
+    {
+      "frame": 4210,
+      "seconds": 70.16666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4210.png",
+      "sha256": "478a430f37bc2f8983b009ac2e04a75842eec73be51e75431b003c43cfcedff5",
+      "bytes": 206581
+    },
+    {
+      "frame": 4361,
+      "seconds": 72.68333333333334,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4361.png",
+      "sha256": "95c5a39896845f90ab4dc679d0b7f175895ca36e2fbfb03e0f3c869fc7132b97",
+      "bytes": 182201
+    },
+    {
+      "frame": 4362,
+      "seconds": 72.7,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4362.png",
+      "sha256": "8074ba4295c56b78b146a755c1aa7843f6551fddb9aa0da19e4a6a1300025a13",
+      "bytes": 37331
+    },
+    {
+      "frame": 4650,
+      "seconds": 77.5,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4650.png",
+      "sha256": "1e2bc8263ca927cd27d39ec6e947519f751adc79e120cf6a5f5851bcab7751f7",
+      "bytes": 199378
+    },
+    {
+      "frame": 4734,
+      "seconds": 78.9,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4734.png",
+      "sha256": "3e491e2e1a7a0f3df7c82fc8b444a9a91852f629c64fcb5c8938b068ae56667e",
+      "bytes": 200020
+    },
+    {
+      "frame": 4735,
+      "seconds": 78.91666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4735.png",
+      "sha256": "92c8b5c2a09146a6bd37a4df57eacc2f83229391871242e5c5a6e968808f916d",
+      "bytes": 34347
+    },
+    {
+      "frame": 4900,
+      "seconds": 81.66666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4900.png",
+      "sha256": "f9ee09082e919840fff975f1037b6575912555f071b8e768b1c89bae4df94fe4",
+      "bytes": 208185
+    },
+    {
+      "frame": 4970,
+      "seconds": 82.83333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f4970.png",
+      "sha256": "4f88aa4d21a7c5a2baf1d3dc64a8ad6a4887e2993284fb611c0080b522ca3f56",
+      "bytes": 128025
+    },
+    {
+      "frame": 5014,
+      "seconds": 83.56666666666666,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f5014.png",
+      "sha256": "16ef3e1b9bfd1c4d934b0dca215911614d2e95ff4e3c0c7e7c2fdb1824e27a8b",
+      "bytes": 91217
+    },
+    {
+      "frame": 5015,
+      "seconds": 83.58333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f5015.png",
+      "sha256": "9729a0208d0bbc466509e29f71194932e3e85e0cc499575dfa65831359ae797b",
+      "bytes": 220830
+    },
+    {
+      "frame": 5210,
+      "seconds": 86.83333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f5210.png",
+      "sha256": "d909feb813f16fc19f6d12cd88831dc3bb1018dfe2c6fb1f93e284a39c6907cd",
+      "bytes": 242532
+    },
+    {
+      "frame": 5339,
+      "seconds": 88.98333333333333,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f5339.png",
+      "sha256": "7f6c39f75aa8c599ed4af5c1f19ced84a50a5104e2862a860a4fc65b1d698529",
+      "bytes": 222619
+    },
+    {
+      "frame": 5340,
+      "seconds": 89.0,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f5340.png",
+      "sha256": "388fde01b1c6987b152c1a47f8b9eb421b4d94335bce657eec33367169208ad0",
+      "bytes": 2130156
+    },
+    {
+      "frame": 5653,
+      "seconds": 94.21666666666667,
+      "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/evidence/final-native/f5653.png",
+      "sha256": "4114285444573162feed2ab97c4f6906501bfc930cf70600bbb91422c3136bf4",
+      "bytes": 2258174
+    }
+  ],
+  "overviewCount": 189,
+  "overviewFps": 2,
+  "continuousViewing": "NOT_PERFORMED"
+}

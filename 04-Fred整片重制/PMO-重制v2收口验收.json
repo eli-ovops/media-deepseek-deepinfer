@@ -1,0 +1,93 @@
+{
+  "at": "2026-10-21T22:58:11.014619+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v2",
+  "status": "PMO_AND05_SCOPED_PICTURE_REVIEW_COMPLETE_READY_FOR_USER_COMPARISON",
+  "video": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+    "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+    "bytes": 50031414,
+    "duration_seconds": 94.233333,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 60
+  },
+  "published_baseline": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+    "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a"
+  },
+  "owner04_report_received": true,
+  "owner05_report_received": true,
+  "owner05_report": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/复核-v2.md",
+  "owner05_report_sha256": "78cc8a993920ad77eec73a7c28565862c239c6dbacb348504dc562a1497d2ad8",
+  "Q1": "CLOSED",
+  "Q2": "CLOSED",
+  "must_fix_remaining_in_scoped_reviews": [],
+  "pmo_actual_picture_review": {
+    "previous_v1_full_scene_sampling": "All8overview sheets previously viewed; original-effect/source checks retained",
+    "v2": "6sheets96frames, native432/540/810/930/945/946;05independent17and22second native frames additionally viewed",
+    "not_continuous_av": true
+  },
+  "audio": "All4419AACpacket payload/timing identical to reviewedv1; source voice unchanged. Not a direct-listening statement.",
+  "implementation_gate": "OriginalFAIL preserved;05source-level independent proof of cross-tagregex false positive accepted for this video, gate not rewritten",
+  "formal_all_layers_pass": false,
+  "direct_hearing": "UNKNOWN",
+  "normal_speed_continuous_audiovisual": "UNKNOWN",
+  "user_new_film_approval": "USER_VISUAL_COMPARISON_ACCEPTED",
+  "publication_authorized": false,
+  "recovery": "Same04 resumed after modelcapacity failure and completed delivery; no new rendering, exactexistingv2 reused",
+  "compare_page": {
+    "url": "http://127.0.0.1:55291/",
+    "binding": "v2+publishedbaseline both SHA verified in visible UI and04currentSrc evidence",
+    "final_visible_opening": "DONE_IN_CODEX_IAB_TAB4",
+    "visible": true,
+    "mark": "deliverable",
+    "ui_title": "DeepInfer · v2 新旧对比",
+    "both_versions_ready": true,
+    "play_and_pause_verified": true,
+    "paused_time_seconds": 62.555,
+    "screenshot": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/PMO-完整v2新旧对比.png",
+    "screenshot_sha256": "e90f84ed38b6c2fecdbf42a593f1e1d0f841ec76b1e2011fb409db65af2a7c75",
+    "controls": "从头/章节/播放暂停/半速/逐帧; only new audio"
+  },
+  "handoff_chain": {
+    "04_artifact": "COMPLETE",
+    "04_tool_report": "RECEIVED",
+    "05_fixedSHA_recheck": "RECEIVED_REVIEWED_Q1Q2_CLOSED",
+    "PMO_artifact_review": "COMPLETE_WITH_EXPLICIT_LIMITS",
+    "user_delivery": "COMPLETE_MP4_AND_VISIBLE_COMPARISON_PREPARED_FOR_THIS_REPLY"
+  },
+  "delivery_at": "2026-10-21T23:01:34.687921+08:00",
+  "preview_recovery_20261022": {
+    "checked_at": "2026-10-22T08:04:09.592133+08:00",
+    "runtime": {
+      "pid": 57689,
+      "url": "http://127.0.0.1:55291/",
+      "bind": "127.0.0.1",
+      "command": "python3 serve.py",
+      "root": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制",
+      "allowlist_files": 2
+    },
+    "range_checks": [
+      {
+        "label": "之前发布",
+        "status": 206,
+        "content_range": "bytes 0-1023/35312974",
+        "bytes_read": 1024
+      },
+      {
+        "label": "Fred重制 v2",
+        "status": 206,
+        "content_range": "bytes 0-1023/50031414",
+        "bytes_read": 1024
+      }
+    ],
+    "browser_ready": "two versions ready, synchronous playback observed, paused at 62.376s",
+    "screenshot": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/PMO-v2对比播放恢复-20261022.png",
+    "review_scope_unchanged": true
+  },
+  "user_acceptance_record": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/用户视觉认可-v2-20261022.json",
+  "user_acceptance_recorded_at": "2026-10-22T10:40:18.990669+08:00"
+}

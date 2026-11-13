@@ -1,0 +1,505 @@
+{
+  "libraryCandidates": {
+    "query": "真实截图 关键句 荧光 放大",
+    "sceneType": "image-comparison",
+    "candidates": [
+      {
+        "id": "ep102-selected-02",
+        "displayLabel": "102-02",
+        "title": "设备屏幕连续放大全屏",
+        "useWhen": "从设备外壳连续靠近同一录屏",
+        "sceneTypes": [
+          "device-demo",
+          "image-comparison"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "editableParameters": [],
+        "knownLimitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。",
+          "成片区间最前两帧是既有接缝补片，独立源码保留该补片后继续原S04时钟。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "102-02",
+        "score": 234.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus",
+            "video-entry"
+          ],
+          "sourceId": "ep102",
+          "inputObjects": [
+            "设备屏幕",
+            "视频",
+            "特写区域"
+          ],
+          "action": "显示器外壳逐渐退出，录屏窗口持续放大至同一大窗",
+          "segmentRole": "完整场景",
+          "nativeDurationSeconds": 6,
+          "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。"
+        },
+        "resolveCommand": "references.py --id ep102-selected-02 --full"
+      },
+      {
+        "id": "ep102-selected-05",
+        "displayLabel": "102-05",
+        "title": "人物道具从画布提起",
+        "useWhen": "从真实画布节点提起人物或道具并完整展示",
+        "sceneTypes": [
+          "image-comparison",
+          "device-demo"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "editableParameters": [],
+        "knownLimitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "102-05",
+        "score": 234.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus",
+            "images"
+          ],
+          "sourceId": "ep102",
+          "inputObjects": [
+            "画布",
+            "人物",
+            "道具"
+          ],
+          "action": "四人物从实际节点放大归位，再交接三道具，背景按原时钟模糊暗化",
+          "segmentRole": "完整场景",
+          "nativeDurationSeconds": 7,
+          "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。"
+        },
+        "resolveCommand": "references.py --id ep102-selected-05 --full"
+      },
+      {
+        "id": "news-keyword-match-cut",
+        "displayLabel": "NMC01",
+        "title": "新闻关键词快闪 · 黄色笔刷与柔和阴影",
+        "useWhen": "在不同新闻版式中连续看到同一个词：imagegen四宫格生成→字形锚点对齐→轻微放大与柔和阴影→快速硬切与同步短噪声。",
+        "sceneTypes": [
+          "prompt-reading",
+          "image-comparison"
+        ],
+        "collectionId": "news-keyword-match-cut-20261010",
+        "editableParameters": [
+          "pages",
+          "glyphBox",
+          "anchor",
+          "zoom/scaledSize",
+          "mask.maxOpacity",
+          "durationsFrames",
+          "fps",
+          "sound",
+          "audioVolume"
+        ],
+        "knownLimitations": [
+          "关键词为生成位图，换词须重新生图量测；不是可编辑文字。",
+          "当前源单页约836×470，1080p为放大预览。",
+          "变更切点/fps须重建音效cue；源声音来源及GPL许可证随包提供。",
+          "认可范围是准确V9；新词、素材和时序仍需实际样片检查。"
+        ],
+        "nativeTiming": {
+          "fps": 30,
+          "durationInFrames": 48,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "NMC01",
+        "score": 178.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：关键、放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "explain",
+            "images",
+            "handoff"
+          ],
+          "sourceId": "news-match-cut",
+          "inputObjects": [
+            "生成新闻图片",
+            "关键词"
+          ],
+          "action": "在不同新闻版式中连续看到同一个词：imagegen四宫格生成→字形锚点对齐→轻微放大与柔和阴影→快速硬切与同步短噪声。",
+          "segmentRole": "短促概念强调",
+          "nativeDurationSeconds": 1.6,
+          "adaptation": "新词重新生图及对齐，换时序重配音效。"
+        },
+        "resolveCommand": "references.py --id news-keyword-match-cut --full"
+      },
+      {
+        "id": "4b5b8eb5-14b8-4fe9-86fe-e9bee5d02751",
+        "displayLabel": "E14",
+        "title": "多组图片对比、局部特写与完整提示词",
+        "useWhen": "整图对比后沿真实 ROI 看细节；提示词先完整呈现，再靠近并逐短语刷紫色；各案例按图片选择构图。",
+        "sceneTypes": [
+          "image-comparison",
+          "prompt-reading"
+        ],
+        "editableParameters": [],
+        "knownLimitations": [
+          "保留动作关系，复制后适配本期文案、数量、尺寸、cue 与相邻交接。",
+          "参考片段取舍不代表新组合或新适配已获视觉认可。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "E14",
+        "score": 122.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "相近词：真实"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "images",
+            "recording-focus",
+            "handoff"
+          ],
+          "sourceId": "fredtalk",
+          "inputObjects": [
+            "图片",
+            "作品",
+            "真实界面",
+            "前景重点",
+            "前后内容",
+            "载体",
+            "文档内容"
+          ],
+          "action": "多组图片对比、局部特写与完整提示词",
+          "segmentRole": "素材展示舞台",
+          "nativeDurationSeconds": 20.0,
+          "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。"
+        },
+        "resolveCommand": "references.py --id 4b5b8eb5-14b8-4fe9-86fe-e9bee5d02751 --full"
+      },
+      {
+        "id": "fred-wave2-fix5-t09e",
+        "displayLabel": "T09e",
+        "title": "产物浏览：生成结果逐个打开",
+        "useWhen": "一列产物 → 逐个打开看清，再回到总览",
+        "sceneTypes": [
+          "device-demo",
+          "image-comparison"
+        ],
+        "collectionId": "fred-wave2-fix5-20261012",
+        "editableParameters": [],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave2-fix5-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave2-fix5-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T09e",
+        "score": 116.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "images",
+            "recording-focus"
+          ],
+          "sourceId": "fred-wave2-fix5",
+          "inputObjects": [
+            "2–6 张产物图",
+            "文件名"
+          ],
+          "action": "一列产物 → 逐个打开看清，再回到总览",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave2-fix5-t09e --full"
+      }
+    ],
+    "crossTypeFallback": false,
+    "scope": "Candidates only; inspect exact video and interface before selecting. No approval inferred.",
+    "selectionRule": "Inspect every listed candidate; record each as selected or rejected with a concrete reason before any original route.",
+    "publicFallbackCandidates": [
+      {
+        "id": "ep102-selected-02",
+        "displayLabel": "102-02",
+        "title": "设备屏幕连续放大全屏",
+        "useWhen": "从设备外壳连续靠近同一录屏",
+        "sceneTypes": [
+          "device-demo",
+          "image-comparison"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "editableParameters": [],
+        "knownLimitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。",
+          "成片区间最前两帧是既有接缝补片，独立源码保留该补片后继续原S04时钟。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "102-02",
+        "score": 234.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus",
+            "video-entry"
+          ],
+          "sourceId": "ep102",
+          "inputObjects": [
+            "设备屏幕",
+            "视频",
+            "特写区域"
+          ],
+          "action": "显示器外壳逐渐退出，录屏窗口持续放大至同一大窗",
+          "segmentRole": "完整场景",
+          "nativeDurationSeconds": 6,
+          "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。"
+        },
+        "resolveCommand": "references.py --id ep102-selected-02 --full"
+      },
+      {
+        "id": "ep102-selected-05",
+        "displayLabel": "102-05",
+        "title": "人物道具从画布提起",
+        "useWhen": "从真实画布节点提起人物或道具并完整展示",
+        "sceneTypes": [
+          "image-comparison",
+          "device-demo"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "editableParameters": [],
+        "knownLimitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "102-05",
+        "score": 234.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus",
+            "images"
+          ],
+          "sourceId": "ep102",
+          "inputObjects": [
+            "画布",
+            "人物",
+            "道具"
+          ],
+          "action": "四人物从实际节点放大归位，再交接三道具，背景按原时钟模糊暗化",
+          "segmentRole": "完整场景",
+          "nativeDurationSeconds": 7,
+          "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。"
+        },
+        "resolveCommand": "references.py --id ep102-selected-05 --full"
+      },
+      {
+        "id": "news-keyword-match-cut",
+        "displayLabel": "NMC01",
+        "title": "新闻关键词快闪 · 黄色笔刷与柔和阴影",
+        "useWhen": "在不同新闻版式中连续看到同一个词：imagegen四宫格生成→字形锚点对齐→轻微放大与柔和阴影→快速硬切与同步短噪声。",
+        "sceneTypes": [
+          "prompt-reading",
+          "image-comparison"
+        ],
+        "collectionId": "news-keyword-match-cut-20261010",
+        "editableParameters": [
+          "pages",
+          "glyphBox",
+          "anchor",
+          "zoom/scaledSize",
+          "mask.maxOpacity",
+          "durationsFrames",
+          "fps",
+          "sound",
+          "audioVolume"
+        ],
+        "knownLimitations": [
+          "关键词为生成位图，换词须重新生图量测；不是可编辑文字。",
+          "当前源单页约836×470，1080p为放大预览。",
+          "变更切点/fps须重建音效cue；源声音来源及GPL许可证随包提供。",
+          "认可范围是准确V9；新词、素材和时序仍需实际样片检查。"
+        ],
+        "nativeTiming": {
+          "fps": 30,
+          "durationInFrames": 48,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "NMC01",
+        "score": 178.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：关键、放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "explain",
+            "images",
+            "handoff"
+          ],
+          "sourceId": "news-match-cut",
+          "inputObjects": [
+            "生成新闻图片",
+            "关键词"
+          ],
+          "action": "在不同新闻版式中连续看到同一个词：imagegen四宫格生成→字形锚点对齐→轻微放大与柔和阴影→快速硬切与同步短噪声。",
+          "segmentRole": "短促概念强调",
+          "nativeDurationSeconds": 1.6,
+          "adaptation": "新词重新生图及对齐，换时序重配音效。"
+        },
+        "resolveCommand": "references.py --id news-keyword-match-cut --full"
+      }
+    ],
+    "availabilityRule": "Unavailable member candidates remain discoverable and require a reason; select only verified installed source or use the public fallback. componentPlan.access=public limits the comparison to public source.",
+    "narrationCandidates": [],
+    "narrationScope": "Matches from the spoken line only. Use them to widen the visual query, not as a selection."
+  },
+  "scene": {
+    "stableId": "stars",
+    "oneQuestion": "GitHub一万多颗星",
+    "sourceSpans": [
+      {
+        "text": "GitHub一万多颗星"
+      }
+    ],
+    "implementationMode": "adapted",
+    "componentPlan": {
+      "query": "真实截图 关键句 荧光 放大"
+    },
+    "referenceChoices": []
+  },
+  "manifestPath": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest.json",
+  "next": "Inspect each candidate video/core frames, then read the full packet without --candidates-only."
+}

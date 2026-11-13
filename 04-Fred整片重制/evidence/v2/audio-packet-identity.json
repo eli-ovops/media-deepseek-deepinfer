@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "video": {
+        "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/deepinfer-fred-full-v1.mp4",
+        "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+        "bytes": 49905954
+      },
+      "packetCount": 4419,
+      "packetPayloadAndTimingSha256": "0de90790b3356abb15159d85ba19fa729fa9fa22cf64281bb314632fa23add02"
+    },
+    {
+      "video": {
+        "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/deepinfer-fred-full-v2.mp4",
+        "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+        "bytes": 50031414
+      },
+      "packetCount": 4419,
+      "packetPayloadAndTimingSha256": "0de90790b3356abb15159d85ba19fa729fa9fa22cf64281bb314632fa23add02"
+    }
+  ],
+  "method": "All AAC packet hashes,pts,dts,duration,size equal; previous PCM preservation evidence inherited. No new hearing claim."
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-21T22:48:44.819399+08:00",
+  "reason": "Selected model is at capacity. Please try a different model.",
+  "failed_turn_id": "01a15e8e-9ca5-7d82-88bc-ca1d287fc336",
+  "status_at_user_requested_snapshot": "systemError / failed",
+  "pre_resume_cursor": "d33a765f-a410-48d9-ae6c-189fd3559d3e:9",
+  "same_owner": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "prior_requested_model": "gpt-6-astra/high",
+  "resume_requested_model": "gpt-6.1-sol/high",
+  "actual_runtime": "UNKNOWN",
+  "routing_authority": "AGENTS.details.md section3 ROUTING-2026-10-13-v4 explicitly allows capacity fallback in authorized models",
+  "usage": {
+    "ordinaryUsageAllowed": true,
+    "weekly_used_percent": 35,
+    "five_hour": "UNKNOWN"
+  },
+  "existing_v2": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+  "existing_v2_sha_reported_by_decode": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+  "resume_scope": "Review already-produced repair frames, finalize manifest/self-review and compare binding; no duplicate render/QC",
+  "send_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a6f-49ef-7653-934a-4312979fd4e7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "SAME_OWNER_RESUMED_DELIVERY_COMPLETED_REPORTED",
+  "report_received": true,
+  "monitoring": "No new automation or poll loop; proactive owner completion report retained",
+  "report_received_at": "2026-10-21T22:54:58.956971+08:00",
+  "delivery_manifest": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest-v2.json",
+  "delivery_manifest_sha256": "9952de9157f98d60bd4fcb87c7f406ec3df2557291504e567c2e08d93f5d4a88"
+}

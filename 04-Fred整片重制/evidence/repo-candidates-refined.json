@@ -1,0 +1,573 @@
+{
+  "libraryCandidates": {
+    "query": "真实截图 关键句 荧光 放大",
+    "sceneType": "prompt-reading",
+    "candidates": [
+      {
+        "id": "interaction-news-brush",
+        "displayLabel": "INT01",
+        "title": "黄色荧光笔刷出与镜头推进",
+        "useWhen": "黄色荧光笔刷出与镜头推进",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "sourceWidth",
+          "sourceHeight",
+          "regions",
+          "order",
+          "emphasisAt",
+          "cameraSeconds",
+          "zoom"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT01",
+        "score": 408.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：荧光",
+          "原词命中：放大",
+          "相近词：实截、截图、放大、真实、荧光"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "黄色荧光笔刷出与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-brush --full"
+      },
+      {
+        "id": "fred-wave3-40-t22a",
+        "displayLabel": "T22a",
+        "title": "帖子/推文卡",
+        "useWhen": "一条真实帖子截图浮起 → 关键句被荧光刷出并放大",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "fred-wave3-40-20261012",
+        "editableParameters": [
+          "enter",
+          "exit",
+          "exitAt",
+          "image",
+          "imageWidth",
+          "imageHeight",
+          "line",
+          "translation",
+          "highlight",
+          "cues"
+        ],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave3-40-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave3-40-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T22a",
+        "score": 380,
+        "reasons": [
+          "原词命中：关键句",
+          "原词命中：荧光",
+          "原词命中：放大",
+          "相近词：关键、截图、放大、真实、荧光、键句"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "explain",
+            "recording-focus"
+          ],
+          "sourceId": "fred-wave3-40",
+          "inputObjects": [
+            "帖子",
+            "作者",
+            "原文"
+          ],
+          "action": "一条真实帖子截图浮起 → 关键句被荧光刷出并放大",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave3-40-t22a --full"
+      },
+      {
+        "id": "interaction-news-spotlight",
+        "displayLabel": "INT02",
+        "title": "局部蒙版聚焦与镜头推进",
+        "useWhen": "局部蒙版聚焦与镜头推进",
+        "sceneTypes": [
+          "prompt-reading",
+          "frosted-focus"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "regions",
+          "order",
+          "emphasisAt",
+          "dimOpacity",
+          "zoom",
+          "sourceWidth",
+          "sourceHeight"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT02",
+        "score": 302.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：放大",
+          "相近词：实截、截图、放大、真实"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "局部蒙版聚焦与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-spotlight --full"
+      },
+      {
+        "id": "fred-wave2-42-t08d",
+        "displayLabel": "T08d",
+        "title": "界面多区域依次标注",
+        "useWhen": "一张界面 → 几个区域按顺序被标出",
+        "sceneTypes": [
+          "device-demo",
+          "prompt-reading"
+        ],
+        "collectionId": "fred-wave2-42-20261012",
+        "editableParameters": [],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave2-42-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave2-42-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T08d",
+        "score": 252.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：截图、放大"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "fred-wave2-42",
+          "inputObjects": [
+            "界面截图",
+            "区域坐标"
+          ],
+          "action": "一张界面 → 几个区域按顺序被标出",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave2-42-t08d --full"
+      },
+      {
+        "id": "fred-wave3-extra2-t08i",
+        "displayLabel": "T08i",
+        "title": "毛玻璃要点卡",
+        "useWhen": "真实画面虚化 → 一张毛玻璃卡浮起，写着一个关键事实",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "fred-wave3-extra2-20261012",
+        "editableParameters": [
+          "enter",
+          "exit",
+          "exitAt",
+          "media",
+          "start",
+          "fact",
+          "highlight",
+          "note",
+          "brand",
+          "cues"
+        ],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave3-extra2-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave3-extra2-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T08i",
+        "score": 246.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：关键、放大、真实"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus",
+            "explain"
+          ],
+          "sourceId": "fred-wave3-extra2",
+          "inputObjects": [
+            "真实录屏",
+            "关键事实",
+            "重点词",
+            "补充说明"
+          ],
+          "action": "真实画面虚化 → 一张毛玻璃卡浮起，写着一个关键事实",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave3-extra2-t08i --full"
+      }
+    ],
+    "crossTypeFallback": false,
+    "scope": "Candidates only; inspect exact video and interface before selecting. No approval inferred.",
+    "selectionRule": "Inspect every listed candidate; record each as selected or rejected with a concrete reason before any original route.",
+    "publicFallbackCandidates": [
+      {
+        "id": "interaction-news-brush",
+        "displayLabel": "INT01",
+        "title": "黄色荧光笔刷出与镜头推进",
+        "useWhen": "黄色荧光笔刷出与镜头推进",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "sourceWidth",
+          "sourceHeight",
+          "regions",
+          "order",
+          "emphasisAt",
+          "cameraSeconds",
+          "zoom"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT01",
+        "score": 408.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：荧光",
+          "原词命中：放大",
+          "相近词：实截、截图、放大、真实、荧光"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "黄色荧光笔刷出与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-brush --full"
+      },
+      {
+        "id": "interaction-news-spotlight",
+        "displayLabel": "INT02",
+        "title": "局部蒙版聚焦与镜头推进",
+        "useWhen": "局部蒙版聚焦与镜头推进",
+        "sceneTypes": [
+          "prompt-reading",
+          "frosted-focus"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "regions",
+          "order",
+          "emphasisAt",
+          "dimOpacity",
+          "zoom",
+          "sourceWidth",
+          "sourceHeight"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT02",
+        "score": 302.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：放大",
+          "相近词：实截、截图、放大、真实"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "局部蒙版聚焦与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-spotlight --full"
+      },
+      {
+        "id": "new30-rc01",
+        "displayLabel": "RC01",
+        "title": "真实说明窗局部扩展阅读",
+        "useWhen": "真实说明窗局部扩展阅读",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "expansion-selected-20261007",
+        "editableParameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "knownLimitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 480,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "RC01",
+        "score": 240.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "原词命中：放大",
+          "相近词：放大、真实"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "expansion-selected",
+          "inputObjects": [
+            "真实录屏",
+            "ROI",
+            "阅读暂停"
+          ],
+          "action": "The actual right-hand pane expands locally while page identity stays in place; outside context gets a white wash, then the pane returns to its source position.",
+          "segmentRole": "用户已选完整示例组件",
+          "nativeDurationSeconds": 8,
+          "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。"
+        },
+        "resolveCommand": "references.py --id new30-rc01 --full"
+      }
+    ],
+    "availabilityRule": "Unavailable member candidates remain discoverable and require a reason; select only verified installed source or use the public fallback. componentPlan.access=public limits the comparison to public source.",
+    "narrationCandidates": [],
+    "narrationScope": "Matches from the spoken line only. Use them to widen the visual query, not as a selection."
+  },
+  "scene": {
+    "stableId": "repo",
+    "oneQuestion": "DeepInfer开源",
+    "sourceSpans": [
+      {
+        "text": "DeepInfer开源"
+      }
+    ],
+    "implementationMode": "adapted",
+    "componentPlan": {
+      "query": "真实截图 关键句 荧光 放大"
+    },
+    "referenceChoices": []
+  },
+  "manifestPath": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest.json",
+  "next": "Inspect each candidate video/core frames, then read the full packet without --candidates-only."
+}

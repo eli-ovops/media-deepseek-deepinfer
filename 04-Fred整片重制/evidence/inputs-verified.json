@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+    "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+    "expected": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+    "match": true,
+    "bytes": 35312974
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+    "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+    "expected": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+    "match": true,
+    "bytes": 130496366
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/audio/voice-original-speed.wav",
+    "sha256": "9688ce7bdc457ba664ba67b3e6816496d61b671a814cb31262d1f1542bd3aa8c",
+    "expected": "9688ce7bdc457ba664ba67b3e6816496d61b671a814cb31262d1f1542bd3aa8c",
+    "match": true,
+    "bytes": 9046444
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-v1.srt",
+    "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357",
+    "expected": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357",
+    "match": true,
+    "bytes": 2809
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/edl-v1.json",
+    "sha256": "dd37db14966e34d012aba4e3001eb79a2436103bcd6d42cece7042958411eacc",
+    "expected": "dd37db14966e34d012aba4e3001eb79a2436103bcd6d42cece7042958411eacc",
+    "match": true,
+    "bytes": 16384
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/assets/github-original.png",
+    "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+    "expected": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+    "match": true,
+    "bytes": 76562
+  }
+]

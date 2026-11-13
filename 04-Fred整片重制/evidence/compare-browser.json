@@ -1,0 +1,64 @@
+{
+  "url": "http://127.0.0.1:55291/",
+  "halfSpeedLive": [
+    {
+      "duration": 94.233333,
+      "id": "old",
+      "muted": true,
+      "paused": false,
+      "rate": 0.5006246000000004,
+      "src": "http://127.0.0.1:55291/asset/b2dffec033eec5fb85192c98",
+      "time": 51.834678
+    },
+    {
+      "duration": 94.233333,
+      "id": "new",
+      "muted": false,
+      "paused": false,
+      "rate": 0.5,
+      "src": "http://127.0.0.1:55291/asset/0c4db02c6f30f16319fe8090",
+      "time": 51.835709
+    }
+  ],
+  "pausedFrame": [
+    {
+      "duration": 94.233333,
+      "id": "old",
+      "muted": true,
+      "paused": true,
+      "rate": 1,
+      "src": "http://127.0.0.1:55291/asset/b2dffec033eec5fb85192c98",
+      "time": 43.366666
+    },
+    {
+      "duration": 94.233333,
+      "id": "new",
+      "muted": false,
+      "paused": true,
+      "rate": 1,
+      "src": "http://127.0.0.1:55291/asset/0c4db02c6f30f16319fe8090",
+      "time": 43.366666
+    }
+  ],
+  "normalSpeedLive": [
+    {
+      "duration": 94.233333,
+      "id": "old",
+      "muted": true,
+      "paused": false,
+      "rate": 1.001521000000001,
+      "src": "http://127.0.0.1:55291/asset/b2dffec033eec5fb85192c98",
+      "time": 61.961051
+    },
+    {
+      "duration": 94.233333,
+      "id": "new",
+      "muted": false,
+      "paused": false,
+      "rate": 1,
+      "src": "http://127.0.0.1:55291/asset/0c4db02c6f30f16319fe8090",
+      "time": 61.963582
+    }
+  ],
+  "scope": "UI playback checks only; no continuous audiovisual or hearing claim"
+}

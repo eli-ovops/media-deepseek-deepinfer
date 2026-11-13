@@ -1,0 +1,60 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "06",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "at": "2026-10-21T14:14:15.276674+08:00",
+  "owner_report_received": true,
+  "decision": "PREPARATION_HANDOFF_REVIEWED_WITH_TWO_MANUAL_BLOCKS",
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/待发入口与状态-v4.md",
+      "sha256": "9d32c1f32d5145aa954bdf40392732e76413ae10aecd7fc19093326d83b85d50"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/原生准备回执-v4.json",
+      "sha256": "2770cd77e4c51e1eac69ba8849e4be0a18943703b32116d0a62ea4fc1901210c"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/视频号-本人手动包-v3.md",
+      "sha256": "14950aba05d68d9c0befbebe8c361ee5846ccc38a4f24227fe882daf56a4df66"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/LinkedIn-保留旧稿手动包-v3.md",
+      "sha256": "5e50d079f1df6a65b8cf0cf35eacbaad54be234ec6634f1bcf9e38dc6ef42aee"
+    }
+  ],
+  "actual_screenshots_reviewed": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/douyin-reopened-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/tiktok-ready-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/xiaohongshu-cover-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/youtube-persisted-details-v4.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/youtube-persisted-private-draft-v4.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/weibo-restored-ready-v4.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/截图/linkedin-old-draft-preserved-v3.png"
+  ],
+  "summary": {
+    "saved_reopened": 5,
+    "current_editor_only": 2,
+    "manual_or_blocked": 2,
+    "publish_actions": 0
+  },
+  "corrections": [
+    "YouTube exact existing ID30L92PtpTdQ independently reopened and private draft fields persisted; not entire upload unsaved",
+    "Weibo previous unsaved editor lost; same version restored once after account/duplicate check, new current editor only"
+  ],
+  "remaining_platform_limits": {
+    "tiktok": "content check in progress; no loop wait",
+    "x": "custom cover unsupported in current editor",
+    "xiaohongshu": "only current editor, draft save failed; do not refresh",
+    "weibo": "only current editor, no native draft save observed",
+    "linkedin": "unrelated olddraft preserved; user action required for draft slot",
+    "weixin_channels": "B002 site-safety block, manual package only"
+  },
+  "remaining_required_work_before_all_platforms_ready": [
+    "LinkedIn draft slot handling and current video preparation",
+    "User manual Weixin Channels preparation"
+  ],
+  "publication_authorized": false,
+  "formal06_pass": false,
+  "scope": "PMO reviewed Owner original saved receipts and actual screenshots; no new upload or publication by PMO, no blanket AV acceptance."
+}

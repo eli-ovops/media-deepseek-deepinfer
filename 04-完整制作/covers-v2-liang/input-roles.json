@@ -1,0 +1,64 @@
+{
+  "records": [
+    {
+      "id": "liang34",
+      "referenced_image_paths": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-3x4-v1.png"
+      ],
+      "input_roles": [
+        "identity, blue suit, glasses and finger-on-lips pose",
+        "layout only; entirely replace its person"
+      ],
+      "selected": false
+    },
+    {
+      "id": "liang916",
+      "referenced_image_paths": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-3x4-v1.png"
+      ],
+      "input_roles": [
+        "identity, blue suit, glasses and finger-on-lips pose",
+        "layout only; entirely replace its person"
+      ],
+      "selected": true
+    },
+    {
+      "id": "liang169",
+      "referenced_image_paths": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-16x9-v1.png"
+      ],
+      "input_roles": [
+        "identity, blue suit, glasses and finger-on-lips pose",
+        "layout only; entirely replace its person"
+      ],
+      "selected": true
+    },
+    {
+      "id": "liang43",
+      "referenced_image_paths": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-16x9-v1.png"
+      ],
+      "input_roles": [
+        "identity, blue suit, glasses and finger-on-lips pose",
+        "layout only; entirely replace its person"
+      ],
+      "selected": true
+    },
+    {
+      "id": "liang34fix",
+      "referenced_image_paths": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+        "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-73836ddf-b9f2-42f1-8347-c104d2e79252.png"
+      ],
+      "input_roles": [
+        "identity, blue suit, glasses and finger-on-lips pose",
+        "layout correction of first 3x4 candidate"
+      ],
+      "selected": true
+    }
+  ]
+}

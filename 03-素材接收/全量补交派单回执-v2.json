@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-21T11:35:22.366060+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "logical_stage": "03",
+  "owner_thread_id": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "tool_message_accepted": true,
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "pre_dispatch_cursor": "bfddea14-7e02-492c-adcf-108401d9c803:9",
+  "new_unique_clips": 12,
+  "old_unique_clips_reused": 5,
+  "all_unique_clips": 17,
+  "user_paths": 22,
+  "full_production_authorization": "User explicitly requests full workflow after recording coverage is complete",
+  "owner_report_received": false
+}

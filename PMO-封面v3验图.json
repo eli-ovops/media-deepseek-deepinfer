@@ -1,0 +1,248 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "06",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS_VISUAL_COVER_FOR_PREPARATION",
+  "at": "2026-10-21T13:32:49.789531+08:00",
+  "owner_report_received": true,
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/manifest-v3.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/验图与品牌差异-v3.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/official-source.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/input/deepseek-official-lockup.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/phone-thumbnails-v3.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-9x16-1080x1920-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-16x9-1920x1080-v3.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-4x3-1440x1080-v3.png"
+  ],
+  "actual_review": {
+    "four_full_images": true,
+    "phone_thumbnails": true,
+    "all_dimensions_and_sha256_matched": true,
+    "standalone_whale": "clear separate blue whale, correct general orientation and recognizable negative space",
+    "wordmark": "blue lowercase original-brand custom letterform style, ordinary generic DeepSeek type replaced",
+    "headlines": "black 省钱引擎 and purple 开源了 visible",
+    "subject": "user-designated Liang photo identity, blue suit, glasses and finger-to-lips retained through generative edit",
+    "layout": "no visible cut words or face/headline collision in four exports"
+  },
+  "brand_precision_limit": {
+    "exact_official_pixels_preserved": false,
+    "exact_svg_path_proof": false,
+    "official_input_blue": "#4D6BFE",
+    "output_blue": "minor generative color variations recorded in owner manifest",
+    "decision": "Accept current faithful visual style for user-requested covers; user did not request exact RGB or path identity. No exact-pixel or exact-color PASS claimed. No new sharp composite exception authorized."
+  },
+  "outputs": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-3x4-1080x1440-v3.png",
+      "ratio": "3x4",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "mime": "image/png",
+      "bytes": 1392532,
+      "sha256": "50c4d796b5f0d5b9ec800e1f5ee742046f4c1e0260b3833bc5d9feff3d67bd67",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-822b4fc5-a56b-4ca4-9256-a2d11f7f4762.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-3x4-v3.png",
+      "generated_dimensions": [
+        1086,
+        1448
+      ],
+      "prompt_id": "brand34",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        0,
+        0
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            59,
+            98,
+            252
+          ],
+          4751
+        ],
+        [
+          [
+            60,
+            99,
+            252
+          ],
+          3100
+        ],
+        [
+          [
+            60,
+            99,
+            253
+          ],
+          2686
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-9x16-1080x1920-v3.png",
+      "ratio": "9x16",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mime": "image/png",
+      "bytes": 1922481,
+      "sha256": "47fa6b79d317ccf7d87f44ad573875c8df9de1413b724d3b0c3c1c7af21c2279",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-26b013c0-b8c2-4acd-9d8f-52fb4ab1c31d.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-9x16-v3.png",
+      "generated_dimensions": [
+        941,
+        1672
+      ],
+      "prompt_id": "brand916",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        0,
+        1
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            65,
+            95,
+            252
+          ],
+          2843
+        ],
+        [
+          [
+            66,
+            96,
+            252
+          ],
+          2576
+        ],
+        [
+          [
+            64,
+            95,
+            252
+          ],
+          2356
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-16x9-1920x1080-v3.png",
+      "ratio": "16x9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "mime": "image/png",
+      "bytes": 1950760,
+      "sha256": "0068bdca498e6196ecd70e638de5a4a980dd98eac9fbabab4526da9b5b27c314",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-714918a2-999f-490d-910c-2c630bce1c5b.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-16x9-v3.png",
+      "generated_dimensions": [
+        1671,
+        941
+      ],
+      "prompt_id": "brand169fix",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        2,
+        0
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            56,
+            93,
+            252
+          ],
+          1918
+        ],
+        [
+          [
+            56,
+            93,
+            253
+          ],
+          1908
+        ],
+        [
+          [
+            57,
+            94,
+            253
+          ],
+          1691
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/cover-4x3-1440x1080-v3.png",
+      "ratio": "4x3",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "mime": "image/png",
+      "bytes": 1489094,
+      "sha256": "07b4f8c0fcbb0d829a35d50b880987db66c7834fdf8d2f29384180fee72c000b",
+      "generated_original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-c1c8f5c8-b610-43c2-a226-c1d47f57141d.png",
+      "generated_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v3-deepseek/generated-4x3-v3.png",
+      "generated_dimensions": [
+        1448,
+        1086
+      ],
+      "prompt_id": "brand43",
+      "processing": "built-in imagegen then proportional size normalization only",
+      "padding_total_px": [
+        0,
+        0
+      ],
+      "header_blue_most_common": [
+        [
+          [
+            72,
+            104,
+            252
+          ],
+          1519
+        ],
+        [
+          [
+            71,
+            103,
+            252
+          ],
+          1433
+        ],
+        [
+          [
+            71,
+            104,
+            252
+          ],
+          1418
+        ]
+      ],
+      "official_input_blue": "#4D6BFE",
+      "exact_official_pixels_preserved": false,
+      "status": "PENDING_PMO_BRAND_REVIEW"
+    }
+  ],
+  "remaining_required_cover_work": [],
+  "scope": "Replace only preparation cover dependency. Video, user acceptance, original AV gaps and all prior files unchanged. No publishing authority."
+}

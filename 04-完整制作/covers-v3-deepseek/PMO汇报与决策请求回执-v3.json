@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "action": "v3 four candidates plus exact-brand decision request",
+  "targetThreadId": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "toolResult": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"
+      }
+    ],
+    "isError": false
+  },
+  "pmo_received": "UNKNOWN",
+  "brand_exact_acceptance": "PENDING",
+  "permission_to_script_composite": "NOT_GRANTED",
+  "publishing_authorized": false
+}

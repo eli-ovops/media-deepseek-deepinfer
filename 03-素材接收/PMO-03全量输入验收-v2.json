@@ -1,0 +1,55 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "03",
+  "version": "v2",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "at": "2026-10-21T11:44:12.687740+08:00",
+  "scope": "Full recorded information coverage and proposed source timeline accepted for full authorized production; not direct audio or motion acceptance.",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全量素材清单-v2.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/全文覆盖与口误核对-v2.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/接收报告-v2.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/剪辑EDL-v2.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/新增12条全音轨转录汇总-v2.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-v2-1.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-v2-2.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/03-素材接收/contact-v2-3.jpg"
+  ],
+  "remaining_required_work": [],
+  "coverage": {
+    "paths": 22,
+    "unique_recordings": 17,
+    "reused_asr": 5,
+    "new_full_asr_read": 12,
+    "information_blocks_present": 9,
+    "missing_information": [],
+    "new_sheets_actually_viewed": 3,
+    "selected_source_sha_rechecked": 6,
+    "expected_original_speed_seconds": 93.8
+  },
+  "found_missing_blocks_in": "7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4,0.55-26.85sec",
+  "edl_sha256": "d085a6af98b202661bb6a932153574cae3868dcf99fc28b1afb02adb24c3c89f",
+  "manifest_sha256": "62b4d7a97088f48a680651e605460eb7dc0ad2b8d14bb78050fc2b060408b226",
+  "source_order": [
+    "N06",
+    "S3",
+    "S5",
+    "N12",
+    "N11",
+    "S1"
+  ],
+  "user_full_production_source": "Current user supplied all takes including failed recordings and requests starting workflow once complete; all information is now present.",
+  "full_production_authorized": true,
+  "user_final_video_review": false,
+  "publishing_authorized": false,
+  "audio_direct_listening": false,
+  "continuous_visual_review": false,
+  "follow_up_required_in04_05": [
+    "Use source-clock guards on onsets/tails; especially S5 at7.95",
+    "Review unresolved short-word pronunciation without guessing ASR knives",
+    "Cover hand-in-face motions using planned full-screen repository/Star presentation",
+    "Full exported video checks and honest sound/motion coverage",
+    "Keep actual94sec source pace rather than forcing script estimate with speedup"
+  ]
+}

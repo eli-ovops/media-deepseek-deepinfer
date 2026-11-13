@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T14:36:28.794508+08:00",
+  "thread_id": "01a11a7f-9a85-7481-9e6c-75f11280ba56",
+  "target_model": "gpt-6.1-sol",
+  "target_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "actual_speed": "UNKNOWN",
+  "pre_dispatch_cursor": "1532a6e8-a04f-4966-b015-5eecc4c56fb0:5",
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a7f-9a85-7481-9e6c-75f11280ba56\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "MESSAGE_ACCEPTED_PUBLICATION_RESULTS_PENDING",
+  "authority": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/用户发布授权-20261021.json",
+  "task": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/正式发布任务-v1.md"
+}

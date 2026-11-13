@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-21T11:44:49.680874+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "owner_thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "tool": "send_message_to_thread",
+  "tool_accepted": true,
+  "pre_dispatch_cursor": "7dc85aae-1054-42d4-8216-f94151a31a2a:18",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "scope": "Full local video, Fred/sy graphics, captions, four covers from complete recording EDL-v2; no publication",
+  "expected_source_seconds": 93.8,
+  "owner_report_received": false,
+  "pmo_render_review": false,
+  "independent05_released": false,
+  "capacity_recovery": {
+    "reason": "Selected model is at capacity. Please try a different model.",
+    "failed_turn": "01a15c8f-412a-7793-87f5-a85544d9170c",
+    "pre_resume_cursor": "d33a765f-a410-48d9-ae6c-189fd3559d3e:1",
+    "same_owner": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+    "requested_model": "gpt-6.1-sol",
+    "requested_effort": "high",
+    "send_tool_returned_thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+    "actual_runtime": "UNKNOWN",
+    "complete_mp4_received": false,
+    "at": "2026-10-21T12:18:52.081686+08:00"
+  }
+}

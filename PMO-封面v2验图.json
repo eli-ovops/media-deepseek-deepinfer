@@ -1,0 +1,56 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "decision": "PASS_FOR_NONPUBLIC_PREPARATION",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "checks": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-3x4-1080x1440-v2.png",
+      "sha256": "ae5500fdc57f952432ccf06a846f1be1efcf692ece634154e8514f2428d77204",
+      "dimensions": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-9x16-1080x1920-v2.png",
+      "sha256": "d348179e519ea38f91697b0442e4fabd0d7b8040c72a05a6f909c9ca429aaad7",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-16x9-1920x1080-v2.png",
+      "sha256": "3a4937ff8d335467b00950d552271b494e3f1d9ce97571e59361ccd7c9c36438",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-4x3-1440x1080-v2.png",
+      "sha256": "43f117b0da7345d08ddbd2130b8c7d6f69be2b9435cd3a3450793cab1c7de40f",
+      "dimensions": [
+        1440,
+        1080
+      ]
+    }
+  ],
+  "observed": "四张最终全图和手机缩图已实际查看，文字准确、前黑后紫、白底，人物沿用户指定照片蓝西装/矩形眼镜/食指贴唇，未见多指重眼镜或人物压字。",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/manifest-v2.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/验图与交付-v2.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/phone-thumbnails-v2.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-3x4-1080x1440-v2.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-9x16-1080x1920-v2.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-16x9-1920x1080-v2.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-4x3-1440x1080-v2.png"
+  ],
+  "limits": [
+    "Generated processing, not source pixels unchanged",
+    "Native platform crop pending",
+    "New covers user final choice pending before any publication"
+  ],
+  "frozen_video_unchanged": true
+}

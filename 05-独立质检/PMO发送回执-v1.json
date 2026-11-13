@@ -1,0 +1,17 @@
+{
+  "status": "SUCCESS",
+  "target_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "deepseek-deepinfer-20261021",
+  "video_sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "report_sha256": "94a6e9f6517c70cce39acfab37bd70da7e3c90ea8f6f23b34b946589ff43acd7",
+  "meaning": "工具发送成功；PMO处理和验收尚未核实",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"
+      }
+    ],
+    "isError": false
+  }
+}

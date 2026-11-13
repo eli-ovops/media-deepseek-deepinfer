@@ -1,0 +1,22 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "at": "2026-10-21T15:10:02.965251+08:00",
+  "human_source": "Current PMO chat user: 小红书和 视频号都发了。领英还没发。",
+  "platforms": {
+    "小红书": {
+      "state": "USER_CONFIRMED_PUBLISHED",
+      "native_url": "UNKNOWN",
+      "native_visibility": "NOT_INDEPENDENTLY_REVERIFIED"
+    },
+    "视频号": {
+      "state": "USER_CONFIRMED_PUBLISHED",
+      "native_url": "UNKNOWN",
+      "native_visibility": "NOT_INDEPENDENTLY_REVERIFIED"
+    },
+    "LinkedIn": {
+      "state": "UNPUBLISHED_HELD",
+      "action": "do not publish without new explicit authority"
+    }
+  },
+  "cleanup": "paused; no deletion authorized by this receipt"
+}

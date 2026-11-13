@@ -1,0 +1,21 @@
+{
+  "source": {
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/public/voice-original-speed.wav",
+    "sha256": "9688ce7bdc457ba664ba67b3e6816496d61b671a814cb31262d1f1542bd3aa8c",
+    "bytes": 9046444
+  },
+  "video": {
+    "path": "/Volumes/EXTERNAL/\u81ea\u5a92\u4f53/deepseek-deepinfer-20261021/04-Fred\u6574\u7247\u91cd\u5236/output/deepinfer-fred-full-v1.mp4",
+    "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+    "bytes": 49905954
+  },
+  "sampleRate": 48000,
+  "comparedSamples": 4523200,
+  "bestLagSamplesWithinPlusMinus24": 0,
+  "zeroLagCorrelation": 0.9999848755711084,
+  "snrDb": 45.11349854012372,
+  "rmsError": 0.00033423675734322846,
+  "peakExport": 0.752267599105835,
+  "policy": "exact input PCM, unchanged clock; AAC encoding differences expected; no BGM/SFX. Numerical test does not prove direct hearing or audiovisual sync.",
+  "directHearing": "UNKNOWN"
+}

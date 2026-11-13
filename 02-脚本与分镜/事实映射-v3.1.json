@@ -1,0 +1,180 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v3.1",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "gate": {
+    "allowed": true,
+    "stage": "02"
+  },
+  "status": "OWNER_SELF_CHECKED_PENDING_PMO_AND_USER",
+  "sources": {
+    "S1": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方发布时间原件.json",
+      "locator": "[0].times[0].datetime; [0].text",
+      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+      "scope": "2026-10-20T09:30:19.000Z; 北京时间10月20日17:30:19，原帖截断，不称全文已读"
+    },
+    "S2": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "README L224-256、L275-299",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "scope": "核心引擎/离线推理，完整线上配套不包含在本次发布；支持V4.1-Flash"
+    },
+    "S3": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "Q&A L192-216",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "线上分离部署、前缀命中复用、服务目标，官方自述而非本地复现"
+    },
+    "S4": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方QA后半原件.json",
+      "locator": "Q&A L385-391",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "CPU/GPU异步调度重叠，减少原先设备等待；官方机制说明，未本地复现"
+    },
+    "S5": {
+      "url": "https://www.36kr.com/p/2872793466982535",
+      "title": "揭秘DeepSeek:一个更极致的中国技术理想主义故事｜36氪独家",
+      "author": "于丽丽",
+      "published_at": "2024-07-22 10:36",
+      "type": "采访发布方本人问答文本",
+      "read_method": "2026-10-21 web.open直接打开，核必要问答，不使用搜索摘要",
+      "locator": "页面L54；L138-142；L166-167",
+      "paraphrases": [
+        "封闭技术形成的壁垒有时效，团队成长、经验及创新文化更值得积累。",
+        "希望其他公司利用DeepSeek技术成果构建业务。"
+      ],
+      "scope": "2024历史观点；不支持2026最新讲话或私下动机；不存整篇/不下载视频"
+    }
+  },
+  "mapping": [
+    {
+      "paragraph": 1,
+      "kind": "opinion_plus_fact",
+      "claim": "AI成本竞争可能变化；DeepSeek开放自用效率优化核心引擎",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L224；Q&A L192-205",
+      "limits": "成本战变化是Eli判断，非已验证行业结果；省钱提速无个人实测幅度"
+    },
+    {
+      "paragraph": 2,
+      "kind": "fact_plus_inference",
+      "claim": "大规模请求的等待和算力利用影响服务成本",
+      "sources": [
+        "S3"
+      ],
+      "locator": "Q&A L192-201",
+      "limits": "无代码估值、研发开支或性能倍数"
+    },
+    {
+      "paragraph": 3,
+      "kind": "fact",
+      "claim": "10月20日发布DeepInfer，CPU/GPU调度重叠减少等待，外界可读可改代码",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "locator": "S1 [0].times[0]；README L224、L235、L243、L296；Q&A L385-391",
+      "limits": "2026事件；不称缓存等完整配套全开放；机制未本地复现"
+    },
+    {
+      "paragraph": 4,
+      "kind": "historical_interview_paraphrase",
+      "claim": "梁在2024年表达封闭优势短暂、团队创新积累和外部基于DeepSeek发展业务的观点",
+      "sources": [
+        "S5"
+      ],
+      "locator": "L54日期；L138-142、L166-167问答",
+      "limits": "自有措辞转述，无长引；不冒充2026讲话，不使用旧价格收入芯片数字"
+    },
+    {
+      "paragraph": 5,
+      "kind": "personal_evaluation",
+      "claim": "赞赏开放现役工程并继续创新；本次行动与当年理念呼应",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "locator": "Q&A L202-205；采访L140、L167",
+      "limits": "历史观点与新行动的连接是Eli解释，不是梁本次动机自述；无个人编写全部代码断言"
+    },
+    {
+      "paragraph": 6,
+      "kind": "fact_plus_conditional_inference",
+      "claim": "完整配套需补，模型硬件有适配范围；已有代码减少部分摸索",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L228、L247-256、L296；Q&A L206",
+      "limits": "不是全模型全硬件通用，无第三方实际节省证据"
+    },
+    {
+      "paragraph": 7,
+      "kind": "forward_looking_opinion",
+      "claim": "共享工程为更多团队起点，同等算力更多服务的竞争可能改善速度价格",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "locator": "Q&A L201、L206、L209；采访L167为历史生态愿景背景",
+      "limits": "未来机会，非已普遍降价或部署；成本改善不必然传导价格；无正确率提升"
+    }
+  ],
+  "omitted_claims": [
+    "38美元/GPU小时收入与利润换算",
+    "155万亿token日吞吐",
+    "近半计算、4%—7%",
+    "月近20万",
+    "同行恐慌、全面胜出、国产卡普适、Eli亲测",
+    "无来源的梁个人发明、私下动机、2026新讲话"
+  ],
+  "verification": {
+    "input": "本轮实读PMO-v3收束单并check allowed；仅新开36氪指定访谈页；2026官源沿已核原件。",
+    "audio": "无录音；未TTS；未实际听音或出声朗读验收",
+    "visual": "仅声画方案；未下载媒体/选定组件/import/渲染",
+    "reference_video": "本02未观看；01记录74次画面采样，完整音轨/连续声画未验；不作为本稿事实唯一来源",
+    "humanizer": "嵌入式文本复核，保留具体意见与有信息的类比；未声称实际朗读",
+    "memory": "定向搜索DeepInfer/deepinfer无命中，未使用记忆事实"
+  },
+  "rules": [
+    "PERMISSIONS-2026-10-14-v1",
+    "ROUTING-2026-10-13-v4",
+    "HANDOFF-2026-10-10-v2",
+    "CODEX-MEDIA-20261020-v1",
+    "ELI-PRODUCTION-20261017-v2",
+    "ELI-REWORK-20261019-v1",
+    "humanizer 3.0.0"
+  ],
+  "routing": {
+    "target_model": "gpt-6-astra",
+    "target_effort": "high",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "usage": "PMO派单周77%/5h UNKNOWN；非本轮实测",
+    "subagents": false
+  },
+  "scope": "只写本期02；未启动04、发布、配音、付费、清理；文件全部保留",
+  "revision_input": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/PMO-v3审稿与收束修改.md",
+  "internal_review": {
+    "suspense_seconds": "0-3",
+    "asset_seconds": "3-11",
+    "interview_seconds": "36-51",
+    "personal_evaluation_seconds": "51-65",
+    "industry_conclusion_seconds": "73-85",
+    "three_questions": {
+      "asset": "服务大量用户的现役核心推理引擎与具体实现",
+      "person": "2024公开强调团队创新和外部业务生态；本次工程开放与其呼应，Eli作评价",
+      "impact": "已有代码让后来者少摸索部分实现，同等算力多服务的竞争可能惠及用户"
+    },
+    "historical_current_separate": true
+  }
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "path": "/Users/USER/Downloads/8003092ac780bbb7a1b4869b1e9aea2e_raw.mp4",
+    "bytes": 7730383,
+    "sha256": "d931dd904a251726b8c90da49f18ecf3aaa03fc743cc97203d846fa345cdaa13",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/32aee4f74c5a5cfdf46a5dc37fba9b90_raw.mp4",
+    "bytes": 12037811,
+    "sha256": "832aaa56392144c85eed5197b1aa52a2fd7d0c87b871084d210ab634ac5bb400",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/b700a4bdd5864641ba7ce8a41b470fe9_raw.mp4",
+    "bytes": 22285471,
+    "sha256": "0ba69f6109a8bdcd1fdf92c6014ded2e56d1d90b9fc9c66fea63dc0010c54b8e",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/98f1f2940850c0d24b8f3ad6f75eb2dd_raw.mp4",
+    "bytes": 3190457,
+    "sha256": "71e1070231828d16532896ab72b9828342d931d2767f2feb74a4bb8c306a6b8a",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/f68feab3caf450a0c1512f514b9cff2c_raw.mp4",
+    "bytes": 6708381,
+    "sha256": "41b871c77df8b019728fe8dcb345125bdacef05d48932be93b96d41603a7acfc",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+    "bytes": 17322986,
+    "sha256": "c28d9170ecaa415b24d95c97c8b4e7fe28c0b822b81028df31e68c68d79056b6",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/f904156097ecee2a29425225e25a3de8_raw.mp4",
+    "bytes": 20869640,
+    "sha256": "91ce94a3b556d41f3baa2f1ed3d7b132c84d870a84e362752ff5a5fe21491248",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/9c0438bb85a5ba3493a51befe1556aca_raw.mp4",
+    "bytes": 20099399,
+    "sha256": "51679d059163f8f1a0b5a263b8bae9ef2c2b9c54887fe3053368bc5c3bf031ab",
+    "same_as_previous_source_id": "S4",
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/a11263d10129c7b8fff463bb13f4c7ba_raw.mp4",
+    "bytes": 17916201,
+    "sha256": "671709d8abe1ffaefd58e1198c0b4df149aa4659f5a6abbe506077e36aaad67f",
+    "same_as_previous_source_id": "S1",
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/39f70991e3c63123698c515fd7e59d3f_raw.mp4",
+    "bytes": 9051958,
+    "sha256": "6c2affbae631e334499227045d9ba2517057d8b9d514b824345c15ff310b4251",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/6ad98b31c7b79f421806a0fc76825ed8_raw.mp4",
+    "bytes": 11514429,
+    "sha256": "ac0979c66ada98ba77fcab6235f2ea81002c8a4864bb4efb280974094144c4db",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/507e6b96eeaabfbe5f5159765e9a2bfa_raw.mp4",
+    "bytes": 59810740,
+    "sha256": "37a4fc8412c8c765b6236edd627a0de0372c913c54dd305222d661099bacda36",
+    "same_as_previous_source_id": "S2",
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/66ef842957db4a42726ac5f6e28852c6_raw.mp4",
+    "bytes": 9215729,
+    "sha256": "2ddbcfe519e48ab7bf49bd7ccafb313e2d24f83c2d12f430438ad5af707a686b",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/b3c7e68322c22e13bad1121048c5aef5_raw.mp4",
+    "bytes": 12660939,
+    "sha256": "fa6e4be5b3176cc873a1a01016ed32e3972d074b62dbd61a9ad3c749294797fb",
+    "same_as_previous_source_id": "S5",
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/07a679d8fd07beb95bea8fcfda1a610f_raw.mp4",
+    "bytes": 32798349,
+    "sha256": "06ed800b5540b88aecd586b531892c2f1bc8f180041b54a9bb2bca76555193ae",
+    "same_as_previous_source_id": "S3",
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+    "bytes": 59047443,
+    "sha256": "c28810a96d76f37883c42b98fa9710381bd2ff3049a5270c7161605b4341a279",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  },
+  {
+    "path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+    "bytes": 41293193,
+    "sha256": "b7578f8341aada9d9d4f8faf491d76c88ce176b0aae0b9e8c5cc844270ec854b",
+    "same_as_previous_source_id": null,
+    "sha_verified": true
+  }
+]

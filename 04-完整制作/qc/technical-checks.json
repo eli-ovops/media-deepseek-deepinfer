@@ -1,0 +1,155 @@
+{
+  "file": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1.mp4",
+  "sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "bytes": 35384118,
+  "duration": 94.233333,
+  "video_frames": 5654,
+  "video_codec": "h264",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": "60/1",
+  "pixel_format": "yuv420p",
+  "audio_codec": "aac",
+  "audio_rate": "48000",
+  "full_decode_exit": 0,
+  "faststart": true,
+  "mp4_boxes": [
+    [
+      "ftyp",
+      0,
+      32
+    ],
+    [
+      "moov",
+      32,
+      151023
+    ],
+    [
+      "free",
+      151055,
+      8
+    ],
+    [
+      "mdat",
+      151063,
+      35233055
+    ]
+  ],
+  "audio_source_output_zero_lag_correlation": 0.9999847631983836,
+  "decoded_audio_samples": 4524032,
+  "voice_wav_samples": 4523200,
+  "decoded_sample_peak": 0.752267599105835,
+  "edl_internal_consistent": true,
+  "caption_cues": 49,
+  "caption_timeline_monotonic": true,
+  "direct_listening": false,
+  "continuous_visual_review": false,
+  "actual_samples": [
+    {
+      "time": 0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-00.png"
+    },
+    {
+      "time": 2.683333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-01.png"
+    },
+    {
+      "time": 2.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-02.png"
+    },
+    {
+      "time": 7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-03.png"
+    },
+    {
+      "time": 9.333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-04.png"
+    },
+    {
+      "time": 13.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-05.png"
+    },
+    {
+      "time": 15.75,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-06.png"
+    },
+    {
+      "time": 15.766667,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-07.png"
+    },
+    {
+      "time": 18.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-08.png"
+    },
+    {
+      "time": 23.683333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-09.png"
+    },
+    {
+      "time": 23.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-10.png"
+    },
+    {
+      "time": 28,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-11.png"
+    },
+    {
+      "time": 35,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-12.png"
+    },
+    {
+      "time": 41.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-13.png"
+    },
+    {
+      "time": 44,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-14.png"
+    },
+    {
+      "time": 49.983333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-15.png"
+    },
+    {
+      "time": 50,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-16.png"
+    },
+    {
+      "time": 55,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-17.png"
+    },
+    {
+      "time": 58.983333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-18.png"
+    },
+    {
+      "time": 59,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-19.png"
+    },
+    {
+      "time": 70,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-20.png"
+    },
+    {
+      "time": 83.583333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-21.png"
+    },
+    {
+      "time": 88.983333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-22.png"
+    },
+    {
+      "time": 89,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-23.png"
+    },
+    {
+      "time": 89.25,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-24.png"
+    },
+    {
+      "time": 93.9,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-25.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "at": "2026-10-21T13:32:49.789531+08:00",
+  "reason": "User requested official-style lowercase deepseek and independent whale; v3 visual cover review complete. Safely stopped partial06 is resumed with cover input replacement only.",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/PMO-封面v3验图.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/封面v3待续接交接.md"
+  ],
+  "preserved": [
+    "Video repair1 and user acceptance",
+    "Stages01-05 passed and original AV limitations",
+    "Bilibili draft4013771 video and text",
+    "Weibo uploaded unsaved editor video and text",
+    "all original media/source/components and v2 images"
+  ],
+  "publication_authorized": false
+}

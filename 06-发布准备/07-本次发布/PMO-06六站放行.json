@@ -1,0 +1,23 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "06",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "PASS",
+  "at": "2026-10-21T14:35:03.622743+08:00",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/PMO-最终准备核查-v4.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/待发入口与状态-v4.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/原生准备回执-v4.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/PMO-封面v3验图.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/用户接受封面v3与继续准备-20261021.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/06-发布准备/07-本次发布/用户发布授权-20261021.json"
+  ],
+  "remaining_required_work": [],
+  "scope": "Pass preparation only for user-selected six supported platforms. User now assigns XHS/WX manual and leaves LinkedIn untouched; these are explicitly outside this authorized execution gate. TikTok native content check must permit submission. Fresh account/version/duplicate check before each action.",
+  "preserved_limits": [
+    "X native editor no customcover",
+    "Weibo only current editor; no refresh",
+    "TikTok content check may gate submission",
+    "user accepted video does not fabricate direct hearing/word-level/continuous AV PASS"
+  ]
+}

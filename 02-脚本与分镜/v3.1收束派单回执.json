@@ -1,0 +1,18 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "owner_thread_id": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "at": "2026-10-21T10:31:14.246476+08:00",
+  "tool": "send_message_to_thread",
+  "tool_accepted": true,
+  "tool_return": {
+    "threadId": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb"
+  },
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "scope": "Same user revision, script and visual plan only; one concentrated PMO correction",
+  "owner_report_received": false,
+  "pmo_reviewed_v31": false,
+  "pre_dispatch_cursor": "bfddea14-7e02-492c-adcf-108401d9c803:6"
+}

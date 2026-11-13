@@ -1,0 +1,507 @@
+{
+  "libraryCandidates": {
+    "query": "角色 分工 任务 拆分 环节 计算 安排",
+    "sceneType": "relationship",
+    "candidates": [
+      {
+        "id": "fred-wave2-42-t04b",
+        "displayLabel": "T04b",
+        "title": "角色分工：每个工具各管一环",
+        "useWhen": "一件事 → 拆给几个工具，各管一环",
+        "sceneTypes": [
+          "relationship"
+        ],
+        "collectionId": "fred-wave2-42-20261012",
+        "editableParameters": [],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave2-42-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave2-42-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T04b",
+        "score": 502.7,
+        "reasons": [
+          "流程与关系",
+          "原词命中：角色",
+          "原词命中：分工",
+          "原词命中：任务",
+          "原词命中：环节",
+          "相近词：任务、分工、环节、角色"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "explain"
+          ],
+          "sourceId": "fred-wave2-42",
+          "inputObjects": [
+            "任务",
+            "2–4 个环节与工具"
+          ],
+          "action": "一件事 → 拆给几个工具，各管一环",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave2-42-t04b --full"
+      },
+      {
+        "id": "library-new10-n008",
+        "displayLabel": "N008",
+        "title": "商品旁的三个问题转为执行角色和作品",
+        "useWhen": "同一对象的需求如何分配给团队并产出成果。",
+        "sceneTypes": [
+          "relationship"
+        ],
+        "editableParameters": [],
+        "knownLimitations": [
+          "当前展示沿用统一库的清理版本；按所展示的准确源码适配本期内容。",
+          "不把旧参考的参数接口或参考片段认可自动转移给当前适配。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "N008",
+        "score": 177.0,
+        "reasons": [
+          "人物与反应",
+          "原词命中：角色",
+          "相近词：角色"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "images",
+            "explain",
+            "handoff"
+          ],
+          "sourceId": "fredtalk",
+          "inputObjects": [
+            "图片",
+            "作品",
+            "文字",
+            "信息结构",
+            "前后内容",
+            "载体",
+            "人物素材"
+          ],
+          "action": "商品旁的三个问题转为执行角色和作品",
+          "segmentRole": "素材展示舞台",
+          "nativeDurationSeconds": 8.0,
+          "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。"
+        },
+        "resolveCommand": "references.py --id library-new10-n008 --full"
+      },
+      {
+        "id": "fred-wave2-42-t03c",
+        "displayLabel": "T03c",
+        "title": "三者循环互通",
+        "useWhen": "几个环节 → 连成互通的循环，再落一个结论",
+        "sceneTypes": [
+          "relationship"
+        ],
+        "collectionId": "fred-wave2-42-20261012",
+        "editableParameters": [],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 360,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave2-42-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave2-42-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T03c",
+        "score": 160.7,
+        "reasons": [
+          "流程与关系",
+          "原词命中：环节",
+          "相近词：环节"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "explain"
+          ],
+          "sourceId": "fred-wave2-42",
+          "inputObjects": [
+            "3–4 个环节",
+            "结论"
+          ],
+          "action": "几个环节 → 连成互通的循环，再落一个结论",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 6.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave2-42-t03c --full"
+      },
+      {
+        "id": "ep107-selected-02",
+        "displayLabel": "107-02",
+        "title": "三项流程收束，接力真实案例",
+        "useWhen": "沟通、安排、跟进三项建立后收束，并交给下一段真实工作案例。",
+        "sceneTypes": [
+          "relationship",
+          "summary"
+        ],
+        "editableParameters": [],
+        "knownLimitations": [
+          "认可只覆盖所选最终R7区间；新文案、素材与数量变化需实际短样检查。",
+          "原媒体、源帧与字体一起保存；保持连续源时钟，不重启中途状态。",
+          "48–50秒包含49.8167秒开始的下一段原媒体交接。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "107-02",
+        "score": 160.7,
+        "reasons": [
+          "流程与关系",
+          "原词命中：安排",
+          "相近词：安排"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "handoff",
+            "explain",
+            "video-entry"
+          ],
+          "sourceId": "fredtalk",
+          "inputObjects": [
+            "前后内容",
+            "载体",
+            "文字",
+            "信息结构",
+            "录屏",
+            "视频",
+            "窗口"
+          ],
+          "action": "三项流程收束，接力真实案例",
+          "segmentRole": "短交接",
+          "nativeDurationSeconds": 2,
+          "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。"
+        },
+        "resolveCommand": "references.py --id ep107-selected-02 --full"
+      },
+      {
+        "id": "fred-native-t19a",
+        "displayLabel": "T19a",
+        "title": "痛点小人：Fred 发愁，烦恼气泡收成一个问题",
+        "useWhen": "痛点小人：Fred 发愁，烦恼气泡收成一个问题",
+        "sceneTypes": [
+          "relationship",
+          "custom"
+        ],
+        "collectionId": "fred-native-16-20261012",
+        "editableParameters": [
+          "character",
+          "pains",
+          "keyword",
+          "summary",
+          "summaryKey",
+          "holdAt"
+        ],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-native-16-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-native-16-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T19a",
+        "score": 59.0,
+        "reasons": [
+          "人物与反应"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "explain"
+          ],
+          "sourceId": "fred-native",
+          "inputObjects": [
+            "Fred 3D 形象透明视频",
+            "烦恼 2–4 条",
+            "结论"
+          ],
+          "action": "痛点小人：Fred 发愁，烦恼气泡收成一个问题",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-native-t19a --full"
+      }
+    ],
+    "crossTypeFallback": false,
+    "scope": "Candidates only; inspect exact video and interface before selecting. No approval inferred.",
+    "selectionRule": "Inspect every listed candidate; record each as selected or rejected with a concrete reason before any original route.",
+    "publicFallbackCandidates": [
+      {
+        "id": "library-new10-n008",
+        "displayLabel": "N008",
+        "title": "商品旁的三个问题转为执行角色和作品",
+        "useWhen": "同一对象的需求如何分配给团队并产出成果。",
+        "sceneTypes": [
+          "relationship"
+        ],
+        "editableParameters": [],
+        "knownLimitations": [
+          "当前展示沿用统一库的清理版本；按所展示的准确源码适配本期内容。",
+          "不把旧参考的参数接口或参考片段认可自动转移给当前适配。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "N008",
+        "score": 177.0,
+        "reasons": [
+          "人物与反应",
+          "原词命中：角色",
+          "相近词：角色"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "images",
+            "explain",
+            "handoff"
+          ],
+          "sourceId": "fredtalk",
+          "inputObjects": [
+            "图片",
+            "作品",
+            "文字",
+            "信息结构",
+            "前后内容",
+            "载体",
+            "人物素材"
+          ],
+          "action": "商品旁的三个问题转为执行角色和作品",
+          "segmentRole": "素材展示舞台",
+          "nativeDurationSeconds": 8.0,
+          "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。"
+        },
+        "resolveCommand": "references.py --id library-new10-n008 --full"
+      },
+      {
+        "id": "ep107-selected-02",
+        "displayLabel": "107-02",
+        "title": "三项流程收束，接力真实案例",
+        "useWhen": "沟通、安排、跟进三项建立后收束，并交给下一段真实工作案例。",
+        "sceneTypes": [
+          "relationship",
+          "summary"
+        ],
+        "editableParameters": [],
+        "knownLimitations": [
+          "认可只覆盖所选最终R7区间；新文案、素材与数量变化需实际短样检查。",
+          "原媒体、源帧与字体一起保存；保持连续源时钟，不重启中途状态。",
+          "48–50秒包含49.8167秒开始的下一段原媒体交接。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "107-02",
+        "score": 160.7,
+        "reasons": [
+          "流程与关系",
+          "原词命中：安排",
+          "相近词：安排"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "handoff",
+            "explain",
+            "video-entry"
+          ],
+          "sourceId": "fredtalk",
+          "inputObjects": [
+            "前后内容",
+            "载体",
+            "文字",
+            "信息结构",
+            "录屏",
+            "视频",
+            "窗口"
+          ],
+          "action": "三项流程收束，接力真实案例",
+          "segmentRole": "短交接",
+          "nativeDurationSeconds": 2,
+          "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。"
+        },
+        "resolveCommand": "references.py --id ep107-selected-02 --full"
+      },
+      {
+        "id": "library-new10-n037",
+        "displayLabel": "N037",
+        "title": "头像先脉冲，三个行动图标依次跳出",
+        "useWhen": "片尾行动引导、三步轻操作提示。",
+        "sceneTypes": [
+          "relationship"
+        ],
+        "editableParameters": [],
+        "knownLimitations": [
+          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
+        ],
+        "nativeTiming": {},
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "N037",
+        "score": 59.0,
+        "reasons": [
+          "人物与反应"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "handoff",
+            "explain"
+          ],
+          "sourceId": "fredtalk",
+          "inputObjects": [
+            "前后内容",
+            "载体",
+            "文字",
+            "信息结构",
+            "人物素材"
+          ],
+          "action": "头像先脉冲，三个行动图标依次跳出",
+          "segmentRole": "短交接",
+          "nativeDurationSeconds": 2.6,
+          "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。"
+        },
+        "resolveCommand": "references.py --id library-new10-n037 --full"
+      }
+    ],
+    "availabilityRule": "Unavailable member candidates remain discoverable and require a reason; select only verified installed source or use the public fallback. componentPlan.access=public limits the comparison to public source.",
+    "narrationCandidates": [],
+    "narrationScope": "Matches from the spoken line only. Use them to widen the visual query, not as a selection."
+  },
+  "scene": {
+    "stableId": "roles",
+    "oneQuestion": "GPU本轮计算与CPU提前安排",
+    "sourceSpans": [
+      {
+        "text": "GPU本轮计算与CPU提前安排"
+      }
+    ],
+    "implementationMode": "adapted",
+    "componentPlan": {
+      "query": "角色 分工 任务 拆分 环节 计算 安排"
+    },
+    "referenceChoices": []
+  },
+  "manifestPath": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest.json",
+  "next": "Inspect each candidate video/core frames, then read the full packet without --candidates-only."
+}

@@ -1,0 +1,80 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+  "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "publication_authorized": false,
+  "publish_actions": 0,
+  "platforms": [
+    {
+      "platform": "bilibili",
+      "account": "Eli-AI nativecoverpreview; expected432834855 history",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "fields": {
+        "title": "DeepSeek把省钱引擎开源了，AI成本战会怎么变？",
+        "body_html": "<p>模型会回答，只是开始。大量用户一起用，怎么让显卡少干等、同样算力接更多任务？</p><p><br></p><p>DeepSeek开源核心引擎DeepInfer，这条从一个调度例子讲它为什么关系到AI服务成本，也说说哪些线上配套和适配还没省掉。</p><p><br></p><p>开源工程积累，会怎样改变后来者的起点？</p>",
+        "tags": "*\n\n标签\n\nAI\n\nDeepSeek\n\n人工智能\n\n开源\n\n科技\n\n还可以添加5个标签"
+      },
+      "cover": [
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-4x3-1440x1080-v2.png",
+        "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-16x9-1920x1080-v2.png"
+      ],
+      "cover_evidence": "截图/bilibili-covers.png",
+      "support_topic": "B站AI无限竞技场 native candidate exists; not joined/no signup",
+      "publication": false,
+      "state": "PRIVATE_DRAFT_SAVED_REOPENED",
+      "draft_id": "4013771",
+      "url": "https://member.bilibili.com/platform/upload/video/frame?type=draft&draftId=4013771",
+      "tabId": "1",
+      "cover_state": "V2_UPLOADED_SAVED_NOW_SUPERSEDED_REPLACE_ONLY"
+    },
+    {
+      "platform": "weibo",
+      "account": "Eli-AI/7720929036 native ownprofile",
+      "tabId": "2",
+      "url": "https://weibo.com/upload/channel",
+      "state": "UPLOADED_EDIT_PAGE_UNSAVED",
+      "video_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+      "title": [
+        "DeepSeek把省钱引擎开源了"
+      ],
+      "body": "AI能不能更便宜，答案不只在模型里。\n\nDeepSeek把核心引擎DeepInfer开源：显卡少干等，同样的算力就有机会接更多任务。这次开放了工程积累，完整线上配套、模型和硬件适配还要继续做。\n\n从一支团队的经验，到更多团队能用的起点，这件事值得看。\n\n#人工智能# #AI#",
+      "cover": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-3x4-1080x1440-v2.png",
+      "tags": [
+        "人工智能",
+        "AI"
+      ],
+      "tag_evidence": "native history candidates selected; final delimiters normalized in textarea; public clickable status pending publication",
+      "ai_disclosure": "含AI生成内容",
+      "media": "上传完成33.68MB",
+      "screenshot": "截图/weibo-edit.png",
+      "cover_state": "V2_UPLOADED_NOW_SUPERSEDED_REPLACE_ONLY"
+    },
+    {
+      "platform": "youtube",
+      "account": "Eli-AI native channelUCqJaVQRO3FrxD5spt1GG7Iw",
+      "tabId": "3",
+      "url": "https://studio.youtube.com/channel/UCqJaVQRO3FrxD5spt1GG7Iw/videos/short?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D",
+      "state": "CONTENT_LIST_ONLY_CREATE_MENU_DISMISSED_NO_UPLOAD",
+      "video_uploaded": false,
+      "cover_uploaded": false,
+      "duplicate_check": "no DeepInfer/savingengine title in11items; old2funnel drafts untouched"
+    }
+  ],
+  "known_av_gaps": [
+    "direct hearing NOT_PERFORMED",
+    "word-level sync and continuous audiovisual not verified"
+  ],
+  "browser": "Codex IAB2",
+  "status": "PAUSED_FOR_USER_COVER_V3_CORRECTION",
+  "resume_reason": "Official blue deepseek wordmark plus clear separate whale requested; covers-v2-liang no longer final",
+  "not_started": [
+    "douyin",
+    "xiaohongshu",
+    "linkedin",
+    "x",
+    "tiktok",
+    "weixin_channels"
+  ],
+  "blocked_video_channel": "B002; not accessed",
+  "updated_at": "2026-10-21 13:14:58"
+}

@@ -1,0 +1,188 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "03",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "pmo": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "outputs": {
+    "inventory": "五段素材清单.json",
+    "edl": "剪辑EDL-v1.json",
+    "subtitles": "字幕重映射依据-v1.json",
+    "transcripts": "全音轨转录汇总.md",
+    "report": "接收报告.json",
+    "temporary": "临时文件索引.json"
+  },
+  "contents": {
+    "S1": {
+      "description": "结尾完整重说：同样算力、接更多任务、少等待、AI服务更快更便宜",
+      "order": 4,
+      "decision": "保留作结尾，替换S2尾部失败起句",
+      "concerns": [
+        "算例→算力为ASR同音错词候选，不能据此剪音"
+      ]
+    },
+    "S2": {
+      "description": "人物/持续创新、开放工程、配套适配、后来者与工程起点；末尾结论说到一半重说",
+      "order": 3,
+      "decision": "保留至工程起点；后半结尾改用S1",
+      "concerns": [
+        "梁文芬/护城盒/佛/经历/一直团队等多处ASR易错，字幕校字与声音剪切分开",
+        "临场出现少摸索一大部分，较稿一部分程度加强，保留原声并交PMO审内容",
+        "30秒后继续成了的继续是否实说未知，不做词内切"
+      ]
+    },
+    "S3": {
+      "description": "开头行业悬念、昨天开源、今天GitHub一万多星；末尾代码句未说完",
+      "order": 1,
+      "decision": "保留至星数句完成，在停顿中转S5完整补说",
+      "concerns": [
+        "首句可能越来越变天了、星数前今天/接着到今天疑似重说或ASR误识，未直接听核，保留",
+        "DeepSeek/DeepInfer/GitHub均被ASR误写，依据冻结稿纠正专名文字候选，不剪声音"
+      ]
+    },
+    "S4": {
+      "description": "人物段另一条录制，前段与S2重叠，尾句让别人未完成，随后机位移动",
+      "order": null,
+      "decision": "本版整条不选用，保留原片作备选",
+      "concerns": [
+        "末尾表述不完整；画面末段实际采样见明显位移/模糊"
+      ]
+    },
+    "S5": {
+      "description": "完整补说这份支撑自家服务的核心代码，同行可研究改造",
+      "order": 2,
+      "decision": "接S3星数后，替换S3未完成代码句",
+      "concerns": [
+        "同样/同行、核/和等字幕识别疑点，原声保留，不凭ASR删短词"
+      ]
+    }
+  },
+  "keep_ranges": [
+    {
+      "id": "K1",
+      "source_id": "S3",
+      "source_in": 0.3,
+      "source_out": 17.283333,
+      "reason": "开头至星数；结束切在17.0197—17.5328的低能量候选停顿，删其后未完成代码句，换S5完整补说",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        16.7,
+        17.8
+      ]
+    },
+    {
+      "id": "K2",
+      "source_id": "S5",
+      "source_in": 0.45,
+      "source_out": 7.95,
+      "reason": "完整代码句补说；保留起音前和句尾后余量",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        0,
+        1.1
+      ]
+    },
+    {
+      "id": "K3",
+      "source_id": "S2",
+      "source_in": 0.85,
+      "source_out": 32.816667,
+      "reason": "人物至工程起点；结束切在32.566—33.0842低能量候选停顿；后面失败结尾由S1替换",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        32.2,
+        33.5
+      ]
+    },
+    {
+      "id": "K4",
+      "source_id": "S1",
+      "source_in": 0.6,
+      "source_out": 11.25,
+      "reason": "完整结尾重说；保留句尾自然余量",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        0,
+        1.3
+      ]
+    }
+  ],
+  "disabled_cuts": [
+    {
+      "id": "D1",
+      "source_id": "S3",
+      "source_range": [
+        10.48,
+        14.24
+      ],
+      "issue": "今天/截至到今天或重说的短语疑点",
+      "enabled": false,
+      "reason": "短词ASR不稳定，无直接听音；现版保留整段，不猜刀口"
+    },
+    {
+      "id": "D2",
+      "source_id": "S3",
+      "source_range": [
+        1.04,
+        3.25
+      ],
+      "issue": "可能越来越变天了是否实际口误",
+      "enabled": false,
+      "reason": "可能是识别误差，保留声音"
+    },
+    {
+      "id": "D3",
+      "source_id": "S2",
+      "source_range": [
+        28,
+        32.566
+      ],
+      "issue": "工程积累/累计、继续成了是否真重复",
+      "enabled": false,
+      "reason": "未核短词，不改正常临场措辞"
+    },
+    {
+      "id": "D4",
+      "source_id": "S5",
+      "source_range": [
+        4.4,
+        7.6
+      ],
+      "issue": "同行/同样及和字识别",
+      "enabled": false,
+      "reason": "只列字幕校对疑点，不切声音"
+    }
+  ],
+  "missing_script_blocks": [
+    {
+      "reference": "口播稿-v3.2第3段",
+      "text": "模型会回答，只是开始。大量用户同时涌进来……服务成本",
+      "state": "未在本轮五段ASR检出对应完整段落",
+      "action": "PMO核三段录制卡是否有意省略；02未见录制卡本地原件，不能直接认定用户漏录"
+    },
+    {
+      "reference": "口播稿-v3.2第4段",
+      "text": "显卡本轮计算、CPU安排下轮、少等待与腾出算力",
+      "state": "未在本轮五段ASR检出",
+      "action": "若仍需完整解释版，最小补录：比如，显卡计算这一轮，处理器提前安排下一轮，让机器少干等。省下来的算力还能接别的任务。先由PMO核口径，不直接要求用户重拍"
+    }
+  ],
+  "visual_review": {
+    "viewed_contact_sheets": [
+      "contact-overview.jpg",
+      "contact-boundaries.jpg"
+    ],
+    "sample_count": 32,
+    "scope": "每个原片4张全时段分布样本＋12张边界样本，实际已查看；不是连续视觉读取",
+    "findings": [
+      "五段均为同一位本人室内竖屏近景、黑衣眼镜、书架背景；脸部可见，未见字幕烧录",
+      "S2最后采样与S4尾段出现机位明显移动/模糊，拟保留范围均避开尾部大移动",
+      "S1与S2/S3取景头部大小和位置有变化，接缝可能有跳切，不能静帧证明自然流畅"
+    ],
+    "continuous_video": false,
+    "direct_audio": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-21T10:00:32.940709+08:00",
+  "tool": "mcp__codex_app__send_message_to_thread",
+  "threadId": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "hostId": "local",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "raw_result": {
+    "threadId": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb"
+  },
+  "dispatch_accepted_not_completion": true
+}

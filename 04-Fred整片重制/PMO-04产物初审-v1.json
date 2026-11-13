@@ -1,0 +1,131 @@
+{
+  "at": "2026-10-21T20:50:22.153647+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v1",
+  "owner_report_received": true,
+  "received_from": "01a11a6f-49ef-7653-934a-4312979fd4e7 proactive tool message",
+  "status": "04_ARTIFACT_REVIEWED_RELEASE05_SCOPED_INDEPENDENT_QA",
+  "final_video": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+    "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+    "verified_live": true
+  },
+  "source_reference_hashes": {
+    "unique_checked": 40,
+    "errors": [],
+    "records": {
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T22a-PostCard.tsx": "510809cce3aee0988c4cf7b591ee506d709eb7c562b2f734cd767b765de6f4f0",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx": "6be44443e30cb194817d026b91a04524db86b17963c763167f1083386374b0b9",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT01-1-preview.mp4": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T22a-1-preview.mp4": "45150cdfa71d881eec1060242f4b427a1ca13fa93600e2a4d912c284763bc925",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-1-preview.mp4": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T04e-PackOpen.tsx": "7e00355950ac28f47526aff12723cddb2e88f20b8c1605a5384b09f80d32d172",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04e-PackOpen.tsx": "30e45e61f1955627284618a48be21b8d85497a95e34a5354dfbacaee1ea655e3",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04e-1-preview.mp4": "e9b458e022ac06fddabc852ac4abe5a8b95b62a9e875db6ccf428cfbe8b62d93",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T12d-1-preview.mp4": "fc9d61cc69fffb132b0fb2d2ed60cfea0584b7ab21b1d214d0a57c78ce69f97a",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T05g-1-preview.mp4": "6fc2aa9c19362f82ccfa45c832661cb7ee257a22d12ef32e63063c270e39b26d",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T13d-RequestTrip.tsx": "4cd6cda38eb3879db74f1214053baac465aa6d477a19275d451e9f7514087e48",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13d-RequestTrip.tsx": "118f9d2358157851cc0836b24a226a94a3eb2c3f6a09636eeb6e1aff2351657e",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13d-1-preview.mp4": "34aa6188226bb43c3d1e0a5597d16fa6d347db48b2f806c224d05b883e1bc1cf",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/107-03-1-preview.mp4": "4ab167cf79586db41c8c9ecbd1659869a195b02e9fc7d40f15fcdc46cea057dc",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T04b-RoleSplit.tsx": "d4d168ccaf731926424ce7915b62bb2eccdad69cbcb153071067b9ccd21cf6fb",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04b-RoleSplit.tsx": "e32ae0c2ec9b7782d6d51045ab79c19f6e38e16211e3a12328a198c9de91cc74",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04b-1-preview.mp4": "888bcb60e7b15783d4de2a3af7645cd0904cee92040f7b1c3d6ecf12d4390950",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/N008-1-preview.mp4": "8aa2f064525127b26d3f9e4e093f1a275d3479af19fe52d31627823d7c092fbd",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T03c-1-preview.mp4": "ebac213e177e94206c07e47ab2f3fd25375ab12ad5a619acf6c75a79964e6cc8",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T02g-RoleRoadmap.tsx": "4f93cc9418c91ea65f98423375da8d22205893b92984aac373f0eebbbd6a6c66",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T16a-1-preview.mp4": "8ad8b3a47a1d9fa28742105ed5ea97d63d802eaa93f704d81c9e4f9dc07f3c02",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T04f-KeyUnlock.tsx": "1ab4c93cc3bb1c49b6bc08a45f044ba71c91f4fb0992051fce5d9e96de918439",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04f-KeyUnlock.tsx": "7d3c6a2ce3cdf1d9a395bcbfb1eec4c56b8ea077f0b142f8baa572506d8f0525",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04f-1-preview.mp4": "d3a16615177b01f31b522ce59b6dc21ac12996589070c2298be6872671305bf9",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02h-1-preview.mp4": "aa99d90800118b426df9ca558b1411d7dc0bb3822e18549f14c162f70714a4d5",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02e-1-preview.mp4": "5267b30861c2028a0da6a82091031469de97dad9bb066c8816d2a526ecae193a",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T13a-StackLayers.tsx": "fce4b5cb8a9dfa0ff890e246fffa607e9e5e6d220c57ac55e2407d22cddfdb55",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13a-StackLayers.tsx": "52345d2c1d97f9261c28925a2420cfe99e4763c0146dbf4d39592bcaf59c0822",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T17c-1-preview.mp4": "255961422fe9c5da3ed61969df6b330699dc447d0b9596432ae67a45ff406f13",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T03d-CauseChain.tsx": "b9a8f6d05941a6a47400bfb8a980820324f1dfad90afd5157cbbb4db3c6a17c6",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T03d-CauseChain.tsx": "5295c8d20624ac51dcd780a532d0524911815d2005605588c0d8d2f72ee9bcae",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T03d-1-preview.mp4": "d5c65d1e03c4f5bf5f2275af9b0a6ca08643b123f4fa3ac10beb6f75f1906c6d",
+      "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T04d-CategoryFocus.tsx": "095ace784830526bca24b8c75d8224e39c6a11bf20ab01922529839013112895",
+      "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04d-CategoryFocus.tsx": "2a2571b6703b6940671abbecb2cde522509cab4a092dae5ff2389e351cb79382",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04d-1-preview.mp4": "fe9317c8f849fb261f247a8370446afe9dcc3859e41e135ab645fd70dd6a4e55",
+      "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/L81-R005-1-preview.mp4": "5cae6c5d1d71b12ea264ddf4f84165384a1676fcceb00257e9069c9b8e96a63f"
+    }
+  },
+  "technical_evidence_read": [
+    "probe-final.json",
+    "decode-final.json",
+    "audio-preservation.json",
+    "video-remux-identity.json",
+    "implementation-final.json",
+    "clock-lint-analysis.json"
+  ],
+  "picture_review": {
+    "method": "PMO actually viewed saved final-export timestamped sample sheets and original-effect sheets plus native stills",
+    "full_overview_sheets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "range_seconds": [
+      0,
+      94
+    ],
+    "sampling_fps": 2,
+    "count_reported_by04": 189,
+    "source_sheets": [
+      "T04e",
+      "T04f",
+      "T13a",
+      "T02g"
+    ],
+    "native_frames": [
+      1320,
+      4210
+    ],
+    "observations": [
+      "Full Fred materials and hierarchy visibly retained in viewed samples; not only colors or generic Canvas replacement",
+      "Long end hold of previous 26.3s sample replaced by CPU/GPU lane-state progress in43.35-50s",
+      "Same source GitHub crops used; pixel resolution limitation retained",
+      "20-21s second crop crosses first label while arriving;05 to inspect native motion/readability",
+      "First repo return9.0s/15.5s and43.35s hard cut require05 scrutiny"
+    ],
+    "normal_speed_continuous": "NOT_VERIFIED",
+    "direct_hearing": "NOT_VERIFIED"
+  },
+  "clock_gate": {
+    "actual_status": "FAIL_PRESERVED",
+    "pmo_source_inspection": "src/index.tsx first Sequence has no from attribute; child Talk from0 is source trim and not a reset Sequence; later scene starts explicit and contiguous",
+    "decision": "Nonblocking for release to05 audit;05 must independently inspect. No gate code or PASS record changed."
+  },
+  "05_focus": [
+    "independent exact source/kit and original-effect comparison",
+    "global clocks and visual middle states, cropping/overlap/reading",
+    "same-version browser comparison identity",
+    "retain unchanged audio provenance and explicit no-direct-listening limitation"
+  ],
+  "publication_authorized": false,
+  "user_new_film_approval": "PENDING",
+  "full_formal_pass": false,
+  "actual_video_pixel_format": "yuvj420p; probe reports full-range H264, distinct from04 summary yuv420p; browser displays successfully",
+  "compare_page_review": {
+    "url": "http://127.0.0.1:55291/",
+    "browser": "Codex IAB",
+    "tab": "4",
+    "chapter_checked_seconds": 37.75,
+    "two_versions_visible": true,
+    "playback_verified": "navigation/paused rendered pictures only;04 numerical drift evidence read separately",
+    "screenshot": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/PMO-新旧对比页.png",
+    "visible_to_user_yet": false,
+    "mark": "handoff pending05"
+  }
+}

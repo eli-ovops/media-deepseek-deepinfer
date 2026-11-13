@@ -1,0 +1,537 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v2",
+  "status": "FULL_CONTENT_INPUT_READY_FOR_PMO_RELEASE",
+  "not_a_render_release": true,
+  "replaces": "v1 67.1-second partial-content proposal only; all v1 evidence preserved",
+  "source_clock": "original media seconds; half-open [in,out); speed=1",
+  "keep_ranges": [
+    {
+      "id": "V2K1",
+      "source_id": "N06",
+      "source_in": 0.45,
+      "source_out": 9.783333,
+      "reason": "较完整开头＋昨天开源，结束在9.62769—9.92688停顿，后面的今天不用，与S3星数段自然接续",
+      "source_path": "/Users/USER/Downloads/90d1749694ef712240cc9b637b5f1bd6_raw.mp4",
+      "source_sha256": "c28d9170ecaa415b24d95c97c8b4e7fe28c0b822b81028df31e68c68d79056b6",
+      "duration": 9.333333,
+      "timeline_in": 0,
+      "speed": 1,
+      "gain_db": 0,
+      "timeline_out": 9.333333,
+      "boundary_status": "Proposed phrase/low-energy gap boundary; no direct audition or exact phoneme/PTS verification"
+    },
+    {
+      "id": "V2K2",
+      "source_id": "S3",
+      "source_in": 10.85,
+      "source_out": 17.283333,
+      "reason": "保留星数完整句，起点在10.4781—11.2237停顿；不剪今天/截至到今天的短词疑点",
+      "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+      "source_sha256": "06ed800b5540b88aecd586b531892c2f1bc8f180041b54a9bb2bca76555193ae",
+      "duration": 6.433333,
+      "timeline_in": 9.333333,
+      "speed": 1,
+      "gain_db": 0,
+      "timeline_out": 15.766666,
+      "boundary_status": "Proposed phrase/low-energy gap boundary; no direct audition or exact phoneme/PTS verification"
+    },
+    {
+      "id": "V2K3",
+      "source_id": "S5",
+      "source_in": 0.45,
+      "source_out": 7.95,
+      "reason": "完整代码句补说，复用v1",
+      "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+      "source_sha256": "fa6e4be5b3176cc873a1a01016ed32e3972d074b62dbd61a9ad3c749294797fb",
+      "duration": 7.5,
+      "timeline_in": 15.766666,
+      "speed": 1,
+      "gain_db": 0,
+      "timeline_out": 23.266666,
+      "boundary_status": "Proposed phrase/low-energy gap boundary; no direct audition or exact phoneme/PTS verification"
+    },
+    {
+      "id": "V2K4",
+      "source_id": "N12",
+      "source_in": 0.55,
+      "source_out": 26.85,
+      "reason": "完整找回服务成本与CPU/GPU机制，保留大家要知道等正常发挥；末尾留约0.44秒余量",
+      "source_path": "/Users/USER/Downloads/7dc36ddccd3e79b3ecc0a2e813ffa936_raw.mp4",
+      "source_sha256": "b7578f8341aada9d9d4f8faf491d76c88ce176b0aae0b9e8c5cc844270ec854b",
+      "duration": 26.3,
+      "timeline_in": 23.266666,
+      "speed": 1,
+      "gain_db": 0,
+      "timeline_out": 49.566666,
+      "boundary_status": "Proposed phrase/low-energy gap boundary; no direct audition or exact phoneme/PTS verification"
+    },
+    {
+      "id": "V2K5",
+      "source_id": "N11",
+      "source_in": 0.4,
+      "source_out": 33.983333,
+      "reason": "新完整人物到工程起点，较旧S2少程度加强与继续成了疑点；结束在33.63—34.3634停顿，删其后失败结尾",
+      "source_path": "/Users/USER/Downloads/355a2a8321d920602687ae5d6e36552f_raw.mp4",
+      "source_sha256": "c28810a96d76f37883c42b98fa9710381bd2ff3049a5270c7161605b4341a279",
+      "duration": 33.583333,
+      "timeline_in": 49.566666,
+      "speed": 1,
+      "gain_db": 0,
+      "timeline_out": 83.149999,
+      "boundary_status": "Proposed phrase/low-energy gap boundary; no direct audition or exact phoneme/PTS verification"
+    },
+    {
+      "id": "V2K6",
+      "source_id": "S1",
+      "source_in": 0.6,
+      "source_out": 11.25,
+      "reason": "完整结尾，复用v1",
+      "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+      "source_sha256": "671709d8abe1ffaefd58e1198c0b4df149aa4659f5a6abbe506077e36aaad67f",
+      "duration": 10.65,
+      "timeline_in": 83.149999,
+      "speed": 1,
+      "gain_db": 0,
+      "timeline_out": 93.799999,
+      "boundary_status": "Proposed phrase/low-energy gap boundary; no direct audition or exact phoneme/PTS verification"
+    }
+  ],
+  "excluded_ranges_or_takes": [
+    {
+      "source_id": "S1",
+      "source_range": [
+        0,
+        0.6
+      ],
+      "kind": "pre_roll_or_superseded_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S1",
+      "source_range": [
+        11.25,
+        11.885
+      ],
+      "kind": "tail_or_superseded_failed_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S2",
+      "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+      "source_range": [
+        0,
+        39.841667
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "旧人物/配套/工程起点段；末尾失败；本版用N11替换，减少旧继续成了/一大部分疑点",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S3",
+      "source_range": [
+        0,
+        10.85
+      ],
+      "kind": "pre_roll_or_superseded_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S3",
+      "source_range": [
+        17.283333,
+        21.855
+      ],
+      "kind": "tail_or_superseded_failed_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S4",
+      "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+      "source_range": [
+        0,
+        13.353333
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "旧重复人物段，尾句未完成；不选",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S5",
+      "source_range": [
+        0,
+        0.45
+      ],
+      "kind": "pre_roll_or_superseded_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "S5",
+      "source_range": [
+        7.95,
+        8.368333
+      ],
+      "kind": "tail_or_superseded_failed_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N01",
+      "source_path": "/Users/USER/Downloads/8003092ac780bbb7a1b4869b1e9aea2e_raw.mp4",
+      "source_range": [
+        0,
+        4.616667
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "开头第一句较完整，后起就在刚才未完；备选，不选",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N02",
+      "source_path": "/Users/USER/Downloads/32aee4f74c5a5cfdf46a5dc37fba9b90_raw.mp4",
+      "source_range": [
+        0,
+        6.535
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "开头后事件句失败在用来提前；不选",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N03",
+      "source_path": "/Users/USER/Downloads/b700a4bdd5864641ba7ce8a41b470fe9_raw.mp4",
+      "source_range": [
+        0,
+        11.653333
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "开头/事件中引擎名多次尝试，尾部未完成；不选",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N04",
+      "source_path": "/Users/USER/Downloads/98f1f2940850c0d24b8f3ad6f75eb2dd_raw.mp4",
+      "source_range": [
+        0,
+        1.85
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "无可用口播检出；Whisper输出字幕署名样式，不能当实际内容",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N05",
+      "source_path": "/Users/USER/Downloads/f68feab3caf450a0c1512f514b9cff2c_raw.mp4",
+      "source_range": [
+        0,
+        4.483333
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "梁生又悄悄干大事的另一开头，后起昨天未完；不选",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N06",
+      "source_range": [
+        0,
+        0.45
+      ],
+      "kind": "pre_roll_or_superseded_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N06",
+      "source_range": [
+        9.783333,
+        10.668333
+      ],
+      "kind": "tail_or_superseded_failed_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N07",
+      "source_path": "/Users/USER/Downloads/f904156097ecee2a29425225e25a3de8_raw.mp4",
+      "source_range": [
+        0,
+        13.035
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "开源事件中出现引擎描述自纠候选，今天后未完；选N06连续版本",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N08",
+      "source_path": "/Users/USER/Downloads/39f70991e3c63123698c515fd7e59d3f_raw.mp4",
+      "source_range": [
+        0,
+        5.95
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "结尾起句，末尾未完成；选S1完整结尾",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N09",
+      "source_path": "/Users/USER/Downloads/6ad98b31c7b79f421806a0fc76825ed8_raw.mp4",
+      "source_range": [
+        0,
+        7.601667
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "结尾前半句完整，缺更快更便宜收尾；选S1完整结尾",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N10",
+      "source_path": "/Users/USER/Downloads/66ef842957db4a42726ac5f6e28852c6_raw.mp4",
+      "source_range": [
+        0,
+        6.016667
+      ],
+      "kind": "alternate_take_not_selected",
+      "reason": "结尾前半句，有少量等待识别疑点；选S1",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N11",
+      "source_range": [
+        0,
+        0.4
+      ],
+      "kind": "pre_roll_or_superseded_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N11",
+      "source_range": [
+        33.983333,
+        39.391667
+      ],
+      "kind": "tail_or_superseded_failed_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N12",
+      "source_range": [
+        0,
+        0.55
+      ],
+      "kind": "pre_roll_or_superseded_phrase",
+      "file_deleted": false
+    },
+    {
+      "source_id": "N12",
+      "source_range": [
+        26.85,
+        27.506667
+      ],
+      "kind": "tail_or_superseded_failed_phrase",
+      "file_deleted": false
+    }
+  ],
+  "disabled_short_word_cuts": [
+    {
+      "source_id": "S3",
+      "range": [
+        10.85,
+        14.24
+      ],
+      "issue": "今天/截至到今天可能短起句或ASR误识",
+      "enabled_cut": false
+    },
+    {
+      "source_id": "S5",
+      "range": [
+        4.4,
+        7.6
+      ],
+      "issue": "同行/同样与和字待听核",
+      "enabled_cut": false
+    },
+    {
+      "source_id": "N12",
+      "range": [
+        7.04,
+        11.2
+      ],
+      "issue": "怎么样的少量的等待可能是ASR或实际口语重复",
+      "enabled_cut": false
+    },
+    {
+      "source_id": "N11",
+      "range": [
+        31.38,
+        34.14
+      ],
+      "issue": "多个团队的能用的起点中的助词，保留同义发挥，不逐字硬拼",
+      "enabled_cut": false
+    }
+  ],
+  "boundaries": [
+    {
+      "timeline_seconds": 9.333333,
+      "outgoing_source": "N06",
+      "outgoing_seconds": 9.783333,
+      "incoming_source": "S3",
+      "incoming_seconds": 10.85,
+      "heard": false,
+      "continuous_visual_review": false
+    },
+    {
+      "timeline_seconds": 15.766666,
+      "outgoing_source": "S3",
+      "outgoing_seconds": 17.283333,
+      "incoming_source": "S5",
+      "incoming_seconds": 0.45,
+      "heard": false,
+      "continuous_visual_review": false
+    },
+    {
+      "timeline_seconds": 23.266666,
+      "outgoing_source": "S5",
+      "outgoing_seconds": 7.95,
+      "incoming_source": "N12",
+      "incoming_seconds": 0.55,
+      "heard": false,
+      "continuous_visual_review": false
+    },
+    {
+      "timeline_seconds": 49.566666,
+      "outgoing_source": "N12",
+      "outgoing_seconds": 26.85,
+      "incoming_source": "N11",
+      "incoming_seconds": 0.4,
+      "heard": false,
+      "continuous_visual_review": false
+    },
+    {
+      "timeline_seconds": 83.149999,
+      "outgoing_source": "N11",
+      "outgoing_seconds": 33.983333,
+      "incoming_source": "S1",
+      "incoming_seconds": 0.6,
+      "heard": false,
+      "continuous_visual_review": false
+    }
+  ],
+  "estimated_duration_seconds": 93.799999,
+  "duration_policy": "Actual original-speed delivery takes priority over the 60-90s writing target. Do not speed up or force-trim natural pauses to fit.",
+  "coverage": [
+    {
+      "id": "C1",
+      "script": "成本战开头",
+      "source": "N06",
+      "source_range": [
+        0.45,
+        2.8
+      ],
+      "state": "信息齐全；又要为临场同义发挥"
+    },
+    {
+      "id": "C2",
+      "script": "昨日开源/一万多星",
+      "source": "N06+S3",
+      "source_range_refs": [
+        "V2K1",
+        "V2K2"
+      ],
+      "state": "信息齐全；累计星数；今天/截至到今天短词疑点仍保留"
+    },
+    {
+      "id": "C3",
+      "script": "支撑服务代码/同行可改",
+      "source": "S5",
+      "source_range": [
+        0.45,
+        7.95
+      ],
+      "state": "信息齐全；同行/同样为ASR待校短词"
+    },
+    {
+      "id": "C4",
+      "script": "模型会回答/服务成本",
+      "source": "N12",
+      "source_range": [
+        0.55,
+        14.6
+      ],
+      "state": "已补齐，大家要知道等自然发挥保留"
+    },
+    {
+      "id": "C5",
+      "script": "CPU/GPU少等待/其他任务",
+      "source": "N12",
+      "source_range": [
+        14.6,
+        26.85
+      ],
+      "state": "已补齐；别的人物按上下文为任务的识别候选，不剪声音"
+    },
+    {
+      "id": "C6",
+      "script": "梁/持续创新/开放工程",
+      "source": "N11",
+      "source_range": [
+        0.4,
+        16.9
+      ],
+      "state": "信息齐全；人名/服等ASR专名候选校字"
+    },
+    {
+      "id": "C7",
+      "script": "配套适配/后来者新优化",
+      "source": "N11",
+      "source_range": [
+        16.9,
+        29.3153
+      ],
+      "state": "信息齐全，少摸索一部分较旧S2一大部分贴合稿意"
+    },
+    {
+      "id": "C8",
+      "script": "工程积累共享起点",
+      "source": "N11",
+      "source_range": [
+        29.3153,
+        33.983333
+      ],
+      "state": "信息齐全；多余的等语气/轻微语序按原声保留"
+    },
+    {
+      "id": "C9",
+      "script": "同样算力/更快更便宜",
+      "source": "S1",
+      "source_range": [
+        0.6,
+        11.25
+      ],
+      "state": "信息齐全，完整同义发挥"
+    }
+  ],
+  "information_complete_against_v3_2": true,
+  "additional_recording_required_for_information": false,
+  "listening_acceptance": false,
+  "parameters": {
+    "original_speed": true,
+    "original_timbre": true,
+    "denoise": false,
+    "bgm_added_at_intake": false,
+    "source_overwritten": false
+  },
+  "v1_reuse": {
+    "unchanged": [
+      "S5 source 0.45-7.95",
+      "S1 source 0.6-11.25"
+    ],
+    "replaced": [
+      "S3 opener with N06",
+      "S2 main block with N11"
+    ],
+    "shortened": [
+      "S3 only star segment retained"
+    ],
+    "added": [
+      "N12 full cost/CPU mechanism block"
+    ]
+  },
+  "production_handoff": "PMO may release unique 04 for full authorized workflow. No new per-line user approval requested. Audio naturalness and unresolved short words remain explicit 04/05 review items."
+}

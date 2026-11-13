@@ -1,0 +1,85 @@
+{
+  "index_sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448",
+  "regex": "\\bSequence\\b[\\s\\S]{0,140}?from\\s*=\\s*\\{\\s*0\\s*\\}",
+  "matches": [
+    {
+      "line": 36,
+      "text": "Sequence durationInFrames={162}><Talk from={0}"
+    }
+  ],
+  "sequences": [
+    {
+      "start": 0,
+      "duration": 162,
+      "end_exclusive": 162
+    },
+    {
+      "start": 162,
+      "duration": 398,
+      "end_exclusive": 560
+    },
+    {
+      "start": 560,
+      "duration": 386,
+      "end_exclusive": 946
+    },
+    {
+      "start": 946,
+      "duration": 476,
+      "end_exclusive": 1422
+    },
+    {
+      "start": 1422,
+      "duration": 843,
+      "end_exclusive": 2265
+    },
+    {
+      "start": 2265,
+      "duration": 336,
+      "end_exclusive": 2601
+    },
+    {
+      "start": 2601,
+      "duration": 399,
+      "end_exclusive": 3000
+    },
+    {
+      "start": 3000,
+      "duration": 438,
+      "end_exclusive": 3438
+    },
+    {
+      "start": 3438,
+      "duration": 552,
+      "end_exclusive": 3990
+    },
+    {
+      "start": 3990,
+      "duration": 372,
+      "end_exclusive": 4362
+    },
+    {
+      "start": 4362,
+      "duration": 373,
+      "end_exclusive": 4735
+    },
+    {
+      "start": 4735,
+      "duration": 280,
+      "end_exclusive": 5015
+    },
+    {
+      "start": 5015,
+      "duration": 325,
+      "end_exclusive": 5340
+    },
+    {
+      "start": 5340,
+      "duration": 314,
+      "end_exclusive": 5654
+    }
+  ],
+  "continuous": true,
+  "last_frame_exclusive": 5654,
+  "conclusion": "FALSE_POSITIVE: regex crosses opening Sequence tag into child Talk source offset. Gate FAIL preserved; no source modification."
+}

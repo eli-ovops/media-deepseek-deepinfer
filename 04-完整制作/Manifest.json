@@ -1,0 +1,368 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1",
+  "status": "OWNER_COMPLETE_PENDING_PMO_05",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "total_frames": 5654,
+  "duration": 94.23333333333333,
+  "edl_path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/edl-v1.json",
+  "audio": "audio/voice-original-speed.wav",
+  "caption_path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-v1.srt",
+  "designContract": {
+    "original_speed": true,
+    "source_clock": "单EDL统一原声/真人/字幕/图形cue",
+    "no_glass": true,
+    "style": "认可sy v5的准确源码及kit适配；不转移Fred私人品牌/音轨"
+  },
+  "scenes": [
+    {
+      "id": "real-open",
+      "frames": [
+        0,
+        162
+      ],
+      "type": "preserved-media",
+      "source": "N06"
+    },
+    {
+      "id": "repository",
+      "frames": [
+        162,
+        946
+      ],
+      "type": "adapted-sy",
+      "sources": [
+        "16-pagecam"
+      ],
+      "callsite": "index.html:86 repository(t)",
+      "objects": "真实仓库→原生Star焦点→一万多概括→源码符号",
+      "preserve": "透视平面、读点停稳、推镜、前后层次",
+      "change": "真实截图替换编辑台，保留原生数字"
+    },
+    {
+      "id": "engine-copy",
+      "frames": [
+        946,
+        1422
+      ],
+      "type": "adapted-sy",
+      "sources": [
+        "16-pagecam"
+      ],
+      "callsite": "index.html:89 engine(t), panel() at50",
+      "objects": "运行/调度/源码三层分离，副本独立去外部工位，原服务灯继续运行",
+      "preserve": "Z separation *2.2，rotateX8/rotateY-19，焦点rack、panel几何及shadow",
+      "change": "替换内容，移除作者按钮和身份，竖屏适配"
+    },
+    {
+      "id": "cost-mechanism",
+      "frames": [
+        1422,
+        3000
+      ],
+      "type": "adapted-sy",
+      "sources": [
+        "17-editorial",
+        "16-pagecam"
+      ],
+      "callsite": "index.html:71 editorial(t), camAt()68, highlighter()67",
+      "objects": "请求进入GPU轨，下轮CPU调度提前到本轮计算下方，其他任务接入可用时段",
+      "preserve": "同页纸纹、log zoom、荧光笔、源spring任务入轨",
+      "change": "删除原作者虚构调查/倍数，改为本期机制；无量化性能承诺"
+    },
+    {
+      "id": "real-opinion",
+      "frames": [
+        3000,
+        3540
+      ],
+      "type": "preserved-media",
+      "source": "N11",
+      "note": "36氪2024访谈转述短注"
+    },
+    {
+      "id": "shared-engine",
+      "frames": [
+        3540,
+        5015
+      ],
+      "type": "adapted-sy",
+      "sources": [
+        "16-pagecam"
+      ],
+      "callsite": "index.html:91 sharing(t)",
+      "objects": "核心模块保持形状，两工位继承同一起点，外围配套/适配/新优化补入",
+      "preserve": "spring panel落位、层深和阴影，连续模块身份"
+    },
+    {
+      "id": "same-compute",
+      "frames": [
+        5015,
+        5340
+      ],
+      "type": "adapted-sy",
+      "sources": [
+        "16-pagecam"
+      ],
+      "callsite": "index.html:96 closing(t)",
+      "objects": "固定轨道内空隙接入任务",
+      "preserve": "原clip入轨关系",
+      "change": "不显示耗时或倍数"
+    },
+    {
+      "id": "real-end",
+      "frames": [
+        5340,
+        5654
+      ],
+      "type": "preserved-media",
+      "source": "S1",
+      "note": "原声保留有机会、更快更便宜"
+    }
+  ],
+  "source_files": [
+    {
+      "id": "16-pagecam",
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/source/16-pagecam.html",
+      "sha256": "3df4b16fcff11e5c0282d879430a73a6b6627741ac3b301518aa74cb7fedb79f",
+      "selected": true,
+      "reason": "软件页面空间/持续纸面适用"
+    },
+    {
+      "id": "17-editorial",
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/source/17-editorial.html",
+      "sha256": "d0ff263a0039e6c4d7de03225b6ec2a67d0800f81bddc41de37103a0b57e8708",
+      "selected": true,
+      "reason": "软件页面空间/持续纸面适用"
+    },
+    {
+      "id": "20-blueprint",
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/source/20-blueprint.html",
+      "sha256": "69d159ecfcce8c2d3be60d69f33e836f7cd95e4bbf68c52f0e00f63275e801d7",
+      "selected": false,
+      "reason": "已比较麦克风特定爆炸几何，与软件调度不匹配，未调用"
+    }
+  ],
+  "inspectedReferences": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/sy-styles-vertical-demo-20261017/04/qa/t3.1.png",
+      "sha256": "e12317c49923913eb4930a39a3a1546abcbea226065a26c6b55b4bb8c85a08c5",
+      "observations": "panel Z层次、透视、任务入轨、镜头推进"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/sy-styles-vertical-demo-20261017/04/qa/t14.5.png",
+      "sha256": "e1fc5ab05ed88bb1da47b6ae7e867823aa78d0fb6bcd5bfccc1a0533123604ea",
+      "observations": "同页巡读、长页图形、标记与字阶"
+    }
+  ],
+  "rejectedFredCandidates": [
+    {
+      "id": "T14a2",
+      "reason": "计时赛跑易读成实测倍数，本期无同口径计时",
+      "actually_viewed": "时间序列图/T14a2-1-preview-p01.jpg"
+    },
+    {
+      "id": "T09f",
+      "reason": "列表ROI飞行需要实际对应列表，本期不伪造软件界面",
+      "actually_viewed": "时间序列图/T09f-1-preview-p01.jpg"
+    },
+    {
+      "id": "L81-C003",
+      "reason": "胶囊分支更适合分类，不能充分表现CPU/GPU交叠",
+      "actually_viewed": "时间序列图/L81-C003-1-preview-p01.jpg"
+    }
+  ],
+  "source_capture": {
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/assets/github-original.png",
+    "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+    "captured_file_mtime": "2026-10-21T11:45:19.079704+08:00",
+    "method": "IAB原生截图，实际读取项目身份及Star",
+    "visible_stars": "14.1k",
+    "public_emphasis": "一万多颗星",
+    "native_count_unchanged": true,
+    "crop": "视频裁掉上方账号栏，只裁窗/缩放来源像素"
+  },
+  "technical_checks": {
+    "file": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1.mp4",
+    "sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+    "bytes": 35384118,
+    "duration": 94.233333,
+    "video_frames": 5654,
+    "video_codec": "h264",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": "60/1",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_rate": "48000",
+    "full_decode_exit": 0,
+    "faststart": true,
+    "mp4_boxes": [
+      [
+        "ftyp",
+        0,
+        32
+      ],
+      [
+        "moov",
+        32,
+        151023
+      ],
+      [
+        "free",
+        151055,
+        8
+      ],
+      [
+        "mdat",
+        151063,
+        35233055
+      ]
+    ],
+    "audio_source_output_zero_lag_correlation": 0.9999847631983836,
+    "decoded_audio_samples": 4524032,
+    "voice_wav_samples": 4523200,
+    "decoded_sample_peak": 0.752267599105835,
+    "edl_internal_consistent": true,
+    "caption_cues": 49,
+    "caption_timeline_monotonic": true,
+    "direct_listening": false,
+    "continuous_visual_review": false,
+    "actual_samples": [
+      {
+        "time": 0,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-00.png"
+      },
+      {
+        "time": 2.683333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-01.png"
+      },
+      {
+        "time": 2.7,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-02.png"
+      },
+      {
+        "time": 7,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-03.png"
+      },
+      {
+        "time": 9.333333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-04.png"
+      },
+      {
+        "time": 13.7,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-05.png"
+      },
+      {
+        "time": 15.75,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-06.png"
+      },
+      {
+        "time": 15.766667,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-07.png"
+      },
+      {
+        "time": 18.8,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-08.png"
+      },
+      {
+        "time": 23.683333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-09.png"
+      },
+      {
+        "time": 23.7,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-10.png"
+      },
+      {
+        "time": 28,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-11.png"
+      },
+      {
+        "time": 35,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-12.png"
+      },
+      {
+        "time": 41.7,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-13.png"
+      },
+      {
+        "time": 44,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-14.png"
+      },
+      {
+        "time": 49.983333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-15.png"
+      },
+      {
+        "time": 50,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-16.png"
+      },
+      {
+        "time": 55,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-17.png"
+      },
+      {
+        "time": 58.983333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-18.png"
+      },
+      {
+        "time": 59,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-19.png"
+      },
+      {
+        "time": 70,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-20.png"
+      },
+      {
+        "time": 83.583333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-21.png"
+      },
+      {
+        "time": 88.983333,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-22.png"
+      },
+      {
+        "time": 89,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-23.png"
+      },
+      {
+        "time": 89.25,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-24.png"
+      },
+      {
+        "time": 93.9,
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-25.png"
+      }
+    ]
+  },
+  "remaining": [
+    "direct listening",
+    "word-level subtitle proof",
+    "continuous visual review",
+    "PMO acceptance",
+    "independent05",
+    "user approval"
+  ],
+  "route": {
+    "rule": "ROUTING-2026-10-13-v4",
+    "initial_target": "gpt-6-astra/high",
+    "resume_target": "gpt-6.1-sol/high",
+    "reason": "Astra容量不可用，PMO明确同Owner续接",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "weekly_usage_dispatch": "90%",
+    "five_hour_usage": "UNKNOWN",
+    "subagents": false
+  },
+  "source_gate": {
+    "type": "native sy HTML/Canvas, no Remotion composition",
+    "remotion_canonical_gate_pass": null,
+    "evidence": "准确源码/认可参考与本期代表样本对照；未冒充连续AV PASS"
+  }
+}

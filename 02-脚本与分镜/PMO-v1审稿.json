@@ -1,0 +1,32 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "stage": "02",
+  "at": "2026-10-21T10:09:35.461834+08:00",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "INTERNAL_REWORK_BEFORE_USER_SCRIPT_DELIVERY",
+  "owner_report_received": true,
+  "files_hash_verified": 3,
+  "actual_han_count": 354,
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/口播稿-v1.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/声画节奏-v1.md",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/事实映射-v1.json",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/交付清单-v1.json"
+  ],
+  "preserve": [
+    "源事实与范围映射",
+    "读材料/生成分工",
+    "相同前缀命中复用及释放算力",
+    "统一后厨/订单对象接力"
+  ],
+  "rework": [
+    "人物/事件分量应前置",
+    "核心后厨作为首句对未懂题者含义不清",
+    "强化已在线上做生意的核心引擎开放给外界复用的价值",
+    "压缩单独边界段避免冷却",
+    "结尾从一般使用成本回到本期开放举措分量"
+  ],
+  "rework_task": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/PMO-v1审稿与v2定向修改.md",
+  "user_approved": false,
+  "recorded_audio_or_render_performed": false
+}

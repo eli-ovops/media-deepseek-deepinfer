@@ -1,0 +1,24 @@
+{
+  "baseline": "index.html",
+  "modified": "index-repair1.html",
+  "baseline_sha256": "cd1818ff10adf44591ff500c1ab19af6752437485d7afe71b3bc91eb90d484d1",
+  "modified_sha256": "7928752b8c883ae15f6570ab8c59081ccd98b0877ff647065bcc6ace21d524de",
+  "changed_global_frames": [
+    1782,
+    2334
+  ],
+  "changed_global_seconds": [
+    29.7,
+    38.9
+  ],
+  "reason": "Queue remains visible during downward paper camera until ~38.9; extend 0.6s beyond estimated 38.3 for its full exit. CPU/GPU functions and all other objects unchanged.",
+  "queue_geometry": {
+    "task_x": 260,
+    "pitch": 153,
+    "task_width": 140,
+    "gap_width": 13,
+    "gap_draw_order": "before task blocks"
+  },
+  "audio_changed": false,
+  "captions_changed": false
+}

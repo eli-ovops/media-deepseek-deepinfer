@@ -1,0 +1,290 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v1",
+  "status": "PROPOSED_FOR_PMO_REVIEW_NOT_RENDER_RELEASE",
+  "clock": "original media seconds; ranges half-open [in,out)",
+  "original_speed": true,
+  "original_timbre": true,
+  "keep_ranges": [
+    {
+      "id": "K1",
+      "source_id": "S3",
+      "source_in": 0.3,
+      "source_out": 17.283333,
+      "reason": "开头至星数；结束切在17.0197—17.5328的低能量候选停顿，删其后未完成代码句，换S5完整补说",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        16.7,
+        17.8
+      ],
+      "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+      "source_sha256": "06ed800b5540b88aecd586b531892c2f1bc8f180041b54a9bb2bca76555193ae",
+      "timeline_in": 0.0,
+      "duration": 16.983333,
+      "speed": 1,
+      "gain_db": 0,
+      "denoise": false,
+      "enabled_in_proposal": true,
+      "timeline_out": 16.983333
+    },
+    {
+      "id": "K2",
+      "source_id": "S5",
+      "source_in": 0.45,
+      "source_out": 7.95,
+      "reason": "完整代码句补说；保留起音前和句尾后余量",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        0,
+        1.1
+      ],
+      "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+      "source_sha256": "fa6e4be5b3176cc873a1a01016ed32e3972d074b62dbd61a9ad3c749294797fb",
+      "timeline_in": 16.983333,
+      "duration": 7.5,
+      "speed": 1,
+      "gain_db": 0,
+      "denoise": false,
+      "enabled_in_proposal": true,
+      "timeline_out": 24.483333
+    },
+    {
+      "id": "K3",
+      "source_id": "S2",
+      "source_in": 0.85,
+      "source_out": 32.816667,
+      "reason": "人物至工程起点；结束切在32.566—33.0842低能量候选停顿；后面失败结尾由S1替换",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        32.2,
+        33.5
+      ],
+      "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+      "source_sha256": "37a4fc8412c8c765b6236edd627a0de0372c913c54dd305222d661099bacda36",
+      "timeline_in": 24.483333,
+      "duration": 31.966667,
+      "speed": 1,
+      "gain_db": 0,
+      "denoise": false,
+      "enabled_in_proposal": true,
+      "timeline_out": 56.45
+    },
+    {
+      "id": "K4",
+      "source_id": "S1",
+      "source_in": 0.6,
+      "source_out": 11.25,
+      "reason": "完整结尾重说；保留句尾自然余量",
+      "semantic_confidence": "high",
+      "boundary_confidence": "provisional_not_listened",
+      "post_boundary_audition_seconds": [
+        0,
+        1.3
+      ],
+      "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+      "source_sha256": "671709d8abe1ffaefd58e1198c0b4df149aa4659f5a6abbe506077e36aaad67f",
+      "timeline_in": 56.45,
+      "duration": 10.65,
+      "speed": 1,
+      "gain_db": 0,
+      "denoise": false,
+      "enabled_in_proposal": true,
+      "timeline_out": 67.1
+    }
+  ],
+  "proposed_exclusions": [
+    {
+      "source_id": "S1",
+      "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+      "range": [
+        0,
+        0.6
+      ],
+      "reason": "Short pre-roll inside low-energy region, not bulk silence cleanup."
+    },
+    {
+      "source_id": "S1",
+      "source_path": "/Users/USER/Downloads/f32fb78288400a049735f4d7eda7282b_raw.mp4",
+      "range": [
+        11.25,
+        11.885
+      ],
+      "reason": "Post-speech tail only"
+    },
+    {
+      "source_id": "S2",
+      "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+      "range": [
+        0,
+        0.85
+      ],
+      "reason": "Short pre-roll inside low-energy region, not bulk silence cleanup."
+    },
+    {
+      "source_id": "S2",
+      "source_path": "/Users/USER/Downloads/bb11ee2cc59e622e89b9dc2319d6c749_raw.mp4",
+      "range": [
+        32.816667,
+        39.841667
+      ],
+      "reason": "Failed/repeated closing sentence replaced by complete S1 take"
+    },
+    {
+      "source_id": "S3",
+      "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+      "range": [
+        0,
+        0.3
+      ],
+      "reason": "Short pre-roll inside low-energy region, not bulk silence cleanup."
+    },
+    {
+      "source_id": "S3",
+      "source_path": "/Users/USER/Downloads/ce340b9ef79b7ba55d2f97c69c701c74_raw.mp4",
+      "range": [
+        17.283333,
+        21.855
+      ],
+      "reason": "Incomplete code sentence replaced by full S5 take"
+    },
+    {
+      "source_id": "S4",
+      "source_path": "/Users/USER/Downloads/0c6d3d3e47190c06034b525e9b71cf34_raw.mp4",
+      "range": [
+        0,
+        13.353333
+      ],
+      "reason": "Duplicate incomplete alternate take; S2 has the longer version. Proposed exclusion only; original file retained."
+    },
+    {
+      "source_id": "S5",
+      "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+      "range": [
+        0,
+        0.45
+      ],
+      "reason": "Short pre-roll inside low-energy region, not bulk silence cleanup."
+    },
+    {
+      "source_id": "S5",
+      "source_path": "/Users/USER/Downloads/9980ef5b04e6ffc502fdcc233c7a9253_raw.mp4",
+      "range": [
+        7.95,
+        8.368333
+      ],
+      "reason": "Post-speech tail only"
+    }
+  ],
+  "disabled_short_word_cuts": [
+    {
+      "id": "D1",
+      "source_id": "S3",
+      "source_range": [
+        10.48,
+        14.24
+      ],
+      "issue": "今天/截至到今天或重说的短语疑点",
+      "enabled": false,
+      "reason": "短词ASR不稳定，无直接听音；现版保留整段，不猜刀口"
+    },
+    {
+      "id": "D2",
+      "source_id": "S3",
+      "source_range": [
+        1.04,
+        3.25
+      ],
+      "issue": "可能越来越变天了是否实际口误",
+      "enabled": false,
+      "reason": "可能是识别误差，保留声音"
+    },
+    {
+      "id": "D3",
+      "source_id": "S2",
+      "source_range": [
+        28,
+        32.566
+      ],
+      "issue": "工程积累/累计、继续成了是否真重复",
+      "enabled": false,
+      "reason": "未核短词，不改正常临场措辞"
+    },
+    {
+      "id": "D4",
+      "source_id": "S5",
+      "source_range": [
+        4.4,
+        7.6
+      ],
+      "issue": "同行/同样及和字识别",
+      "enabled": false,
+      "reason": "只列字幕校对疑点，不切声音"
+    }
+  ],
+  "boundaries": [
+    {
+      "timeline_seconds": 16.983333,
+      "left": {
+        "source_id": "S3",
+        "source_seconds": 17.283333
+      },
+      "right": {
+        "source_id": "S5",
+        "source_seconds": 0.45
+      },
+      "audio_naturalness": "NOT_LISTENED",
+      "picture_transition": "sampled only; visible pose/framing change possible",
+      "requires": "04 inspect word endings/onsets and local continuity before claiming natural cut"
+    },
+    {
+      "timeline_seconds": 24.483333,
+      "left": {
+        "source_id": "S5",
+        "source_seconds": 7.95
+      },
+      "right": {
+        "source_id": "S2",
+        "source_seconds": 0.85
+      },
+      "audio_naturalness": "NOT_LISTENED",
+      "picture_transition": "sampled only; visible pose/framing change possible",
+      "requires": "04 inspect word endings/onsets and local continuity before claiming natural cut"
+    },
+    {
+      "timeline_seconds": 56.45,
+      "left": {
+        "source_id": "S2",
+        "source_seconds": 32.816667
+      },
+      "right": {
+        "source_id": "S1",
+        "source_seconds": 0.6
+      },
+      "audio_naturalness": "NOT_LISTENED",
+      "picture_transition": "sampled only; visible pose/framing change possible",
+      "requires": "04 inspect word endings/onsets and local continuity before claiming natural cut"
+    }
+  ],
+  "estimated_duration_seconds": 67.1,
+  "original_total_seconds": 95.303333,
+  "missing_script_blocks": [
+    {
+      "reference": "口播稿-v3.2第3段",
+      "text": "模型会回答，只是开始。大量用户同时涌进来……服务成本",
+      "state": "未在本轮五段ASR检出对应完整段落",
+      "action": "PMO核三段录制卡是否有意省略；02未见录制卡本地原件，不能直接认定用户漏录"
+    },
+    {
+      "reference": "口播稿-v3.2第4段",
+      "text": "显卡本轮计算、CPU安排下轮、少等待与腾出算力",
+      "state": "未在本轮五段ASR检出",
+      "action": "若仍需完整解释版，最小补录：比如，显卡计算这一轮，处理器提前安排下一轮，让机器少干等。省下来的算力还能接别的任务。先由PMO核口径，不直接要求用户重拍"
+    }
+  ],
+  "source_selection_confidence": "ASR semantic redundancy plus visual samples; no direct audio review",
+  "precision": "Nominal seconds/frame-grid proposal, not verified per-word or exact source PTS. End cuts fall within measured low-energy gaps; this is not listening evidence.",
+  "rendered": false
+}

@@ -1,0 +1,20 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "owner_thread_id": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "at": "2026-10-21T10:24:47.698783+08:00",
+  "tool": "send_message_to_thread",
+  "tool_accepted": true,
+  "tool_return": {
+    "threadId": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb"
+  },
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "quota_weekly_used_percent": 77,
+  "quota_five_hour_used_percent": "UNKNOWN",
+  "owner_report_received": false,
+  "pmo_reviewed_v3": false,
+  "only_script_and_storyboard": true,
+  "before_dispatch_snapshot_calls": 1
+}

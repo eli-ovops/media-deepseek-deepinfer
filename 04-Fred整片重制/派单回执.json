@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-21T20:11:26.869416+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v1",
+  "task": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md",
+  "task_sha256": "43101e242faa8f9f39e9b91f67bc9cd1d71d3904d533a1b0a863d4fca15e4289",
+  "owner_thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "pre_dispatch_snapshot": {
+    "status": "idle",
+    "cursor": "d33a765f-a410-48d9-ae6c-189fd3559d3e:7",
+    "source": "single compact wait_threads snapshot in this user turn before dispatch"
+  },
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "high",
+  "actual_runtime": "UNKNOWN",
+  "quota": {
+    "ordinaryUsageAllowed": true,
+    "weekly_used_percent": 25,
+    "five_hour": "UNKNOWN"
+  },
+  "status": "TOOL_SEND_ACCEPTED_AWAITING_OWNER_REPORT",
+  "published_baseline_sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+  "talking_source_sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+  "new_publication_authorized": false,
+  "sent_at": "2026-10-21T20:12:20.882792+08:00",
+  "send_tool": "mcp__codex_app__send_message_to_thread",
+  "send_tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a6f-49ef-7653-934a-4312979fd4e7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "owner_report_received": false
+}

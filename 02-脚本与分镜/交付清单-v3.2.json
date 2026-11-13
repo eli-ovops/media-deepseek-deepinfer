@@ -1,0 +1,51 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v3.2",
+  "created_at": "2026-10-21T10:49:15.826005+08:00",
+  "status": "PENDING_PMO_AND_USER_REVIEW",
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/口播稿-v3.2.md",
+      "bytes": 2558,
+      "sha256": "f1ff6620dcc78ed002e04e719a8aa2662728850f5d89cae1c2b103d295b12094"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/声画节奏-v3.2.md",
+      "bytes": 4091,
+      "sha256": "298920ffcfdf30c31235d4cf957a2e7a771b1a8642572084f24682098cfae21f"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/事实映射-v3.2.json",
+      "bytes": 7841,
+      "sha256": "3cf7c6766f64ccca0870b9d295f7c11ac8b636b47f987347bab77c1f3000f123"
+    }
+  ],
+  "spoken_body": {
+    "han_characters": 315,
+    "english_occurrences": 5,
+    "paragraphs": 7,
+    "estimated_seconds": [
+      69,
+      79
+    ],
+    "visual_plan_seconds": 76,
+    "recording_measured": false
+  },
+  "self_checks": {
+    "gate_allowed": true,
+    "approved_passages_preserved": true,
+    "cumulative_stars_not_daily_gain": true,
+    "date_assumption_documented": true,
+    "all_paragraphs_mapped": true,
+    "json_parse": true,
+    "old_versions_preserved": true
+  },
+  "pending": [
+    "PMO review",
+    "User full script approval",
+    "Real recording timing",
+    "Real repository screenshot and count/date check",
+    "Later audiovisual QA"
+  ],
+  "report_receipt": "PMO回报回执-v3.2.json"
+}

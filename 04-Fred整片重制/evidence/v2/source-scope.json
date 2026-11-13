@@ -1,0 +1,84 @@
+{
+  "status": "PASS_BOUNDED_SOURCE",
+  "method": "TypeScript AST declarations exact-text hash; Full timeline/subtitles/audio/Talk and all nonchanged scene callers identical",
+  "rows": [
+    {
+      "name": "RepoScene",
+      "before": "726bc96df777cf94208fc0648833e383375895c1d51837af5ca77ee4ddd4a5c1",
+      "after": "726bc96df777cf94208fc0648833e383375895c1d51837af5ca77ee4ddd4a5c1",
+      "same": true
+    },
+    {
+      "name": "StarsScene",
+      "before": "39eb47f3bfc2a13d509211894c7039a02fbb77708f667ef395de1a6407875934",
+      "after": "8253782af6a429f3f19b2dc360ef8803848fb80093e2a2585b9ce873d1591f20",
+      "same": false
+    },
+    {
+      "name": "CodeScene",
+      "before": "6ce1a0566b3cf9184a24c3e245e255686765f5f8df43daf0b434414da9a5ca66",
+      "after": "c172ba7d607e7dd08b272dbf4d99ed460cd41abd78003b1fb7b131862f7df883",
+      "same": false
+    },
+    {
+      "name": "RequestScene",
+      "before": "b1a8bdf17ae26bd2d99b72984dd641bee02b75966c454e19eb6aebe804a8db39",
+      "after": "b1a8bdf17ae26bd2d99b72984dd641bee02b75966c454e19eb6aebe804a8db39",
+      "same": true
+    },
+    {
+      "name": "RolesScene",
+      "before": "f8b72e5673727bfa63f1613d9cf80ce3035ec762bc0a51c98d98416245dcd2a5",
+      "after": "f8b72e5673727bfa63f1613d9cf80ce3035ec762bc0a51c98d98416245dcd2a5",
+      "same": true
+    },
+    {
+      "name": "PipelineScene",
+      "before": "50aa71549baec817901d05705cc58e44597914abebbb321a0246f17c776c177c",
+      "after": "50aa71549baec817901d05705cc58e44597914abebbb321a0246f17c776c177c",
+      "same": true
+    },
+    {
+      "name": "OpenScene",
+      "before": "6948d7f012eef212652098e57ddbc89b776c95ab45fbcd13416e37b5d46b2c57",
+      "after": "6948d7f012eef212652098e57ddbc89b776c95ab45fbcd13416e37b5d46b2c57",
+      "same": true
+    },
+    {
+      "name": "LayersScene",
+      "before": "e443caf0921cb2eb42aa17ddab60c9d9ed2ed4e16003a97c78acd9bcd9a3b23f",
+      "after": "e443caf0921cb2eb42aa17ddab60c9d9ed2ed4e16003a97c78acd9bcd9a3b23f",
+      "same": true
+    },
+    {
+      "name": "ProgressScene",
+      "before": "f982e99e710088aa98509fd7698f4e6a33e0da7ee8f6498a073fa92957c72b9e",
+      "after": "f982e99e710088aa98509fd7698f4e6a33e0da7ee8f6498a073fa92957c72b9e",
+      "same": true
+    },
+    {
+      "name": "SharedScene",
+      "before": "00ea83381140edc99b934a67115065ce42096084b2b27d402d5ca39623e9a207",
+      "after": "00ea83381140edc99b934a67115065ce42096084b2b27d402d5ca39623e9a207",
+      "same": true
+    },
+    {
+      "name": "SummaryScene",
+      "before": "333824a455e2581f1aaa77d7c6a978aa15ab552e4bb6b6d7352d92ad05a37659",
+      "after": "333824a455e2581f1aaa77d7c6a978aa15ab552e4bb6b6d7352d92ad05a37659",
+      "same": true
+    },
+    {
+      "name": "Talk",
+      "before": "d70fbc50da0bb03dc97a31b830667f1a87265d9bf6ba51278653e0155cae6097",
+      "after": "d70fbc50da0bb03dc97a31b830667f1a87265d9bf6ba51278653e0155cae6097",
+      "same": true
+    },
+    {
+      "name": "Full",
+      "before": "3859eefc90ea93b795da36cd324b9b0628ac6ea802874d82135490289d3ae820",
+      "after": "3859eefc90ea93b795da36cd324b9b0628ac6ea802874d82135490289d3ae820",
+      "same": true
+    }
+  ]
+}

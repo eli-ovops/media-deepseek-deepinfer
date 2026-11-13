@@ -1,0 +1,45 @@
+{
+  "inputs": [
+    {
+      "original": "/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/codex-clipboard-89358b18-24af-4b4b-8725-c8a39166b852.png",
+      "copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+      "sha256": "bfc8a1974f0ec598b701526fcf1f7a96ca592c4e0b7acffcc741f6132bb5036f",
+      "role": "user specified identity, blue suit, glasses, finger on lips",
+      "dimensions": [
+        640,
+        536
+      ]
+    },
+    {
+      "original": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-3x4-1080x1440-v1.png",
+      "copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-3x4-v1.png",
+      "sha256": "0c2d0ae86a026dd161034249994a5716fe059cb05d7121c355eacb8172f745de",
+      "role": "layout only; person must be replaced",
+      "dimensions": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "original": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-16x9-1920x1080-v1.png",
+      "copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-16x9-v1.png",
+      "sha256": "007fbaa2f70902cc2b7de4c32e0a57557d9076d4d499a89a6505973ddbdff816",
+      "role": "layout only; person must be replaced",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "frozen_video": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1-repair1.mp4",
+    "sha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a"
+  },
+  "scope": "cover only; v1 and media unchanged",
+  "additional_generated_reference": {
+    "original": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-73836ddf-b9f2-42f1-8347-c104d2e79252.png",
+    "archived_copy": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/first-3x4-candidate.png",
+    "sha256": "3d16a79083cb2f9a96e604fd655b05c138e6ff773a8c1bada33737895eb6c7d0",
+    "role": "first 3x4 layout supplied to final 3x4 revision; not selected final"
+  }
+}

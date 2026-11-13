@@ -1,0 +1,6 @@
+{
+  "method": "cross-correlation source10\u201330seconds vs export9\u201331seconds,8k mono",
+  "exportDelaySamples8k": 341,
+  "exportDelaySeconds": 0.042625,
+  "notDirectHearing": true
+}

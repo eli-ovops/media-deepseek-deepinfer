@@ -1,0 +1,167 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v3",
+  "owner": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "gate": {
+    "allowed": true,
+    "stage": "02"
+  },
+  "status": "OWNER_SELF_CHECKED_PENDING_PMO_AND_USER",
+  "sources": {
+    "S1": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方发布时间原件.json",
+      "locator": "[0].times[0].datetime; [0].text",
+      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+      "scope": "2026-10-20T09:30:19.000Z; 北京时间10月20日17:30:19，原帖截断，不称全文已读"
+    },
+    "S2": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "README L224-256、L275-299",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "scope": "核心引擎/离线推理，完整线上配套不包含在本次发布；支持V4.1-Flash"
+    },
+    "S3": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方仓库与QA原件.json",
+      "locator": "Q&A L192-216",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "线上分离部署、前缀命中复用、服务目标，官方自述而非本地复现"
+    },
+    "S4": {
+      "file": "/Volumes/EXTERNAL/自媒体/内容雷达/20261021/DeepSeek-郑说AI前瞻/官方QA后半原件.json",
+      "locator": "Q&A L385-391",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md",
+      "scope": "CPU/GPU异步调度重叠，减少原先设备等待；官方机制说明，未本地复现"
+    }
+  },
+  "mapping": [
+    {
+      "paragraph": 1,
+      "kind": "fact_with_editorial_framing",
+      "claim": "DeepSeek开放正在用于商业服务的核心推理代码，外界可用",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L224；Q&A L202-205；README L296许可",
+      "limits": "做生意为其线上服务与收入自述的口语概括，非利润审计；发布和工程主体为团队，未断言梁个人编写"
+    },
+    {
+      "paragraph": 2,
+      "kind": "fact_plus_mechanistic_inference",
+      "claim": "服务大量请求时的延迟和算力利用影响服务成本",
+      "sources": [
+        "S3"
+      ],
+      "locator": "Q&A L192-201、L209",
+      "limits": "没有研发成本、代码估值、行业排名或本地压测；工程积累的商业价值为机制判断"
+    },
+    {
+      "paragraph": 3,
+      "kind": "fact",
+      "claim": "2026年10月20日发布DeepInfer核心引擎，外界可研究改造适配部署",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "locator": "S1 [0].times[0]；README L224、L228、L247-256、L296；Q&A L202-206",
+      "limits": "当前支持DeepSeek-V4.1-Flash与列明硬件；不泛化到所有模型、Mac/手机或完整开箱服务"
+    },
+    {
+      "paragraph": 4,
+      "kind": "fact_simplified_for_speech",
+      "claim": "显卡算本轮时CPU提前调度下轮，减少显卡等待",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "locator": "README L235、L243；Q&A L385-391",
+      "limits": "描述异步调度机制；空转指本来处于等待的时间，不是电耗节约测量。没有实际吞吐提升幅度、质量提升或永远无等待承诺"
+    },
+    {
+      "paragraph": 5,
+      "kind": "personal_evaluation_plus_fact",
+      "claim": "赞赏团队实现大规模服务并开放现役核心工程；线上配套仍需补",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L224、L252-256；Q&A L202-205",
+      "limits": "牛为Eli评价；无梁个人动机、私下说法或发明断言；完整缓存系统、部署分离、负载均衡不全在发布内"
+    },
+    {
+      "paragraph": 6,
+      "kind": "conditional_inference",
+      "claim": "可读可改实现给外部团队已有工程起点，减少部分重复摸索",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "README L296；Q&A L206",
+      "limits": "指出可用机会，不断言具体第三方已节省研发费用或无须适配；一些而非全部工程"
+    },
+    {
+      "paragraph": 7,
+      "kind": "forward_looking_opinion",
+      "claim": "开放工程可能加强效率与成本竞争，更多适配服务有机会更快更省，用户可能减少等待与支出",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "locator": "Q&A L201、L206、L209，结合开源事实作推论",
+      "limits": "未经未来结果验证；服务成本改善不保证降价，价格由供给方等决定；未称所有AI自动提速、正确率提升或全行业已经降价"
+    }
+  ],
+  "omitted_claims": [
+    "38美元/GPU小时收入与利润换算",
+    "155万亿token日吞吐",
+    "近半计算、4%—7%",
+    "月近20万",
+    "梁文锋访谈、动机、个人技术发明",
+    "同行恐慌、全面胜出、国产卡普适、Eli亲测"
+  ],
+  "verification": {
+    "input": "本轮实读用户v3返修单、PMO-v2审稿、v2稿，定向重读README L224-256、Q&A L192-216和L385-391；不重做研究",
+    "audio": "无录音；未TTS；未实际听音或出声朗读验收",
+    "visual": "仅声画方案；未下载媒体/选定组件/import/渲染",
+    "reference_video": "本02未观看；01记录74次画面采样，完整音轨/连续声画未验；不作为本稿事实唯一来源",
+    "humanizer": "嵌入式文本复核，保留具体意见与有信息的类比；未声称实际朗读",
+    "memory": "定向搜索DeepInfer/deepinfer无命中，未使用记忆事实"
+  },
+  "rules": [
+    "PERMISSIONS-2026-10-14-v1",
+    "ROUTING-2026-10-13-v4",
+    "HANDOFF-2026-10-10-v2",
+    "CODEX-MEDIA-20261020-v1",
+    "ELI-PRODUCTION-20261017-v2",
+    "ELI-REWORK-20261019-v1",
+    "humanizer 3.0.0"
+  ],
+  "routing": {
+    "target_model": "gpt-6-astra",
+    "target_effort": "high",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN",
+    "usage": "PMO派单周77%/5h UNKNOWN；非本轮实测",
+    "subagents": false
+  },
+  "scope": "只写本期02；未启动04、发布、配音、付费、清理；文件全部保留",
+  "revision_input": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/用户v3返修任务.md",
+  "internal_review": {
+    "person_seconds": "0-2",
+    "asset_seconds": "0-7",
+    "commercial_value_seconds": "7-20",
+    "concrete_mechanism_seconds": "30-43",
+    "team_evaluation_seconds": "43-57",
+    "industry_causality_seconds": "57-85",
+    "story": "现役核心代码→并发服务成本→可读可改引擎→异步减少等待→现役工程开放→外部研发起点→效率成本竞争潜力",
+    "metaphor": "不再使用贯穿类比；用引擎/源码/请求/双执行轨道表示实际软件关系",
+    "three_questions": {
+      "valuable_asset": "现役核心推理引擎与相关实现；将模型能力服务给大量用户的工程积累",
+      "why_impressive": "团队建设高效生产服务，并开放其中核心工程供外界接着做",
+      "industry_and_person": "减少部分重复摸索，给效率与成本改善留空间，用户可能减少等待和支出"
+    },
+    "accuracy_boundary": "没有正确率提升、全部模型自动通用或全行业已降价"
+  }
+}

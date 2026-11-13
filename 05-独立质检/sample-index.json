@@ -1,0 +1,704 @@
+{
+  "video_sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "samples": [
+    {
+      "frame": 150,
+      "seconds": 2.5,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-001.jpg",
+      "sha256": "be714d27a3dc34e54c8fc6b69c89557bad9520b01856ed256481668055c9516e",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 161,
+      "seconds": 2.683333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-002.jpg",
+      "sha256": "ad6e23aee5c26aef99446d42982481ba5abb22936287f5bf5985142aaca57398",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 162,
+      "seconds": 2.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-003.jpg",
+      "sha256": "e20ec7891bc42bc407492278c8fbcb10af44a31f14c33e0a823a5fc8e2638fbf",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 163,
+      "seconds": 2.716666666666667,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-004.jpg",
+      "sha256": "a62d3239abfe40efa66f92177bf1f706f7256a63dc2802f17e86c8a1e37b9f1f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 171,
+      "seconds": 2.85,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-005.jpg",
+      "sha256": "a5c0aad9d177e9630b9bfec4b5b3bb70d129b6d081c458ce39c3e22262fbde74",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 183,
+      "seconds": 3.05,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-006.jpg",
+      "sha256": "f66137023cd1aa171e8d079d9d0456127592544c238aba2297b636ad905031e9",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 204,
+      "seconds": 3.4,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-007.jpg",
+      "sha256": "4759dcd4d64e20f151faffc7a9507edcce6513c739d0f24c6a52e526d67e3474",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 548,
+      "seconds": 9.133333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-008.jpg",
+      "sha256": "eece19b196e0b71a556bf125876351f606dc5e557db24c1877c8f59cf9b9b140",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 559,
+      "seconds": 9.316666666666666,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-009.jpg",
+      "sha256": "d5bfb47fca246ab233f9c18fa63b11fef9795319ee886d5cae9672ec3a9ad66b",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 560,
+      "seconds": 9.333333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-010.jpg",
+      "sha256": "9971c5c4df613a7974db1515c51866022dafb38d15b9764213a4a691c4ced0f7",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 561,
+      "seconds": 9.35,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-011.jpg",
+      "sha256": "fa7d8e7580e31c8e94f9765e32b02efb44aa4a3cc84475b2d8750707e63e3f29",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 569,
+      "seconds": 9.483333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-012.jpg",
+      "sha256": "931225a825f3bbdf0e125f6deb8418de05d000f223de9df5745c3f105d792172",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 581,
+      "seconds": 9.683333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-013.jpg",
+      "sha256": "ae6f52d9dc8e4d84ca07fb563417ebf018b4d7fd4be82373b59c22736b75704e",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 602,
+      "seconds": 10.033333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-014.jpg",
+      "sha256": "3c6ba1b7d83d3814c81851243ebdf96ccfcff8dba02b1f26f14c3e3e56e11301",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 934,
+      "seconds": 15.566666666666666,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-015.jpg",
+      "sha256": "f92436bde155747ea07a66c0158121955e015d31fdbacce7015de139f0592eee",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 945,
+      "seconds": 15.75,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-016.jpg",
+      "sha256": "a9b2a77270abee89de3423987293884e7f2439f1b2b613334f46bddf2303dcae",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 946,
+      "seconds": 15.766666666666667,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-017.jpg",
+      "sha256": "ae059cae0b43c8a3d9d575399257ddadd8752d17b0906dc4c58b87c46d9fe36f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 947,
+      "seconds": 15.783333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-018.jpg",
+      "sha256": "98fe1fe9d9d271c035f84c6091285320b897edd97c4bace5c9b7f3cb26926f45",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 955,
+      "seconds": 15.916666666666666,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-019.jpg",
+      "sha256": "88d9b6b9d5c0747d5d6bdb8bd4e298e809f0859dd36d85117fe6a2d3e6b1964c",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 967,
+      "seconds": 16.116666666666667,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-020.jpg",
+      "sha256": "ffc6e7c95d5736e5fcb5b8f17c9731d498fed4e2974b066ef54cf03652592cba",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 988,
+      "seconds": 16.466666666666665,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-021.jpg",
+      "sha256": "28974a34108483f0dd76beff6f9b030cffafd6d677936aaefca206047a5ce9d8",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1044,
+      "seconds": 17.4,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-022.jpg",
+      "sha256": "e667862893037b01d57a86b41d8ef50e0f43bfe68d128869640ecbd01d943220",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1140,
+      "seconds": 19.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-023.jpg",
+      "sha256": "25dcb9607770467a886994ee444ccb3cc9818da502552c0650d4a27848820884",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1248,
+      "seconds": 20.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-024.jpg",
+      "sha256": "a6af349e565cba2d91692962e2b890a9f5ff000c15869cd4eec1b65f749cd17e",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1368,
+      "seconds": 22.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-025.jpg",
+      "sha256": "4ef744effa0b0080dba142415617e1045a381a1cf4203ff7a7d4cbe677668fcf",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1410,
+      "seconds": 23.5,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-026.jpg",
+      "sha256": "c2a8f113d09b6b3fc9a5afc613149ef6b4138990082ca12366bb7d761fa50b30",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1421,
+      "seconds": 23.683333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-027.jpg",
+      "sha256": "358ead050dcc19667f885b50551da2ebc2eca48585f5d6507eea10b3a2c6239a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1422,
+      "seconds": 23.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-028.jpg",
+      "sha256": "5d0869492e70548d3fef32d2d859468ab1e8b651407047fe70ab7c85a293c7cc",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1423,
+      "seconds": 23.716666666666665,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-029.jpg",
+      "sha256": "5f099a83ff27dbedfc60328c640c8b0de65712974dee59a30e6525b103954b1c",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1431,
+      "seconds": 23.85,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-030.jpg",
+      "sha256": "c3f45e5d3fc40e6d5f587acec5308d8610869fc21d0d65ef4d4ec52b4f2d1bc4",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1443,
+      "seconds": 24.05,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-031.jpg",
+      "sha256": "7f2611276d5fc11f91966e1477c4c5c02ab19dbfa982f751b1c7453f9494a11c",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1464,
+      "seconds": 24.4,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-032.jpg",
+      "sha256": "a68e069b5ecfd837c109e5e20dfba3d38300cbca7e406aa7afd21c514e7718b2",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1548,
+      "seconds": 25.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-033.jpg",
+      "sha256": "c491c2578aca6bbdc8aad29ec71e37ae15379fa6c1060a4ef322a6e61c51bede",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 1800,
+      "seconds": 30.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-034.jpg",
+      "sha256": "04e2d63e7fbbf76a80b4a93a4262aeeea54638204a7ce2bb6ae55e27b76ca345",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2040,
+      "seconds": 34.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-035.jpg",
+      "sha256": "169baee0243828361e21b6c6e91bee6d0aa84fc3d2d48a8b187dacfdf8123a3f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 2244,
+      "seconds": 37.4,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-036.jpg",
+      "sha256": "436acc33a1c26c56580f72ade863d645a6911661917b38509f2ac13705a317b9",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 2370,
+      "seconds": 39.5,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-037.jpg",
+      "sha256": "f2c98fb8fd3d208b4557b8b98ff5af18d96f9e62b9db6807019b6b83a2979783",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2472,
+      "seconds": 41.2,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-038.jpg",
+      "sha256": "85039aeba74dcd9a4dbd16741eaada83dbbbdd98e081378a064df253d7c3d71f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2520,
+      "seconds": 42.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-039.jpg",
+      "sha256": "d8674b1af868b961bda991f3543961e2fd5dbbe302d619724f4f852dab49f154",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2568,
+      "seconds": 42.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-040.jpg",
+      "sha256": "4f083b6b107f24b64a829d0e2573eac114232f42082afd18604314db3c05c17a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2604,
+      "seconds": 43.4,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-041.jpg",
+      "sha256": "067354fc69e898ef7fc8d22f31b389e38a31994412a92c2f99047283de7022ed",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 2640,
+      "seconds": 44.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-042.jpg",
+      "sha256": "60602199e9fd7df5780715121a37458e6d1c95fae1c4480c2e712e2618718f4c",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2700,
+      "seconds": 45.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-043.jpg",
+      "sha256": "7cec23be792c2435eeab9abdf40bfa0d9c8d70097a91c955a580234b4fa33b86",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2760,
+      "seconds": 46.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-044.jpg",
+      "sha256": "9da5543a3a877f405156bffce1d06ae0b5fd306a82d216f3474606ccffbbd993",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2820,
+      "seconds": 47.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-045.jpg",
+      "sha256": "c188f42f74a274ba491bfdcfde15cd93e7dd2ddc7993245085bd302563e321dc",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2910,
+      "seconds": 48.5,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-046.jpg",
+      "sha256": "ec5944bcb4cfc43523b6786ed54705b247c5a8e111546128f3c6a1fdcc456892",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2976,
+      "seconds": 49.6,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-047.jpg",
+      "sha256": "70b1a20c0cabc0de92fcfc20bf345f9a9ab7655e[REDACTED_PHONE]dd51a9dafb099",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2988,
+      "seconds": 49.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-048.jpg",
+      "sha256": "0debbbaa04dfcc370c1421f0f3db460c086061694fd2bcc136d71dbd28c340b5",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 2999,
+      "seconds": 49.983333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-049.jpg",
+      "sha256": "819707612ca9206c53a037bb9054bfe4d002f63bd9a0c9b4aed7a6d8b5fe1b11",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3000,
+      "seconds": 50.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-050.jpg",
+      "sha256": "2cb7d181ce8666ad83cb417e152b43a4c8c6c26477cf31dbb4bb19fc36dbba6f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 3001,
+      "seconds": 50.016666666666666,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-051.jpg",
+      "sha256": "7bc1d81bd16dfe7089ff8e38108f26d743441fa73f177d934c09ea7390ee6d08",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3009,
+      "seconds": 50.15,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-052.jpg",
+      "sha256": "c6c5103a5c844ed1c878f823b449f1aed25fee591106afbc1425185e74c65e2a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3021,
+      "seconds": 50.35,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-053.jpg",
+      "sha256": "fef425b7fbaf19b052c106ba5c138725326f115de52f3a97099ce44cd9ec6e70",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3042,
+      "seconds": 50.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-054.jpg",
+      "sha256": "13b615e732d5f87bb3a8d23fac0aa66bc0f22baaf47a98dff2af0960a3ccc4b2",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3528,
+      "seconds": 58.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-055.jpg",
+      "sha256": "7b8766397a3d429c87e72024a27d7a84cd4a8182750c253707e0066c5b9bd59a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3539,
+      "seconds": 58.983333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-056.jpg",
+      "sha256": "2a92d63dc75dcd37a1631451ec06ae9b992d4a148dbe7cdb7ab5359dba5fa8db",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3540,
+      "seconds": 59.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-057.jpg",
+      "sha256": "cf3d997139ce1b8bd9598fb69ece5a371f38cb980b0760adab7900fee366bb6c",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3541,
+      "seconds": 59.016666666666666,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-058.jpg",
+      "sha256": "489fc3334f6dd2d4bb89f885798a66453dba45905df024613766ab1f50ad0524",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3549,
+      "seconds": 59.15,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-059.jpg",
+      "sha256": "ae0ae0a7ee4e04d966353d31aecaec2e2237f9aacbb7c5debb24e9e8ce766d8a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3561,
+      "seconds": 59.35,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-060.jpg",
+      "sha256": "4d2e0ff22446d0ed79fbaaa9adb5e32292fd43a5f2638485e89a0866e195a189",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3582,
+      "seconds": 59.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-061.jpg",
+      "sha256": "bf1fec959c7a48dbb5baf995b317366e7ec03432a059b6344c98145f7b0012da",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3600,
+      "seconds": 60.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-062.jpg",
+      "sha256": "408cb1e8095408234b88997e82392c99f00ae57f01f412345fe8b4be9f704b7f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3720,
+      "seconds": 62.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-063.jpg",
+      "sha256": "0d509a29a06f94991ab19af4636d8e399a0e0b08962f05ffb168ca6ecaf7c571",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 3900,
+      "seconds": 65.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-064.jpg",
+      "sha256": "18d49bf6f76770340d60a154308d4a73f4a13e7772201af15065b9c0c2b95c1d",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 4020,
+      "seconds": 67.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-065.jpg",
+      "sha256": "cc78fdaec712ef55f104f02c8a19ce69d1fdc4119f601e953c8f210502d2074e",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 4200,
+      "seconds": 70.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-066.jpg",
+      "sha256": "380eefa307e80b98269a61120f1542ecc6c6c191f088456f90965394588df2fd",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 4380,
+      "seconds": 73.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-067.jpg",
+      "sha256": "81d9eaaf6d284f7a60b88fb5f6fe088b8a46afe542a87c9b04422063fc837a05",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 4560,
+      "seconds": 76.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-068.jpg",
+      "sha256": "afcd53b1afb16d75e66e3638550cb5574d2341323685b6e0eb2a7fb67730c8b5",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 4740,
+      "seconds": 79.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-069.jpg",
+      "sha256": "80ac19458b692bb7ef365cc4784febf7b69bfbb1f068c0f05df60cdd7183fa8f",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 4890,
+      "seconds": 81.5,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-070.jpg",
+      "sha256": "1513ab2d48495e4051596cb32d4424c2c685008719c7770c39371e126dedebb9",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5003,
+      "seconds": 83.38333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-071.jpg",
+      "sha256": "0076bedb5dd752be54d9501baa66bf3855d6bf4b54bf53d1da7634ff558b8b18",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5014,
+      "seconds": 83.56666666666666,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-072.jpg",
+      "sha256": "1fe48404a4eef8fdbae211a2f7a72969630a17a3878bb17137eda16689d27784",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5015,
+      "seconds": 83.58333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-073.jpg",
+      "sha256": "1ccb1efaeab2ddbb56174407f012722cdb91fe33d7511140db972e2e3e1e2249",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 5016,
+      "seconds": 83.6,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-074.jpg",
+      "sha256": "3bf612c173c086a897e0dcd453ebb479fb8d51a8fe3cfd0e9cf272747a897cad",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5024,
+      "seconds": 83.73333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-075.jpg",
+      "sha256": "8c85a5fcae87a152ff6f7bc3aa6b6a7e77955157f0caa4c2eca3604dad774c68",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5036,
+      "seconds": 83.93333333333334,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-076.jpg",
+      "sha256": "8012ff79eb81e3791a037ad7f42ecf75c85d58bc695a08e5ba64681cba446ec5",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5057,
+      "seconds": 84.28333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-077.jpg",
+      "sha256": "8012ff79eb81e3791a037ad7f42ecf75c85d58bc695a08e5ba64681cba446ec5",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5100,
+      "seconds": 85.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-078.jpg",
+      "sha256": "9adc1a7cec1adfaebf892d75f44dac8999dabaf4fd864be17cd5b3f6b0ad9c7a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5220,
+      "seconds": 87.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-079.jpg",
+      "sha256": "bd44af7223970716a13da344e32dfa098446de2732d099735b00dd12debe8737",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5328,
+      "seconds": 88.8,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-080.jpg",
+      "sha256": "5834b25ee4e12e7a19c5ec29a3aca76438a5cfe36e3b95ec58e563d048cd876d",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5339,
+      "seconds": 88.98333333333333,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-081.jpg",
+      "sha256": "f7b2f1ac4e3bb98717a6a3843eb98d4f0bc90947804cd211b2473e30d803adee",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5340,
+      "seconds": 89.0,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-082.jpg",
+      "sha256": "1b70af19659eafc52ec6487e6fad7335275727be73de1dfe53f1abbe035a59f7",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": true
+    },
+    {
+      "frame": 5341,
+      "seconds": 89.01666666666667,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-083.jpg",
+      "sha256": "402a109667147127e1a5765c019be13539cbeee97710cd6db8727fd6116a72f7",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5349,
+      "seconds": 89.15,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-084.jpg",
+      "sha256": "90696943980f1bb07d52db7a6ff91ccbaa727e5d352f1b4a0a3cfb655379860c",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5361,
+      "seconds": 89.35,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-085.jpg",
+      "sha256": "5ea00304b5293c4166e107d97b876ffd69e38e1fc9e16f9a93c9ca632954e337",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5382,
+      "seconds": 89.7,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-086.jpg",
+      "sha256": "6581aab110e98f134176d11005f4759bb24e68db950639a8cb72882ac497533a",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    },
+    {
+      "frame": 5652,
+      "seconds": 94.2,
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/05-独立质检/frame-087.jpg",
+      "sha256": "887593aca4f93b0cb1787fd276dab44985da0883390abb5916e8b13cd3143b12",
+      "contact_sheet_viewed": true,
+      "native_file_viewed": false
+    }
+  ],
+  "contact_sheets_viewed": 11,
+  "caption_cues_viewed": 49,
+  "continuous_normal_speed": false
+}

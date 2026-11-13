@@ -1,0 +1,33 @@
+{
+  "url": "http://127.0.0.1:55291/",
+  "binding": "页面完整SHA、实际video currentSrc及allowlist路径与独立文件SHA一致",
+  "durations": [
+    94.233333,
+    94.233333
+  ],
+  "single_audio": {
+    "old_muted": true,
+    "new_muted": false
+  },
+  "chapter_seek_seconds": 43.35,
+  "step_forward_result_seconds": 43.366666,
+  "half_speed_snapshot": {
+    "old_time": 50.233053,
+    "new_time": 50.233605,
+    "old_rate": 0.4985552,
+    "new_rate": 0.5
+  },
+  "normal_speed_snapshot": {
+    "old_time": 43.585866,
+    "new_time": 43.644481,
+    "old_rate": 1.029986199999999,
+    "new_rate": 1
+  },
+  "pause": true,
+  "range_keyboard_End": [
+    94.200001,
+    94.200001
+  ],
+  "range_setValue": "Input rejected value 70; no repeat; supported slider End succeeded",
+  "limits": "播放器状态证明播放和同步控制，不证明已连续看听。正常速度瞬时差约59ms，半速快照约0.6ms；未做长时间同步压力测试。"
+}

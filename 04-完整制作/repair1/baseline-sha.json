@@ -1,0 +1,11 @@
+{
+  "index.html": "cd1818ff10adf44591ff500c1ab19af6752437485d7afe71b3bc91eb90d484d1",
+  "Manifest.json": "b5de5c5dff28de042e9d1b25ebd7362cbda966085ceed18bd32bd4a19ed5dbea",
+  "delivery-v1.json": "1c5767693fab87352a7cef32748eb6997594abda936bcfded9373886177e73fc",
+  "edl-v1.json": "dd37db14966e34d012aba4e3001eb79a2436103bcd6d42cece7042958411eacc",
+  "captions-v1.ass": "d7236675c1f22024c22fb227912117f61a9b3acd3885ea0e5f1284c96d6277fa",
+  "captions-v1.json": "5c57096767006902fe5d59a884b278583660e5553bac605544b483f16e251e0d",
+  "output/deepinfer-v1.srt": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357",
+  "output/deepinfer-full-v1.mp4": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "covers/manifest.json": "29c4b513443fa1a04aee53af23a0e2b45e23ecdb7f35a908a0a77efb53a14def"
+}

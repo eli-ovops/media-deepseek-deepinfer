@@ -1,0 +1,3903 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v2",
+  "version": "v2",
+  "timelineFps": 60,
+  "durationInFrames": 5654,
+  "outputSpec": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "audio": "required"
+  },
+  "workflow": {
+    "profile": "fred-video-v2",
+    "componentMatching": "v1",
+    "authorization": {
+      "mode": "direct-output",
+      "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md：现在按同一质量完成整条94.233333秒，不停在样片或重复等待批准"
+    }
+  },
+  "pages": [
+    {
+      "stableId": "talk-open",
+      "startFrame": 0,
+      "durationInFrames": 162,
+      "oneQuestion": "AI的成本战",
+      "sourceSpans": [
+        {
+          "startChar": 0,
+          "endChar": 6,
+          "text": "AI的成本战"
+        },
+        {
+          "startChar": 7,
+          "endChar": 14,
+          "text": "可能又要变天了"
+        },
+        {
+          "startChar": 15,
+          "endChar": 19,
+          "text": "就在昨天"
+        }
+      ],
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+          "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+          "sourceInSeconds": 0.0,
+          "sourceOutSeconds": 2.7,
+          "id": "talking-source",
+          "role": "原速真人底片",
+          "required": true
+        }
+      ],
+      "sourceBeatIds": [
+        "cue-01",
+        "cue-02",
+        "cue-03"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "AI的成本战",
+        "可能又要变天了",
+        "就在昨天"
+      ],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "用户要求复用现存纯真人底片，图形无需复刻。"
+      },
+      "sceneGuide": {
+        "type": "custom",
+        "customReason": "现存真人直接复用；现有图形场景类型不应改造本人表达。",
+        "signature": "315dd212d9ea651321cac9c7022d4b828d02273880dfc16b84bb68b6ed107e64",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "原真人全屏准确源帧进入；原速人物表情动作与原字幕同步",
+            "check": "按本场景实际导出时序检查本段原句本人讲述；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "真人全屏沿原画幅，白字48px阴影字幕在1710px。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "本人全屏原速讲述，保持原帧动作",
+        "candidates": [],
+        "inspectedReferences": [],
+        "decisionReason": "沿用户明确要求在talk-open复用现存纯真人底片，不将真实本人改成库图形。"
+      },
+      "visualPlan": {
+        "enter": "原真人全屏准确源帧进入",
+        "change": "原速人物表情动作与原字幕同步",
+        "read": "本段原句本人讲述",
+        "exit": "保持原帧序列至边界",
+        "handoff": "依时间线硬切下一图形或到片尾；无额外变速"
+      },
+      "productionRoute": {
+        "selected": "preserved-media",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "repo",
+      "startFrame": 162,
+      "durationInFrames": 398,
+      "oneQuestion": "DeepInfer开源",
+      "sourceSpans": [
+        {
+          "startChar": 15,
+          "endChar": 19,
+          "text": "就在昨天"
+        },
+        {
+          "startChar": 20,
+          "endChar": 33,
+          "text": "DeepSeek把自己用来"
+        },
+        {
+          "startChar": 34,
+          "endChar": 43,
+          "text": "省钱提速的核心引擎"
+        },
+        {
+          "startChar": 44,
+          "endChar": 56,
+          "text": "DeepInfer开源了"
+        },
+        {
+          "startChar": 57,
+          "endChar": 65,
+          "text": "今天，截至到今天"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t22a",
+          "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "原截图CSS裁去顶部100px账户区；原生相机中心540/900；同图标题和Star两次ROI，读完归位；深色材料按原白蒙版退至纯白，保留清晰原像素。 v2: Q1屏幕仿射端点插值，保留quintic和最终构图；F432/F540及10fps中间态标题完整在画幅内。",
+          "useScope": "本片2.700000–9.333333秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T22a-PostCard.tsx",
+            "sha256": "510809cce3aee0988c4cf7b591ee506d709eb7c562b2f734cd767b765de6f4f0",
+            "symbol": "PostCard"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx",
+            "sha256": "f819e18a5186f458ce5803481246797a3e9f1b9ae7199f96d376c61f9147b43e",
+            "symbol": "PostCard"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "RepoScene",
+            "callee": "PostCard"
+          },
+          "useMode": "full",
+          "keyAction": "紫刷扫仓库标题，镜头推近原像素，开源释义擦出"
+        }
+      ],
+      "sceneGuide": {
+        "type": "prompt-reading",
+        "signature": "c3c3bea569d79eb37f3d65a2e4086c301a87daf0aa987cc995b13f8f72d0f810",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "完整真实仓库卡从下方升起；紫刷扫仓库标题，镜头推近原像素，开源释义擦出",
+            "check": "按本场景实际导出时序检查标题原像素与DeepInfer开源；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F02",
+            "decision": "本片只要求仓库标题/Star原句，保留截图原像素及必要上下文，不使用假网页。",
+            "check": "核原像素ROI、中文释义与原截图，观察推近和归位中间态。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "真实截图 关键句 荧光 放大",
+        "candidates": [
+          {
+            "id": "interaction-news-brush",
+            "decision": "rejected",
+            "reason": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。"
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "decision": "selected",
+            "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。"
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "decision": "rejected",
+            "reason": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "interaction-news-brush",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT01-1-preview.mp4",
+            "sha256": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+            "observations": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT01.jpg",
+              "sha256": "33eda22336d59e2d8335764de4888216689295605d79fca704185400682dbebf"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T22a-1-preview.mp4",
+            "sha256": "45150cdfa71d881eec1060242f4b427a1ca13fa93600e2a4d912c284763bc925",
+            "observations": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+              "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+            }
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-1-preview.mp4",
+            "sha256": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+            "observations": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT02.jpg",
+              "sha256": "8d4ae14353092f22987f308c8056c6d5cdc3ff0de0bb473473cd66f65b5d7d18"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "原内容和现成组件职责保留；只修本次两项几何/继承问题。",
+          "corePreserved": "Q1屏幕仿射端点插值，保留quintic和最终构图；F432/F540及10fps中间态标题完整在画幅内。",
+          "visualQuality": "Q1屏幕仿射端点插值，保留quintic和最终构图；F432/F540及10fps中间态标题完整在画幅内。 仅采样检查范围。"
+        },
+        "evidence": [
+          {
+            "frame": 432,
+            "seconds": 7.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0432.png",
+            "sha256": "8729862b31b4cdb7f877902ee90adaeb7f4fc7121d3a59f1f8f6dd1a0900db00",
+            "bytes": 143120
+          },
+          {
+            "frame": 540,
+            "seconds": 9.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0540.png",
+            "sha256": "92fe6963bc26efc27fbb8a2cdb88e350d3d3920747d275b1b45553cf2037c6f5",
+            "bytes": 171411
+          }
+        ],
+        "contextSha256": "0eaea421bfed2c34659a4cb19589aaa65a6f17933e3147fea2c4d76373eee841"
+      },
+      "sourceBeatIds": [
+        "cue-03",
+        "cue-04",
+        "cue-05",
+        "cue-06",
+        "cue-07"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "DeepInfer 开源",
+        "就在昨天",
+        "DeepSeek把自己用来",
+        "省钱提速的核心引擎",
+        "DeepInfer开源了",
+        "今天，截至到今天"
+      ],
+      "visualPlan": {
+        "enter": "完整真实仓库卡从下方升起",
+        "change": "紫刷扫仓库标题，镜头推近原像素，开源释义擦出",
+        "read": "标题原像素与DeepInfer开源",
+        "exit": "镜头按原quintic退回完整卡",
+        "handoff": "同一张卡同尺寸交给Star"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/github-original.png",
+          "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+          "id": "github-original",
+          "role": "2026-10-21 11:45真实仓库截图；裁去账户顶部100px",
+          "required": true
+        }
+      ],
+      "keyframeReview": {
+        "status": "assistant-reviewed-Q1Q2-only",
+        "frames": [
+          {
+            "frame": 408,
+            "seconds": 6.8,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0408.png",
+            "sha256": "484e4472a18d40263f0b861d19a1ad7ff0eec0e544b600cf662c074635278ad1",
+            "bytes": 257120
+          },
+          {
+            "frame": 414,
+            "seconds": 6.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0414.png",
+            "sha256": "5bd28d2289f750109736680bb66029da351daa87ba43e40644e0863f00fa8a8e",
+            "bytes": 218960
+          },
+          {
+            "frame": 420,
+            "seconds": 7.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0420.png",
+            "sha256": "f594ccf4da21cfc964e81952242dd91c5ef9388a2dd4e721bf58562646dfe2a1",
+            "bytes": 236951
+          },
+          {
+            "frame": 426,
+            "seconds": 7.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0426.png",
+            "sha256": "4e695df3d5fb647a3677ff2c354e713f42da81e9a83360215040c93b4282455a",
+            "bytes": 157820
+          },
+          {
+            "frame": 432,
+            "seconds": 7.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0432.png",
+            "sha256": "8729862b31b4cdb7f877902ee90adaeb7f4fc7121d3a59f1f8f6dd1a0900db00",
+            "bytes": 143120
+          },
+          {
+            "frame": 438,
+            "seconds": 7.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0438.png",
+            "sha256": "ce083c739f8cb6d1ead6d2aa07513278e3261cfd98761e5144269396d1d0baba",
+            "bytes": 132991
+          },
+          {
+            "frame": 444,
+            "seconds": 7.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0444.png",
+            "sha256": "3c2d7d17a674ab4957879709d47aca1639088e104e9a1e03c56c3fcf68af2fc4",
+            "bytes": 135307
+          },
+          {
+            "frame": 450,
+            "seconds": 7.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0450.png",
+            "sha256": "6718232003db9fcf90c896d0f3973b31bcb3d2dec88b0f501f324ba5c03a7710",
+            "bytes": 162860
+          },
+          {
+            "frame": 456,
+            "seconds": 7.6,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0456.png",
+            "sha256": "769a082e8b13d854939a31257259879396b2a7744a11a0625b4d87da4828a141",
+            "bytes": 192939
+          },
+          {
+            "frame": 462,
+            "seconds": 7.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0462.png",
+            "sha256": "dd453a96c46b8835ce9d515b6da07be7f302646c99222e52cfa6012c0d21e626",
+            "bytes": 193036
+          },
+          {
+            "frame": 468,
+            "seconds": 7.8,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0468.png",
+            "sha256": "be9933c1e679a6e4474c5d04d43ad1cda228954495842e65bd8d5e5d15ab9303",
+            "bytes": 194346
+          },
+          {
+            "frame": 474,
+            "seconds": 7.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0474.png",
+            "sha256": "4ebdea31fe76e0901cd551326427f46f23aa95f120501799a93dc2b5b96acd0f",
+            "bytes": 194154
+          },
+          {
+            "frame": 480,
+            "seconds": 8.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0480.png",
+            "sha256": "b012a97a94339bc1d3838de46ba3ac58a7c580ce8a73fd79df8e7aed0b9d0e27",
+            "bytes": 194329
+          },
+          {
+            "frame": 486,
+            "seconds": 8.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0486.png",
+            "sha256": "7941ca2ccbd457fcfd22db5d0d48cecc7ac0e96af9944bee37d71060bfd71185",
+            "bytes": 194399
+          },
+          {
+            "frame": 492,
+            "seconds": 8.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0492.png",
+            "sha256": "4122b375e1b508628f8ddb604f20c2e30a97e6cd6b13e76235a01577b87276b1",
+            "bytes": 194445
+          },
+          {
+            "frame": 498,
+            "seconds": 8.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0498.png",
+            "sha256": "8e33c2ff854f05144a6b9a0d2ca818affe1538458ed4ca6e34154fa9960f7094",
+            "bytes": 194411
+          },
+          {
+            "frame": 504,
+            "seconds": 8.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0504.png",
+            "sha256": "345a24407a500bd9366a289cddd87eb46e0afa3ef4c18e5802d5d545b9f0fcdf",
+            "bytes": 194476
+          },
+          {
+            "frame": 510,
+            "seconds": 8.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0510.png",
+            "sha256": "02a1981bda9292b991a9dad6d01b8136b2b6a132b55bd96551bdbc9fa00346c6",
+            "bytes": 194505
+          },
+          {
+            "frame": 516,
+            "seconds": 8.6,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0516.png",
+            "sha256": "cdd0ae53d77e1586e291f12b83c087264028599689e9183a4b9d5050796e0f0f",
+            "bytes": 194467
+          },
+          {
+            "frame": 522,
+            "seconds": 8.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0522.png",
+            "sha256": "3ec3a0e11fcdffc0ce62f9fb66526bad3de6644946f84e1996087d269cd2cbf2",
+            "bytes": 191604
+          },
+          {
+            "frame": 528,
+            "seconds": 8.8,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0528.png",
+            "sha256": "94ec30a662f6e793661ae6f5dde615c045d2095ee595c874c2f71e23d302c988",
+            "bytes": 194389
+          },
+          {
+            "frame": 534,
+            "seconds": 8.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0534.png",
+            "sha256": "648880874a1f1de59afd6324e86f67909f29ffeb36f724cccce0ab14b7739b75",
+            "bytes": 172821
+          },
+          {
+            "frame": 540,
+            "seconds": 9.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0540.png",
+            "sha256": "92fe6963bc26efc27fbb8a2cdb88e350d3d3920747d275b1b45553cf2037c6f5",
+            "bytes": 171411
+          },
+          {
+            "frame": 546,
+            "seconds": 9.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0546.png",
+            "sha256": "b32eff337feb0feabc54ee5f7fafb1bc3badf5ca6b7a44e504fd7d68eda42593",
+            "bytes": 164665
+          },
+          {
+            "frame": 552,
+            "seconds": 9.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0552.png",
+            "sha256": "d4e42b4835db5c7b178dcd26b2e3cc0f07a748ccc84659e23e09aa838ab71f30",
+            "bytes": 234155
+          },
+          {
+            "frame": 558,
+            "seconds": 9.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0558.png",
+            "sha256": "7198cfb46789d30a251b3bdde73c9d6a8950a70c012c3cc00417abd9e51ba7b6",
+            "bytes": 227180
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx",
+            "sha256": "f819e18a5186f458ce5803481246797a3e9f1b9ae7199f96d376c61f9147b43e",
+            "symbol": "PostCard"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+          "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+          "bytes": 50031414
+        },
+        "scope": "仅Q1/Q2精确帧，见sample-index；非连续视听",
+        "observations": "Q1屏幕仿射端点插值，保留quintic和最终构图；F432/F540及10fps中间态标题完整在画幅内。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      }
+    },
+    {
+      "stableId": "stars",
+      "startFrame": 560,
+      "durationInFrames": 386,
+      "oneQuestion": "GitHub一万多颗星",
+      "sourceSpans": [
+        {
+          "startChar": 57,
+          "endChar": 65,
+          "text": "今天，截至到今天"
+        },
+        {
+          "startChar": 66,
+          "endChar": 77,
+          "text": "GitHub上已经拿了"
+        },
+        {
+          "startChar": 78,
+          "endChar": 84,
+          "text": "一万多颗星了"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t22a",
+          "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "原截图CSS裁去顶部100px账户区；原生相机中心540/900；同图标题和Star两次ROI，读完归位；深色材料按原白蒙版退至纯白，保留清晰原像素。 v2: Q1同法修Star；F810/F930及10fps中间态完整；归位结束提前0.02秒到local6.4秒，保证F945完整稳态。",
+          "useScope": "本片9.333333–15.766667秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T22a-PostCard.tsx",
+            "sha256": "510809cce3aee0988c4cf7b591ee506d709eb7c562b2f734cd767b765de6f4f0",
+            "symbol": "PostCard"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx",
+            "sha256": "f819e18a5186f458ce5803481246797a3e9f1b9ae7199f96d376c61f9147b43e",
+            "symbol": "PostCard"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "StarsScene",
+            "callee": "PostCard"
+          },
+          "useMode": "full",
+          "keyAction": "扫Star原像素，镜头推近，一万多颗星擦出"
+        }
+      ],
+      "sceneGuide": {
+        "type": "prompt-reading",
+        "signature": "c3c3bea569d79eb37f3d65a2e4086c301a87daf0aa987cc995b13f8f72d0f810",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "延续已建立的同一仓库卡；扫Star原像素，镜头推近，一万多颗星擦出",
+            "check": "按本场景实际导出时序检查截图14.1k与一万多颗星对应；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F02",
+            "decision": "本片只要求仓库标题/Star原句，保留截图原像素及必要上下文，不使用假网页。",
+            "check": "核原像素ROI、中文释义与原截图，观察推近和归位中间态。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "真实截图 关键句 荧光 放大",
+        "candidates": [
+          {
+            "id": "interaction-news-brush",
+            "decision": "rejected",
+            "reason": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。"
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "decision": "selected",
+            "reason": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。"
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "decision": "rejected",
+            "reason": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "interaction-news-brush",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT01-1-preview.mp4",
+            "sha256": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+            "observations": "整页黄色笔刷与镜头推进适合长正文。本片两处短ROI需要同卡浮起和释义层，选择T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT01.jpg",
+              "sha256": "33eda22336d59e2d8335764de4888216689295605d79fca704185400682dbebf"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t22a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T22a-1-preview.mp4",
+            "sha256": "45150cdfa71d881eec1060242f4b427a1ca13fa93600e2a4d912c284763bc925",
+            "observations": "原截图浮起、紫刷精确原句、相机推近、背景退焦、原像素清晰及释义擦出，适合两次阅读同一真实仓库。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T22a.jpg",
+              "sha256": "1890058fd64020abade76580a161d70f81feb09fdd58fcba5dcacada5b56e329"
+            }
+          },
+          {
+            "id": "interaction-news-spotlight",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-1-preview.mp4",
+            "sha256": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+            "observations": "灰蒙版洞口聚焦原句，没有浮起卡片及释义擦入，短仓库标题和星数优先T22a。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/INT02.jpg",
+              "sha256": "8d4ae14353092f22987f308c8056c6d5cdc3ff0de0bb473473cd66f65b5d7d18"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "原内容和现成组件职责保留；只修本次两项几何/继承问题。",
+          "corePreserved": "Q1同法修Star；F810/F930及10fps中间态完整；归位结束提前0.02秒到local6.4秒，保证F945完整稳态。",
+          "visualQuality": "Q1同法修Star；F810/F930及10fps中间态完整；归位结束提前0.02秒到local6.4秒，保证F945完整稳态。 仅采样检查范围。"
+        },
+        "evidence": [
+          {
+            "frame": 810,
+            "seconds": 13.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0810.png",
+            "sha256": "30ed061a0a6b1f31eb1ba5d9a8976e03f1f7931102620fe2a56e0653199877a1",
+            "bytes": 100617
+          },
+          {
+            "frame": 930,
+            "seconds": 15.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0930.png",
+            "sha256": "c37145aced998a218da77d2e3ac1ddd0b45e5db5897f288b7b97e8deedc8164c",
+            "bytes": 171522
+          }
+        ],
+        "contextSha256": "c0a842835441218f4362a0176024a951db33da81d05fd724f2fd507ac159fa5d"
+      },
+      "sourceBeatIds": [
+        "cue-07",
+        "cue-08",
+        "cue-09"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "一万多颗星",
+        "今天，截至到今天",
+        "GitHub上已经拿了",
+        "一万多颗星了"
+      ],
+      "visualPlan": {
+        "enter": "延续已建立的同一仓库卡",
+        "change": "扫Star原像素，镜头推近，一万多颗星擦出",
+        "read": "截图14.1k与一万多颗星对应",
+        "exit": "退回完整卡",
+        "handoff": "同图进入代码区域拆解；下一段描框重建"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/github-original.png",
+          "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+          "id": "github-original",
+          "role": "2026-10-21 11:45真实仓库截图；裁去账户顶部100px",
+          "required": true
+        }
+      ],
+      "keyframeReview": {
+        "status": "assistant-reviewed-Q1Q2-only",
+        "frames": [
+          {
+            "frame": 780,
+            "seconds": 13.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0780.png",
+            "sha256": "ce0cf3cec4694b5ac5341d552d103706f40f2f958d3d48e1ca97bbc7e584dded",
+            "bytes": 210958
+          },
+          {
+            "frame": 786,
+            "seconds": 13.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0786.png",
+            "sha256": "39be0d7ee9a2c563559be3378e8087b16fca2433a55a911d077527433432c1b0",
+            "bytes": 217883
+          },
+          {
+            "frame": 792,
+            "seconds": 13.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0792.png",
+            "sha256": "6602919e43a527e2dd207e1a3b7dca065f0af9cf8235e509e534eb4e4000c5ba",
+            "bytes": 216963
+          },
+          {
+            "frame": 798,
+            "seconds": 13.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0798.png",
+            "sha256": "fa7ed3e3e7b0a593cf9f80452a149f7ec95c6305009bd158be89a9044ce1674d",
+            "bytes": 178108
+          },
+          {
+            "frame": 804,
+            "seconds": 13.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0804.png",
+            "sha256": "f6eed3c058a42fe76c392bf7013c812a5f12f16e4e40643a2f80f1a95d6641f5",
+            "bytes": 148545
+          },
+          {
+            "frame": 810,
+            "seconds": 13.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0810.png",
+            "sha256": "30ed061a0a6b1f31eb1ba5d9a8976e03f1f7931102620fe2a56e0653199877a1",
+            "bytes": 100617
+          },
+          {
+            "frame": 816,
+            "seconds": 13.6,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0816.png",
+            "sha256": "b4ee1e08530fc422a5a9644e4a00a75ba959fd2fe30bed182443a3619e9500b2",
+            "bytes": 94769
+          },
+          {
+            "frame": 822,
+            "seconds": 13.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0822.png",
+            "sha256": "d21543af503f36b87de3915c45c9513fb5456d5ff7edf4ba8cd4879ae8457df0",
+            "bytes": 101515
+          },
+          {
+            "frame": 828,
+            "seconds": 13.8,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0828.png",
+            "sha256": "00965c843266a5b6e08c9c356ff2f68f505a238531b2a7790b61de30455915b0",
+            "bytes": 125329
+          },
+          {
+            "frame": 834,
+            "seconds": 13.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0834.png",
+            "sha256": "5563b244dfcbd02c7143867bd26c0e4ca5b57ba3afe9f3fef9c0fc9db49f8ae0",
+            "bytes": 126389
+          },
+          {
+            "frame": 840,
+            "seconds": 14.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0840.png",
+            "sha256": "892fead215441db4aece533bcaec17a95239292930902831bdb06d870f72e04f",
+            "bytes": 127772
+          },
+          {
+            "frame": 846,
+            "seconds": 14.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0846.png",
+            "sha256": "bf3403f82043ac2001c0325720db3a6116291d36fb02fbf7e20fe79f9d265b43",
+            "bytes": 128259
+          },
+          {
+            "frame": 852,
+            "seconds": 14.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0852.png",
+            "sha256": "366eebfc1bff8b198e3dd1a14fdf15fc55b2dbc977c0ba4013f5a9c9197a4809",
+            "bytes": 128278
+          },
+          {
+            "frame": 858,
+            "seconds": 14.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0858.png",
+            "sha256": "8edce8365560d283e124a2b74ccbc1a6b21dbeb024da52d60098704b3a8da30d",
+            "bytes": 128297
+          },
+          {
+            "frame": 864,
+            "seconds": 14.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0864.png",
+            "sha256": "c96182cccde97563a257e43bcabf92a2c065f38588eb2f9dcbd4cab56423322d",
+            "bytes": 128324
+          },
+          {
+            "frame": 870,
+            "seconds": 14.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0870.png",
+            "sha256": "a15a4f78d22f4316d8e62d10447a06d06c1035fe484b7bde13a9c7b2f701d210",
+            "bytes": 128321
+          },
+          {
+            "frame": 876,
+            "seconds": 14.6,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0876.png",
+            "sha256": "2441efff762076c0a7bfc9e84bb7ddc9e55785a6a17d6be41b067cb2c6a4af2c",
+            "bytes": 128361
+          },
+          {
+            "frame": 882,
+            "seconds": 14.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0882.png",
+            "sha256": "c8f2e6d22ac70aa063854cc39ded646c5d666b84a7b3c0fd5cd299c87c46d939",
+            "bytes": 128388
+          },
+          {
+            "frame": 888,
+            "seconds": 14.8,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0888.png",
+            "sha256": "c8f2e6d22ac70aa063854cc39ded646c5d666b84a7b3c0fd5cd299c87c46d939",
+            "bytes": 128388
+          },
+          {
+            "frame": 894,
+            "seconds": 14.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0894.png",
+            "sha256": "f65c7d09dc87130938b8fb10ec3a46f31bc8c4eed93d0006fd8490286aa04f28",
+            "bytes": 128366
+          },
+          {
+            "frame": 900,
+            "seconds": 15.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0900.png",
+            "sha256": "15a0455247ba2542f7ee95244a0c8d6b228ceac96d5b53bdbdc5f692cc45a021",
+            "bytes": 128359
+          },
+          {
+            "frame": 906,
+            "seconds": 15.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0906.png",
+            "sha256": "2d6190bece82ec02a47f9d0f645d6d36d900f4927e2d2006fb9d8a3497fedbc0",
+            "bytes": 129332
+          },
+          {
+            "frame": 912,
+            "seconds": 15.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0912.png",
+            "sha256": "f9e085e92188ba9a4f5d7c1a968112223a05e96fa2cda715e5cbdca346ad7e8a",
+            "bytes": 129283
+          },
+          {
+            "frame": 918,
+            "seconds": 15.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0918.png",
+            "sha256": "4717e42b83bcc8cb63f656c1802c4df6c66a4b0c099d0cb359209d4aeeee09ef",
+            "bytes": 142815
+          },
+          {
+            "frame": 924,
+            "seconds": 15.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0924.png",
+            "sha256": "50456c4096b813df85b1839429ca011484d1d1f8a83cc76cea1f986410d4f21d",
+            "bytes": 157695
+          },
+          {
+            "frame": 930,
+            "seconds": 15.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0930.png",
+            "sha256": "c37145aced998a218da77d2e3ac1ddd0b45e5db5897f288b7b97e8deedc8164c",
+            "bytes": 171522
+          },
+          {
+            "frame": 936,
+            "seconds": 15.6,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0936.png",
+            "sha256": "3a16b02705c0a6e9afa04ca24786de4a3d187bcd1a8eed59b54ff493e55af346",
+            "bytes": 198815
+          },
+          {
+            "frame": 942,
+            "seconds": 15.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0942.png",
+            "sha256": "22fafef9b1e78aafa5217f70c468435d6d8002b0d49e55b02fdfd7e5a6f92dea",
+            "bytes": 223627
+          },
+          {
+            "frame": 943,
+            "seconds": 15.716666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0943.png",
+            "sha256": "a875c51044859ae18637424ff7449e530ba1f6b47f41fe185b5e224616f83c6c",
+            "bytes": 225155
+          },
+          {
+            "frame": 944,
+            "seconds": 15.733333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0944.png",
+            "sha256": "5f4a04619eaed570f91410f8b49e5e6b405fb82d8a1ed1a644f2f5af506dec86",
+            "bytes": 219371
+          },
+          {
+            "frame": 945,
+            "seconds": 15.75,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0945.png",
+            "sha256": "bf8c9bee11deb64a16dd5b519ce65fcbd3087d62c17766353af9e2fa64742ac7",
+            "bytes": 219624
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T22a-PostCard.tsx",
+            "sha256": "f819e18a5186f458ce5803481246797a3e9f1b9ae7199f96d376c61f9147b43e",
+            "symbol": "PostCard"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+          "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+          "bytes": 50031414
+        },
+        "scope": "仅Q1/Q2精确帧，见sample-index；非连续视听",
+        "observations": "Q1同法修Star；F810/F930及10fps中间态完整；归位结束提前0.02秒到local6.4秒，保证F945完整稳态。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      }
+    },
+    {
+      "stableId": "code",
+      "startFrame": 946,
+      "durationInFrames": 476,
+      "oneQuestion": "核心代码交给同行研究改造",
+      "sourceSpans": [
+        {
+          "startChar": 85,
+          "endChar": 96,
+          "text": "这份正在支撑自家服务的"
+        },
+        {
+          "startChar": 97,
+          "endChar": 101,
+          "text": "核心代码"
+        },
+        {
+          "startChar": 102,
+          "endChar": 112,
+          "text": "现在同行也能直接拿去"
+        },
+        {
+          "startChar": 113,
+          "endChar": 119,
+          "text": "研究和改造了"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t04e",
+          "reason": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "整页与两块直接通过同源SVG viewBox裁取；横排改为竖向两层，描框、拎出弧线、物理投影、标签和结论保留；只按真实坐标和口播cue适配。 v2: Q2沿前场x60/y567.778/w960/h464.443裁剪截图、满透明度继承；0–0.7秒按原q移动到拆解基位，描框和拎出cue保持；F945→946无白帧或几何突跳。",
+          "useScope": "本片15.766667–23.700000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T04e-PackOpen.tsx",
+            "sha256": "7e00355950ac28f47526aff12723cddb2e88f20b8c1605a5384b09f80d32d172",
+            "symbol": "PackOpen"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04e-PackOpen.tsx",
+            "sha256": "a32dd5262147331cf24e1e0849cc2717695dd4d5650844ca663dde8cc2632fe9",
+            "symbol": "PackOpen"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "CodeScene",
+            "callee": "PackOpen"
+          },
+          "useMode": "full",
+          "keyAction": "两处真实文件区域标框并弧线拎出，标签出现"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "真实仓库卡建立；两处真实文件区域标框并弧线拎出，标签出现",
+            "check": "按本场景实际导出时序检查核心代码、文档与示例及同行研究改造；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "整体 仓库 拆开 几个部分",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t04e",
+            "decision": "selected",
+            "reason": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。"
+          },
+          {
+            "id": "fred-wave2-42-t12d",
+            "decision": "rejected",
+            "reason": "预览是三个阶段词从胶囊分离并退场，没有真实文件区域拆出的对应关系。"
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "decision": "rejected",
+            "reason": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t04e",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04e-1-preview.mp4",
+            "sha256": "e9b458e022ac06fddabc852ac4abe5a8b95b62a9e875db6ccf428cfbe8b62d93",
+            "observations": "真实整页先标框再把同源像素连续抬到前景，主体和标签先后落定，适合代码及文档可研究的内容。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04e.jpg",
+              "sha256": "c9f1849b2c189db149067b332c4362afad4db1d827295a7219a228ff22607fed"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t12d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T12d-1-preview.mp4",
+            "sha256": "fc9d61cc69fffb132b0fb2d2ed60cfea0584b7ab21b1d214d0a57c78ce69f97a",
+            "observations": "预览是三个阶段词从胶囊分离并退场，没有真实文件区域拆出的对应关系。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T12d.jpg",
+              "sha256": "50b08e33c0db394653c0e2102acabf7b4ef1e0a90b567fd84917258ae6017f8e"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T05g-1-preview.mp4",
+            "sha256": "6fc2aa9c19362f82ccfa45c832661cb7ee257a22d12ef32e63063c270e39b26d",
+            "observations": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T05g.jpg",
+              "sha256": "22f9c13d21745077a671835d796c4ac806ac04126ff75668232b0c94ee67060b"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "原内容和现成组件职责保留；只修本次两项几何/继承问题。",
+          "corePreserved": "Q2沿前场x60/y567.778/w960/h464.443裁剪截图、满透明度继承；0–0.7秒按原q移动到拆解基位，描框和拎出cue保持；F945→946无白帧或几何突跳。",
+          "visualQuality": "Q2沿前场x60/y567.778/w960/h464.443裁剪截图、满透明度继承；0–0.7秒按原q移动到拆解基位，描框和拎出cue保持；F945→946无白帧或几何突跳。 仅采样检查范围。"
+        },
+        "evidence": [
+          {
+            "frame": 946,
+            "seconds": 15.766666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0946.png",
+            "sha256": "47b92df1ad281ea093a0fc6f9918f83309fa085f7c290882bd40f719cca25244",
+            "bytes": 219254
+          },
+          {
+            "frame": 966,
+            "seconds": 16.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0966.png",
+            "sha256": "0d20f10a279e5d96899adb9c3e028668dc364a66d878ad65ed677cfaa578a0d4",
+            "bytes": 244864
+          },
+          {
+            "frame": 984,
+            "seconds": 16.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0984.png",
+            "sha256": "71a27834bf6dfc0b2fe48fbf0d7091f8316fc6155dba0033f18560c8252aa544",
+            "bytes": 244934
+          }
+        ],
+        "contextSha256": "e0222f396bde99db5a34ae55611268c48e80eb981021ceeda279943e79f7e2cb"
+      },
+      "sourceBeatIds": [
+        "cue-10",
+        "cue-11",
+        "cue-12",
+        "cue-13"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "核心代码",
+        "文档与示例",
+        "同行接着研究和改造",
+        "这份正在支撑自家服务的",
+        "核心代码",
+        "现在同行也能直接拿去",
+        "研究和改造了"
+      ],
+      "visualPlan": {
+        "enter": "真实仓库卡建立",
+        "change": "两处真实文件区域标框并弧线拎出，标签出现",
+        "read": "核心代码、文档与示例及同行研究改造",
+        "exit": "保留两块区域到段末",
+        "handoff": "硬切请求模型，不伪称几何morph"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/github-original.png",
+          "sha256": "6828f025db698b6d12049b58ac193f2944d172b81f13f868eef08570218acd3b",
+          "id": "github-original",
+          "role": "2026-10-21 11:45真实仓库截图；裁去账户顶部100px",
+          "required": true
+        }
+      ],
+      "keyframeReview": {
+        "status": "assistant-reviewed-Q1Q2-only",
+        "frames": [
+          {
+            "frame": 946,
+            "seconds": 15.766666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0946.png",
+            "sha256": "47b92df1ad281ea093a0fc6f9918f83309fa085f7c290882bd40f719cca25244",
+            "bytes": 219254
+          },
+          {
+            "frame": 947,
+            "seconds": 15.783333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0947.png",
+            "sha256": "e09ebdaabb8c099f4158072f2094d1508a45f446c0b28ff4752f25c97c224c81",
+            "bytes": 251338
+          },
+          {
+            "frame": 948,
+            "seconds": 15.8,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0948.png",
+            "sha256": "d5518afc4c2e14147baad716da1ab722eda139b9b989d6f6694aa1ca08b0822c",
+            "bytes": 251325
+          },
+          {
+            "frame": 949,
+            "seconds": 15.816666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0949.png",
+            "sha256": "aefa3419faf0c4a07570fb52d1f42ea5a91bad86a01caddb0b366058f5718611",
+            "bytes": 253527
+          },
+          {
+            "frame": 950,
+            "seconds": 15.833333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0950.png",
+            "sha256": "1919e1ec12fa5d5b8ec34e64076b68d15867e98ac5901b52d23d9307fceb5ce5",
+            "bytes": 247812
+          },
+          {
+            "frame": 951,
+            "seconds": 15.85,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0951.png",
+            "sha256": "f66dbf11f160b36fa7234ff1355abef80cdbe89eb53af5a1e93d6258ccce6937",
+            "bytes": 242889
+          },
+          {
+            "frame": 952,
+            "seconds": 15.866666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0952.png",
+            "sha256": "d5fd5247073ea6c27e9a94bd2990f3985054e0678d230155dccad988d3f638e3",
+            "bytes": 243739
+          },
+          {
+            "frame": 953,
+            "seconds": 15.883333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0953.png",
+            "sha256": "cd11f5efd0f9176f2c6e21456ef57f692d7c81cdbb5c2563f7b38fa8e62b004d",
+            "bytes": 242891
+          },
+          {
+            "frame": 954,
+            "seconds": 15.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0954.png",
+            "sha256": "c3bf37813648cb92b7c4487de3024ede96b85a792ec21d6fcbca3e8316e96c77",
+            "bytes": 245577
+          },
+          {
+            "frame": 955,
+            "seconds": 15.916666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0955.png",
+            "sha256": "670f14af8cbc246452b5f1036aded2ebf1a59e39b4cf2174efbe6c3815926209",
+            "bytes": 243275
+          },
+          {
+            "frame": 956,
+            "seconds": 15.933333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0956.png",
+            "sha256": "47eeb3f47e7cdf7e67883b136c3aa11ad4ce96b0b1f8ba4a3fbd9d8719bb8f61",
+            "bytes": 242419
+          },
+          {
+            "frame": 957,
+            "seconds": 15.95,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0957.png",
+            "sha256": "ccc5fcc4b5a00e51542f92699547136eb22196083257caff02c2c6c6003d8b78",
+            "bytes": 242388
+          },
+          {
+            "frame": 958,
+            "seconds": 15.966666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0958.png",
+            "sha256": "6a056fa8afcafcdd47f0a29a34626e01aa19f822ca630e37fd1e0cf230c9392a",
+            "bytes": 241013
+          },
+          {
+            "frame": 959,
+            "seconds": 15.983333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0959.png",
+            "sha256": "a4f933e140f9ea3d7fb1b69e174f27b47517e9ac164a72e9ed58835ea8912987",
+            "bytes": 251931
+          },
+          {
+            "frame": 960,
+            "seconds": 16.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0960.png",
+            "sha256": "64b27409b93c8e3a7a426ad1864e579b2dc837c52d7e597481f693e599354227",
+            "bytes": 244004
+          },
+          {
+            "frame": 961,
+            "seconds": 16.016666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0961.png",
+            "sha256": "1e48520df2e784d1db1ef2d504dd26acae9db807c75582b00db1cd7628d63374",
+            "bytes": 242389
+          },
+          {
+            "frame": 962,
+            "seconds": 16.033333333333335,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0962.png",
+            "sha256": "5215a04e744deedf6ada27d0e6b566e55a6776af353f70ea4b28878981c48866",
+            "bytes": 239476
+          },
+          {
+            "frame": 963,
+            "seconds": 16.05,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0963.png",
+            "sha256": "fb200f76903a4a96a620900c511dd7aef14df50365045aa8d0ef1b3f945dc868",
+            "bytes": 248070
+          },
+          {
+            "frame": 964,
+            "seconds": 16.066666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0964.png",
+            "sha256": "47b7c9ecae9d59ecbbc4a5796b0ec9cb51af1cb366ae884a5639279273df3c10",
+            "bytes": 247072
+          },
+          {
+            "frame": 965,
+            "seconds": 16.083333333333332,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0965.png",
+            "sha256": "ab701f87c7be767a12138d43ae048a4bc608e84ae80cc58af070b725d0836279",
+            "bytes": 246064
+          },
+          {
+            "frame": 966,
+            "seconds": 16.1,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0966.png",
+            "sha256": "0d20f10a279e5d96899adb9c3e028668dc364a66d878ad65ed677cfaa578a0d4",
+            "bytes": 244864
+          },
+          {
+            "frame": 967,
+            "seconds": 16.116666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0967.png",
+            "sha256": "7bc4f5d4bcbcafdaf31924cff4a7081282b31444836824c9fc08ed894b96fed4",
+            "bytes": 242803
+          },
+          {
+            "frame": 968,
+            "seconds": 16.133333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0968.png",
+            "sha256": "e0ef31f65d8205970cb2806dc557a9f3f7b23cbd395897f6ff0c47df58d700bf",
+            "bytes": 245772
+          },
+          {
+            "frame": 969,
+            "seconds": 16.15,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0969.png",
+            "sha256": "d5b9ed87a5fef1c2b0388505ed7882cfeb806f8b68a8238656f5e4f22171b21e",
+            "bytes": 242961
+          },
+          {
+            "frame": 970,
+            "seconds": 16.166666666666668,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0970.png",
+            "sha256": "a89ac89bb2e87216e8200cee72a331843e7514a9ee41a1ed09e5ab4c1eae84b0",
+            "bytes": 244723
+          },
+          {
+            "frame": 971,
+            "seconds": 16.183333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0971.png",
+            "sha256": "8023636aa54751846f3f8bce99d3d51aecb9a1cdc9be0de196e5bf6dda1264ba",
+            "bytes": 246030
+          },
+          {
+            "frame": 972,
+            "seconds": 16.2,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0972.png",
+            "sha256": "bdfc9f93861747b36d7bd657c23a03f38674274cd47df52cdc816ba7f880a8ed",
+            "bytes": 249841
+          },
+          {
+            "frame": 973,
+            "seconds": 16.216666666666665,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0973.png",
+            "sha256": "fa030a861b887026e983a60fb082f31e476c60087c0415bdcbb09f96bf2fe158",
+            "bytes": 247640
+          },
+          {
+            "frame": 974,
+            "seconds": 16.233333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0974.png",
+            "sha256": "580199e68ab93ed90a78f3e85f555f42e25fb92cf91a0a8abff3d95a03d32f81",
+            "bytes": 250389
+          },
+          {
+            "frame": 975,
+            "seconds": 16.25,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0975.png",
+            "sha256": "fc6eb7cff613780c373f23c294fe0e4b178fd99b3dcb581add74452a1bad0fa5",
+            "bytes": 243272
+          },
+          {
+            "frame": 976,
+            "seconds": 16.266666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0976.png",
+            "sha256": "84490a90c252912481bec4d525740def268577c89e218787db0db4c81b7aabe3",
+            "bytes": 246725
+          },
+          {
+            "frame": 977,
+            "seconds": 16.283333333333335,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0977.png",
+            "sha256": "537f53ad563d27bcdc8bde2c61d78765d8f4950d62380e830d909ce39f535622",
+            "bytes": 250382
+          },
+          {
+            "frame": 978,
+            "seconds": 16.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0978.png",
+            "sha256": "9dc2e2b9057c01e2d4dddc0263689c3b8771e61817c675eaa933cf920a5b36a2",
+            "bytes": 246852
+          },
+          {
+            "frame": 979,
+            "seconds": 16.316666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0979.png",
+            "sha256": "ee9747afb3c948b761261c8740d4f8cc5e13374dd0f1aa4b85f1c3797f451e81",
+            "bytes": 243905
+          },
+          {
+            "frame": 980,
+            "seconds": 16.333333333333332,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0980.png",
+            "sha256": "cc2a064f0165b10a0a4c063972ddc17ead5df7d4fe18785f793e9920cdeaf7b1",
+            "bytes": 243949
+          },
+          {
+            "frame": 981,
+            "seconds": 16.35,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0981.png",
+            "sha256": "7371146dbc792c44aaeb575a94a9cb6055094aaf54bf7f34da870014d39b8cf7",
+            "bytes": 243900
+          },
+          {
+            "frame": 982,
+            "seconds": 16.366666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0982.png",
+            "sha256": "b13402b8b987983574257352434244072080ef205f1ea80263a217629b55595c",
+            "bytes": 245118
+          },
+          {
+            "frame": 983,
+            "seconds": 16.383333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0983.png",
+            "sha256": "201e7a9cfafa81c9a0c91294050b9ae1d4cab39b299333a4d0ac26d4e1094843",
+            "bytes": 244551
+          },
+          {
+            "frame": 984,
+            "seconds": 16.4,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/actual-frames/f0984.png",
+            "sha256": "71a27834bf6dfc0b2fe48fbf0d7091f8316fc6155dba0033f18560c8252aa544",
+            "bytes": 244934
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04e-PackOpen.tsx",
+            "sha256": "a32dd5262147331cf24e1e0849cc2717695dd4d5650844ca663dde8cc2632fe9",
+            "symbol": "PackOpen"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+          "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+          "bytes": 50031414
+        },
+        "scope": "仅Q1/Q2精确帧，见sample-index；非连续视听",
+        "observations": "Q2沿前场x60/y567.778/w960/h464.443裁剪截图、满透明度继承；0–0.7秒按原q移动到拆解基位，描框和拎出cue保持；F945→946无白帧或几何突跳。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      }
+    },
+    {
+      "stableId": "request",
+      "startFrame": 1422,
+      "durationInFrames": 843,
+      "oneQuestion": "用户涌入与服务成本",
+      "sourceSpans": [
+        {
+          "startChar": 120,
+          "endChar": 125,
+          "text": "大家要知道"
+        },
+        {
+          "startChar": 126,
+          "endChar": 136,
+          "text": "大模型会回答只是开始"
+        },
+        {
+          "startChar": 137,
+          "endChar": 147,
+          "text": "大量的用户同时涌进来"
+        },
+        {
+          "startChar": 148,
+          "endChar": 157,
+          "text": "怎么样地少让人等待"
+        },
+        {
+          "startChar": 158,
+          "endChar": 166,
+          "text": "少浪费昂贵的显卡"
+        },
+        {
+          "startChar": 167,
+          "endChar": 173,
+          "text": "这背后的工程"
+        },
+        {
+          "startChar": 174,
+          "endChar": 184,
+          "text": "直接关系到服务的成本"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t13d",
+          "reason": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "直接复用认可样片的竖向双路线和13.2秒服务器→胶囊交接，输入原速整轨不再用样片音频切片。",
+          "useScope": "本片23.700000–37.750000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T13d-RequestTrip.tsx",
+            "sha256": "4cd6cda38eb3879db74f1214053baac465aa6d477a19275d451e9f7514087e48",
+            "symbol": "RequestTrip"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13d-RequestTrip.tsx",
+            "sha256": "118f9d2358157851cc0836b24a226a94a3eb2c3f6a09636eeb6e1aff2351657e",
+            "symbol": "RequestTrip"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "RequestScene",
+            "callee": "RequestTrip"
+          },
+          "useMode": "full",
+          "keyAction": "请求发送、吞入、处理、结果回程停靠，最后服务器收成胶囊"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "用户、服务器和双路线先建立；请求发送、吞入、处理、结果回程停靠，最后服务器收成胶囊",
+            "check": "按本场景实际导出时序检查DeepInfer工程层和返回结果；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "请求 服务器 返回 结果 去程 回程",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t13d",
+            "decision": "selected",
+            "reason": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。"
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "decision": "rejected",
+            "reason": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。"
+          },
+          {
+            "id": "ep107-selected-03",
+            "decision": "rejected",
+            "reason": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t13d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13d-1-preview.mp4",
+            "sha256": "34aa6188226bb43c3d1e0a5597d16fa6d347db48b2f806c224d05b883e1bc1cf",
+            "observations": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13d.jpg",
+              "sha256": "f6541a3fcbf32c632da2fde55810d8a658f459dfd29491eec4af30def4c6d9d2"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t05g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T05g-1-preview.mp4",
+            "sha256": "6fc2aa9c19362f82ccfa45c832661cb7ee257a22d12ef32e63063c270e39b26d",
+            "observations": "预览为两个概念和不等号建立，不表达请求往返或仓库拆解。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T05g.jpg",
+              "sha256": "22f9c13d21745077a671835d796c4ac806ac04126ff75668232b0c94ee67060b"
+            }
+          },
+          {
+            "id": "ep107-selected-03",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/107-03-1-preview.mp4",
+            "sha256": "4ab167cf79586db41c8c9ecbd1659869a195b02e9fc7d40f15fcdc46cea057dc",
+            "observations": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/107-03.jpg",
+              "sha256": "a12928b1eb0079f70f25a8a639414def499b55a6c84998b55c2673565de05b3d"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+          "corePreserved": "直接复用认可样片的竖向双路线和13.2秒服务器→胶囊交接，输入原速整轨不再用样片音频切片。",
+          "visualQuality": "24–35秒双路线、请求吞入、返回胶囊停靠均见；36.8–37.75秒服务器收成胶囊，37.75秒原尺寸交接保留坐标和完整白字。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-02.jpg",
+            "sha256": "65c65153156d98b6cc5fb4784e619612cc5807d4a5a569e8a6e2b2ac181d8476"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-03.jpg",
+            "sha256": "0313f3549a2fc8aa279d8e211129f89bf29b305d955e646908beff01a8939c36"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          }
+        ],
+        "contextSha256": "ba519d16cce9d8aec676f6b012b438d86659f010fac0e61866e67046004cff9c"
+      },
+      "sourceBeatIds": [
+        "cue-14",
+        "cue-15",
+        "cue-16",
+        "cue-17",
+        "cue-18",
+        "cue-19",
+        "cue-20"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "用户",
+        "响应用户请求",
+        "推理服务",
+        "计算资源 · 服务成本",
+        "工程层",
+        "DeepInfer",
+        "用户请求",
+        "返回结果",
+        "大家要知道",
+        "大模型会回答只是开始",
+        "大量的用户同时涌进来",
+        "怎么样地少让人等待",
+        "少浪费昂贵的显卡",
+        "这背后的工程",
+        "直接关系到服务的成本"
+      ],
+      "visualPlan": {
+        "enter": "用户、服务器和双路线先建立",
+        "change": "请求发送、吞入、处理、结果回程停靠，最后服务器收成胶囊",
+        "read": "DeepInfer工程层和返回结果",
+        "exit": "服务器收为820×210胶囊",
+        "handoff": "在同坐标同大小交接T04b"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-02.jpg",
+            "sha256": "65c65153156d98b6cc5fb4784e619612cc5807d4a5a569e8a6e2b2ac181d8476"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-03.jpg",
+            "sha256": "0313f3549a2fc8aa279d8e211129f89bf29b305d955e646908beff01a8939c36"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          },
+          {
+            "frame": 1422,
+            "seconds": 23.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f1422.png",
+            "sha256": "ac65ebf1b4087d2419e46683548eba686de36d228c07d816c7b2c02b1a34084b",
+            "bytes": 27515
+          },
+          {
+            "frame": 2258,
+            "seconds": 37.63333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2258.png",
+            "sha256": "d4b294ca2b385e8dacf053ef0bc8cf870e0cf453586b8f6e1b1a3243e6b83086",
+            "bytes": 103984
+          },
+          {
+            "frame": 2264,
+            "seconds": 37.733333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2264.png",
+            "sha256": "284f9930f0566050ed00f86e52e5ee68c45df9152ecf4ead29e1c95f34d9d7a7",
+            "bytes": 102347
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13d-RequestTrip.tsx",
+            "sha256": "118f9d2358157851cc0836b24a226a94a3eb2c3f6a09636eeb6e1aff2351657e",
+            "symbol": "RequestTrip"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "24–35秒双路线、请求吞入、返回胶囊停靠均见；36.8–37.75秒服务器收成胶囊，37.75秒原尺寸交接保留坐标和完整白字。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "roles",
+      "startFrame": 2265,
+      "durationInFrames": 336,
+      "oneQuestion": "GPU本轮计算与CPU提前安排",
+      "sourceSpans": [
+        {
+          "startChar": 185,
+          "endChar": 191,
+          "text": "比如一个显卡"
+        },
+        {
+          "startChar": 192,
+          "endChar": 197,
+          "text": "计算这一轮"
+        },
+        {
+          "startChar": 198,
+          "endChar": 208,
+          "text": "处理器提前安排下一轮"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave2-42-t04b",
+          "reason": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "直接复用认可样片两职责竖向拆分；在5.6秒后进入推进泳道，去掉原样片长停留。",
+          "useScope": "本片37.750000–43.350000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T04b-RoleSplit.tsx",
+            "sha256": "d4d168ccaf731926424ce7915b62bb2eccdad69cbcb153071067b9ccd21cf6fb",
+            "symbol": "RoleSplit"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04b-RoleSplit.tsx",
+            "sha256": "e32ae0c2ec9b7782d6d51045ab79c19f6e38e16211e3a12328a198c9de91cc74",
+            "symbol": "RoleSplit"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "RolesScene",
+            "callee": "RoleSplit"
+          },
+          "useMode": "full",
+          "keyAction": "胶囊拆上下两职责，GPU和CPU工具卡分别升起"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "沿同位置协同处理胶囊；胶囊拆上下两职责，GPU和CPU工具卡分别升起",
+            "check": "按本场景实际导出时序检查计算这一轮、提前安排下一轮；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "角色 分工 任务 拆分 环节 计算 安排",
+        "candidates": [
+          {
+            "id": "fred-wave2-42-t04b",
+            "decision": "selected",
+            "reason": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。"
+          },
+          {
+            "id": "library-new10-n008",
+            "decision": "rejected",
+            "reason": "商品旁问题转成多个人员角色，需要本片没有的商品媒体；与GPU/CPU双职责不匹配。"
+          },
+          {
+            "id": "fred-wave2-42-t03c",
+            "decision": "rejected",
+            "reason": "三节点互通循环后聚焦结论，拓扑与本片双职责不同。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave2-42-t04b",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04b-1-preview.mp4",
+            "sha256": "888bcb60e7b15783d4de2a3af7645cd0904cee92040f7b1c3d6ecf12d4390950",
+            "observations": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04b.jpg",
+              "sha256": "de6d3c4da67cd8ea7cb73b2e11947f3e19dc42164f296d125d58abe6671c03ec"
+            }
+          },
+          {
+            "id": "library-new10-n008",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/N008-1-preview.mp4",
+            "sha256": "8aa2f064525127b26d3f9e4e093f1a275d3479af19fe52d31627823d7c092fbd",
+            "observations": "商品旁问题转成多个人员角色，需要本片没有的商品媒体；与GPU/CPU双职责不匹配。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/N008.jpg",
+              "sha256": "334f6f50649baab1765baa94ab4c9aa4b79d7256ec8ed3713e9634f9d88ca80e"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t03c",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T03c-1-preview.mp4",
+            "sha256": "ebac213e177e94206c07e47ab2f3fd25375ab12ad5a619acf6c75a79964e6cc8",
+            "observations": "三节点互通循环后聚焦结论，拓扑与本片双职责不同。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T03c.jpg",
+              "sha256": "f3f507e9f11896f32dfd1d53d98c20110ddc2bc744c4ec70b73e78c5ab7d6d9b"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "一件事分裂为职责胶囊，工具卡从对应胶囊后升起，贴合GPU计算与CPU提前安排。",
+          "corePreserved": "直接复用认可样片两职责竖向拆分；在5.6秒后进入推进泳道，去掉原样片长停留。",
+          "visualQuality": "39秒拆分中间空胶囊为原组件显隐；39.5–42秒两职责与工具卡依次建立；43秒后不再延长原样片停留。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          }
+        ],
+        "contextSha256": "e96d6ad7b8169bf4b2250c25f01a302cc57195ab4ccd34f35fd107648b6b2f6c"
+      },
+      "sourceBeatIds": [
+        "cue-21",
+        "cue-22",
+        "cue-23"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "协同处理",
+        "计算这一轮",
+        "显卡 GPU",
+        "提前安排下一轮",
+        "处理器 CPU",
+        "比如一个显卡",
+        "计算这一轮",
+        "处理器提前安排下一轮"
+      ],
+      "visualPlan": {
+        "enter": "沿同位置协同处理胶囊",
+        "change": "胶囊拆上下两职责，GPU和CPU工具卡分别升起",
+        "read": "计算这一轮、提前安排下一轮",
+        "exit": "两职责停稳至5.6秒",
+        "handoff": "硬切双列任务图，保持GPU/CPU身份语义；不是无缝形变"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          },
+          {
+            "frame": 2265,
+            "seconds": 37.75,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2265.png",
+            "sha256": "b127e225bf32f147c9d6fd6e1b3cafffe4ecdadaf4f507ef46c757eaf8731384",
+            "bytes": 85521
+          },
+          {
+            "frame": 2300,
+            "seconds": 38.333333333333336,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2300.png",
+            "sha256": "2df5efbca709ff26dab24486849b092b17d5a603093f674b4a2bc559f333a26a",
+            "bytes": 85681
+          },
+          {
+            "frame": 2400,
+            "seconds": 40.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2400.png",
+            "sha256": "e2395bdcb2418af75a0a52f24dc5c90694784ca48dfd2514d80f17924da5ff6d",
+            "bytes": 195204
+          },
+          {
+            "frame": 2600,
+            "seconds": 43.333333333333336,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2600.png",
+            "sha256": "f09fbefea34837d81b0272e8d2ce318f710b0929bf755790e14ba3c0c1f1f83c",
+            "bytes": 233659
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04b-RoleSplit.tsx",
+            "sha256": "e32ae0c2ec9b7782d6d51045ab79c19f6e38e16211e3a12328a198c9de91cc74",
+            "symbol": "RoleSplit"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "39秒拆分中间空胶囊为原组件显隐；39.5–42秒两职责与工具卡依次建立；43秒后不再延长原样片停留。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "pipeline",
+      "startFrame": 2601,
+      "durationInFrames": 399,
+      "oneQuestion": "减少等待和接新任务",
+      "sourceSpans": [
+        {
+          "startChar": 209,
+          "endChar": 216,
+          "text": "让机器少干等着"
+        },
+        {
+          "startChar": 217,
+          "endChar": 224,
+          "text": "服务每天都要跑"
+        },
+        {
+          "startChar": 225,
+          "endChar": 231,
+          "text": "省下来的算力"
+        },
+        {
+          "startChar": 232,
+          "endChar": 239,
+          "text": "还能接别的任务"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t02g",
+          "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "useScope": "本片43.350000–50.000000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "4f93cc9418c91ea65f98423375da8d22205893b92984aac373f0eebbbd6a6c66",
+            "symbol": "RoleRoadmap"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+            "symbol": "RoleRoadmap"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "PipelineScene",
+            "callee": "RoleRoadmap"
+          },
+          "useMode": "full",
+          "keyAction": "步骤从角色后抽出，CPU提前安排→GPU下一轮→接新任务焦点依次切换"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "GPU和CPU双列先立角色；步骤从角色后抽出，CPU提前安排→GPU下一轮→接新任务焦点依次切换",
+            "check": "按本场景实际导出时序检查当前反色步骤与前序完成勾；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "两条 身份 泳道 步骤 当前 点亮",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "decision": "selected",
+            "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。"
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "decision": "rejected",
+            "reason": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。"
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "decision": "rejected",
+            "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4",
+            "sha256": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+            "observations": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+              "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T16a-1-preview.mp4",
+            "sha256": "8ad8b3a47a1d9fa28742105ed5ea97d63d802eaa93f704d81c9e4f9dc07f3c02",
+            "observations": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T16a.jpg",
+              "sha256": "31ae7a7a0f7185b4455248245ebd6441973ceab76b49450d721bf8e2613c87a3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4",
+            "sha256": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+            "observations": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+              "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "corePreserved": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "visualQuality": "43.5–45秒双列抽卡、45.5–47.5秒CPU与GPU反色焦点转换；49秒接新任务；47.033秒原尺寸仅当前步骤清晰，其余按原组件淡化。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-05.jpg",
+            "sha256": "6de329aa265bc376e1071f7eef1e33ce53a5cfe451df6010eb63d5e46ec967f3"
+          }
+        ],
+        "contextSha256": "49ba1fb7e25fc8031dc0a9b9596af9957e03cb477ab0947c7f798fbf678dba64"
+      },
+      "sourceBeatIds": [
+        "cue-24",
+        "cue-25",
+        "cue-26",
+        "cue-27"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "GPU",
+        "CPU",
+        "01",
+        "02",
+        "03",
+        "本轮计算",
+        "下一轮计算",
+        "接新任务",
+        "提前安排",
+        "下一轮就绪",
+        "继续安排",
+        "让机器少干等着",
+        "服务每天都要跑",
+        "省下来的算力",
+        "还能接别的任务"
+      ],
+      "visualPlan": {
+        "enter": "GPU和CPU双列先立角色",
+        "change": "步骤从角色后抽出，CPU提前安排→GPU下一轮→接新任务焦点依次切换",
+        "read": "当前反色步骤与前序完成勾",
+        "exit": "接新任务保持到真人",
+        "handoff": "切回原片50秒真人"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-05.jpg",
+            "sha256": "6de329aa265bc376e1071f7eef1e33ce53a5cfe451df6010eb63d5e46ec967f3"
+          },
+          {
+            "frame": 2601,
+            "seconds": 43.35,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2601.png",
+            "sha256": "0ffae48f414ca70ddc36832d7f1351cbfd31857f81223adfa619e490daff07ef",
+            "bytes": 30948
+          },
+          {
+            "frame": 2700,
+            "seconds": 45.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2700.png",
+            "sha256": "65fd6cd993673f8ed662cbf9109be26a31dbd5bef41c8cf314b09e3690fa6526",
+            "bytes": 250567
+          },
+          {
+            "frame": 2822,
+            "seconds": 47.03333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2822.png",
+            "sha256": "7bac5aed6cc3de68cd1d2ed30c5b7e4d71ef0442a2397fb9f10c154a9b825f6c",
+            "bytes": 241986
+          },
+          {
+            "frame": 2830,
+            "seconds": 47.166666666666664,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2830.png",
+            "sha256": "0aade6760d550417f110241407a41a0835e1a1c324ad5d79040ba853c185adc3",
+            "bytes": 245452
+          },
+          {
+            "frame": 2840,
+            "seconds": 47.333333333333336,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2840.png",
+            "sha256": "acc0fc55677859375a84b06fb50b3702b2be83fee6354ed34892007d7ebe12cf",
+            "bytes": 245363
+          },
+          {
+            "frame": 2940,
+            "seconds": 49.0,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2940.png",
+            "sha256": "9b5b2f9e2bfbb1c5c6f1db350af9dcdf9e955541bd12592b4611e65db2b6aa15",
+            "bytes": 233095
+          },
+          {
+            "frame": 2999,
+            "seconds": 49.983333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f2999.png",
+            "sha256": "b1e1f68edbecbdceb40091b47fc4bb29093038b36a430d41f7338922094d8ee5",
+            "bytes": 210077
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+            "symbol": "RoleRoadmap"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "43.5–45秒双列抽卡、45.5–47.5秒CPU与GPU反色焦点转换；49秒接新任务；47.033秒原尺寸仅当前步骤清晰，其余按原组件淡化。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "talk-view",
+      "startFrame": 3000,
+      "durationInFrames": 438,
+      "oneQuestion": "梁文锋与持续创新",
+      "sourceSpans": [
+        {
+          "startChar": 240,
+          "endChar": 247,
+          "text": "梁文锋早就说过"
+        },
+        {
+          "startChar": 248,
+          "endChar": 254,
+          "text": "真正的护城河"
+        },
+        {
+          "startChar": 255,
+          "endChar": 264,
+          "text": "是能持续创新的团队"
+        },
+        {
+          "startChar": 265,
+          "endChar": 274,
+          "text": "我服他的地方就在这"
+        }
+      ],
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+          "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+          "sourceInSeconds": 50.0,
+          "sourceOutSeconds": 57.3,
+          "id": "talking-source",
+          "role": "原速真人底片",
+          "required": true
+        }
+      ],
+      "sourceBeatIds": [
+        "cue-28",
+        "cue-29",
+        "cue-30",
+        "cue-31"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "梁文锋早就说过",
+        "真正的护城河",
+        "是能持续创新的团队",
+        "我服他的地方就在这"
+      ],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "用户要求复用现存纯真人底片，图形无需复刻。"
+      },
+      "sceneGuide": {
+        "type": "custom",
+        "customReason": "现存真人直接复用；现有图形场景类型不应改造本人表达。",
+        "signature": "315dd212d9ea651321cac9c7022d4b828d02273880dfc16b84bb68b6ed107e64",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "原真人全屏准确源帧进入；原速人物表情动作与原字幕同步",
+            "check": "按本场景实际导出时序检查本段原句本人讲述；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "真人全屏沿原画幅，白字48px阴影字幕在1710px。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "本人全屏原速讲述，保持原帧动作",
+        "candidates": [],
+        "inspectedReferences": [],
+        "decisionReason": "沿用户明确要求在talk-view复用现存纯真人底片，不将真实本人改成库图形。"
+      },
+      "visualPlan": {
+        "enter": "原真人全屏准确源帧进入",
+        "change": "原速人物表情动作与原字幕同步",
+        "read": "本段原句本人讲述",
+        "exit": "保持原帧序列至边界",
+        "handoff": "依时间线硬切下一图形或到片尾；无额外变速"
+      },
+      "productionRoute": {
+        "selected": "preserved-media",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "open",
+      "startFrame": 3438,
+      "durationInFrames": 552,
+      "oneQuestion": "开放工程成果和继续创新",
+      "sourceSpans": [
+        {
+          "startChar": 275,
+          "endChar": 286,
+          "text": "把已经用起来的工程成果"
+        },
+        {
+          "startChar": 287,
+          "endChar": 291,
+          "text": "直接开放"
+        },
+        {
+          "startChar": 292,
+          "endChar": 298,
+          "text": "让别人接着做"
+        },
+        {
+          "startChar": 299,
+          "endChar": 306,
+          "text": "自己靠持续创新"
+        },
+        {
+          "startChar": 307,
+          "endChar": 312,
+          "text": "继续往前走"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t04f",
+          "reason": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "钥匙上方横向插锁，能力卡竖排；连线从锁芯下沿经左干接卡边，所有钥匙、锁梁、卡色和弹性保留。",
+          "useScope": "本片57.300000–66.500000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T04f-KeyUnlock.tsx",
+            "sha256": "1ab4c93cc3bb1c49b6bc08a45f044ba71c91f4fb0992051fce5d9e96de918439",
+            "symbol": "KeyUnlock"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04f-KeyUnlock.tsx",
+            "sha256": "7d3c6a2ce3cdf1d9a395bcbfb1eec4c56b8ea077f0b142f8baa572506d8f0525",
+            "symbol": "KeyUnlock"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "OpenScene",
+            "callee": "KeyUnlock"
+          },
+          "useMode": "full",
+          "keyAction": "钥匙插入转动；读懂、改造、创新三卡依次解锁"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "钥匙和锁芯建立；钥匙插入转动；读懂、改造、创新三卡依次解锁",
+            "check": "按本场景实际导出时序检查已开放工程成果带来的后续动作；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "钥匙 解锁 能力 开放",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t04f",
+            "decision": "selected",
+            "reason": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。"
+          },
+          {
+            "id": "fred-wave3-40-t02h",
+            "decision": "rejected",
+            "reason": "三份文件翻面解释，各文件是独立载体，没有前置成果与多个后续动作的依赖。"
+          },
+          {
+            "id": "fred-wave2-42-t02e",
+            "decision": "rejected",
+            "reason": "多项内容汇聚成一个产品，方向是多到一，和本段开放后的一到多相反。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t04f",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04f-1-preview.mp4",
+            "sha256": "d3a16615177b01f31b522ce59b6dc21ac12996589070c2298be6872671305bf9",
+            "observations": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04f.jpg",
+              "sha256": "b06f0093e3a600061a614086d0f004016fe3985030fae69302f5f3b7c4f421ac"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t02h",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02h-1-preview.mp4",
+            "sha256": "aa99d90800118b426df9ca558b1411d7dc0bb3822e18549f14c162f70714a4d5",
+            "observations": "三份文件翻面解释，各文件是独立载体，没有前置成果与多个后续动作的依赖。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02h.jpg",
+              "sha256": "400889cdfe18dbe87832b70363ab69b727d34169261bc9e7f298a4247f9629f6"
+            }
+          },
+          {
+            "id": "fred-wave2-42-t02e",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02e-1-preview.mp4",
+            "sha256": "5267b30861c2028a0da6a82091031469de97dad9bb066c8816d2a526ecae193a",
+            "observations": "多项内容汇聚成一个产品，方向是多到一，和本段开放后的一到多相反。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02e.jpg",
+              "sha256": "a4cf37372b4bb1874dfd4937db1e2c865d261505daf0da18d747a7ba7537bca4"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "钥匙尖端插锁并转动，沿分支依次解锁能力卡，适合工程成果开放带来的研究、改造和后续创新。",
+          "corePreserved": "钥匙上方横向插锁，能力卡竖排；连线从锁芯下沿经左干接卡边，所有钥匙、锁梁、卡色和弹性保留。",
+          "visualQuality": "57.5秒锁芯建立，59.5–64秒钥匙转动和三能力依次解锁；64.5秒原尺寸支线留短间隙接卡，文字和字幕不重叠。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-05.jpg",
+            "sha256": "6de329aa265bc376e1071f7eef1e33ce53a5cfe451df6010eb63d5e46ec967f3"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-06.jpg",
+            "sha256": "37e892284640549f403da8b655cc9cd237bda66df1398107bf1ebd50ae7029bc"
+          }
+        ],
+        "contextSha256": "0703d6383c3a8dda4a97692ee014f6971312aa18de97079d7dc98a2bb5237c40"
+      },
+      "sourceBeatIds": [
+        "cue-32",
+        "cue-33",
+        "cue-34",
+        "cue-35",
+        "cue-36"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "工程成果",
+        "读懂代码",
+        "已有实现可研究",
+        "接着改造",
+        "在已有成果上继续做",
+        "继续创新",
+        "投入新的优化",
+        "把已经用起来的工程成果",
+        "直接开放",
+        "让别人接着做",
+        "自己靠持续创新",
+        "继续往前走"
+      ],
+      "visualPlan": {
+        "enter": "钥匙和锁芯建立",
+        "change": "钥匙插入转动；读懂、改造、创新三卡依次解锁",
+        "read": "已开放工程成果带来的后续动作",
+        "exit": "三条能力稳态",
+        "handoff": "切到三层系统结构说明边界"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-05.jpg",
+            "sha256": "6de329aa265bc376e1071f7eef1e33ce53a5cfe451df6010eb63d5e46ec967f3"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-06.jpg",
+            "sha256": "37e892284640549f403da8b655cc9cd237bda66df1398107bf1ebd50ae7029bc"
+          },
+          {
+            "frame": 3438,
+            "seconds": 57.3,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f3438.png",
+            "sha256": "218ea907532e30dc2acf494e85403f519a3ccfaae2395ac5a6be164c2fc4dd48",
+            "bytes": 41804
+          },
+          {
+            "frame": 3550,
+            "seconds": 59.166666666666664,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f3550.png",
+            "sha256": "91559ca43914de25ff3ae7231d30c407294e280709158b5404058e1b4baba6ae",
+            "bytes": 277793
+          },
+          {
+            "frame": 3700,
+            "seconds": 61.666666666666664,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f3700.png",
+            "sha256": "1e50a4491e2e399470b1657f4185ea5a0a9c4bb0ed0b1eb8d3ae3a666d1bc349",
+            "bytes": 272986
+          },
+          {
+            "frame": 3870,
+            "seconds": 64.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f3870.png",
+            "sha256": "1d98e2e01ed6f10961b21d26099666f4a17d648fb7ad75ce17e408e5c18e4187",
+            "bytes": 287721
+          },
+          {
+            "frame": 3989,
+            "seconds": 66.48333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f3989.png",
+            "sha256": "9369f97ee402390478df6179cc9fb9e2e227c1cbbb710c93428de2bf373c95a1",
+            "bytes": 273086
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04f-KeyUnlock.tsx",
+            "sha256": "7d3c6a2ce3cdf1d9a395bcbfb1eec4c56b8ea077f0b142f8baa572506d8f0525",
+            "symbol": "KeyUnlock"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "57.5秒锁芯建立，59.5–64秒钥匙转动和三能力依次解锁；64.5秒原尺寸支线留短间隙接卡，文字和字幕不重叠。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "layers",
+      "startFrame": 3990,
+      "durationInFrames": 372,
+      "oneQuestion": "线上配套与模型硬件适配",
+      "sourceSpans": [
+        {
+          "startChar": 313,
+          "endChar": 325,
+          "text": "完整的线上配套还得继续补"
+        },
+        {
+          "startChar": 326,
+          "endChar": 335,
+          "text": "模型和硬件也要适配"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t13a",
+          "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "原厚板和顶面改860宽、210高，竖屏中心540/880；层内容说明尚待配套与适配，不声称部署通过。",
+          "useScope": "本片66.500000–72.700000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T13a-StackLayers.tsx",
+            "sha256": "fce4b5cb8a9dfa0ff890e246fffa607e9e5e6d220c57ac55e2407d22cddfdb55",
+            "symbol": "StackLayers"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13a-StackLayers.tsx",
+            "sha256": "52345d2c1d97f9261c28925a2420cfe99e4763c0146dbf4d39592bcaf59c0822",
+            "symbol": "StackLayers"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "LayersScene",
+            "callee": "StackLayers"
+          },
+          "useMode": "full",
+          "keyAction": "层叠、承压，模型硬件层分离聚焦变黑"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "三层厚板依次建立；层叠、承压，模型硬件层分离聚焦变黑",
+            "check": "按本场景实际导出时序检查线上配套仍待补齐，模型硬件还需适配；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "分层 结构 当前 层 点亮",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t13a",
+            "decision": "selected",
+            "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。"
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "decision": "rejected",
+            "reason": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。"
+          },
+          {
+            "id": "fred-wave3-40-t02g",
+            "decision": "rejected",
+            "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t13a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4",
+            "sha256": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+            "observations": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+              "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T17c-1-preview.mp4",
+            "sha256": "255961422fe9c5da3ed61969df6b330699dc447d0b9596432ae67a45ff406f13",
+            "observations": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T17c.jpg",
+              "sha256": "6cde3cbfc519df2daaed7b34f4a667321ef6aa48fc2df781658338d8690d1f84"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t02g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4",
+            "sha256": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+            "observations": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+              "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+          "corePreserved": "原厚板和顶面改860宽、210高，竖屏中心540/880；层内容说明尚待配套与适配，不声称部署通过。",
+          "visualQuality": "66.5–68秒厚板叠起，69.5–70秒底层擦黑；70.166秒原尺寸顶面厚度、影子和模型硬件适配完整。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-06.jpg",
+            "sha256": "37e892284640549f403da8b655cc9cd237bda66df1398107bf1ebd50ae7029bc"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          }
+        ],
+        "contextSha256": "baaa7f360720cb831d1193b2ca2895c579e5323831b69dd8e26ac114660e7b6a"
+      },
+      "sourceBeatIds": [
+        "cue-37",
+        "cue-38"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "线上配套",
+        "仍待补齐",
+        "推理框架",
+        "DeepInfer",
+        "模型与硬件",
+        "还需适配",
+        "不同环境，还需完成适配",
+        "完整的线上配套还得继续补",
+        "模型和硬件也要适配"
+      ],
+      "visualPlan": {
+        "enter": "三层厚板依次建立",
+        "change": "层叠、承压，模型硬件层分离聚焦变黑",
+        "read": "线上配套仍待补齐，模型硬件还需适配",
+        "exit": "当前适配层停稳",
+        "handoff": "切因果台阶，继续工程积累价值"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-06.jpg",
+            "sha256": "37e892284640549f403da8b655cc9cd237bda66df1398107bf1ebd50ae7029bc"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          },
+          {
+            "frame": 3990,
+            "seconds": 66.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f3990.png",
+            "sha256": "3a88017db4d87d925a87c2ada8450e318a332a0a185b4106c4164e28b1db993b",
+            "bytes": 46755
+          },
+          {
+            "frame": 4210,
+            "seconds": 70.16666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4210.png",
+            "sha256": "478a430f37bc2f8983b009ac2e04a75842eec73be51e75431b003c43cfcedff5",
+            "bytes": 206581
+          },
+          {
+            "frame": 4361,
+            "seconds": 72.68333333333334,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4361.png",
+            "sha256": "95c5a39896845f90ab4dc679d0b7f175895ca36e2fbfb03e0f3c869fc7132b97",
+            "bytes": 182201
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T13a-StackLayers.tsx",
+            "sha256": "52345d2c1d97f9261c28925a2420cfe99e4763c0146dbf4d39592bcaf59c0822",
+            "symbol": "StackLayers"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "66.5–68秒厚板叠起，69.5–70秒底层擦黑；70.166秒原尺寸顶面厚度、影子和模型硬件适配完整。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "progress",
+      "startFrame": 4362,
+      "durationInFrames": 373,
+      "oneQuestion": "少些摸索，把精力放在新优化",
+      "sourceSpans": [
+        {
+          "startChar": 336,
+          "endChar": 345,
+          "text": "但是后来者已经能够"
+        },
+        {
+          "startChar": 346,
+          "endChar": 353,
+          "text": "少摸索一部分了"
+        },
+        {
+          "startChar": 354,
+          "endChar": 364,
+          "text": "把精力放在新的优化上"
+        },
+        {
+          "startChar": 365,
+          "endChar": 374,
+          "text": "一支团队的工程积累"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave2-42-t03d",
+          "reason": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "台阶横移改56、竖间距120，整体随新项居中；保留前后遮挡及末项黑胶囊。",
+          "useScope": "本片72.700000–78.916667秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T03d-CauseChain.tsx",
+            "sha256": "b9a8f6d05941a6a47400bfb8a980820324f1dfad90afd5157cbbb4db3c6a17c6",
+            "symbol": "CauseChain"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T03d-CauseChain.tsx",
+            "sha256": "5295c8d20624ac51dcd780a532d0524911815d2005605588c0d8d2f72ee9bcae",
+            "symbol": "CauseChain"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "ProgressScene",
+            "callee": "CauseChain"
+          },
+          "useMode": "full",
+          "keyAction": "少摸索一部分从前卡下推出，再推出黑胶囊投入新优化"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "已有工程积累白卡建立；少摸索一部分从前卡下推出，再推出黑胶囊投入新优化",
+            "check": "按本场景实际导出时序检查积累→少摸索→新优化；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "原因 因果 链 推进 结果",
+        "candidates": [
+          {
+            "id": "fred-wave2-42-t03d",
+            "decision": "selected",
+            "reason": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。"
+          },
+          {
+            "id": "fred-wave3-40-t13d",
+            "decision": "rejected",
+            "reason": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。"
+          },
+          {
+            "id": "ep107-selected-03",
+            "decision": "rejected",
+            "reason": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave2-42-t03d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T03d-1-preview.mp4",
+            "sha256": "d5c65d1e03c4f5bf5f2275af9b0a6ca08643b123f4fa3ac10beb6f75f1906c6d",
+            "observations": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T03d.jpg",
+              "sha256": "34a2ceb9553a63c96a456fbf5f8c367c150cedab30a4f9151b84eb8cb4323112"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t13d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13d-1-preview.mp4",
+            "sha256": "34aa6188226bb43c3d1e0a5597d16fa6d347db48b2f806c224d05b883e1bc1cf",
+            "observations": "用户与服务器双路线，去程吞入、处理、回程停靠完整。复用已获用户视觉认可的原生竖屏派生。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13d.jpg",
+              "sha256": "f6541a3fcbf32c632da2fde55810d8a658f459dfd29491eec4af30def4c6d9d2"
+            }
+          },
+          {
+            "id": "ep107-selected-03",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/107-03-1-preview.mp4",
+            "sha256": "4ab167cf79586db41c8c9ecbd1659869a195b02e9fc7d40f15fcdc46cea057dc",
+            "observations": "两个版本卡单向箭头，适合版本更替，不能替代请求回程或多步因果推导。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/107-03.jpg",
+              "sha256": "a12928b1eb0079f70f25a8a639414def499b55a6c84998b55c2673565de05b3d"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "后一步从前一白卡下推出，整组重居中，最终黑胶囊落定；与少摸索后投入新优化的叙述一致。",
+          "corePreserved": "台阶横移改56、竖间距120，整体随新项居中；保留前后遮挡及末项黑胶囊。",
+          "visualQuality": "73秒积累、74.5秒少摸索、76.5秒黑结果依次推出；77–78.5秒阅读，台阶偏移保留，无字溢出。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          }
+        ],
+        "contextSha256": "c251aeed815ad382a802910c901a3217d83ae3e1734e0fbd17e44a6f8af73dfa"
+      },
+      "sourceBeatIds": [
+        "cue-39",
+        "cue-40",
+        "cue-41",
+        "cue-42"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "已有工程积累",
+        "少摸索一部分",
+        "投入新的优化",
+        "但是后来者已经能够",
+        "少摸索一部分了",
+        "把精力放在新的优化上",
+        "一支团队的工程积累"
+      ],
+      "visualPlan": {
+        "enter": "已有工程积累白卡建立",
+        "change": "少摸索一部分从前卡下推出，再推出黑胶囊投入新优化",
+        "read": "积累→少摸索→新优化",
+        "exit": "黑胶囊与上两步停稳",
+        "handoff": "切共享工程根对象"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          },
+          {
+            "frame": 4362,
+            "seconds": 72.7,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4362.png",
+            "sha256": "8074ba4295c56b78b146a755c1aa7843f6551fddb9aa0da19e4a6a1300025a13",
+            "bytes": 37331
+          },
+          {
+            "frame": 4650,
+            "seconds": 77.5,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4650.png",
+            "sha256": "1e2bc8263ca927cd27d39ec6e947519f751adc79e120cf6a5f5851bcab7751f7",
+            "bytes": 199378
+          },
+          {
+            "frame": 4734,
+            "seconds": 78.9,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4734.png",
+            "sha256": "3e491e2e1a7a0f3df7c82fc8b444a9a91852f629c64fcb5c8938b068ae56667e",
+            "bytes": 200020
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T03d-CauseChain.tsx",
+            "sha256": "5295c8d20624ac51dcd780a532d0524911815d2005605588c0d8d2f72ee9bcae",
+            "symbol": "CauseChain"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "73秒积累、74.5秒少摸索、76.5秒黑结果依次推出；77–78.5秒阅读，台阶偏移保留，无字溢出。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "shared",
+      "startFrame": 4735,
+      "durationInFrames": 280,
+      "oneQuestion": "一支团队积累成为多个团队起点",
+      "sourceSpans": [
+        {
+          "startChar": 365,
+          "endChar": 374,
+          "text": "一支团队的工程积累"
+        },
+        {
+          "startChar": 375,
+          "endChar": 386,
+          "text": "成了多个团队能用的起点"
+        },
+        {
+          "startChar": 387,
+          "endChar": 392,
+          "text": "同样的算力"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave2-42-t04d",
+          "reason": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "树形原生竖屏重排；根为工程积累，分支为团队A/团队B/更多团队，非已核团队名或数量。",
+          "useScope": "本片78.916667–83.583333秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave2-42-20261012/src/components/T04d-CategoryFocus.tsx",
+            "sha256": "095ace784830526bca24b8c75d8224e39c6a11bf20ab01922529839013112895",
+            "symbol": "CategoryFocus"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04d-CategoryFocus.tsx",
+            "sha256": "2a2571b6703b6940671abbecb2cde522509cab4a092dae5ff2389e351cb79382",
+            "symbol": "CategoryFocus"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "SharedScene",
+            "callee": "CategoryFocus"
+          },
+          "useMode": "full",
+          "keyAction": "根移位生分支，团队A/B/更多团队先后展开"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "工程积累根对象建立；根移位生分支，团队A/B/更多团队先后展开",
+            "check": "按本场景实际导出时序检查多团队共用一个工程起点；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "主题 分支 类别 展开",
+        "candidates": [
+          {
+            "id": "fred-wave2-42-t04d",
+            "decision": "selected",
+            "reason": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。"
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "decision": "rejected",
+            "reason": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。"
+          },
+          {
+            "id": "library-legacy81-r005",
+            "decision": "rejected",
+            "reason": "预览数字50从文字中抽出再分解数量，当前没有可核的团队数量，拒绝引入数字。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave2-42-t04d",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T04d-1-preview.mp4",
+            "sha256": "fe9317c8f849fb261f247a8370446afe9dcc3859e41e135ab645fd70dd6a4e55",
+            "observations": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T04d.jpg",
+              "sha256": "4d54f3a911a3807ab8d0ab7c32886392af2aa7c9d7b2f305fd56b5ec3c310b13"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t17c",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T17c-1-preview.mp4",
+            "sha256": "255961422fe9c5da3ed61969df6b330699dc447d0b9596432ae67a45ff406f13",
+            "observations": "目录树展开及文件行高亮，用于具体文件路径；本段是系统层次或团队关系，避免虚构目录。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T17c.jpg",
+              "sha256": "6cde3cbfc519df2daaed7b34f4a667321ef6aa48fc2df781658338d8690d1f84"
+            }
+          },
+          {
+            "id": "library-legacy81-r005",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/L81-R005-1-preview.mp4",
+            "sha256": "5cae6c5d1d71b12ea264ddf4f84165384a1676fcceb00257e9069c9b8e96a63f",
+            "observations": "预览数字50从文字中抽出再分解数量，当前没有可核的团队数量，拒绝引入数字。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/L81-R005.jpg",
+              "sha256": "78ad1a18e4b6c9322a80d669cadcb501c22319a0295b1c3e041a12ee0d1088ad"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "一个根对象移位后长出圆角分支，多个子对象展开再聚焦其中之一，可表达共享工程起点。",
+          "corePreserved": "树形原生竖屏重排；根为工程积累，分支为团队A/团队B/更多团队，非已核团队名或数量。",
+          "visualQuality": "79–82秒根与团队分支先后展开；82.5秒更多团队移到中央；82.833秒原尺寸字与胶囊边距正常，未杜撰团队数。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          }
+        ],
+        "contextSha256": "8995f001d4463dc070be7d077029039be111532bef57318999b6be130c106552"
+      },
+      "sourceBeatIds": [
+        "cue-42",
+        "cue-43",
+        "cue-44"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "工程积累",
+        "团队 A",
+        "团队 B",
+        "更多团队",
+        "一支团队的工程积累",
+        "成了多个团队能用的起点",
+        "同样的算力"
+      ],
+      "visualPlan": {
+        "enter": "工程积累根对象建立",
+        "change": "根移位生分支，团队A/B/更多团队先后展开",
+        "read": "多团队共用一个工程起点",
+        "exit": "更多团队聚焦居中，其余后退",
+        "handoff": "切回已建立双列任务图"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          },
+          {
+            "frame": 4735,
+            "seconds": 78.91666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4735.png",
+            "sha256": "92c8b5c2a09146a6bd37a4df57eacc2f83229391871242e5c5a6e968808f916d",
+            "bytes": 34347
+          },
+          {
+            "frame": 4900,
+            "seconds": 81.66666666666667,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4900.png",
+            "sha256": "f9ee09082e919840fff975f1037b6575912555f071b8e768b1c89bae4df94fe4",
+            "bytes": 208185
+          },
+          {
+            "frame": 4970,
+            "seconds": 82.83333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f4970.png",
+            "sha256": "4f88aa4d21a7c5a2baf1d3dc64a8ad6a4887e2993284fb611c0080b522ca3f56",
+            "bytes": 128025
+          },
+          {
+            "frame": 5014,
+            "seconds": 83.56666666666666,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f5014.png",
+            "sha256": "16ef3e1b9bfd1c4d934b0dca215911614d2e95ff4e3c0c7e7c2fdb1824e27a8b",
+            "bytes": 91217
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T04d-CategoryFocus.tsx",
+            "sha256": "2a2571b6703b6940671abbecb2cde522509cab4a092dae5ff2389e351cb79382",
+            "symbol": "CategoryFocus"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "79–82秒根与团队分支先后展开；82.5秒更多团队移到中央；82.833秒原尺寸字与胶囊边距正常，未杜撰团队数。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "summary",
+      "startFrame": 5015,
+      "durationInFrames": 325,
+      "oneQuestion": "同一套算力接更多任务更少等待",
+      "sourceSpans": [
+        {
+          "startChar": 387,
+          "endChar": 392,
+          "text": "同样的算力"
+        },
+        {
+          "startChar": 393,
+          "endChar": 401,
+          "text": "谁能接更多的任务"
+        },
+        {
+          "startChar": 402,
+          "endChar": 410,
+          "text": "能让人更少地等待"
+        },
+        {
+          "startChar": 411,
+          "endChar": 419,
+          "text": "这场竞争就有机会"
+        }
+      ],
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-wave3-40-t02g",
+          "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "preserve": "完整准确源码派生；对象关系、分层与遮挡、原字体、原阴影、原缓动及主要动作保留",
+          "change": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "useScope": "本片83.583333–89.000000秒",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/Fred付费资料全站学习-20261016/解包只读副本/fred-wave3-40-20261012/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "4f93cc9418c91ea65f98423375da8d22205893b92984aac373f0eebbbd6a6c66",
+            "symbol": "RoleRoadmap"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+            "symbol": "RoleRoadmap"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "1b1bef564d5db183ab14fe22c5ebb043063cd87a06135ce71cb9bfa913f441ab",
+            "symbol": "SummaryScene",
+            "callee": "RoleRoadmap"
+          },
+          "useMode": "full",
+          "keyAction": "GPU下一轮焦点转接新任务，然后CPU继续安排"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "signature": "493f8f325f4ab5e0b88b70cd043d702128e96451386bec5fe4ca8569b862ce41",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "完整复现早先任务双列，不重新抽卡；GPU下一轮焦点转接新任务，然后CPU继续安排",
+            "check": "按本场景实际导出时序检查同样算力接更多任务的概念过程，无数字实测宣称；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "沿准确Fred kit字体、字重与影子，主体原生竖屏重排；字幕固定1710安全区。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "两条 身份 泳道 步骤 当前 点亮",
+        "candidates": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "decision": "selected",
+            "reason": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。"
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "decision": "rejected",
+            "reason": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。"
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "decision": "rejected",
+            "reason": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。"
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "fred-wave3-40-t02g",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T02g-1-preview.mp4",
+            "sha256": "4d9c169d3e4a9cce708af55b27548b4088b5ecfce04f3dfb975ae42ee81d9e8e",
+            "observations": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T02g.jpg",
+              "sha256": "f1342ac092d8188f450b1829098ba7c1e0b0d515faa1eb6e65dfaf9bdbfbb4f3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t16a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T16a-1-preview.mp4",
+            "sha256": "8ad8b3a47a1d9fa28742105ed5ea97d63d802eaa93f704d81c9e4f9dc07f3c02",
+            "observations": "单条事件时间轴及事件详情卡，不能保留两种角色同时工作的关系。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T16a.jpg",
+              "sha256": "31ae7a7a0f7185b4455248245ebd6441973ceab76b49450d721bf8e2613c87a3"
+            }
+          },
+          {
+            "id": "fred-wave3-40-t13a",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/T13a-1-preview.mp4",
+            "sha256": "07f192c5d3d2df45087a517c80cb37e298c612a3a7574d02148c5e5ca1814d9d",
+            "observations": "带厚度的板逆序叠起、承压下沉，指定层拉开擦黑。适合框架、线上配套和模型硬件层次；不适合替代并行步骤。",
+            "method": "time-series sheet sampling; no continuous audiovisual claim",
+            "sheet": {
+              "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/reference/T13a.jpg",
+              "sha256": "1fedde1b21d86c7c8565b229c8d0e380d39a2be6426d083e30d1c959953a890a"
+            }
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "inherited-v1-not-reexecuted",
+        "reviewer": "assistant",
+        "stage": "keyframes",
+        "checks": {
+          "semanticFit": "身份胶囊先立住，步骤从背后抽出，源码有当前卡反色抬起和前序勾；双泳道表达并行职责及接新任务。原预览仅overview，新增current调度须实际运动检查。",
+          "corePreserved": "两横泳道转为两竖列；抽卡遮挡轴相应转置；保持白卡/黑面擦入/完成勾/阴影；同图按口播连续切焦，旧焦点用原q曲线退回。",
+          "visualQuality": "84秒直接复现已建立双列；85.5秒GPU接新任务；87.5秒CPU继续安排，焦点变化保留前序勾；89秒切真人。 仅采样范围通过；连续声画不包含。"
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-08.jpg",
+            "sha256": "b2dab265d8e88fc26b61718f71fc9eeb505aec1c4431c96bf4799c4b8303067b"
+          }
+        ],
+        "contextSha256": "47fa123af1e8024c00d8c62849680f0579f1569d513b160baef58eb8838d7139"
+      },
+      "sourceBeatIds": [
+        "cue-44",
+        "cue-45",
+        "cue-46",
+        "cue-47"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "GPU",
+        "CPU",
+        "01",
+        "02",
+        "03",
+        "本轮计算",
+        "下一轮计算",
+        "接新任务",
+        "提前安排",
+        "下一轮就绪",
+        "继续安排",
+        "同样的算力",
+        "谁能接更多的任务",
+        "能让人更少地等待",
+        "这场竞争就有机会"
+      ],
+      "visualPlan": {
+        "enter": "完整复现早先任务双列，不重新抽卡",
+        "change": "GPU下一轮焦点转接新任务，然后CPU继续安排",
+        "read": "同样算力接更多任务的概念过程，无数字实测宣称",
+        "exit": "已有任务图停稳",
+        "handoff": "89秒切回原收尾真人"
+      },
+      "productionRoute": {
+        "selected": "remotion",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "keyframeReview": {
+        "status": "historical-v1",
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-07.jpg",
+            "sha256": "836fa762e3e04f0ef7ddbaf4dbec06c28c5a3a9a2bcc27736f42fe2703db04e8"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-08.jpg",
+            "sha256": "b2dab265d8e88fc26b61718f71fc9eeb505aec1c4431c96bf4799c4b8303067b"
+          },
+          {
+            "frame": 5015,
+            "seconds": 83.58333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f5015.png",
+            "sha256": "9729a0208d0bbc466509e29f71194932e3e85e0cc499575dfa65831359ae797b",
+            "bytes": 220830
+          },
+          {
+            "frame": 5210,
+            "seconds": 86.83333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f5210.png",
+            "sha256": "d909feb813f16fc19f6d12cd88831dc3bb1018dfe2c6fb1f93e284a39c6907cd",
+            "bytes": 242532
+          },
+          {
+            "frame": 5339,
+            "seconds": 88.98333333333333,
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/final-native/f5339.png",
+            "sha256": "7f6c39f75aa8c599ed4af5c1f19ced84a50a5104e2862a860a4fc65b1d698529",
+            "bytes": 222619
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/index.tsx",
+            "sha256": "3875637ef9c25c0a3bc44971e411552c92d44412b6f7074154eecaac82e97448"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/components/T02g-RoleRoadmap.tsx",
+            "sha256": "a1c707bd75eb46c4ef70ae8dfc5beef0a064bc78633cf0ae5aaa252383187831",
+            "symbol": "RoleRoadmap"
+          }
+        ],
+        "artifact": {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+          "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+        },
+        "scope": "全片2fps概览189帧均实际查看；8张当前原尺寸精查；代表片段4fps图49帧已看。非连续正常速度观看。",
+        "observations": "84秒直接复现已建立双列；85.5秒GPU接新任务；87.5秒CPU继续安排，焦点变化保留前序勾；89秒切真人。",
+        "normalSpeed": "UNKNOWN",
+        "directHearing": "UNKNOWN"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    },
+    {
+      "stableId": "talk-end",
+      "startFrame": 5340,
+      "durationInFrames": 314,
+      "oneQuestion": "AI服务更快更便宜",
+      "sourceSpans": [
+        {
+          "startChar": 411,
+          "endChar": 419,
+          "text": "这场竞争就有机会"
+        },
+        {
+          "startChar": 420,
+          "endChar": 428,
+          "text": "把AI服务做得更"
+        },
+        {
+          "startChar": 429,
+          "endChar": 434,
+          "text": "快，更便宜"
+        }
+      ],
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "mediaContract": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/talking-source-v1.mp4",
+          "sha256": "c0dc321bb50c73d91136b2f72d8faf4c9da30a086171d5496dd0f97725bbd318",
+          "sourceInSeconds": 89.0,
+          "sourceOutSeconds": 94.23333333333333,
+          "id": "talking-source",
+          "role": "原速真人底片",
+          "required": true
+        }
+      ],
+      "sourceBeatIds": [
+        "cue-47",
+        "cue-48",
+        "cue-49"
+      ],
+      "sharedSourceReason": "字幕句跨场景边界时共享原句，实际字词只按同一全局字幕时钟显示，不重复音频。",
+      "exactScreenWords": [
+        "这场竞争就有机会",
+        "把AI服务做得更",
+        "快，更便宜"
+      ],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "用户要求复用现存纯真人底片，图形无需复刻。"
+      },
+      "sceneGuide": {
+        "type": "custom",
+        "customReason": "现存真人直接复用；现有图形场景类型不应改造本人表达。",
+        "signature": "315dd212d9ea651321cac9c7022d4b828d02273880dfc16b84bb68b6ed107e64",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "原真人全屏准确源帧进入；原速人物表情动作与原字幕同步",
+            "check": "按本场景实际导出时序检查本段原句本人讲述；正常速度连续视听仍UNKNOWN。"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "真人全屏沿原画幅，白字48px阴影字幕在1710px。",
+            "check": "核本场最长文字、模块边缘、第一可读态与最终态；实际原尺寸帧佐证。"
+          }
+        ]
+      },
+      "componentPlan": {
+        "query": "本人全屏原速讲述，保持原帧动作",
+        "candidates": [],
+        "inspectedReferences": [],
+        "decisionReason": "沿用户明确要求在talk-end复用现存纯真人底片，不将真实本人改成库图形。"
+      },
+      "visualPlan": {
+        "enter": "原真人全屏准确源帧进入",
+        "change": "原速人物表情动作与原字幕同步",
+        "read": "本段原句本人讲述",
+        "exit": "保持原帧序列至边界",
+        "handoff": "依时间线硬切下一图形或到片尾；无额外变速"
+      },
+      "productionRoute": {
+        "selected": "preserved-media",
+        "source": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-制作任务.md"
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "sampleCount": 9,
+        "staticAllowanceSeconds": 3.5,
+        "reason": "动作后保留当前对象阅读；不靠无信息移动填时长。"
+      },
+      "inheritedReview": {
+        "from": "v1",
+        "independentReview": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/05-独立质检/审查-v1.md",
+        "reason": "本次源与动作保持；按PMO要求不重开全场审查。v1旧帧不冒充新v2逐场检查。"
+      }
+    }
+  ],
+  "referenceCatalogRevision": "217ebeb42f5bfca098228f5eb8b29d5c3196c0a2a7b57a38eb8e7c8e07720c7e",
+  "audio": {
+    "source": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/public/voice-original-speed.wav",
+      "sha256": "9688ce7bdc457ba664ba67b3e6816496d61b671a814cb31262d1f1542bd3aa8c"
+    },
+    "policy": "original exact PCM, original speed, no new SFX or BGM"
+  },
+  "subtitles": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-v2.srt",
+    "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357"
+  },
+  "designContract": {
+    "spec": "1080x1920 native60",
+    "reuse": "complete accurate Fred source and kit",
+    "currentModel": "UNKNOWN",
+    "continuousAV": "UNKNOWN",
+    "directHearing": "UNKNOWN",
+    "approval": "full remake authorized; 04 self-check only; PMO and05 pending"
+  },
+  "componentDistributionReview": {
+    "status": "inherited-v1-no-reselection",
+    "reviewedBy": "assistant",
+    "contextSha256": "7d50f0b238ed090444fe16c29c27f95c09738ad8527290f4c29307b8ea7d0cf0",
+    "decisions": [
+      {
+        "groupKey": "ae181df5af6314cbeee102ce",
+        "sceneIds": [
+          "repo",
+          "stars"
+        ],
+        "reuseKind": "continuous-object",
+        "reason": "同一真实仓库的两个不同ROI；标题后相机退回原卡再看Star，不重复飞入。",
+        "comparisons": [
+          {
+            "stableId": "repo",
+            "task": "DeepInfer开源",
+            "visibleState": "标题原像素与开源释义",
+            "reusePurpose": "同一真实仓库的两个不同ROI；标题后相机退回原卡再看Star，不重复飞入。"
+          },
+          {
+            "stableId": "stars",
+            "task": "GitHub一万多颗星",
+            "visibleState": "同图Star原像素与一万多颗星",
+            "reusePurpose": "同一真实仓库的两个不同ROI；标题后相机退回原卡再看Star，不重复飞入。"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-01.jpg",
+            "sha256": "4052fe9b5b4e723fc568b247e85dd72b335ab1714cc39614288b9adb6f7edd05"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-02.jpg",
+            "sha256": "65c65153156d98b6cc5fb4784e619612cc5807d4a5a569e8a6e2b2ac181d8476"
+          }
+        ]
+      },
+      {
+        "groupKey": "f20db34693d72464f03e81c6",
+        "sceneIds": [
+          "pipeline",
+          "summary"
+        ],
+        "reuseKind": "intentional-reprise",
+        "reason": "先建立GPU/CPU并行步骤，末段以current模式回现同一图直接接新任务，不重新抽卡。",
+        "comparisons": [
+          {
+            "stableId": "pipeline",
+            "task": "减少等待和接新任务",
+            "visibleState": "GPU/CPU步骤建立后焦点到新任务",
+            "reusePurpose": "先建立GPU/CPU并行步骤，末段以current模式回现同一图直接接新任务，不重新抽卡。"
+          },
+          {
+            "stableId": "summary",
+            "task": "同一套算力接更多任务更少等待",
+            "visibleState": "同图直接回现，焦点接续",
+            "reusePurpose": "先建立GPU/CPU并行步骤，末段以current模式回现同一图直接接新任务，不重新抽卡。"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-04.jpg",
+            "sha256": "2827456f1523c4e7fe4bc20adf4ad7174a3a78644411709f5241716f1e170375"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-05.jpg",
+            "sha256": "6de329aa265bc376e1071f7eef1e33ce53a5cfe451df6010eb63d5e46ec967f3"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/full-sheet-08.jpg",
+            "sha256": "b2dab265d8e88fc26b61718f71fc9eeb505aec1c4431c96bf4799c4b8303067b"
+          }
+        ]
+      }
+    ],
+    "stage": "actual full output overview sampled; no continuous audiovisual claim"
+  },
+  "script": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/source-script.txt",
+    "sha256": "c7437e561e22836d5b4091e448cc005fec4812d8f66455a7ed098f06746b847e",
+    "provenance": "逐字提取已核SRT，不改稿；沿原速音轨，未补造听核"
+  },
+  "timingStatus": "audio-aligned",
+  "timingEvidence": {
+    "subtitle": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-v1.srt",
+      "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357"
+    },
+    "note": "沿已授权现存字幕时钟；不是本轮直接听音确认"
+  },
+  "parts": [
+    {
+      "id": "full",
+      "startFrame": 0,
+      "endFrameExclusive": 5654
+    }
+  ],
+  "clockContract": {
+    "mode": "scene-local",
+    "sourceRule": "Sequence按全片半开帧区间定位，内部useCurrentFrame从零；原声全轨一次，真人startFrom等于全片源帧；Full全局t仅用于字幕和真人字幕颜色。"
+  },
+  "representativeScenes": [
+    "repo",
+    "stars",
+    "code",
+    "request",
+    "roles",
+    "pipeline",
+    "open",
+    "layers",
+    "progress",
+    "shared",
+    "summary"
+  ],
+  "deliveryLimits": {
+    "implementationGate": "原FAIL保留，05独立确认跨标签regex误报，不重跑/改门禁",
+    "continuousAV": "UNKNOWN",
+    "directHearing": "UNKNOWN",
+    "independent05V2": "PENDING",
+    "pmoAcceptance": "PENDING",
+    "userApproval": "PENDING"
+  },
+  "kit": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/kit/theme.ts",
+      "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/src/kit/ui.tsx",
+      "sha256": "5cdb64c4be718351c7eb008ed4e72f9e7cfbea0f44e0b6d2daa359854db54b99"
+    }
+  ],
+  "export": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+    "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+    "bytes": 50031414,
+    "videoFrames": 5654,
+    "videoSeconds": 94.23333333333333,
+    "audioEvidence": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/audio-packet-identity.json",
+      "sha256": "2396343304a41a016027d549d47caffa39bd09fcd17db878ce74ecc6db231ce5"
+    },
+    "containerEvidence": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/probe.json",
+      "sha256": "beedae93fce9a5c13306c79cb6320cc120b7bf818f47f698f74b9929912680d7"
+    },
+    "decode": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/decode.json",
+      "sha256": "f6c2cc9b806469dad4b98a31f2f3b30550493b763e7ec53dbf256ec00b26986a"
+    }
+  },
+  "reviewCoverage": {
+    "scope": "Q1/Q2 only",
+    "samplingIndex": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sample-index.json",
+      "sha256": "ae52ec459a2b2171c35447435862a688ae0176b278889c138b4387dd03c48215"
+    },
+    "geometrySupplement": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/roi-geometry.json",
+      "sha256": "8b39540387c4f028347e09438b2d12c04a06509af58cffb9bf063cc16bf2e1dd"
+    },
+    "preservedSamples": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/unchanged-sample-comparison.json",
+      "sha256": "4de411234f33bdbb5cad407a688a950f80d6dd18cf95446a5dbe28f3ab5d83cb"
+    },
+    "normalSpeedAV": "UNKNOWN",
+    "directHearing": "UNKNOWN",
+    "independent05V2": "PENDING",
+    "noRepeatedWholeFilmReview": true
+  },
+  "parentVersion": {
+    "version": "v1",
+    "video": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+      "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac"
+    },
+    "manifest": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v1-freeze/Manifest.json",
+      "sha256": "d70fda1b191ba12d8e88123792e84a4991b1602c9cf7a57e1cc9ef7572fd25ff"
+    },
+    "snapshotIndex": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v1-freeze/snapshot-index.json",
+      "sha256": "7045de1281f50fdb0c46b02d82c876f09271af13b9483ae37dff05d8b5d64833"
+    }
+  },
+  "revision": {
+    "task": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/04-返修-Q1Q2.md",
+      "sha256": "255a70d69e673a359fe9a41f75c1012094df2ad743ce8092cca36b29734477d3"
+    },
+    "affectedScenes": [
+      "code",
+      "repo",
+      "stars"
+    ],
+    "issues": [
+      "Q1 affine camera ROI stays in frame",
+      "Q2 same screenshot inherited across F945→946"
+    ],
+    "sourceScope": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/change-scope.json",
+      "sha256": "105cf969b7175adf59aa78b4c8a8a3e787c7f955452c03e03b734b013374bc86"
+    },
+    "astScope": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/source-scope.json",
+      "sha256": "dbfac741be62138297400fa7fdf51babbaa9f2126a34d8079604bfb15da74afb"
+    },
+    "audio": "AAC packets copied unchanged from reviewed v1",
+    "retained": [
+      "all other scene source and timing",
+      "captions",
+      "talking plate",
+      "real screenshot",
+      "kit/fonts/material",
+      "covers",
+      "global gate implementation"
+    ]
+  }
+}

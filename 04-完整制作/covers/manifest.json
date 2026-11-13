@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-3x4-1080x1440-v1.png",
+    "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-7f5c2d17-8df5-4a98-8bd4-5b94fa91baab.png",
+    "generated_size": [
+      1086,
+      1448
+    ],
+    "dimensions": [
+      1080,
+      1440
+    ],
+    "sha256": "0c2d0ae86a026dd161034249994a5716fe059cb05d7121c355eacb8172f745de",
+    "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+    "status": "PENDING_PMO_USER_REVIEW"
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-9x16-1080x1920-v1.png",
+    "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-be44c585-2820-411c-b8b7-574b71e943ea.png",
+    "generated_size": [
+      941,
+      1672
+    ],
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "0adf25254e72e398bcc861de4fe5ff27695519bb7bd6ce8b1bc5cc5e04e7d207",
+    "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+    "status": "PENDING_PMO_USER_REVIEW"
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-16x9-1920x1080-v1.png",
+    "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-7a533147-054b-4eac-a2ab-558738b81034.png",
+    "generated_size": [
+      1672,
+      941
+    ],
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "007fbaa2f70902cc2b7de4c32e0a57557d9076d4d499a89a6505973ddbdff816",
+    "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+    "status": "PENDING_PMO_USER_REVIEW"
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-4x3-1440x1080-v1.png",
+    "original_generated_path": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-3266abad-ed78-4ff8-95b9-4b73be45d857.png",
+    "generated_size": [
+      1448,
+      1086
+    ],
+    "dimensions": [
+      1440,
+      1080
+    ],
+    "sha256": "698b1a713d4baef7ad8cf4f5365f17da775fae2fa688350d3a6c102d19b5c0cf",
+    "method": "built-in imagegen; independent ratio layout; proportional normalization and <=2px white padding, no stretch",
+    "status": "PENDING_PMO_USER_REVIEW"
+  }
+]

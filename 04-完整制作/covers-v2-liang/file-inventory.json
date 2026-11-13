@@ -1,0 +1,112 @@
+{
+  "scope": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang",
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/PMO汇报回执-v2.json",
+      "bytes": 409,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/SHA256SUMS-v2.txt",
+      "bytes": 374,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-16x9-1920x1080-v2.png",
+      "bytes": 2061186,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-3x4-1080x1440-v2.png",
+      "bytes": 1483878,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-4x3-1440x1080-v2.png",
+      "bytes": 1681962,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/cover-9x16-1080x1920-v2.png",
+      "bytes": 2003304,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/file-inventory.json",
+      "bytes": 4868,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/generated-16x9-v2.png",
+      "bytes": 1721038,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/generated-3x4-v2.png",
+      "bytes": 1592377,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/generated-4x3-v2.png",
+      "bytes": 1733303,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/generated-9x16-v2.png",
+      "bytes": 1716422,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/first-3x4-candidate.png",
+      "bytes": 1719596,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-16x9-v1.png",
+      "bytes": 2135407,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/layout-3x4-v1.png",
+      "bytes": 1707735,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input/liang-reference.png",
+      "bytes": 270961,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input-roles.json",
+      "bytes": 2491,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/input-sources.json",
+      "bytes": 2183,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/manifest-v2.json",
+      "bytes": 5529,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/phone-thumbnails-v2.jpg",
+      "bytes": 209295,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/prompts-and-tool-records.json",
+      "bytes": 8813,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers-v2-liang/验图与交付-v2.md",
+      "bytes": 2532,
+      "purpose": "cover v2 input, final, provenance or evidence; retained"
+    }
+  ],
+  "total_bytes": 20063663,
+  "deletion": false
+}

@@ -1,0 +1,43 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "status": "PENDING_PMO_REVIEW",
+  "video": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-full-v1.mp4",
+  "sha256": "6b5ebdf490c4a5f34f3fc4fa2391496b6dd2d8d6e35daf739284084e7d9a4872",
+  "spec": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 94.233333,
+    "frames": 5654,
+    "audio": "AAC48kHzmono"
+  },
+  "subtitles": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/output/deepinfer-v1.srt",
+  "edl": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/edl-v1.json",
+  "project": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作",
+  "manifest": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/Manifest.json",
+  "report": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/制作自检与交付-v1.md",
+  "covers": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-3x4-1080x1440-v1.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-9x16-1080x1920-v1.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-16x9-1920x1080-v1.png",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/covers/cover-4x3-1440x1080-v1.png"
+  ],
+  "playback": {
+    "url": "http://127.0.0.1:63613/watch.html",
+    "pid": 70781,
+    "binding": "127.0.0.1",
+    "ephemeral": true
+  },
+  "qc_sheets": [
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/final-overview.jpg",
+    "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-完整制作/qc/all-caption-crops.jpg"
+  ],
+  "not_verified": [
+    "直接听音/口误清除",
+    "逐词字幕同步",
+    "连续视觉/衔接自然度",
+    "PMO/05/用户验收"
+  ],
+  "cleanup": false,
+  "publishing_authorized": false
+}

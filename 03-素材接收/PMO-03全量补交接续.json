@@ -1,0 +1,18 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "at": "2026-10-21T11:34:17.272402+08:00",
+  "decision": "RETURN_TO03_FOR_NEW_USER_INPUTS",
+  "user_source": "User supplied remaining17 raw paths, says these plus prior5 are all recordings, requests omission check then full workflow when complete.",
+  "safe_stop_evidence": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-口误粗剪/输入更新安全停止-20261021.md",
+  "pmo_read_stop_original": true,
+  "old04_candidate_exists": false,
+  "old04_encoder_running": false,
+  "preserve": "All original media and old03 evidence/EDL/04 task; no deletion or overwrites",
+  "new_scope": "17 unique recordings across22 user paths;12 new unique transcripts needed. Complete script coverage and best full take selection, then full04 Fred/sy video/cover and05 QA after PMO review.",
+  "publication_authorized": false,
+  "remaining_required_for_full04_release": [
+    "New all-takes coverage and ordered safe EDL",
+    "PMO review of actual evidence"
+  ]
+}

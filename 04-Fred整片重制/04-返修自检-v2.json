@@ -1,0 +1,225 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "fred-full-remake-v2",
+  "owner": "04",
+  "status": "Q1_Q2_REPAIRED_COMPLETE_FILE_READY_FOR_PMO",
+  "time": "2026-10-21T22:47:55.929035+08:00",
+  "video": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+    "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+    "bytes": 50031414
+  },
+  "manifest": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/Manifest-v2.json",
+    "sha256": "9952de9157f98d60bd4fcb87c7f406ec3df2557291504e567c2e08d93f5d4a88",
+    "bytes": 186012
+  },
+  "subtitle": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-v2.srt",
+    "sha256": "a0253f2f00831f1f673d5723303e0438baef14704b65b974c6cdd2f7074a5357",
+    "bytes": 2809
+  },
+  "comparisonUrl": "http://127.0.0.1:55291/",
+  "videoSpec": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "60/1",
+    "nb_frames": "5654",
+    "duration": "94.233333",
+    "pix_fmt": "yuvj420p",
+    "color_range": "pc"
+  },
+  "changes": {
+    "Q1": "T22a镜头改为对最终屏幕仿射矩阵插值，保留quintic、zoom终点、材质、紫刷及翻译。标题/Star推近、停稳、归位的ROI完整留在安全画幅。",
+    "Q2": "T04e继承前场真实截图的裁剪和屏幕矩形、满可见度；0–0.7秒q曲线连续移动到原拆解基位，之后沿原描框与拎出cue。Star返回提早0.02秒结束以确保F945已经归位。"
+  },
+  "preserved": {
+    "baselineV1": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v1.mp4",
+      "sha256": "0c4db02c6f30f16319fe80902db1f17eae4f676731d3688e8d90d940b5c85eac",
+      "bytes": 49905954
+    },
+    "originalPublishedSha256": "b2dffec033eec5fb85192c98f45d8feaf54709125b6200fa21e056d8b67d230a",
+    "sourceScope": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/source-scope.json",
+      "sha256": "dbfac741be62138297400fa7fdf51babbaa9f2126a34d8079604bfb15da74afb",
+      "bytes": 3141
+    },
+    "audioAllPackets": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/audio-packet-identity.json",
+      "sha256": "2396343304a41a016027d549d47caffa39bd09fcd17db878ce74ecc6db231ce5",
+      "bytes": 1035
+    },
+    "unaffectedDecodedFrames": {
+      "method": "V1/V2 exact same decoded frame indexes; same source; changed encoder history may cause compression differences",
+      "frames": [
+        {
+          "frame": 0,
+          "exactPixels": true,
+          "meanChannelError": 0.0,
+          "psnrDb": null
+        },
+        {
+          "frame": 120,
+          "exactPixels": true,
+          "meanChannelError": 0.0,
+          "psnrDb": null
+        },
+        {
+          "frame": 1320,
+          "exactPixels": false,
+          "meanChannelError": 0.1316263181584362,
+          "psnrDb": 53.46417558554048
+        },
+        {
+          "frame": 1550,
+          "exactPixels": false,
+          "meanChannelError": 0.07454202031893004,
+          "psnrDb": 54.99847956206277
+        },
+        {
+          "frame": 2250,
+          "exactPixels": false,
+          "meanChannelError": 0.05896395961934156,
+          "psnrDb": 54.92969550707408
+        },
+        {
+          "frame": 2400,
+          "exactPixels": false,
+          "meanChannelError": 0.11321791409465021,
+          "psnrDb": 53.25055920075209
+        },
+        {
+          "frame": 2800,
+          "exactPixels": false,
+          "meanChannelError": 0.12930025077160495,
+          "psnrDb": 53.311236303720655
+        },
+        {
+          "frame": 3100,
+          "exactPixels": true,
+          "meanChannelError": 0.0,
+          "psnrDb": null
+        },
+        {
+          "frame": 3700,
+          "exactPixels": false,
+          "meanChannelError": 0.11967480066872428,
+          "psnrDb": 51.19823450265605
+        },
+        {
+          "frame": 4210,
+          "exactPixels": false,
+          "meanChannelError": 0.15967946244855968,
+          "psnrDb": 51.70119511758989
+        },
+        {
+          "frame": 4650,
+          "exactPixels": false,
+          "meanChannelError": 0.07472800925925926,
+          "psnrDb": 55.50543214762289
+        },
+        {
+          "frame": 4900,
+          "exactPixels": false,
+          "meanChannelError": 0.1012475887345679,
+          "psnrDb": 53.9553824605311
+        },
+        {
+          "frame": 5210,
+          "exactPixels": false,
+          "meanChannelError": 0.11171408822016461,
+          "psnrDb": 54.02196048469169
+        },
+        {
+          "frame": 5500,
+          "exactPixels": true,
+          "meanChannelError": 0.0,
+          "psnrDb": null
+        },
+        {
+          "frame": 5653,
+          "exactPixels": true,
+          "meanChannelError": 0.0,
+          "psnrDb": null
+        }
+      ]
+    }
+  },
+  "verified": {
+    "actualExportFrames": 96,
+    "ranges": "Q1 F408–558和F780–936，每6帧一次；Q2 F942–984逐帧，含故障和边界原尺寸精查。准确去重帧见sample-index。",
+    "geometry": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/roi-geometry.json",
+      "sha256": "8b39540387c4f028347e09438b2d12c04a06509af58cffb9bf063cc16bf2e1dd",
+      "bytes": 186981
+    },
+    "actualFrames": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sample-index.json",
+      "sha256": "ae52ec459a2b2171c35447435862a688ae0176b278889c138b4387dd03c48215",
+      "bytes": 28468
+    },
+    "decode": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/decode.json",
+      "sha256": "f6c2cc9b806469dad4b98a31f2f3b30550493b763e7ec53dbf256ec00b26986a",
+      "bytes": 299
+    },
+    "keyframeGate": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/gate-keyframes-Q1Q2.json",
+      "sha256": "6d239da0d7e086b4db723dcc705ebc01f2cf9ac55fcdf6d1b2d8bc49511b5c6a",
+      "bytes": 150
+    },
+    "visualReview": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/visual-review.json",
+      "sha256": "5c351e48c79e9656435d05af26ef81dedf55cbf1599cd595138f65a62d0f2b85",
+      "bytes": 2565
+    },
+    "browser": {
+      "binding": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/compare-browser-binding.json",
+        "sha256": "a0b65b41fc9a57c48e3fe6dbf7351af1685c5688c95689cea4b54e2e0a5f6b35",
+        "bytes": 913
+      },
+      "playing": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/compare-browser-playing.json",
+        "sha256": "24b633e3b6e9a2a19cb7aa06a309d3eab70e8c96cf0ff765d42b08baf23e5098",
+        "bytes": 266
+      },
+      "screenshot": {
+        "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/compare-page.png",
+        "sha256": "9141e48cc869acd3d3ac91521ef69742007b98ac62fb94debefa48a8db1a4e8d",
+        "bytes": 42151
+      },
+      "result": "已核实际v2/基准currentSrc与完整SHA、两路94.233333秒1080x1920、同步定位/+1帧、均实际playing且仅新版未静音；不是听核或连续视听验收。"
+    }
+  },
+  "notClaimed": {
+    "normalSpeedContinuousAV": "UNKNOWN",
+    "directHearing": "UNKNOWN",
+    "independent05V2": "PENDING",
+    "pmoAcceptance": "PENDING",
+    "userApproval": "PENDING",
+    "allFilmReinspection": "NOT_REPEATED",
+    "implementationGate": "v1 FAIL retained, 05 independently confirmed regex false positive; not modified or rerun just to clear it"
+  },
+  "handoff": {
+    "artifactCreated": true,
+    "toolMessageSent": "SUCCESS",
+    "pmoReceived": "UNKNOWN",
+    "pmoAccepted": "PENDING",
+    "receipt": {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/pmo-send-receipt.json",
+      "sha256": "f65f992d5737acf8ed245725643948f3914bd87da018280c1fdeaa3e9b21b92f"
+    }
+  },
+  "routing": {
+    "rules": "ROUTING-2026-10-13-v4",
+    "requestedModel": "gpt-6.1-sol",
+    "requestedEffort": "high",
+    "actualModel": "UNKNOWN",
+    "actualEffort": "UNKNOWN",
+    "actualSpeedMode": "UNKNOWN",
+    "reason": "PMO授权原Owner容量失败后仅接续有限收尾；没有重渲或重开视觉设计。"
+  }
+}

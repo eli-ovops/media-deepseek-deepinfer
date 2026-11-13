@@ -1,0 +1,61 @@
+{
+  "reviewedAt": "2026-10-21T22:49:49.619154+08:00",
+  "artifact": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/output/deepinfer-fred-full-v2.mp4",
+    "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+    "bytes": 50031414
+  },
+  "method": "实际MP4按准确帧序号提取PNG；六张sheet共96去重帧已查看；另原尺寸检查列出的9帧。离散抽帧不冒充连续视听。",
+  "sampleIndex": {
+    "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sample-index.json",
+    "sha256": "ae52ec459a2b2171c35447435862a688ae0176b278889c138b4387dd03c48215",
+    "bytes": 28468
+  },
+  "sheetsViewed": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sheet-01.jpg",
+      "sha256": "09a70a91d58267791bf5fdd672567dec67a630133e2c142f9cadba623c454432",
+      "bytes": 204194
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sheet-02.jpg",
+      "sha256": "54abf03e859dc64f3910f69231fed44966e89e1b5b0018bea35968e86881a9a5",
+      "bytes": 215628
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sheet-03.jpg",
+      "sha256": "e2751a1d89830422cfae55ba5736ca3fc1fc3f251ff222f146b0947d3663442b",
+      "bytes": 150997
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sheet-04.jpg",
+      "sha256": "44fcd35f09cdde56759e33de7a9bf8ed747bf71b9fae4fd6224939150a7240c2",
+      "bytes": 226235
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sheet-05.jpg",
+      "sha256": "6c5a16e96f7ed836b8ea7c6f4f34af27a9c1f0333cc1a0a4937dea2359cff877",
+      "bytes": 254384
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/04-Fred整片重制/evidence/v2/sheet-06.jpg",
+      "sha256": "a94443f911fc76b91b4855f02931019b168090abd7eea7903733c89a0292c942",
+      "bytes": 254175
+    }
+  ],
+  "nativeFramesViewed": [
+    432,
+    540,
+    810,
+    930,
+    945,
+    946,
+    947,
+    966,
+    984
+  ],
+  "Q1": "F432/F540标题及F810/F930 Star完整在画幅内；每6帧的推近/归位中间态未见目标越界。",
+  "Q2": "F945/F946保留同一完整截图、位置尺寸和可见度；F947起卡片连续下移，至F984未见白帧/瞬移。",
+  "normalSpeedContinuousAV": "UNKNOWN",
+  "directHearing": "UNKNOWN"
+}

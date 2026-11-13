@@ -1,0 +1,56 @@
+{
+  "content_id": "deepseek-deepinfer-20261021",
+  "version": "v3.2",
+  "at": "2026-10-21T10:50:33.164023+08:00",
+  "decision": "READY_FOR_USER_FULL_SCRIPT_REVIEW_NOT_PRODUCTION_RELEASE",
+  "owner_report_received": true,
+  "reviewed_files": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/口播稿-v3.2.md",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/声画节奏-v3.2.md",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/deepseek-deepinfer-20261021/02-脚本与分镜/事实映射-v3.2.json",
+      "size_ok": true,
+      "sha_ok": true
+    }
+  ],
+  "han_count_verified": 315,
+  "estimated_seconds": [
+    69,
+    79
+  ],
+  "planned_visual_seconds": 76,
+  "checks": {
+    "user_approved_two_passages_integrated": true,
+    "star_wording_only_one_ten_thousand_plus": true,
+    "opening_repetition_removed": true,
+    "saving_mechanism_retained": true,
+    "seven_paragraphs_match_seven_visual_beats": true,
+    "real_repository_screenshot_and_motion_planned": true,
+    "historical_interview_paraphrase_not_fake_quote": true
+  },
+  "source_snapshot": {
+    "url": "https://api.github.com/repos/deepseek-ai/DeepInfer",
+    "checked_at": "2026-10-21T10:45:17.335860+08:00",
+    "cumulative_stars": 13520,
+    "public_wording": "一万多颗星"
+  },
+  "limits": [
+    "Text and plan review; no recording, screenshot or motion render in this stage",
+    "Date-relative language assumes recording 2026-10-21; update if recording date changes",
+    "Full service still requires adaptation; future user and industry effects are opportunity, not proven outcomes"
+  ],
+  "user_full_script_approved": false,
+  "production_released": false,
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN"
+}

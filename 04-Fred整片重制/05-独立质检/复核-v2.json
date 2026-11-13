@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-21T22:53:57.328965+08:00",
+  "content_id": "deepseek-deepinfer-20261021",
+  "variant": "fred-full-remake-v2",
+  "sha256": "f4edbd6ae2e6f7a6b6cd7896d643aa9560fb04265a3b3711aa841e6980d9ade8",
+  "status": "Q1_Q2_SCOPED_RECHECK_PASS",
+  "Q1": "CLOSED",
+  "Q2": "CLOSED",
+  "must_fix_remaining_in_scope": [],
+  "coverage": {
+    "provided_sheets_actually_viewed": 6,
+    "provided_samples": 96,
+    "Q1_windows": "6.8–9.3、13–15.7秒，10fps采样",
+    "Q2_window": "F942–984，15.7–16.4秒逐帧43张",
+    "native_provided_viewed": [
+      432,
+      540,
+      810,
+      930,
+      945,
+      946
+    ],
+    "native_independently_extracted_viewed": [
+      161,
+      162,
+      559,
+      560,
+      1020,
+      1200,
+      1320
+    ],
+    "own_index": "v2-check/index.json"
+  },
+  "source_hash_mismatches": [],
+  "audio": "v1/v2 4419 AAC packet payload and timing identity receipt inspected; previous audio evidence inherited",
+  "decode": "same-SHA PASS receipt reused",
+  "implementation_original_gate": "FAIL preserved; prior independent FALSE_POSITIVE conclusion inherited",
+  "continuous_audiovisual": "UNKNOWN",
+  "direct_hearing": "UNKNOWN",
+  "comparison_page_binding": "NOT_RECHECKED; PMO final responsibility",
+  "formal_all_layers_pass": false,
+  "pmo_received": "UNKNOWN",
+  "pmo_accepted": "UNKNOWN",
+  "user_approval": "UNKNOWN",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN"
+}
